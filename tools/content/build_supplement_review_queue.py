@@ -24,7 +24,7 @@ def main():
     sources = {
         "oewn_senses": count("OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("OEWN_RELATION_SENSE_CANDIDATES.csv"),
         "cow_sense_links": count("COW_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("COW_RELATION_SENSE_CANDIDATES.csv"),
-        "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv"),
+        "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("KAIKKI_COMPLEX_SENSE_CANDIDATES.csv"),
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
         "function_drafts": count("CURATED_SUPPLEMENT_FUNCTION_PILOT.csv"),
     }

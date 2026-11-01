@@ -1,0 +1,25 @@
+candidate_id,headword,source_word,pos,sense_id,glosses_json,tags_json,source_url,status
+vocab-candidate-473fec0ecb9339a185d9,chopsticks,chopsticks,name,,"[""A hand game in which players hold up a number of fingers on each hand and try, through certain moves, to eliminate their opponent's hands.""]",[],https://en.wiktionary.org/wiki/chopsticks,candidate_only
+vocab-candidate-473fec0ecb9339a185d9,chopsticks,chopsticks,noun,,"[""plural of chopstick""]","[""form-of"", ""plural""]",https://en.wiktionary.org/wiki/chopsticks,candidate_only
+vocab-candidate-9150c74c5f92d51a9285,has,has,noun,,"[""plural of ha (\""the physical body\"")""]","[""form-of"", ""plural""]",https://en.wiktionary.org/wiki/has,candidate_only
+vocab-candidate-9150c74c5f92d51a9285,has,has,verb,,"[""third-person singular simple present indicative of have""]","[""form-of"", ""indicative"", ""present"", ""singular"", ""third-person""]",https://en.wiktionary.org/wiki/has,candidate_only
+vocab-candidate-a172cedcae47474b615c,app,app,noun,,"[""An appearance in a game.""]",[],https://en.wiktionary.org/wiki/app,candidate_only
+vocab-candidate-a172cedcae47474b615c,app,app,noun,,"[""An application (program), especially a small one designed for a mobile device.""]",[],https://en.wiktionary.org/wiki/app,candidate_only
+vocab-candidate-a172cedcae47474b615c,app,app,noun,,"[""appetizer""]","[""informal""]",https://en.wiktionary.org/wiki/app,candidate_only
+vocab-candidate-a172cedcae47474b615c,app,app,noun,,"[""application (to a college etc.)""]","[""informal""]",https://en.wiktionary.org/wiki/app,candidate_only
+vocab-candidate-a172cedcae47474b615c,app,app,noun,,"[""application (use, purpose; not a computer program)""]",[],https://en.wiktionary.org/wiki/app,candidate_only
+vocab-candidate-cff2fe22bf943d46ef20,per cent,per cent,noun,,"[""Alternative form of percent.""]","[""Commonwealth"", ""alt-of"", ""alternative""]",https://en.wiktionary.org/wiki/per_cent,candidate_only
+vocab-candidate-cff2fe22bf943d46ef20,per cent,per cent,prep_phrase,,"[""Alternative form of percent.""]","[""Commonwealth"", ""alt-of"", ""alternative""]",https://en.wiktionary.org/wiki/per_cent,candidate_only
+vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,o'clock,adv,,"[""In conjunction with a numeral, indicates the direction, relative to the speaker or a vehicle, especially an aircraft, corresponding to the direction the hour hand is pointing at the time corresponding to the numeral, with twelve representing directly ahead on a horizontal plane, or directly up on a vertical plane, and three being to the right on either.""]","[""not-comparable"", ""with-numeral""]",https://en.wiktionary.org/wiki/o%27clock,candidate_only
+vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,o'clock,adv,,"[""In conjunction with a numeral, indicates the time within a twelve-hour period (midnight to noon or noon to midnight), specifically the time when the hour hand of a clock points precisely to the symbol or marking corresponding to the designated numeral, i.e., at the hour.""]","[""not-comparable""]",https://en.wiktionary.org/wiki/o%27clock,candidate_only
+vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,o'clock,adv,,"[""Used to indicate that it is time to do a specific action, or time for a specific action to occur.""]","[""humorous"", ""informal"", ""not-comparable""]",https://en.wiktionary.org/wiki/o%27clock,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,,"[""A Wi-Fi network.""]","[""countable""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,,"[""Any of several standards for short-range wireless data transmission (IEEE 802.11).""]","[""uncountable""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,,"[""The capability to connect to a Wi-Fi network.""]","[""informal"", ""uncountable""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,,"[""Wireless networking using one of these standards.""]","[""uncountable""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,verb,,"[""To connect to the Internet using Wi-Fi.""]","[""transitive""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,verb,,"[""To equip with Wi-Fi; to Wi-Fi enable.""]","[""transitive""]",https://en.wiktionary.org/wiki/Wi-Fi,candidate_only
+vocab-candidate-f6167337f2938dfe8b8d,ought to,ought to,verb,,"[""Indicating advisability or prudence.""]","[""auxiliary""]",https://en.wiktionary.org/wiki/ought_to,candidate_only
+vocab-candidate-f6167337f2938dfe8b8d,ought to,ought to,verb,,"[""Indicating desirability.""]","[""auxiliary""]",https://en.wiktionary.org/wiki/ought_to,candidate_only
+vocab-candidate-f6167337f2938dfe8b8d,ought to,ought to,verb,,"[""Indicating duty or obligation.""]","[""auxiliary""]",https://en.wiktionary.org/wiki/ought_to,candidate_only
+vocab-candidate-f6167337f2938dfe8b8d,ought to,ought to,verb,,"[""Indicating likelihood or probability.""]","[""auxiliary""]",https://en.wiktionary.org/wiki/ought_to,candidate_only
