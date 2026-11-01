@@ -168,6 +168,8 @@
 
 随后新增 `justify` → `fac`（`WC-070`）和 `educator` → `duc`（`WC-071`）两个候选，累计 71 条关系、覆盖 46 个 root/stem 方向。前者的[固定页面](https://en.wiktionary.org/w/index.php?title=justify&oldid=91338458)把历史 `-ficare` 联系到拉丁语 `facere`，同时另给出现代英语 `just + -ify` 分析；不能要求英语表面必然出现 `fac`。后者的[固定页面](https://en.wiktionary.org/w/index.php?title=educator&oldid=93551642)给出拉丁语 `ēducātor`，词干路径需再结合 [educate 固定修订](https://en.wiktionary.org/w/index.php?title=educate&oldid=92744085)及其他可追溯资料核对。两条均为待审的历史关联候选，不是已确认的现代词素拆分，也不是正式词库。
 
+继续核对 `cap` 家族时，新增 `except`、`exception`、`exceptional` 三个待审候选（`WC-072`～`WC-074`），累计 74 条关联。英文页面的固定修订分别为 [except](https://en.wiktionary.org/w/index.php?title=except&oldid=94554696)、[exception](https://en.wiktionary.org/w/index.php?title=exception&oldid=93131459)、[exceptional](https://en.wiktionary.org/w/index.php?title=exceptional&oldid=93692958)。历史链还须查看拉丁语 [exceptus](https://en.wiktionary.org/w/index.php?title=exceptus&oldid=88836911)、[exceptio](https://en.wiktionary.org/w/index.php?title=exceptio&oldid=93692942) 和 [excipio](https://en.wiktionary.org/w/index.php?title=excipio&oldid=89965110) 的固定修订，后者标注 `ex- + capiō`。这些是多步历史关联；`-cept-` 与 `cap` 的形态变化、来源的适用义项和许可仍需审核，不能把现代单词简单拆成 `ex + cap`。
+
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
