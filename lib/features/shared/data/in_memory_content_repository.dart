@@ -1,6 +1,7 @@
 import '../../roots/domain/root.dart';
 import '../../roots/domain/root_repository.dart';
 import '../../words/domain/word.dart';
+import '../../words/domain/word_detail.dart';
 import '../../words/domain/word_repository.dart';
 import '../domain/content_types.dart';
 import '../domain/page.dart';
@@ -145,6 +146,52 @@ final class InMemoryContentRepository
     return matches.isEmpty
         ? const Failure(DomainFailure(FailureKind.notFound, 'word.not_found'))
         : Success(matches.first);
+  }
+
+  @override
+  Future<Result<WordDetail>> getWordDetail(String id) async {
+    final matches = words.where((word) => word.id == id);
+    if (matches.isEmpty) {
+      return const Failure(
+        DomainFailure(FailureKind.notFound, 'word.not_found'),
+      );
+    }
+    final related =
+        components.where((component) => component.wordId == id).toList()
+          ..sort((a, b) {
+            final type = a.componentType.name.compareTo(b.componentType.name);
+            if (type != 0) return type;
+            final component = a.componentId.compareTo(b.componentId);
+            return component != 0
+                ? component
+                : a.role.name.compareTo(b.role.name);
+          });
+    final rootIds = related
+        .where((c) => c.componentType == ComponentType.root)
+        .map((c) => c.componentId)
+        .toSet();
+    final affixIds = related
+        .where((c) => c.componentType == ComponentType.affix)
+        .map((c) => c.componentId)
+        .toSet();
+    final relatedRoots =
+        roots.where((root) => rootIds.contains(root.id)).toList()
+          ..sort((a, b) => a.id.compareTo(b.id));
+    final relatedAffixes =
+        affixes.where((affix) => affixIds.contains(affix.id)).toList()
+          ..sort((a, b) => a.id.compareTo(b.id));
+    final relatedExamples =
+        examples.where((example) => example.wordId == id).toList()
+          ..sort((a, b) => a.id.compareTo(b.id));
+    return Success(
+      WordDetail(
+        word: matches.first,
+        roots: relatedRoots,
+        affixes: relatedAffixes,
+        components: related,
+        examples: relatedExamples,
+      ),
+    );
   }
 
   @override

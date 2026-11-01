@@ -3,6 +3,7 @@ import 'package:drift/drift.dart';
 import '../../roots/domain/root.dart';
 import '../../roots/domain/root_repository.dart';
 import '../../words/domain/word.dart';
+import '../../words/domain/word_detail.dart';
 import '../../words/domain/word_repository.dart';
 import '../domain/page.dart';
 import '../domain/result.dart';
@@ -162,6 +163,65 @@ final class DriftContentRepository implements RootRepository, WordRepository {
       return rows.isEmpty
           ? const Failure(DomainFailure(FailureKind.notFound, 'word.not_found'))
           : Success(_mapper.word(rows.single.data));
+    } catch (_) {
+      return const Failure(
+        DomainFailure(FailureKind.storage, 'storage.read_failed'),
+      );
+    }
+  }
+
+  @override
+  Future<Result<WordDetail>> getWordDetail(String id) async {
+    try {
+      return await database.transaction(() async {
+        final variables = [Variable<String>(id)];
+        final words = await database
+            .customSelect(
+              'SELECT * FROM words WHERE id = ?',
+              variables: variables,
+            )
+            .get();
+        if (words.isEmpty) {
+          return const Failure<WordDetail>(
+            DomainFailure(FailureKind.notFound, 'word.not_found'),
+          );
+        }
+        final components = await database
+            .customSelect(
+              'SELECT * FROM word_components WHERE word_id = ? ORDER BY component_type, component_id, role',
+              variables: variables,
+            )
+            .get();
+        final roots = await database
+            .customSelect(
+              "SELECT * FROM roots WHERE id IN (SELECT component_id FROM word_components WHERE word_id = ? AND component_type = 'root') ORDER BY id",
+              variables: variables,
+            )
+            .get();
+        final affixes = await database
+            .customSelect(
+              "SELECT * FROM affixes WHERE id IN (SELECT component_id FROM word_components WHERE word_id = ? AND component_type = 'affix') ORDER BY id",
+              variables: variables,
+            )
+            .get();
+        final examples = await database
+            .customSelect(
+              'SELECT * FROM examples WHERE word_id = ? ORDER BY id',
+              variables: variables,
+            )
+            .get();
+        return Success(
+          WordDetail(
+            word: _mapper.word(words.single.data),
+            roots: roots.map((row) => _mapper.root(row.data)),
+            affixes: affixes.map((row) => _mapper.affix(row.data)),
+            components: components
+                .map((row) => _mapper.component(row.data))
+                .whereType<WordComponent>(),
+            examples: examples.map((row) => _mapper.example(row.data)),
+          ),
+        );
+      });
     } catch (_) {
       return const Failure(
         DomainFailure(FailureKind.storage, 'storage.read_failed'),

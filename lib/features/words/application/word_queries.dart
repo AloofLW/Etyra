@@ -1,12 +1,19 @@
 import '../../shared/domain/page.dart';
 import '../../shared/domain/result.dart';
 import '../domain/word.dart';
+import '../domain/word_detail.dart';
 import '../domain/word_repository.dart';
 
 final class GetWord {
   const GetWord(this.repository);
   final WordRepository repository;
   Future<Result<Word>> call(String id) => repository.getWord(id);
+}
+
+final class GetWordDetail {
+  const GetWordDetail(this.repository);
+  final WordRepository repository;
+  Future<Result<WordDetail>> call(String id) => repository.getWordDetail(id);
 }
 
 final class ListWords {
