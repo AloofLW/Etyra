@@ -109,6 +109,19 @@
 
 截至本批，共 23 个 root 候选做过来源页面分诊；11 个原 root 条目已移出 root 计数或并入词缀候选。root 候选池约剩 39 项，需补充约 11 个候选以回到约 50 项。上述均为来源层初筛，未完成高中范围、词频、释义、逐词关系和独立编辑审核；全部仍为 `candidate_only`。
 
+
+## 第五批词根/词缀页面分诊
+
+2026-11-01 对 `tact`、`therm`、`vid`、`voc`、`migr` 做来源页面初筛：
+
+- [tact](https://en.wiktionary.org/wiki/tact) 的英语词条区分经法语借入、发生语义发展的“机敏/得体”义，与直接借自 Latin `tāctus` 的“触觉”义。保留为暂定候选，但不能把不同词源路径或拼写相近词批量并族。
+- [thermo-](https://en.wiktionary.org/wiki/thermo-) 明确列为源自 Greek `thermós`（warm/hot）的前缀，并列 `therm-` 为元音前形式；`therm` 同时也是热量单位名称。将其从 root 候选移入词缀表，逐词核验表层形式。
+- [visible](https://en.wiktionary.org/wiki/visible) 经 Late Latin `visibilis` 追溯至 Latin `videre`（see）及分词 `visus`，支持暂存 `vid/vis` 词干家族候选；形式不可直接互换。
+- [vocal](https://en.wiktionary.org/wiki/vocal) 来自 Latin `vōcālis`，由 `vōx`（voice/sound）+ `-ālis` 构成；支持 `voc` 词干候选，仍需逐词核对。
+- [migrate](https://en.wiktionary.org/wiki/migrate) 来自 Latin `migrātus`（`migrō` 的分词），支持 `migr/migrat` 暂定词干家族。
+
+本批保留 4 个 root 候选并将 `therm` 转为 `thermo-` 词缀候选。目前共 27 个 root 候选经页面初筛，12 项从 root 计数移出或并入词缀；root 候选池约 38 项，需补约 12 项达到约 50 项目标。来源初筛未覆盖高中适用性、词频、释义和每条具体构词关系；全部仍为候选，不可导入产品。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -122,6 +135,7 @@
 - 已对 `act`、`aud`、`cred`、`fac`、`fer`、`fin`、`form` 做第二批页面分诊；其中 `factory` 作为 `fac` 关联词证据不足，不能纳入已验证关系。
 - 已对 `cap`、`ced`、`duc`、`mit`、`mot`、`rupt`、`script`、`tract` 做第三批页面分诊，并将潜在 allomorph 记录为待核，不据拼写自动建立关系。
 - 第四批核对 `ject`、`leg`、`mort`、`ped`，并将 `morph`、`path`、`scop` 重分类/并入词缀候选；来源证据与形态边界说明见本文件和 CSV。
-- 另将 11 个前缀/后缀/combining-form 候选转入或合并至 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前约需补 11 项。
+- 第五批核对 `tact`、`vid`、`voc`、`migr`，并将 `therm` 重分类为 `thermo-` 词缀候选。
+- 另将 12 个前缀/后缀/combining-form 候选转入或合并至 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前约需补 12 项。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
