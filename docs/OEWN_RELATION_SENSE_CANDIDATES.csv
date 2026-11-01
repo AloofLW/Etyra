@@ -1,0 +1,26 @@
+candidate_id,headword,oewn_written_form,oewn_entry_id,pos,sense_id,synset_id,definitions_json,status
+vocab-candidate-21dec632070d52690364,tact,tact,oewn-tact-n,n,oewn-tact__1.07.00..,oewn-04849041-n,"[""consideration in dealing with others and avoiding giving offense""]",candidate_only
+vocab-candidate-2c64752a212eb7b695a7,prospectus,prospectus,oewn-prospectus-n,n,oewn-prospectus__1.10.00..,oewn-06687692-n,"[""a catalog listing the courses offered by a college or university""]",candidate_only
+vocab-candidate-2c64752a212eb7b695a7,prospectus,prospectus,oewn-prospectus-n,n,oewn-prospectus__1.10.01..,oewn-07180157-n,"[""a formal written offer to sell securities (filed with the SEC) that sets forth a plan for a (proposed) business enterprise""]",candidate_only
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,oewn-numeral-a,a,oewn-numeral__3.01.00..,oewn-02780705-a,"[""of or relating to or denoting numbers""]",candidate_only
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,oewn-numeral-n,n,oewn-numeral__1.10.00..,oewn-06820056-n,"[""a symbol used to represent a number""]",candidate_only
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,oewn-numeral-n,n,oewn-numeral__1.10.01..,oewn-92464376-n,"[""a word expressing a number.""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-a,a,oewn-mortal__3.00.00..,oewn-01562007-a,"[""subject to death""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-a,a,oewn-mortal__5.00.00.merciless.00,oewn-01511671-s,"[""unrelenting and deadly""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-a,a,oewn-mortal__5.00.00.unpardonable.00,oewn-01725926-s,"[""involving loss of divine grace or spiritual death""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-a,a,oewn-mortal__5.00.01.fatal.00,oewn-00997017-s,"[""causing or capable of causing death""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-n,n,oewn-mortal__1.03.00..,oewn-00007846-n,"[""a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential""]",candidate_only
+vocab-candidate-750cfe5c94c6b2f63d3b,pedestrian,pedestrian,oewn-pedestrian-a,a,oewn-pedestrian__5.00.00.uninteresting.00,oewn-01349191-s,"[""lacking wit or imagination""]",candidate_only
+vocab-candidate-750cfe5c94c6b2f63d3b,pedestrian,pedestrian,oewn-pedestrian-n,n,oewn-pedestrian__1.18.00..,oewn-10431800-n,"[""a person who travels by foot""]",candidate_only
+vocab-candidate-84088805e145b555f349,terrain,terrain,oewn-terrain-n,n,oewn-terrain__1.15.00..,oewn-08692301-n,"[""a piece of ground having specific characteristics or military potential""]",candidate_only
+vocab-candidate-961281ce5eace239036d,audible,audible,oewn-audible-a,a,oewn-audible__3.00.00..,oewn-00175025-a,"[""heard or perceptible by the ear""]",candidate_only
+vocab-candidate-961281ce5eace239036d,audible,audible,oewn-audible-n,n,oewn-audible__1.04.00..,oewn-00189032-n,"[""a football play is changed orally after both teams have assumed their positions at the line of scrimmage""]",candidate_only
+vocab-candidate-a27a8ccc1153d2495d52,conduce,conduce,oewn-conduce-v,v,oewn-conduce__2.41.12..,oewn-02561616-v,"[""be conducive to""]",candidate_only
+vocab-candidate-bea359bea8f7d88ecff2,civic,civic,oewn-civic-a,a,oewn-civic__3.01.00..,oewn-02708066-a,"[""of or relating or belonging to a city""]",candidate_only
+vocab-candidate-bea359bea8f7d88ecff2,civic,civic,oewn-civic-a,a,oewn-civic__3.01.02..,oewn-02707657-a,"[""of or relating to or befitting citizens as individuals""]",candidate_only
+vocab-candidate-d67ecaf4d03b45e93756,legible,legible,oewn-legible-a,a,oewn-legible__3.00.00..,oewn-01407728-a,"[""(of handwriting, print, etc.) capable of being read or deciphered""]",candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,Scribe,oewn-Scribe-n,n,oewn-scribe__1.18.02..,oewn-11309989-n,"[""French playwright (1791-1861)""]",candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,scribe,oewn-scribe-n,n,oewn-scribe__1.06.00..,oewn-04162518-n,"[""a sharp-pointed awl for marking wood or metal to be cut""]",candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,scribe,oewn-scribe-n,n,oewn-scribe__1.18.00..,oewn-10584088-n,"[""informal terms for journalists""]",candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,scribe,oewn-scribe-n,n,oewn-scribe__1.18.01..,oewn-09984335-n,"[""someone employed to make written copies of documents and manuscripts""]",candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,scribe,oewn-scribe-v,v,oewn-scribe__2.35.00..,oewn-01278756-v,"[""score a line on with a pointed instrument, as in metalworking""]",candidate_only

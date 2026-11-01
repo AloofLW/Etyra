@@ -53,6 +53,12 @@
 
 复现：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-supplement-senses.csv --candidate-file docs/CURRICULUM_GAP_CANDIDATES.csv --candidate-file docs/COMPLEX_FORM_CANDIDATES.csv`，然后运行 `python3 tools/content/align_cow_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /path/to/cow-1.1.tar.xz /tmp/etyra-supplement-cow.csv --sense-csv /tmp/etyra-supplement-senses.csv`。输入需为固定摘要版本；两个脚本均拒绝覆盖已存在的输出文件。
 
+## 词根关系候选中的词表遗漏
+
+交叉核对现有词根—单词关系与五份候选清单，发现 11 个关联词尚无候选词头。以固定版本 OEWN 2024 查找后，11 个均找到词典词条，记录在 [`docs/RELATION_WORD_CANDIDATES.csv`](../../RELATION_WORD_CANDIDATES.csv)，并保留原词根关系候选 ID。它们在 [`docs/OEWN_RELATION_SENSE_CANDIDATES.csv`](../../OEWN_RELATION_SENSE_CANDIDATES.csv) 有 25 条英文义项，其中 5 个词的 7 条义项可在 [`docs/COW_RELATION_SENSE_CANDIDATES.csv`](../../COW_RELATION_SENSE_CANDIDATES.csv) 找到中文词项候选。匹配按忽略大小写的拼写键进行，`scribe` 同时出现大小写不同的词典词头，必须区分；以上均为 `candidate_only`，不证明高中适用性或词源关系已验收。
+
+英文定义、中文词项和 OEWN 词头来源及许可分别适用上面的 OEWN、Princeton WordNet 和 COW 条件；词源关系须继续按固定 Wiktionary 版本单独核验。复现：先运行 `python3 tools/content/build_relation_word_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-relation-words.csv`；随后对该 CSV 使用 `extract_oewn_sense_candidates.py --candidate-file`，并以生成的义项表作为 `align_cow_sense_candidates.py --sense-csv` 输入。三个脚本验证固定来源摘要并拒绝覆盖已有输出。
+
 ## 高中课标覆盖基准
 
 - [教育部制定的《普通高中英语课程标准（2017 年版 2020 年修订）》](https://www.ictr.edu.cn/Uploads/File/2025/02/07/4.%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%EF%BC%882017%E5%B9%B4%E7%89%882020%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.20250207211247.pdf)由教育部课程教材研究所网站提供，附录 2 称列 3000 词，其中包含义务教育 1500 词、高中必修新增 500 词、选择性必修新增 1000 词；正文不含词性和中文释义。作为已定位的官方历史对照来源，不能据此声称已满足最新版。

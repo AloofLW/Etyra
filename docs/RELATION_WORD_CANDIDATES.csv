@@ -1,0 +1,12 @@
+candidate_id,normalized_key,oewn_forms,oewn_entry_ids,oewn_pos,word_relation_candidate_ids,status
+vocab-candidate-961281ce5eace239036d,audible,audible,oewn-audible-a|oewn-audible-n,a|n,WC-002,candidate_only
+vocab-candidate-bea359bea8f7d88ecff2,civic,civic,oewn-civic-a,a,WC-047,candidate_only
+vocab-candidate-a27a8ccc1153d2495d52,conduce,conduce,oewn-conduce-v,v,WC-007,candidate_only
+vocab-candidate-d67ecaf4d03b45e93756,legible,legible,oewn-legible-a,a,WC-012,candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,oewn-mortal-a|oewn-mortal-n,a|n,WC-017,candidate_only
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,oewn-numeral-a|oewn-numeral-n,a|n,WC-050,candidate_only
+vocab-candidate-750cfe5c94c6b2f63d3b,pedestrian,pedestrian,oewn-pedestrian-a|oewn-pedestrian-n,a|n,WC-019,candidate_only
+vocab-candidate-2c64752a212eb7b695a7,prospectus,prospectus,oewn-prospectus-n,n,WC-065,candidate_only
+vocab-candidate-ffb301e28a65f3046dd6,scribe,Scribe|scribe,oewn-Scribe-n|oewn-scribe-n|oewn-scribe-v,n|v,WC-022,candidate_only
+vocab-candidate-21dec632070d52690364,tact,tact,oewn-tact-n,n,WC-026,candidate_only
+vocab-candidate-84088805e145b555f349,terrain,terrain,oewn-terrain-n,n,WC-058,candidate_only

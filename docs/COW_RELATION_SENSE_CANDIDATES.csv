@@ -1,0 +1,8 @@
+candidate_id,headword,oewn_written_form,pos,sense_id,oewn_synset_id,ili,cow_synset_ids,chinese_lemmas_json,status
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,a,oewn-numeral__3.01.00..,oewn-02780705-a,i15644,cow-02769933-a,"[""数值"", ""数值的"", ""数字"", ""数字的""]",candidate_only
+vocab-candidate-437d89a4d5264ed82cd8,numeral,numeral,n,oewn-numeral__1.10.00..,oewn-06820056-n,i72263,cow-06807198-n,"[""数"", ""数字"", ""数词""]",candidate_only
+vocab-candidate-641f3495279b93bc8a54,mortal,mortal,n,oewn-mortal__1.03.00..,oewn-00007846-n,i35562,cow-00007846-n,"[""个人"", ""个体"", ""凡人"", ""某人""]",candidate_only
+vocab-candidate-750cfe5c94c6b2f63d3b,pedestrian,pedestrian,n,oewn-pedestrian__1.18.00..,oewn-10431800-n,i91931,cow-10412055-n,"[""步行的人"", ""步行者"", ""行人"", ""行者""]",candidate_only
+vocab-candidate-a27a8ccc1153d2495d52,conduce,conduce,v,oewn-conduce__2.41.12..,oewn-02561616-v,i34472,cow-02555908-v,"[""有助于"", ""有益于"", ""有贡献于""]",candidate_only
+vocab-candidate-bea359bea8f7d88ecff2,civic,civic,a,oewn-civic__3.01.00..,oewn-02708066-a,i15122,cow-02697329-a,"[""城市"", ""城市的"", ""市"", ""市的""]",candidate_only
+vocab-candidate-bea359bea8f7d88ecff2,civic,civic,a,oewn-civic__3.01.02..,oewn-02707657-a,i15120,cow-02696920-a,"[""公民"", ""公民的"", ""市民"", ""市民的"", ""平民的"", ""民事"", ""民事的""]",candidate_only
