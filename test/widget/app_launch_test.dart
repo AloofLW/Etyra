@@ -14,6 +14,8 @@ void main() {
     expect(find.text('开始学习演示'), findsOneWidget);
     expect(find.text('演示内容 · 尚未接入真实词库，学习记录不会保存。'), findsOneWidget);
     expect(find.text('预览工具'), findsOneWidget);
+    expect(find.text('认识构词成分，探索它与单词的联系。'), findsNothing);
+    expect(find.text('从一个词根出发，看看学习过程。'), findsNothing);
     expect(find.text('模拟首次提交失败'), findsNothing);
     expect(find.text('查看列表'), findsNothing);
   });

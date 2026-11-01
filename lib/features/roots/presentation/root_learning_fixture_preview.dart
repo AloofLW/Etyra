@@ -4,6 +4,21 @@ import 'fixtures/root_learning_fixture.dart';
 import 'root_learning_pages.dart';
 import 'widgets/fixture_widgets.dart';
 
+abstract final class _HomeColors {
+  static const background = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFFAF6EF),
+    darkColor: Color(0xFF1C1917),
+  );
+  static const action = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFA04A38),
+    darkColor: Color(0xFF9A4535),
+  );
+  static const link = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFF91412F),
+    darkColor: Color(0xFFEEAB96),
+  );
+}
+
 /// Learner-facing entry point; the preview tools remain available separately.
 class RootLearningFixturePreview extends StatelessWidget {
   const RootLearningFixturePreview({super.key});
@@ -12,10 +27,10 @@ class RootLearningFixturePreview extends StatelessWidget {
   Widget build(BuildContext context) {
     final text = CupertinoTheme.of(context).textTheme;
     return CupertinoPageScaffold(
-      backgroundColor: FixtureTokens.background(context),
+      backgroundColor: _HomeColors.background.resolveFrom(context),
       navigationBar: CupertinoNavigationBar(
         border: null,
-        backgroundColor: FixtureTokens.background(context),
+        backgroundColor: _HomeColors.background.resolveFrom(context),
         middle: const Text('Etyra'),
         trailing: CupertinoButton(
           padding: EdgeInsets.zero,
@@ -25,12 +40,15 @@ class RootLearningFixturePreview extends StatelessWidget {
               builder: (_) => const _PreviewToolsPage(),
             ),
           ),
-          child: const Text('预览工具'),
+          child: Text(
+            '预览工具',
+            style: TextStyle(color: _HomeColors.link.resolveFrom(context)),
+          ),
         ),
       ),
       child: SafeArea(
         child: ListView(
-          padding: const EdgeInsets.fromLTRB(24, 28, 24, 32),
+          padding: const EdgeInsets.fromLTRB(24, 20, 24, 24),
           children: [
             Semantics(
               header: true,
@@ -42,70 +60,21 @@ class RootLearningFixturePreview extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 12),
-            Text(
-              '认识构词成分，探索它与单词的联系。',
-              style: text.textStyle.copyWith(
-                color: FixtureTokens.secondary(context),
-                height: 1.5,
-              ),
-            ),
-            const SizedBox(height: 32),
-            FixturePanel(
-              children: [
-                Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Container(
-                      width: 48,
-                      height: 48,
-                      decoration: BoxDecoration(
-                        color: FixtureTokens.accentBackground(context),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: Center(
-                        child: ExcludeSemantics(
-                          child: Text(
-                            '根',
-                            style: text.navTitleTextStyle.copyWith(
-                              color: FixtureTokens.accent(context),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 14),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text('词根学习', style: text.navTitleTextStyle),
-                          const SizedBox(height: 5),
-                          Text(
-                            '从一个词根出发，看看学习过程。',
-                            style: text.textStyle.copyWith(
-                              color: FixtureTokens.secondary(context),
-                              height: 1.4,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-                FixtureAction(
-                  label: '开始学习演示',
-                  primary: true,
-                  onPressed: () => Navigator.of(context).push<void>(
-                    FixturePageRoute<void>(
-                      context: context,
-                      builder: (_) => RootFixtureDetailPage(
-                        root: RootLearningFixture.samples.first,
-                      ),
-                    ),
+            const SizedBox(height: 24),
+            CupertinoButton(
+              color: _HomeColors.action.resolveFrom(context),
+              onPressed: () => Navigator.of(context).push<void>(
+                FixturePageRoute<void>(
+                  context: context,
+                  builder: (_) => RootFixtureDetailPage(
+                    root: RootLearningFixture.samples.first,
                   ),
                 ),
-              ],
+              ),
+              child: const Text(
+                '开始学习演示',
+                style: TextStyle(color: CupertinoColors.white),
+              ),
             ),
             const SizedBox(height: 16),
             Text(
@@ -126,7 +95,12 @@ class RootLearningFixturePreview extends StatelessWidget {
                     builder: (_) => const RootFixtureListPage(),
                   ),
                 ),
-                child: const Text('浏览演示词根  ›'),
+                child: Text(
+                  '浏览演示词根  ›',
+                  style: TextStyle(
+                    color: _HomeColors.link.resolveFrom(context),
+                  ),
+                ),
               ),
             ),
           ],
