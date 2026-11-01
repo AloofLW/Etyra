@@ -1,6 +1,6 @@
 # ET-01D/E 后端交接与验证边界
 
-日期：2026-11-01。基线提交 `6fc2fcc`；工作分支 `feat/backend-et01-de`。
+最后更新：2026-11-01。基线提交 `6fc2fcc`；相关实现分别见 `feat/backend-et01-de` 与 `feat/backend-study-persistence`，均已集成到 `main`。
 
 ## 已实现范围
 
@@ -15,7 +15,7 @@
 
 ## 已由对话 01 收口的语义
 
-- ADR-014 已同步到 InMemoryStudyRepository：首次 recalled → learned；needsPractice 使 new → learning 且不降级 learned；skip 不改状态；session 完成不参与阶段转换。测试源码覆盖直接 recalled、learning → learned、learned 不降级、跳过已有 learning/learned 以及 session 完成不改变阶段；尚未运行测试。
+- ADR-014 已同步到 InMemoryStudyRepository 与 DriftStudyRepository：首次 recalled → learned；needsPractice 使 new → learning 且不降级 learned；skip 不改状态；session 完成不参与阶段转换。对应内存及 SQLite 测试均已运行并通过。
 - ADR-015 已接受 fake 当前实现的会话关闭语义。
 - ADR-016 已定义未知枚举安全策略；ADR-017 已接受导入只新增/复用、不覆盖现有内容。
 
@@ -28,10 +28,10 @@
 
 ## 验证及当前限制
 
-- 已执行格式化、`dart run build_runner build`、`flutter analyze --no-pub` 和 `flutter test test/unit/backend`；分析无问题，17 项测试通过。
-- 本次持久化任务另运行 `flutter test --no-pub test/unit/backend`，27 项通过；测试中的双连接场景触发 Drift 多实例调试警告，两个实例分别使用独立连接，以验证同一文件的重复提交处理。
+- 已执行格式化、`dart run build_runner build`、`flutter analyze --no-pub` 和后端定向测试；全工程分析无问题，后端定向共 27 项通过。
+- 持久化任务测试覆盖文件库重开、重复/乱序提交、双连接并发、skip、completed/abandoned、ADR-014 状态更新和触发器注入回滚。双连接场景出现 Drift 多数据库诊断警告；测试使用两个独立 SQLite 连接，生产装配应复用唯一 AppDatabase 实例。
 - 新增 AppDatabase 测试在内存 SQLite 验证 v1 表创建和外键开启；SeedImporter 测试验证同包幂等回执及同版本变更冲突。
-- `app_database.g.dart` 已生成；data 仍依赖 Drift 的 GeneratedDatabase 查询边界，由后续 composition 注入 AppDatabase。未执行 iOS 构建或真机验证。
+- `app_database.g.dart` 已生成；data 依赖 Drift 的 GeneratedDatabase 查询边界，由 app composition 注入 AppDatabase。Simulator 与 iPhoneOS 不签名构建、签名安装和启动已在后续任务验证。
 - DriftStudyRepository 已实现真实 SQLite 学习写入：创建会话/卡片快照，事务性答题和跳过、阶段更新、计数、完成与幂等放弃。内存 fake 仍仅用于前端交互开发；共享 app 入口尚未装配真实 Repository。
 - SeedImporter 的事务性、SQL/约束、幂等与失败回滚尚未在真实 SQLite 上验证；成功收据审计已设计，失败导入尝试的持久审计和内容更新策略留待后续。
 - v1 尚无已发布前序库；不把“旧版升级已覆盖”当成当前事实。
@@ -45,7 +45,7 @@
 | schema | 已生成 Drift 代码并验证内存空库创建、外键开启；仍需导出 v1 schema、复合主键/唯一约束、持久库重复打开验证 |
 | seed | 已验证同包两次导入幂等和同版本变更拒绝；仍需乱序规范化、旧版本拒绝、悬空关系/重复 ID/来源/许可缺失验证 |
 | 事务隔离 | 仍需注入中途异常验证无部分内容/成功收据、同 ID 冲突全包回滚，以及导入前后学习状态与日志保持不变 |
-| 持久化学习 | 文件 SQLite 覆盖会话快照重启读回、答题/跳过、重复/乱序提交、完成/放弃和触发器注入的事务回滚；FSRS 字段保持 null。按 session ID 恢复当前卡片的公共读取契约尚未定义。 |
+| 持久化学习 | 已验证文件 SQLite 会话快照重启读回、答题/跳过、重复/乱序提交、双连接并发、完成/放弃和触发器注入的事务回滚；FSRS 字段保持 null。按 session ID 恢复当前卡片的公共读取契约尚未定义。 |
 | 后续迁移 | 从导出的历史版本增量升级；保留学习数据与来源；失败恢复；未知版本拒绝且不清库 |
 
-下一步：项目管理对话评审持久化实现和测试，协调 app/provider 装配；如需跨重启恢复学习界面，先确定会话恢复契约。实际词库接入前另行收口逐条可信度与稳定 ID 命名空间。
+下一步：项目管理对话装配唯一 AppDatabase 与 Root/Word/Study providers，再由前端接入 provider。若要跨重启恢复进行中的学习界面，先定义恢复查询契约。实际词库接入前另行收口逐条可信度与稳定 ID 命名空间。
