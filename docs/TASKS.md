@@ -56,7 +56,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv` 的 17 条补充虚词义项草稿，尤其复核代词的指代范围、语境、翻译及许可。
 - [ ] 审查 `docs/KAIKKI_TRANSLATION_CANDIDATES.csv` 中 33 个候选的 118 条中文翻译线索，逐条核对来源义项、繁简、上下文及许可；不可将翻译框标签当作经过确认的义项 ID。
 - [ ] 审查镜像标星且原先缺中文线索的 53 个候选：47 个取得 138 条翻译线索，6 个在快照中未找到中文翻译；全部须核对义项、课标和许可。
-- [ ] 复核 `docs/CURATED_GAP_TRANSLATION_PILOT.csv` 中 11 条根据英文 gloss 和中文翻译线索编辑的草稿；语义对应为编辑判断，不可自动视为来源确认。
+- [ ] 复核 `docs/CURATED_GAP_TRANSLATION_PILOT.csv` 中 31 条根据英文 gloss 和中文翻译线索编辑的草稿；语义对应为编辑判断，不可自动视为来源确认。
 - [ ] 审查 `docs/CURATED_MAIN_GAP_PILOT.csv` 中 8 个词的 11 条义项草稿；来源无 sense ID，按词性、原 gloss 和标签联合定位。
 - [ ] 复核 `docs/CURATED_FUNCTION_WORD_PILOT.csv` 中 28 条虚词义项的选义、编辑中文草稿和用法范围；选取的义项不代表完整用法，未通过复核不得进入产品词库。
 - [ ] 审查 `docs/COW_CASE_REVIEW.csv` 中 62 个包含大小写不同 COW 关联的候选（其中 6 个全部不同）；化学元素和字母义不能直接用于虚词，已补充 7 个高频词的词性线索。
