@@ -21,6 +21,17 @@ abstract final class FixtureTokens {
   static const gap = 16.0;
   static const radius = 16.0;
   static const touchTarget = 44.0;
+  static const _accent = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFF416D66),
+    darkColor: Color(0xFF9CCDC1),
+  );
+  static const _accentBackground = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFE1EFEB),
+    darkColor: Color(0xFF233D39),
+  );
+  static Color accent(BuildContext context) => _accent.resolveFrom(context);
+  static Color accentBackground(BuildContext context) =>
+      _accentBackground.resolveFrom(context);
   static Color background(BuildContext context) =>
       CupertinoColors.systemGroupedBackground.resolveFrom(context);
   static Color surface(BuildContext context) =>
@@ -72,7 +83,7 @@ class FixturePanel extends StatelessWidget {
     ),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
-      spacing: FixtureTokens.gap,
+      spacing: 12,
       children: children,
     ),
   );
@@ -135,11 +146,9 @@ class FixtureStateView extends StatelessWidget {
     };
     return FixturePanel(
       children: [
-        if (phase == FixturePhase.loading)
-          if (MediaQuery.disableAnimationsOf(context))
-            const Icon(CupertinoIcons.hourglass)
-          else
-            const ExcludeSemantics(child: CupertinoActivityIndicator()),
+        if (phase == FixturePhase.loading &&
+            !MediaQuery.disableAnimationsOf(context))
+          const ExcludeSemantics(child: CupertinoActivityIndicator()),
         Semantics(liveRegion: true, child: FixtureHeading(title)),
         Text(message),
         if (phase != FixturePhase.loading)
@@ -158,7 +167,7 @@ class FixtureContentNotice extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Text(
-    '界面预览 · 内容均为占位，未接入词库；反馈仅在本次预览中有效。',
+    '演示内容 · 未接入真实词库，学习记录不会保存。',
     style: TextStyle(color: FixtureTokens.secondary(context)),
   );
 }
