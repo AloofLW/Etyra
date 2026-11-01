@@ -23,7 +23,7 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、430 个缺少中文线索、4623 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、428 个缺少中文线索、4623 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
@@ -92,6 +92,8 @@
 为补齐 `he` 的代词线索，使用此前固定的 Kaikki 五类词性快照额外提取 [`docs/KAIKKI_HE_SENSE_CANDIDATES.csv`](../../KAIKKI_HE_SENSE_CANDIDATES.csv)；保留原词形、标签和所有匹配义项，并在虚词草稿中加入一条有来源的主格代词义。大小写归并可能同时匹配其他形式，具体词义、标签、翻译及许可仍须审核。复现：`python3 tools/content/extract_kaikki_function_candidates.py /path/to/snapshots /tmp/etyra-he-senses.csv --headword he`。
 
 另外从同一固定快照为高频 `a`、`I`、`in`、`at`、`as`、`it`、`or` 获取 [`docs/KAIKKI_COMMON_CASE_SENSE_CANDIDATES.csv`](../../KAIKKI_COMMON_CASE_SENSE_CANDIDATES.csv) 中 112 条词性线索，以便与 OEWN 中可能出现的字母、化学元素或缩写义区分；不自动选义，大小写、词性、语境和来源许可仍须逐条核验。主队列额外标记 `function_word_sense_review_needed`。复现：`python3 tools/content/extract_kaikki_function_candidates.py /path/to/snapshots /tmp/etyra-common-case.csv --headword a --headword I --headword in --headword at --headword as --headword it --headword or`。
+
+[`docs/CURATED_COMMON_FUNCTION_PILOT.csv`](../../CURATED_COMMON_FUNCTION_PILOT.csv) 从上述 7 个词中各选一条常用义项，附编辑中文及用法草稿，保留原词形、词性、来源 gloss 和标签。选择与翻译均待复核，其他义项未覆盖；例如不定冠词 `a` 在中文语境中并不总需译出。不得将这些草稿直接作为正式词库。
 
 来源：[COW 1.1 发行包](https://github.com/bond-lab/cow/releases/tag/v1.1)，SHA-256 `93e9357dda50a38ce626904c2229479afa177df74d9c504aebfeba06ff2f241e`；许可证全文为 [COW-1.1-LICENSE.txt](COW-1.1-LICENSE.txt)，要求保留版权声明及免责声明。署名 Chinese Open Wordnet 的 Francis Bond、Shan Wang、Luís Morgado da Costa 及相应版权年度，完整内容见许可证；同时保留 OEWN 与 Princeton WordNet 的来源和许可，以及原词表的 CC BY-SA 4.0 要求。本表是基于这些来源的筛选与跨词网关联；未修改原始中文词形。原始大型词典包不随仓库提交。
 
