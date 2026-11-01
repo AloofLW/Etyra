@@ -23,7 +23,7 @@ part 'app_database.g.dart';
   ],
 )
 class AppDatabase extends _$AppDatabase {
-  AppDatabase(QueryExecutor executor) : super(executor);
+  AppDatabase(super.executor);
 
   @override
   int get schemaVersion => currentSchemaVersion;

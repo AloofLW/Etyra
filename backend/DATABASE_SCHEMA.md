@@ -23,7 +23,7 @@
 
 数据库版本单调递增；迁移只增量、不删除用户数据；破坏性变更先备份并提供回滚/恢复策略。内容导入使用稳定 ID 和 upsert，禁止用词库刷新覆盖学习状态。每次迁移有空库、旧库、重复执行和失败恢复测试。
 
-## ET-01E v1 实现骨架（尚未执行生成/迁移）
+## ET-01E v1 实现骨架（已生成并做空库烟测）
 
 - 入口为 `lib/database/app_database.dart`，`schemaVersion = 1`；连接由 app 组装方传入，本模块不在 import 时打开数据库。
 - `onCreate` 使用 Drift `createAll`；不存在已发布旧版本，`onUpgrade` 对未实现路径明确拒绝，后续必须添加并验证增量步骤。`beforeOpen` 启用外键。
@@ -36,4 +36,4 @@
 - 本轮导入只允许新增或同值复用；同版本载荷变化、降级、已有 ID 内容变化返回 `Conflict`。完整的内容变更 upsert 策略尚待确认，骨架不会覆盖用户进度或删除内容。
 - 导入包必须自包含，校验稳定 ID、重复记录、来源/许可、人工再分发审核依据、关系目标、confidence 范围；不提供词库资产或默认词条。失败返回领域错误并回滚，失败尝试的持久审计尚未实现。
 
-迁移依据：[Drift migrations](https://drift.simonbinder.eu/migrations/)、[migrator API](https://drift.simonbinder.eu/migrations/api/)。生成文件和数据库实际行为须在后续获准后验证，当前不可将 v1 标记为已验收。
+迁移依据：[Drift migrations](https://drift.simonbinder.eu/migrations/)、[migrator API](https://drift.simonbinder.eu/migrations/api/)。2026-11-01 已生成 `app_database.g.dart`，并以内存 SQLite 验证 v1 空库建表和外键开启；这不覆盖持久库 reopen、迁移升级、迁移失败恢复、种子事务回滚或持久学习写入，v1 尚未完整验收。

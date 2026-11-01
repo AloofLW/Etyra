@@ -42,7 +42,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 下一执行批次
 
-1. **对话 03 / ET-01D/E（骨架已交付，待验证）**：domain/application、内存 fake、Drift v1 表/迁移入口、只读 Repository 与种子导入骨架已提交至 `feat/backend-et01-de`。fake 已按 ADR-014 更新；测试源码尚未执行。后续获准后生成 Drift 代码并执行迁移、Repository 测试。真实学习写入仍未实现。
+1. **对话 03 / ET-01D/E（基础验证通过，仍未完整验收）**：domain/application、内存 fake、Drift v1 表/迁移入口、只读 Repository 与种子导入骨架已提交至 `feat/backend-et01-de`。已生成 Drift 代码；`flutter analyze --no-pub` 无问题，后端定向 17 项测试通过，包含空库建表、外键开启与种子幂等/冲突。迁移升级/恢复、导入回滚、持久学习写入仍未验证或实现。
 2. **对话 02 / F-01 前端准备（已交付，待审阅）**：presentation 静态流程与 fixture 已提交至 `feat/frontend-root-flow`（`786df4f`），未合并。与实际 domain/application provider 的适配尚未完成。
 3. **对话 01 / 当前整合**：核对两个分支的文件所有权、契约与交接限制；保持分支隔离，先收口 ADR-014..017 与实现一致性，再安排受控集成。
 4. **共享入口 owner（待指定）**：定义 `lib/app`、路由/provider 汇总和 `main.dart` 的唯一所有者；此项完成前不挂载预览页面，不接入数据库。
@@ -58,6 +58,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 后端提交仍在 `feat/backend-et01-de` 工作区；未合并。代码生成、迁移、测试及全工程分析未运行，不能视作 ET-01D/E 验收完成。
+- 后端提交仍在 `feat/backend-et01-de` 工作区；未合并。Drift 代码生成、静态分析和 17 项后端定向测试已通过；未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
 - 前端隔离提交 `786df4f` 位于 `feat/frontend-root-flow`；未合并，未运行测试/构建。
 - 首轮学习转换、Session 关闭、未知枚举及内容包更新策略由 ADR-014..017 收口；ADR-014 已同步至 fake，行为测试仍待执行。

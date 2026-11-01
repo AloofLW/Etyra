@@ -28,9 +28,9 @@
 
 ## 验证及当前限制
 
-- 已执行格式化与定向静态分析（features、tables、migrations 和两份后端测试源码），结果见本轮交付消息。
-- 没有运行构建、依赖安装、代码生成、测试或数据库迁移。
-- `app_database.g.dart` 尚未生成；因此全工程分析/数据库编译尚不能通过，生成前不要将 AppDatabase 接入 app 入口。data 依赖 Drift 的 GeneratedDatabase 查询边界，由后续 composition 注入 AppDatabase。
+- 已执行格式化、`dart run build_runner build`、`flutter analyze --no-pub` 和 `flutter test test/unit/backend`；分析无问题，17 项测试通过。
+- 新增 AppDatabase 测试在内存 SQLite 验证 v1 表创建和外键开启；SeedImporter 测试验证同包幂等回执及同版本变更冲突。
+- `app_database.g.dart` 已生成；data 仍依赖 Drift 的 GeneratedDatabase 查询边界，由后续 composition 注入 AppDatabase。未执行 iOS 构建或真机验证。
 - DriftStudyRepository 为显式 Unsupported 骨架，尚不持久化会话/答题；内存 fake 只用于前端交互开发。不得向用户承诺进度保存。
 - SeedImporter 的事务性、SQL/约束、幂等与失败回滚尚未在真实 SQLite 上验证；成功收据审计已设计，失败导入尝试的持久审计和内容更新策略留待后续。
 - v1 尚无已发布前序库；不把“旧版升级已覆盖”当成当前事实。
@@ -41,9 +41,9 @@
 | --- | --- |
 | domain/fake | 空内容不创建会话；并发重复提交仅一次；跳过不改变学习状态；退出保留事件；顺序与计数；不可变集合；UTC |
 | mapper | 完整来源/许可 JSON 往返；未知枚举安全处理；损坏数据转 Storage，不能变为可信内容 |
-| schema | 生成 Drift 代码并导出 v1 schema；空库创建；外键开启；复合主键/唯一约束；重复打开不改变数据 |
-| seed | 同包两次导入收据一致；乱序内容规范化；同版本不同载荷拒绝；旧版本拒绝；悬空关系/重复 ID/来源/许可缺失拒绝 |
-| 事务隔离 | 中途异常无部分内容/成功收据；同 ID 内容冲突全包回滚；导入前后学习状态与日志逐字段相同 |
+| schema | 已生成 Drift 代码并验证内存空库创建、外键开启；仍需导出 v1 schema、复合主键/唯一约束、持久库重复打开验证 |
+| seed | 已验证同包两次导入幂等和同版本变更拒绝；仍需乱序规范化、旧版本拒绝、悬空关系/重复 ID/来源/许可缺失验证 |
+| 事务隔离 | 仍需注入中途异常验证无部分内容/成功收据、同 ID 冲突全包回滚，以及导入前后学习状态与日志保持不变 |
 | 持久化学习 | 队列/日志/状态/计数同事务；重启恢复；并发重复提交；已结束会话拒绝写入；FSRS 字段保持 null |
 | 后续迁移 | 从导出的历史版本增量升级；保留学习数据与来源；失败恢复；未知版本拒绝且不清库 |
 
