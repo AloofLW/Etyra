@@ -79,6 +79,21 @@
 
 这 7 项仍全部是待审核候选；本次只审了词源页面，尚未完成高中词汇范围、使用频率、词义编辑、逐词构词关系以及复核人审阅。
 
+## 第三批词根页面分诊
+
+2026-11-01 对 `cap`、`ced`、`duc`、`mit`、`mot`、`rupt`、`script`、`tract` 做页面分诊，记录了潜在词干变体：
+
+- [capture](https://en.wiktionary.org/wiki/capture) 经 Middle French 回溯到 Latin captūra/captus/capiō，支持 `cap/capt` 候选，但英语词形关系仍须逐项核验。
+- [precede](https://en.wiktionary.org/wiki/precede) 明确来自 Latin `prae-` + `cēdō`，支持 `ced` 候选；`cess` 变体暂存待核。
+- [conduct](https://en.wiktionary.org/wiki/conduct) 与 [conduce](https://en.wiktionary.org/wiki/conduce) 追溯到 condūcō/condūcere 和 dūcō，支持 `duc/duct` 候选家族。
+- [submit](https://en.wiktionary.org/wiki/submit) 明确来自 Latin submittere，即 `sub-` + `mitto`；[submission](https://en.wiktionary.org/wiki/submission) 追溯到 submissio/submitto，支持继续审核 `mit/miss` 变体。
+- [motion](https://en.wiktionary.org/wiki/motion) 追溯到 Latin mōtiō、movēre；[movement](https://en.wiktionary.org/wiki/movement) 也经 movoir 回溯到 movēre，支持 `mot/mov` 家族候选，但字面切分须逐词证明。
+- [interrupt](https://en.wiktionary.org/wiki/interrupt) 来自 Latin interrumpere（`inter-` + `rumpere`），支持 `rump/rupt` 候选。
+- [description](https://en.wiktionary.org/wiki/description) 来自 Latin dēscrībō；[scribe](https://en.wiktionary.org/wiki/scribe) 来自 scrībere，支持 `scrib/script` 候选家族。
+- [contract](https://en.wiktionary.org/wiki/contract) 将 contrahere 分析为 `con-` + `trahere`；[tract](https://en.wiktionary.org/wiki/tract) 也追溯到 trahere/tractus，支持 `trah/tract` 候选家族。
+
+这些结果只支持候选词根/词干家族继续审核，不意味着这些形式可以在 UI 中互换或自动生成关联。8 项仍待高中范围、词频、具体关联词、释义与来源许可审核。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -90,6 +105,7 @@
 - 首批 50 个待评估词形已登记在 `docs/ROOT_CANDIDATES_V0_1.csv`。该文件只用于排序和逐项审核，所有行仍为 `candidate_only`；任何 `decision` 值都只是候选处置，不代表产品批准。词形不代表已确认的词根定义、来源、构词关系或高中范围适配性。审核完成前不得导入应用、seed 或展示为已验证内容。
 - 已对 `port`、`spect`、`struct`、`dict` 做首轮来源页面分诊；候选处置与关键歧义已写入 CSV。它们仍待高中适用性和逐词关联审查，`dict` 的候选形式需继续核验。
 - 已对 `act`、`aud`、`cred`、`fac`、`fer`、`fin`、`form` 做第二批页面分诊；其中 `factory` 作为 `fac` 关联词证据不足，不能纳入已验证关系。
+- 已对 `cap`、`ced`、`duc`、`mit`、`mot`、`rupt`、`script`、`tract` 做第三批页面分诊，并将潜在 allomorph 记录为待核，不据拼写自动建立关系。
 - 另将 8 个前缀/后缀形式转入 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前需补 8 项。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
