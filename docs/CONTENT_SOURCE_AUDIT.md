@@ -48,6 +48,17 @@
 - 暂不纳入：专名、罕见历史词、仅靠拼写相似判断的关系、争议词源未标注、来源许可不明、释义/例句权利不清的条目。若条目对学习仍有价值但关系证据不足，可独立作为单词候选，不声明词根关系。
 - 词频/考试范围用于排序而非词源证明。任何参考词表须记录名称、发布者、版次、许可和定位；不得整表复制或将考试出现等同于构词事实。
 
+## 首轮词源页面分诊
+
+2026-11-01 对四个高优先级候选做了第一轮页面核对。以下仅证明候选形式值得继续审查，不代表释义、关联词表或高中适用性已通过编辑审核；所有候选仍不可导入产品：
+
+- `port`：Wiktionary 的 [portable](https://en.wiktionary.org/wiki/portable) 页面明确给出表层分析 `port`（carry）+ `-able`；[port](https://en.wiktionary.org/wiki/port) 同时列出其他历史词源/义项。必须将“搬运”这一候选义与“港口”等同形来源分开。
+- `spect`：Wiktionary 的 [inspect](https://en.wiktionary.org/wiki/inspect) 将其分析为 `in-` + `-spect`，并指向拉丁语 `specere`；[respect](https://en.wiktionary.org/wiki/respect) 追溯到 `speciō` 经 `respiciō`/`respectus` 的路径。作为 bound form 候选保留；关联词需要各自核验。
+- `struct`：Wiktionary 的 [structure](https://en.wiktionary.org/wiki/structure) 将词源追至拉丁语 `struere` 与分词 `structus`。保留为词干/异形候选，需确认模型中如何清楚表达其形态边界。
+- `dict`：Wiktionary 的 [predict](https://en.wiktionary.org/wiki/predict) 分析为拉丁语 `prae-` + `dīcō`，并提及 `praedictus`。不能据此仅按拼写把 `predict` 关联到 `dict`；候选已调整为暂存 `dic/dict` 词干家族，待继续查核英文派生形态。
+
+详细 URL、访问日、许可复核提醒和候选处置见 `docs/ROOT_CANDIDATES_V0_1.csv`。Wiktionary 当前页面由社群维护，后续正式收录仍须保留来源页面/修订定位、满足署名和许可要求，并由内容审校者确认。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -56,6 +67,7 @@
 ## 本地开发任务影响
 
 - 许可方向及高中选词基线已确认；ET-01 可开始建立候选审核表，但具体条目必须逐条完成来源、许可、释义和词源校验后才能进入产品 seed。
-- 首批 50 个待评估词形已登记在 `docs/ROOT_CANDIDATES_V0_1.csv`。该文件只用于排序和逐项审核，所有行均为 `candidate_only`、`pending`；词形不代表已确认的词根定义、来源、构词关系或高中范围适配性。审核完成前不得导入应用、seed 或展示为已验证内容。
+- 首批 50 个待评估词形已登记在 `docs/ROOT_CANDIDATES_V0_1.csv`。该文件只用于排序和逐项审核，所有行仍为 `candidate_only`；任何 `decision` 值都只是候选处置，不代表产品批准。词形不代表已确认的词根定义、来源、构词关系或高中范围适配性。审核完成前不得导入应用、seed 或展示为已验证内容。
+- 已对 `port`、`spect`、`struct`、`dict` 做首轮来源页面分诊；候选处置与关键歧义已写入 CSV。它们仍待高中适用性和逐词关联审查，`dict` 的候选形式需继续核验。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
