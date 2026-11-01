@@ -23,11 +23,11 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、497 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、481 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
-[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、94 项无中文线索、255 项有多个已提取英文义项行；任何线索均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
+[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、90 项无中文线索、255 项有多个已提取英文义项行；任何线索均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
@@ -60,6 +60,8 @@
 [`docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv`](../../CURATED_SUPPLEMENT_FUNCTION_PILOT.csv) 从补充候选中选出 15 个词的 17 条义项并编写中文及用法草稿，保留原始 gloss、词性、sense ID 和页面；这些是待复核的编辑草稿，不代表包含该词所有用法，也不能当作课标词义或正式译文。后续须复核代词的指代范围、单复数、语境和许可。
 
 来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 27 条编辑草稿均未使用该重复 ID。
+
+从上述已固定的五种词性和 20 个单词 JSONL 快照提取简体/繁体中文及普通话翻译线索，形成 [`docs/KAIKKI_TRANSLATION_CANDIDATES.csv`](../../KAIKKI_TRANSLATION_CANDIDATES.csv)：33 个候选共 118 行，保留原文、来源词性、来源提供的义项说明和快照编号。该表可能包含繁简并列写法、专用或地区用法，原文不自动拆分；来源 `sense` 字段只是翻译框标签，不是已验证的 sense ID，绝不能自动将翻译与任一英文义项配对。译文、来源和许可均须逐条复核。数据来源、署名和许可适用本节 Wiktionary/Kaikki 条件。复现：`python3 tools/content/extract_kaikki_translation_candidates.py /path/to/pos-snapshots /path/to/main-snapshots /path/to/supplement-snapshots /tmp/etyra-translations.csv`；脚本校验此前各节记录的全部快照摘要，拒绝覆盖输出。
 
 此前未找到英文 gloss 的 13 个主候选现从 Kaikki 单词页固定快照取得 101 条义项线索，见 [`docs/KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv`](../../KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv)。其中 `criteria`、`founded` 等包含词形义，应回到原形及所需语境核对；`multi` 和 `trans` 的单词页面所含词性不等同词缀 `multi-` 和 `trans-`，不能据此为词缀生成释义或词根关系。数据保留词性、标签、英文 gloss、源页面和 sense ID，未收例句；所有义项未审校。适用上述 Kaikki/Wiktionary 来源、署名及许可条件。各单词快照的顺序和 SHA-256 记录在 `tools/content/extract_kaikki_main_gap_words.py`；将快照按 0–12 命名放入目录后，运行 `python3 tools/content/extract_kaikki_main_gap_words.py /path/to/snapshots /tmp/etyra-main-gap-senses.csv` 可复现，源文件不提交仓库。
 

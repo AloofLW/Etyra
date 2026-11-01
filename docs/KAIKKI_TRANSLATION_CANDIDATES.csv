@@ -1,0 +1,119 @@
+inventory,candidate_id,headword,source_word,pos,language_code,translation_original,source_sense_label,snapshot,source_url,status
+main,vocab-candidate-089857f9c407941715fa,goods,goods,noun,cmn,產品 /产品,"that which is produced, traded, bought or sold",main-4,https://en.wiktionary.org/wiki/goods,translation_clue_unreviewed
+main,vocab-candidate-089857f9c407941715fa,goods,goods,noun,cmn,製品 /制品,"that which is produced, traded, bought or sold",main-4,https://en.wiktionary.org/wiki/goods,translation_clue_unreviewed
+main,vocab-candidate-089857f9c407941715fa,goods,goods,noun,cmn,貨物 /货物,"that which is produced, traded, bought or sold",main-4,https://en.wiktionary.org/wiki/goods,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,TA (tā),"third-person singular, of unknown, irrelevant, or non-binary gender",pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,ана,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,та,"third-person singular, of unknown, irrelevant, or non-binary gender",pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,таму,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,他,"third-person singular, of unknown, irrelevant, or non-binary gender",pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,他們 /他们,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,伊,"third-person singular, of unknown, irrelevant, or non-binary gender",pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,她們 /她们,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,它們 /它们,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,𪜶,third-person plural pronoun,pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-151e58a831306903b282,they,they,pron,zh,𲎿,"third-person singular, of unknown, irrelevant, or non-binary gender",pos-pron,https://en.wiktionary.org/wiki/they,translation_clue_unreviewed
+main,vocab-candidate-1eb79602411ef02cf6fe,this,this,det,zh,җы,the (thing) here,pos-det,https://en.wiktionary.org/wiki/this,translation_clue_unreviewed
+main,vocab-candidate-1eb79602411ef02cf6fe,this,this,det,zh,此,the (thing) here,pos-det,https://en.wiktionary.org/wiki/this,translation_clue_unreviewed
+main,vocab-candidate-1eb79602411ef02cf6fe,this,this,det,zh,這 /这,known (thing) just mentioned,pos-det,https://en.wiktionary.org/wiki/this,translation_clue_unreviewed
+main,vocab-candidate-1eb79602411ef02cf6fe,this,this,det,zh,這 /这,the (thing) here,pos-det,https://en.wiktionary.org/wiki/this,translation_clue_unreviewed
+main,vocab-candidate-28391d3bc64ec15cbb09,of,of,prep,cmn,...之,possessive genitive: belonging to,pos-prep,https://en.wiktionary.org/wiki/of,translation_clue_unreviewed
+main,vocab-candidate-28391d3bc64ec15cbb09,of,of,prep,cmn,...的,possessive genitive: belonging to,pos-prep,https://en.wiktionary.org/wiki/of,translation_clue_unreviewed
+main,vocab-candidate-28391d3bc64ec15cbb09,of,of,prep,cmn,...的,subjective genitive: connecting action noun with subject,pos-prep,https://en.wiktionary.org/wiki/of,translation_clue_unreviewed
+main,vocab-candidate-28391d3bc64ec15cbb09,of,of,prep,cmn,的,"containing, comprising or made from",pos-prep,https://en.wiktionary.org/wiki/of,translation_clue_unreviewed
+main,vocab-candidate-2cda85e504e155f30a40,she,she,pron,cmn,他,person,pos-pron,https://en.wiktionary.org/wiki/she,translation_clue_unreviewed
+main,vocab-candidate-2cda85e504e155f30a40,she,she,pron,cmn,伊,person,pos-pron,https://en.wiktionary.org/wiki/she,translation_clue_unreviewed
+main,vocab-candidate-2cda85e504e155f30a40,she,she,pron,cmn,她,person,pos-pron,https://en.wiktionary.org/wiki/she,translation_clue_unreviewed
+main,vocab-candidate-2e1d76579d44d7cfe5f3,although,although,conj,cmn,不過 /不过,but,pos-conj,https://en.wiktionary.org/wiki/although,translation_clue_unreviewed
+main,vocab-candidate-2e1d76579d44d7cfe5f3,although,although,conj,cmn,但是,but,pos-conj,https://en.wiktionary.org/wiki/although,translation_clue_unreviewed
+main,vocab-candidate-2e1d76579d44d7cfe5f3,although,although,conj,cmn,可是,but,pos-conj,https://en.wiktionary.org/wiki/although,translation_clue_unreviewed
+main,vocab-candidate-2e1d76579d44d7cfe5f3,although,although,conj,cmn,然而,but,pos-conj,https://en.wiktionary.org/wiki/although,translation_clue_unreviewed
+main,vocab-candidate-2e3200de84b9cada8390,until,until,prep,cmn,直到,up to the time of,pos-prep,https://en.wiktionary.org/wiki/until,translation_clue_unreviewed
+main,vocab-candidate-2e3200de84b9cada8390,until,until,prep,cmn,直至,up to the time of,pos-prep,https://en.wiktionary.org/wiki/until,translation_clue_unreviewed
+main,vocab-candidate-2e3200de84b9cada8390,until,until,prep,cmn,至,up to the time of,pos-prep,https://en.wiktionary.org/wiki/until,translation_clue_unreviewed
+main,vocab-candidate-3509fd899235fb8b7604,whether,whether,conj,cmn,...不,"if, whether or not",pos-conj,https://en.wiktionary.org/wiki/whether,translation_clue_unreviewed
+main,vocab-candidate-3509fd899235fb8b7604,whether,whether,conj,cmn,還是 /还是,"if, whether or not",pos-conj,https://en.wiktionary.org/wiki/whether,translation_clue_unreviewed
+main,vocab-candidate-42ea40f608ce244fb08c,themselves,themselves,pron,cmn,他們自己 /他们自己,"the persons of unspecified gender previously mentioned, as the object of a verb or following a preposition",pos-pron,https://en.wiktionary.org/wiki/themselves,translation_clue_unreviewed
+main,vocab-candidate-591e97a713a2e30d99a7,ourselves,ourselves,pron,cmn,我们自己,emphatic: we,pos-pron,https://en.wiktionary.org/wiki/ourselves,translation_clue_unreviewed
+main,vocab-candidate-591e97a713a2e30d99a7,ourselves,ourselves,pron,cmn,我們自己 /我们自己,emphatic: we,pos-pron,https://en.wiktionary.org/wiki/ourselves,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,以及,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,及,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,同,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,和,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,就,used to show causation,pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,暨,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,然後 /然后,used to string together sentences or sentence fragments in chronological order,pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-6201111b83a0cb5b0922,and,and,conj,cmn,與 /与,"used to connect two similar words, phrases, et cetera",pos-conj,https://en.wiktionary.org/wiki/and,translation_clue_unreviewed
+main,vocab-candidate-663ea1bfffe5038f3f0c,to,to,prep,zh,差,time: preceding,pos-prep,https://en.wiktionary.org/wiki/to,translation_clue_unreviewed
+main,vocab-candidate-663ea1bfffe5038f3f0c,to,to,prep,zh,比,used to indicate ratios,pos-prep,https://en.wiktionary.org/wiki/to,translation_clue_unreviewed
+main,vocab-candidate-663ea1bfffe5038f3f0c,to,to,prep,zh,給 /给,used to indicate the indirect object,pos-prep,https://en.wiktionary.org/wiki/to,translation_clue_unreviewed
+main,vocab-candidate-6b5a3ded016ab7826989,since,since,prep,cmn,從 /从,from (time),pos-prep,https://en.wiktionary.org/wiki/since,translation_clue_unreviewed
+main,vocab-candidate-6b5a3ded016ab7826989,since,since,prep,cmn,自,from (time),pos-prep,https://en.wiktionary.org/wiki/since,translation_clue_unreviewed
+main,vocab-candidate-6b5a3ded016ab7826989,since,since,prep,cmn,自從 /自从,from (time),pos-prep,https://en.wiktionary.org/wiki/since,translation_clue_unreviewed
+main,vocab-candidate-721c9525ade2ea8903d3,media,media,noun,cmn,傳媒 /传媒,the journalists and other professionals who comprise the mass communication industry,main-6,https://en.wiktionary.org/wiki/media,translation_clue_unreviewed
+main,vocab-candidate-721c9525ade2ea8903d3,media,media,noun,cmn,媒體 /媒体,means and institutions for publishing and broadcasting information,main-6,https://en.wiktionary.org/wiki/media,translation_clue_unreviewed
+main,vocab-candidate-721c9525ade2ea8903d3,media,media,noun,cmn,媒體 /媒体,the journalists and other professionals who comprise the mass communication industry,main-6,https://en.wiktionary.org/wiki/media,translation_clue_unreviewed
+main,vocab-candidate-75857a45899985be4c4d,from,from,prep,cmn,出於 /出于,"with the origin, starting point or initial reference of or at",pos-prep,https://en.wiktionary.org/wiki/from,translation_clue_unreviewed
+main,vocab-candidate-75857a45899985be4c4d,from,from,prep,cmn,從 /从,"with the origin, starting point or initial reference of or at",pos-prep,https://en.wiktionary.org/wiki/from,translation_clue_unreviewed
+main,vocab-candidate-75857a45899985be4c4d,from,from,prep,cmn,由,"with the origin, starting point or initial reference of or at",pos-prep,https://en.wiktionary.org/wiki/from,translation_clue_unreviewed
+main,vocab-candidate-75857a45899985be4c4d,from,from,prep,cmn,由於 /由于,"with the origin, starting point or initial reference of or at",pos-prep,https://en.wiktionary.org/wiki/from,translation_clue_unreviewed
+main,vocab-candidate-75857a45899985be4c4d,from,from,prep,cmn,自,"with the origin, starting point or initial reference of or at",pos-prep,https://en.wiktionary.org/wiki/from,translation_clue_unreviewed
+main,vocab-candidate-76678e40cf8bdb8a8350,during,during,prep,cmn,在……期間 /在……期间,within a given time interval,pos-prep,https://en.wiktionary.org/wiki/during,translation_clue_unreviewed
+main,vocab-candidate-766c1d13a3e06c4dfcfc,among,among,prep,cmn,之間 /之间,of a person or thing: in the midst of and surrounded by (other people or things),pos-prep,https://en.wiktionary.org/wiki/among,translation_clue_unreviewed
+main,vocab-candidate-766c1d13a3e06c4dfcfc,among,among,prep,cmn,其中,of a person or thing: in the midst of and surrounded by (other people or things),pos-prep,https://en.wiktionary.org/wiki/among,translation_clue_unreviewed
+main,vocab-candidate-850f7dc43910ff890f88,café,café,noun,cmn,咖啡屋,coffee shop,main-0,https://en.wiktionary.org/wiki/caf%C3%A9,translation_clue_unreviewed
+main,vocab-candidate-850f7dc43910ff890f88,café,café,noun,cmn,咖啡店,coffee shop,main-0,https://en.wiktionary.org/wiki/caf%C3%A9,translation_clue_unreviewed
+main,vocab-candidate-850f7dc43910ff890f88,café,café,noun,cmn,咖啡廳 /咖啡厅,coffee shop,main-0,https://en.wiktionary.org/wiki/caf%C3%A9,translation_clue_unreviewed
+main,vocab-candidate-850f7dc43910ff890f88,café,café,noun,cmn,咖啡館 /咖啡馆,coffee shop,main-0,https://en.wiktionary.org/wiki/caf%C3%A9,translation_clue_unreviewed
+main,vocab-candidate-8e7fc0236af43df93406,that,that,pron,cmn,彼,that thing,pos-pron,https://en.wiktionary.org/wiki/that,translation_clue_unreviewed
+main,vocab-candidate-8e7fc0236af43df93406,that,that,pron,cmn,那,that thing,pos-pron,https://en.wiktionary.org/wiki/that,translation_clue_unreviewed
+main,vocab-candidate-8e7fc0236af43df93406,that,that,pron,cmn,那,which,pos-pron,https://en.wiktionary.org/wiki/that,translation_clue_unreviewed
+main,vocab-candidate-8e7fc0236af43df93406,that,that,pron,cmn,那个,which,pos-pron,https://en.wiktionary.org/wiki/that,translation_clue_unreviewed
+main,vocab-candidate-935f68319d4f227e02bf,if,if,conj,cmn,...的话,supposing that,pos-conj,https://en.wiktionary.org/wiki/if,translation_clue_unreviewed
+main,vocab-candidate-935f68319d4f227e02bf,if,if,conj,cmn,如,supposing that,pos-conj,https://en.wiktionary.org/wiki/if,translation_clue_unreviewed
+main,vocab-candidate-935f68319d4f227e02bf,if,if,conj,cmn,如果,supposing that,pos-conj,https://en.wiktionary.org/wiki/if,translation_clue_unreviewed
+main,vocab-candidate-935f68319d4f227e02bf,if,if,conj,cmn,當 /当,supposing that,pos-conj,https://en.wiktionary.org/wiki/if,translation_clue_unreviewed
+main,vocab-candidate-935f68319d4f227e02bf,if,if,conj,cmn,要是,supposing that,pos-conj,https://en.wiktionary.org/wiki/if,translation_clue_unreviewed
+main,vocab-candidate-a97541517d61b2f6edb6,whereas,whereas,conj,cmn,鑒於 /鉴于,it being the case that…,pos-conj,https://en.wiktionary.org/wiki/whereas,translation_clue_unreviewed
+main,vocab-candidate-bb0347a468d97e98a9c0,you,you,pron,zh,ни,subject pronoun: the person being addressed,pos-pron,https://en.wiktionary.org/wiki/you,translation_clue_unreviewed
+main,vocab-candidate-bb0347a468d97e98a9c0,you,you,pron,zh,你,subject pronoun: the person being addressed,pos-pron,https://en.wiktionary.org/wiki/you,translation_clue_unreviewed
+main,vocab-candidate-bb0347a468d97e98a9c0,you,you,pron,zh,您,subject pronoun: the person being addressed,pos-pron,https://en.wiktionary.org/wiki/you,translation_clue_unreviewed
+main,vocab-candidate-bb0347a468d97e98a9c0,you,you,pron,zh,汝,subject pronoun: the person being addressed,pos-pron,https://en.wiktionary.org/wiki/you,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,вәму,"generic we (the speaker and at least one other person, regardless of whether it's the person being addressed)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,你我,"inclusive we (the speaker and the person(s) being addressed, and possibly others)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,俺們 /俺们,"generic we (the speaker and at least one other person, regardless of whether it's the person being addressed)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,咱,"inclusive we (the speaker and the person(s) being addressed, and possibly others)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,咱人,"inclusive we (the speaker and the person(s) being addressed, and possibly others)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,咱們 /咱们,"inclusive we (the speaker and the person(s) being addressed, and possibly others)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-dc7c811b9561739d9b75,we,we,pron,zh,我們 /我们,"generic we (the speaker and at least one other person, regardless of whether it's the person being addressed)",pos-pron,https://en.wiktionary.org/wiki/we,translation_clue_unreviewed
+main,vocab-candidate-f86b1f62a8554232b940,should,should,verb,cmn,倘若,if; in case of,main-9,https://en.wiktionary.org/wiki/should,translation_clue_unreviewed
+main,vocab-candidate-f86b1f62a8554232b940,should,should,verb,cmn,如果,if; in case of,main-9,https://en.wiktionary.org/wiki/should,translation_clue_unreviewed
+main,vocab-candidate-f86b1f62a8554232b940,should,should,verb,cmn,應當 /应当,expressing obligation,main-9,https://en.wiktionary.org/wiki/should,translation_clue_unreviewed
+main,vocab-candidate-f86b1f62a8554232b940,should,should,verb,cmn,應該 /应该,expressing obligation,main-9,https://en.wiktionary.org/wiki/should,translation_clue_unreviewed
+main,vocab-candidate-f86b1f62a8554232b940,should,should,verb,cmn,該 /该,expressing obligation,main-9,https://en.wiktionary.org/wiki/should,translation_clue_unreviewed
+main,vocab-candidate-fa690b82061edfd28526,hey,hey,intj,cmn,哎,exclamation to get attention,main-5,https://en.wiktionary.org/wiki/hey,translation_clue_unreviewed
+main,vocab-candidate-fa690b82061edfd28526,hey,hey,intj,cmn,喂,exclamation to get attention,main-5,https://en.wiktionary.org/wiki/hey,translation_clue_unreviewed
+main,vocab-candidate-fa690b82061edfd28526,hey,hey,intj,cmn,嗨,exclamation to get attention,main-5,https://en.wiktionary.org/wiki/hey,translation_clue_unreviewed
+main,vocab-candidate-fa690b82061edfd28526,hey,hey,intj,cmn,嗨,informal greeting,main-5,https://en.wiktionary.org/wiki/hey,translation_clue_unreviewed
+main,vocab-candidate-fa690b82061edfd28526,hey,hey,intj,cmn,嘿,exclamation to get attention,main-5,https://en.wiktionary.org/wiki/hey,translation_clue_unreviewed
+supplement,vocab-candidate-354cbfc814262a7a81d3,her,her,det,cmn,她的,belonging to,pos-det,https://en.wiktionary.org/wiki/her,translation_clue_unreviewed
+supplement,vocab-candidate-55efa0938f9f52fb6de3,whose,whose,det,cmn,誰的 /谁的,of whom (interrogative),pos-det,https://en.wiktionary.org/wiki/whose,translation_clue_unreviewed
+supplement,vocab-candidate-a172cedcae47474b615c,app,app,noun,cmn,APP,small computer application,supplement-0,https://en.wiktionary.org/wiki/app,translation_clue_unreviewed
+supplement,vocab-candidate-a172cedcae47474b615c,app,app,noun,cmn,應用 /应用,small computer application,supplement-0,https://en.wiktionary.org/wiki/app,translation_clue_unreviewed
+supplement,vocab-candidate-a172cedcae47474b615c,app,app,noun,cmn,應用程序 /应用程序,small computer application,supplement-0,https://en.wiktionary.org/wiki/app,translation_clue_unreviewed
+supplement,vocab-candidate-a172cedcae47474b615c,app,app,noun,cmn,應用程式 /应用程式,small computer application,supplement-0,https://en.wiktionary.org/wiki/app,translation_clue_unreviewed
+supplement,vocab-candidate-a6556e4852e2639053a3,our,our,det,cmn,我們的 /我们的,belonging to us,pos-det,https://en.wiktionary.org/wiki/our,translation_clue_unreviewed
+supplement,vocab-candidate-ae0bec9e9d33c56354bd,ours,ours,pron,cmn,咱們的 /咱们的,that which belongs to us,pos-pron,https://en.wiktionary.org/wiki/ours,translation_clue_unreviewed
+supplement,vocab-candidate-ae0bec9e9d33c56354bd,ours,ours,pron,cmn,咱的,that which belongs to us,pos-pron,https://en.wiktionary.org/wiki/ours,translation_clue_unreviewed
+supplement,vocab-candidate-ae0bec9e9d33c56354bd,ours,ours,pron,cmn,我們的 /我们的,that which belongs to us,pos-pron,https://en.wiktionary.org/wiki/ours,translation_clue_unreviewed
+supplement,vocab-candidate-c9a8dc336964db7fd6c7,them,them,pron,cmn,他們 /他们,third personal plural pronoun used after a preposition or as the object of a verb,pos-pron,https://en.wiktionary.org/wiki/them,translation_clue_unreviewed
+supplement,vocab-candidate-c9a8dc336964db7fd6c7,them,them,pron,cmn,她們 /她们,third personal plural pronoun used after a preposition or as the object of a verb,pos-pron,https://en.wiktionary.org/wiki/them,translation_clue_unreviewed
+supplement,vocab-candidate-c9a8dc336964db7fd6c7,them,them,pron,cmn,它們 /它们,third personal plural pronoun used after a preposition or as the object of a verb,pos-pron,https://en.wiktionary.org/wiki/them,translation_clue_unreviewed
+supplement,vocab-candidate-c9a8dc336964db7fd6c7,them,them,pron,cmn,牠們 /它们,third personal plural pronoun used after a preposition or as the object of a verb,pos-pron,https://en.wiktionary.org/wiki/them,translation_clue_unreviewed
+supplement,vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,o'clock,adv,cmn,一點鐘 /一点钟,"indication of time (the translations below are of ""one o’clock"")",supplement-4,https://en.wiktionary.org/wiki/o%27clock,translation_clue_unreviewed
+supplement,vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,o'clock,adv,cmn,一點鐘 /一点钟,"the translations below are of ""at one o’clock""",supplement-4,https://en.wiktionary.org/wiki/o%27clock,translation_clue_unreviewed
+supplement,vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,cmn,WiFi (wāifài),computing: wireless data communication standard,supplement-5,https://en.wiktionary.org/wiki/Wi-Fi,translation_clue_unreviewed
+supplement,vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,cmn,歪ㄈㄞˋ,computing: wireless data communication standard,supplement-5,https://en.wiktionary.org/wiki/Wi-Fi,translation_clue_unreviewed
+supplement,vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,cmn,無線熱點 /无线热点,computing: wireless data communication standard,supplement-5,https://en.wiktionary.org/wiki/Wi-Fi,translation_clue_unreviewed
+supplement,vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,cmn,無線網絡 /无线网络,computing: wireless data communication standard,supplement-5,https://en.wiktionary.org/wiki/Wi-Fi,translation_clue_unreviewed
+supplement,vocab-candidate-f1ea8dbd316e2039eb98,wi-fi,Wi-Fi,noun,cmn,無線網路 /无线网路,computing: wireless data communication standard,supplement-5,https://en.wiktionary.org/wiki/Wi-Fi,translation_clue_unreviewed
