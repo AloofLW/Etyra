@@ -162,6 +162,10 @@
 
 在补齐关联词遗漏的 OEWN 候选与 COW 义项后，第四批增加 4 条草稿，总计 50 条：`conduce`、`pedestrian`、`civic`、`numeral`。其中 `numeral` 选择形容词“数字的”，名词义项与来源路径需另行处理；`conduce` 的高中适用性仍待确认。所有条目仍待最终内容与许可验收。
 
+对构词模板线索与既有 root/stem 候选作精确组件对照并查看原文后，新增 `actor` → `act` 关系候选 `WC-069` 和一条选择“演员”义项的编辑草稿，候选关系累计 69 条、编辑草稿累计 51 条。固定 [actor 页面修订](https://en.wiktionary.org/w/index.php?title=actor&oldid=93738073)记录从拉丁语 āctor、agō 经法语进入英语的历史路径，并另给出现代英语 act + -or 的等价分析；不得把现代分析误写为实际历史派生顺序，关系与译文仍待最终审核。
+
+同一组件对照还出现 `airport` 的 `port`，但其[固定来源修订](https://en.wiktionary.org/w/index.php?title=airport&oldid=94579816)明确标记港口义 `portus`；当前 `RC-027` 仅表示“搬运”义的 port 候选，因此不建立 `airport` → `RC-027` 关系。此反例说明同形和词典构词模板不能独立证明词根义项相同。
+
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。

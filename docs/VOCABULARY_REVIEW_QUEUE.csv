@@ -65,7 +65,7 @@ vocab-candidate-96879611650f80a81392,active,NGSL-GR-1.0,17,7,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-b19779a13eef90e4e9e4,actively,NGSL-GR-1.0|NAWL-1.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,chinese_sense_clue_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-f2b5e68aa91b38db759b,activist,NGSL-GR-1.0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,chinese_sense_clue_needed|sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-0651863bf5d902262b17,activity,NGSL-GR-1.0,6,5,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-50c9c4aeb40b5b206b6d,actor,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-50c9c4aeb40b5b206b6d,actor,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,1,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-dbc2c9ff59b9a02cb9d8,actress,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e5c6fde86910ded72db5,actual,NGSL-GR-1.0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e4c05c565b8cac5ea254,actually,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
