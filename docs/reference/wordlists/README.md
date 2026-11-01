@@ -175,6 +175,10 @@
 
 工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。已有缓存可离线复现当前前缀：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-bulk /tmp/etyra-index.csv --cached-only`；页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
 
+对上述 400 个固定修订中的英语词源章节，提取显式的简单 `af`、`affix`、`prefix`、`suffix`、`compound` 模板参数，得到 [`docs/WIKTIONARY_MORPHOLOGY_CLUES.csv`](../../WIKTIONARY_MORPHOLOGY_CLUES.csv) 中 84 个词的 84 条构词线索；每条保留章节、模板、原始组件、页面修订及 `morphology_clue_unreviewed`。仅记录模板参数，并非词根—单词关系：前缀、后缀和复合词组件不能自动归为词根；现代构词分析也不能等同历史词源。模板所在句可能带有不确定、对比或否定语境，命名参数未纳入组件，嵌套模板被排除，必须打开固定修订逐项核验完整上下文、词义、许可及词根边界。该批不覆盖其余 4942 个候选，也不作为正式产品数据。
+
+复现：`python3 tools/content/extract_wiktionary_morphology_clues.py /tmp/etyra-wiki-bulk /tmp/etyra-morphology-clues.csv`；脚本对照缓存中的页面标题、修订和 API 返回的 SHA-1 元数据，未重新计算正文摘要，并拒绝覆盖输出。原始缓存可能被系统清理；重新取得修订时须保持固定版本并遵守站点访问限制。来源是 English Wiktionary contributors，适用前述逐页来源、署名、许可及修改记录要求。
+
 ## 镜像星号分层试算
 
 对既有未认证镜像的探索性提取结果，仅对简单单词行按去星号、忽略大小写的拼写键分类：无星号行中 1427 行匹配主清单、111 行匹配缺口补充候选；一个星号分别为 437、58 行；两个星号分别为 856、124 行；85 行复杂形式排除。当前没有简单行落入这两类之外。统计单位为提取行而非去重单词，补充候选包括 OEWN 缺口和 Wiktionary 缺口；匹配只是字符串相同，不证明词形、大小写、词义、星号识别或课程等级已核准。复杂行、地区增补、来源真伪和授权仍未解决，不可用作完整覆盖率或正式入库依据。
