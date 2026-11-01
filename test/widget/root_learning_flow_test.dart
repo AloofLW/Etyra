@@ -9,6 +9,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../support/fake_roots.dart';
+import '../support/fake_words.dart';
 
 Future<void> tapText(WidgetTester tester, String text) async {
   final target = find.text(text);
@@ -68,17 +69,21 @@ void main() {
   testWidgets('四个底部入口可访问，未接入页面明确提示', (tester) async {
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [rootRepositoryProvider.overrideWithValue(FakeRoots())],
+        overrides: [
+          rootRepositoryProvider.overrideWithValue(FakeRoots()),
+          wordRepositoryProvider.overrideWithValue(FakeWords()),
+        ],
         child: const EtyraApp(),
       ),
     );
     expect(find.byType(CupertinoTabBar), findsOneWidget);
-    for (final (label, message) in [('单词', '单词浏览尚未接入。'), ('设置', '设置功能尚未接入。')]) {
-      await tester.tap(find.text(label).last);
-      await tester.pumpAndSettle();
-      expect(find.text(message), findsOneWidget);
-      expect(find.text('演示内容 · 未接入真实词库，学习记录不会保存。'), findsOneWidget);
-    }
+    await tester.tap(find.text('单词').last);
+    await tester.pumpAndSettle();
+    expect(find.text('暂无单词内容'), findsOneWidget);
+    await tester.tap(find.text('设置').last);
+    await tester.pumpAndSettle();
+    expect(find.text('设置功能尚未接入。'), findsOneWidget);
+    expect(find.text('演示内容 · 未接入真实词库，学习记录不会保存。'), findsOneWidget);
     await tester.tap(find.text('词根').last);
     await tester.pumpAndSettle();
     expect(find.text('暂无词根内容'), findsOneWidget);

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
+import '../../words/presentation/word_catalog_page.dart';
 import 'fixtures/root_learning_fixture.dart';
 import 'root_catalog_page.dart';
 import 'root_learning_pages.dart';
@@ -43,7 +44,7 @@ class RootLearningFixturePreview extends StatelessWidget {
         tabBuilder: (context, index) => switch (index) {
           0 => const _LearnerHome(),
           1 => const RootCatalogPage(),
-          2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
+          2 => const WordCatalogPage(),
           _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
         },
       ),

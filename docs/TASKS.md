@@ -67,8 +67,8 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 下一执行批次
 
-1. **对话 01 / ET-01G 装配验收（部分完成）**：已验证文件 SQLite 空库创建、关闭重开、schema 版本保持；真实 Drift provider 在应用词根 Tab 展示空态且不混入 fixture；当前版本已部署并启动于 iPhone 12 Pro（iOS 17.6.1）。待完成真机交互、深浅色、动态字体和 VoiceOver 人工验收。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 仍由对话 01 独占维护（ADR-018）。
-2. **单词浏览 / 详情（本轮开发）**：先由对话 03 实现 `WordDetail(word, roots, affixes, components, examples)`、`WordRepository.getWordDetail(id)`、application 用例和 Drift 显式关系查询；单词不存在返回 NotFound，空关系/例句返回空集合。随后由对话 02 实现真实单词列表/详情 provider UI：加载、空、错误重试、分页、稳定 ID 导航、词性/释义/来源、构词关系、例句；不展示没有来源依据的词源推断，不提供假发音按钮。必须用测试 fake 覆盖有内容与边界，不得在正式空数据库页面混入 fixture。共享 `lib/app/composition/providers.dart` 由对话 01 接入新增 application provider，前后端不得并行修改。真实 Study Session UI 暂不在本批，等待单独验收；词库内容来源与许可仍待确认。
+1. **对话 01 / ET-01G 人工验收**：自动验收已完成：文件 SQLite 空库创建/关闭/重开/schema 版本保持、真实 Drift provider 空态且不混入 fixture；全套 70 项测试和静态分析通过。新版已部署并启动于 iPhone 12 Pro（iOS 17.6.1）。待用户检查真机交互、深浅色、动态字体和 VoiceOver。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 仍由对话 01 独占维护（ADR-018）。
+2. **单词浏览 / 详情（已实现，待真机体验）**：当前分支实现了 `WordDetail(word, roots, affixes, components, examples)`、`WordRepository.getWordDetail(id)`、application 用例、Drift 显式关系查询和 provider 装配；单词 Tab 接入真实列表/详情页面，支持 loading/empty/error retry/cursor pagination、稳定 ID 导航、来源/构词关系/例句。无来源依据时不推断词源、不伪造发音；正式空数据库不混入 fixture。全套 70 项测试、`flutter analyze --no-pub` 通过；待 iPhone 12 Pro 人工体验。
 3. **对话 03 / ET-01E 后续**：DriftStudyRepository 已实现真实会话/答题/跳过/结束/放弃事务，并有重启、并发重复提交和回滚测试；当前没有按 Session ID 恢复未完成界面的 application 查询契约，跨重启恢复需求先由对话 01 决策后再扩展。
 4. **对话 01 / 内容来源**：确认可再分发的词库来源与许可，建立约 50 个词根、300–500 个关联单词的审核清单；来源未确认前不制作产品 seed 内容。
 
@@ -83,11 +83,11 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 当前集成分支上的 ET-01G 验收：`flutter analyze --no-pub` 无问题，`flutter test --no-pub` 56 项通过；文件 SQLite 关闭重开、版本保持及真实 Drift provider 空态均通过。已构建、安装并启动于 iPhone 12 Pro（iOS 17.6.1）。完整真机交互、深浅色/无障碍和持久用户库迁移升级/恢复验证仍待完成；当前变更仍在 `feat/app-composition`，尚未合入 `main`。
+- 当前集成分支 `feat/app-composition`：ET-01G 自动验收和单词浏览/详情实现已集成；`flutter test --no-pub` 70 项通过，`flutter analyze --no-pub` 无问题。新版已重新部署并启动于 iPhone 12 Pro（iOS 17.6.1）；核心交互、外观和无障碍仍待用户真机体验。本分支尚未合入 `main`。
 - 用户已确认 Bundle ID `com.lovmus.etyra`；应用当前已安装并启动于 iPhone 12 Pro（iOS 17.6.1），待人工体验核心学习流程。
 - 新应用图标已生成并替换 iOS AppIcon 全部尺寸；从已部署真机取回图标确认生效。图标母图位于 `assets/branding/etyra-app-icon-1024.png`。
-- 前端首屏已重设计为学习者入口；状态模拟和故障注入移至“预览工具”，演示数据及不保存记录均有明确说明。列表/详情减少重复面板，学习卡片增加进度层级。重设计 widget 测试通过，已合入 `main` 并重新安装到 iPhone 12 Pro。2026-11-01 用户已确认首屏视觉与底部导航基线（ADR-023）；真实 provider 接线、核心交互复核及无障碍设备验收仍待完成。
+- 前端首屏已重设计为学习者入口；状态模拟和故障注入移至“预览工具”，演示数据及不保存记录均有明确说明。列表/详情减少重复面板，学习卡片增加进度层级。2026-11-01 用户已确认首屏视觉与底部导航基线（ADR-023）；词根、单词 Tab 已接入真实 provider，真机核心交互与无障碍设备验收仍待完成。
 - ET-01F App composition 已建立：`lib/app/composition/providers.dart` 提供单一惰性 `AppDatabase` 生命周期、Root/Word 共享内容 Repository、Study/LearningState Repository 及对应 application 用例 providers；首页仍为明确标注的 fixture，词根 Tab 使用真实 provider。
-- 词根真实数据接线已完成：正式词根 Tab 消费列表/详情 providers，展示加载、空库、失败重试、分页和来源校验；首页/演示路径继续使用 fixture。ET-01G 增加文件 SQLite 生命周期与真实 Drift 空态测试，真实 SQLite 内容目前为空。
+- 词根与单词列表/详情均已接真实 provider；首页/学习演示路径继续使用 fixture。词根和单词的正式 SQLite 内容目前为空，尚无经来源/许可审核的产品词库。
 - `DriftStudyRepository` 已持久化学习 session 与事件，关键事务/重启行为通过 SQLite 测试；没有 schema 变更。全套测试输出存在 Drift “同一 QueryExecutor 多个数据库实例”诊断警告，但测试通过；须在稳定 app composition 阶段核对数据库实例生命周期，避免生产环境重复构造。
 - 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。

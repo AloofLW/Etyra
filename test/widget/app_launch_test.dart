@@ -38,6 +38,23 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
+  testWidgets('真实 Drift provider 在空数据库上展示空单词列表', (tester) async {
+    final database = AppDatabase(NativeDatabase.memory());
+    addTearDown(database.close);
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [appDatabaseProvider.overrideWithValue(database)],
+        child: const EtyraApp(),
+      ),
+    );
+    await tester.tap(find.text('单词').last);
+    await tester.pumpAndSettle();
+    expect(find.text('暂无单词内容'), findsOneWidget);
+    expect(find.textContaining('示例'), findsNothing);
+    expect(find.textContaining('占位'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('launches the learner home without preview controls', (
     tester,
   ) async {
