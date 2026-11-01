@@ -24,6 +24,7 @@ def main():
     sources = {
         "oewn_senses": count("OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("OEWN_RELATION_SENSE_CANDIDATES.csv"),
         "cow_sense_links": count("COW_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("COW_RELATION_SENSE_CANDIDATES.csv"),
+        "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv"),
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
     }
     candidates = []
@@ -35,30 +36,31 @@ def main():
                 raise ValueError(f"Candidate overlaps another inventory: {candidate_id}")
             ids.add(candidate_id)
             candidates.append((candidate_id, row[word_key], group, row))
-    for name in ("oewn_senses", "cow_sense_links"):
+    for name in ("oewn_senses", "cow_sense_links", "kaikki_senses"):
         if set(sources[name]) - ids:
             raise ValueError(f"Unknown supplemental ID in {name}")
     with args.output.open("x", encoding="utf-8", newline="") as output:
         writer = csv.writer(output, lineterminator="\n")
         writer.writerow(("candidate_id", "headword_key", "source_group", "mirror_pdf_pages", "oewn_senses",
-                         "cow_sense_links", "word_drafts", "wiktionary_revision", "review_flags", "status"))
+                         "cow_sense_links", "kaikki_senses", "word_drafts", "wiktionary_revision", "review_flags", "status"))
         for candidate_id, word, group, row in sorted(candidates):
             english = sources["oewn_senses"][candidate_id]
             chinese = sources["cow_sense_links"][candidate_id]
+            kaikki = sources["kaikki_senses"][candidate_id]
             drafts = sources["word_drafts"][candidate_id]
             flags = ["curriculum_review_needed", "license_review_needed"]
-            if not english:
+            if not (english or kaikki):
                 flags.append("english_sense_clue_needed")
             if not (chinese or drafts):
                 flags.append("chinese_sense_clue_needed")
-            if english > 1:
+            if english + kaikki > 1:
                 flags.append("sense_selection_needed")
             if group.startswith("complex_"):
                 flags.append("complex_form_review_needed")
             if group == "root_relation":
                 flags.append("root_relation_review_needed")
             writer.writerow((candidate_id, word, group, row.get("mirror_pdf_pages", ""), english, chinese,
-                             drafts, row.get("source_revision", ""), "|".join(flags), "candidate_only"))
+                             kaikki, drafts, row.get("source_revision", ""), "|".join(flags), "candidate_only"))
     print(f"Built a review queue for {len(candidates)} supplementary candidate IDs; none approved.")
 
 

@@ -22,9 +22,23 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path, help="Directory containing etyra-kaikki-POS.jsonl.gz snapshots")
     parser.add_argument("output", type=Path)
+    parser.add_argument("--supplement", action="store_true", help="Use the two Wiktionary supplement candidate inventories")
     args = parser.parse_args()
-    with (ROOT / "docs/OEWN_CANDIDATE_INDEX.csv").open(encoding="utf-8", newline="") as source:
-        candidates = {row["headword"].strip().casefold(): row for row in csv.DictReader(source) if not row["oewn_entry_ids"]}
+    candidates = {}
+    if args.supplement:
+        inputs = (("WIKTIONARY_GAP_CANDIDATES.csv", "headword"),
+                  ("COMPLEX_WIKTIONARY_CANDIDATES.csv", "normalized_key"))
+        for name, key in inputs:
+            with (ROOT / "docs" / name).open(encoding="utf-8", newline="") as source:
+                for row in csv.DictReader(source):
+                    word = row[key].strip()
+                    normalized = word.casefold()
+                    if normalized in candidates:
+                        raise ValueError(f"Duplicate supplement key: {word}")
+                    candidates[normalized] = {"headword": word, "candidate_id": row["candidate_id"]}
+    else:
+        with (ROOT / "docs/OEWN_CANDIDATE_INDEX.csv").open(encoding="utf-8", newline="") as source:
+            candidates = {row["headword"].strip().casefold(): row for row in csv.DictReader(source) if not row["oewn_entry_ids"]}
     rows = []
     for pos, expected in SNAPSHOTS.items():
         path = args.directory / f"etyra-kaikki-{pos}.jsonl.gz"
