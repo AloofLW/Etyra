@@ -23,7 +23,7 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 虚词义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前 13 个候选缺少直接英文义项线索、510 个缺少中文线索、4609 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不等于词典真实缺项，也不保证现有线索正确。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 虚词义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前 13 个候选缺少直接英文义项线索、497 个缺少中文线索、4609 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不等于词典真实缺项，也不保证现有线索正确。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；课标缺口、复杂词形和关联词补充表须另行纳入审核，不能据此声称全部候选已经处理。
 
@@ -45,7 +45,9 @@
 
 来源为 Wiktionary contributors 经 Tatu Ylonen 的 Wiktextract/Kaikki 处理的数据；本表筛选候选并保留原始 gloss 与标签，是其改编。Kaikki [许可说明](https://kaikki.org/dictionary/index.html)指出数据依据 Wiktionary 的 CC BY-SA 与 GFDL 许可发布；使用须遵守 [Wiktionary 版权和署名条款](https://en.wiktionary.org/wiki/Wiktionary:Copyrights)、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 及所选许可的适用要求，保留页面及其历史、版权归属、许可链接和修改说明。Kaikki 后处理还可能合并其他来源；最终分发前应逐项确认附加来源和许可，不能仅凭本表标记内容可用于产品。学术引用参见 Tatu Ylonen, *Wiktextract: Wiktionary as Machine-Readable Structured Data* (LREC 2022)。
 
-[`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选中人工选取 13 个常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。每词只选了一个义项，不能当作该词全部用法。
+[`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选中选取 27 条常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。所选义项不能当作该词全部用法。
+
+来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 27 条编辑草稿均未使用该重复 ID。
 
 本索引基于 Open English WordNet 2024 和 Princeton WordNet 改编：提取词条标识、词性与义项数量，关联 Etyra 候选拼写，不含 OEWN 释义正文。OEWN 团队与 Princeton WordNet 均须署名；OEWN 为 CC BY 4.0，底层 Princeton WordNet 条款及免责声明同时适用。保留发布版本的原始 [OEWN 许可](OEWN-2024-LICENSE.md) 和 [WordNet 条款](OEWN-2024-WNDB-license.txt)。合并候选本身还受上节所述 CC BY-SA 4.0 条件约束；内容与应用代码分别管理。
 
