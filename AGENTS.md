@@ -27,6 +27,10 @@ Etyra 是 Flutter + Dart 的 iOS 词根词缀学习应用，采用离线优先�
 
 如需跨边界修改，先在 `docs/DECISIONS.md` 记录原因、影响和验收方式，再修改共享契约。
 
+### 共享 App 入口所有者
+
+根据 ADR-018，项目管理对话是 `lib/main.dart`、`lib/app/**`、根 `ProviderScope`、全局路由注册和 application provider 装配的唯一 owner。当前只接入本地 fixture 预览；真实持久化装配须等后端学习写入实现并验证后进行。
+
 ## 工作方式
 
 - 先读文档和当前状态，再编辑；保留用户已有修改，不覆盖未知内容。

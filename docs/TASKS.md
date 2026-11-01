@@ -42,10 +42,9 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 下一执行批次
 
-1. **对话 03 / ET-01D/E（基础验证通过，仍未完整验收）**：domain/application、内存 fake、Drift v1 表/迁移入口、只读 Repository 与种子导入骨架已提交至 `feat/backend-et01-de`。已生成 Drift 代码；`flutter analyze --no-pub` 无问题，后端定向 17 项测试通过，包含空库建表、外键开启与种子幂等/冲突。迁移升级/恢复、导入回滚、持久学习写入仍未验证或实现。
-2. **对话 02 / F-01 前端准备（已集成，待交互验收）**：presentation 静态流程与 fixture 从 `feat/frontend-root-flow`（`786df4f`）合入 `main`。全工程分析通过；当前无 widget 测试，动态字体/VoiceOver/浅深色仍需人工验收。
-3. **对话 01 / 当前整合**：后端与前端专题提交已集成至 `main`；共享 app/provider 入口 owner 仍待指定，再安排前后端 application 接线。
-4. **共享入口 owner（待指定）**：定义 `lib/app`、路由/provider 汇总和 `main.dart` 的唯一所有者；此项完成前不挂载预览页面，不接入数据库。
+1. **对话 03 / ET-01E 后续**：实现并验证真实学习写入事务（队列、答题日志、学习状态与计数一致提交）；补迁移/导入回滚测试。当前 `DriftStudyRepository` 仍显式 Unsupported，不能作为正式学习保存入口。
+2. **对话 02 / F-01 前端验收**：补充学习流程关键 widget 测试；验收列表/详情/学习状态、提交失败与重试、跳过/退出、动态字体、VoiceOver、浅深色和 Reduce Motion。
+3. **对话 01 / 共享入口（已由本对话承担）**：`lib/main.dart`、`lib/app/**`、根 `ProviderScope` 与全局装配由对话 01 唯一维护，按 ADR-018 执行。当前已将本地 fixture 预览挂入 Cupertino 应用壳；真实数据库/provider 装配等后端持久化完成后再接入。
 
 ## ET-01 验收标准
 
@@ -58,6 +57,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 后端与前端变更已快进集成到 `main`；`flutter analyze --no-pub` 无问题，`flutter test` 17 项通过，Drift 代码生成成功。未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
-- 前端 `786df4f` 已集成；无前端 widget 测试，运行时交互与无障碍仍需后续验收。
-- 首轮学习转换、Session 关闭、未知枚举及内容包更新策略由 ADR-014..017 收口；ADR-014 已同步至 fake，行为测试仍待执行。
+- 后端与前端变更已集成到 `main`；Drift 代码生成成功，`flutter analyze --no-pub` 无问题，`flutter test` 18 项通过。未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
+- 前端预览已挂载在 Cupertino 应用入口，并新增 app launch widget 测试；学习交互 widget 覆盖、真实持久化及无障碍设备验收仍待完成。
+- 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。
