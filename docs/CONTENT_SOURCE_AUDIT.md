@@ -122,6 +122,22 @@
 
 本批保留 4 个 root 候选并将 `therm` 转为 `thermo-` 词缀候选。目前共 27 个 root 候选经页面初筛，12 项从 root 计数移出或并入词缀；root 候选池约 38 项，需补约 12 项达到约 50 项目标。来源初筛未覆盖高中适用性、词频、释义和每条具体构词关系；全部仍为候选，不可导入产品。
 
+
+## 第六批词根池清理与补充
+
+本批先清理剩余 11 个未处置的初始候选：`bene`、`log`、`man`、`ten`、`chron`、`cosm`、`demo`、`gram`、`hydr`、`psych`、`vis`。其中 `manus/manu` 与 `ten/tenē` 各保留为待审词干家族；`vis` 是 RC-040 `vid` 家族的重复记录，合并并保留 ID 作审计；其余 8 项转入词缀候选：`bene-`、`-logy`、`chrono-`、`cosmo-`、`demo-`、`-gram`、`hydro-`、`psycho-`。`bene-` 的英文页面证据有限，目前依据 Wiktionary English prefixes appendix 登记，仍需英语具体词例验证。
+
+为恢复约 50 个真实 root 候选的池规模，补入 7 个有初步词源页面支持的候选：`pend`、`press`、`solv`、`tend`、`vert`、`pon`、`gen`。分别以 `depend`、`pressure`、`solution`/`attend`、`convert`、`position`、`generation`/`generate` 页面作初筛。每项的分词及异形关系仍需逐词审核；这些证据不构成英语词族的批量批准。
+
+至此，初始 50 条记录中有 20 条转入词缀候选，另有 1 条重复 root 候选合并；新增 7 条 root 候选后，root 候选池约 36 项，仍需补约 14 项。当前 root CSV 共 57 行，affix CSV 共 19 行。均为候选记录，未批准为产品词库。来源访问日、候选处置和许可复核提示见两个 CSV。
+
+
+## 第七批：补齐 50 个有效 root 候选
+
+本批新增 14 个初步有英语词源页面支持的 root/stem 候选：`grad`、`loc`、`memor`、`oper`、`sign`、`civ`、`sens`、`numer`、`reg`、`mar`、`nomin`、`curr`、`terr`、`mater`。证据和页面 URL 已写入 root CSV；本批按可见英语词例记录来源路径，标明了 `memor-`、`numer-`、`nomin-`、`curr/curs` 等潜在变体，以及 `territory` 不能单独证明 `terra` 的边界限制。
+
+当前候选池计算为：初始 50 行 − 20 项转词缀 − 1 项重复合并 + 7 项前批新增 + 14 项本批新增 = 50 项有效 root/stem 候选。CSV 共 71 行，其中 20 行以 reclass 决策保留审计轨迹、1 行为已合并重复、其余 50 行是 root 候选。所有行仍为 `candidate_only`；这只是达到候选池规模，不表示词根释义、英语关联词、释义/例句、许可和高中范围已获批，也不能直接生成产品 seed。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -136,6 +152,8 @@
 - 已对 `cap`、`ced`、`duc`、`mit`、`mot`、`rupt`、`script`、`tract` 做第三批页面分诊，并将潜在 allomorph 记录为待核，不据拼写自动建立关系。
 - 第四批核对 `ject`、`leg`、`mort`、`ped`，并将 `morph`、`path`、`scop` 重分类/并入词缀候选；来源证据与形态边界说明见本文件和 CSV。
 - 第五批核对 `tact`、`vid`、`voc`、`migr`，并将 `therm` 重分类为 `thermo-` 词缀候选。
-- 另将 12 个前缀/后缀/combining-form 候选转入或合并至 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前约需补 12 项。
+- 第六批完成初始候选尾项清理，新增 7 个 root 候选；具体证据、重复处理和词缀重分类见本文件“第六批”及 CSV。
+- 第七批新增 14 个 root/stem 候选，候选池规模达到约 50；仍非产品数据，待逐词编辑审校。
+- 初始候选中 20 条转入词缀、1 条重复合并；随后新增 21 个 root 候选，当前候选池约 50 项，所有条目仍待编辑审核。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
