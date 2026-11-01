@@ -1,7 +1,11 @@
+import 'package:drift/native.dart';
+import 'package:etyra/app/composition/providers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'package:etyra/app/etyra_app.dart';
+import 'package:etyra/database/app_database.dart';
 import 'package:etyra/features/roots/presentation/widgets/fixture_widgets.dart';
 
 TextStyle effectiveStyle(WidgetTester tester, String label) {
@@ -17,6 +21,23 @@ double contrast(Color first, Color second) {
 }
 
 void main() {
+  testWidgets('真实 Drift provider 在空数据库上展示空词根列表', (tester) async {
+    final database = AppDatabase(NativeDatabase.memory());
+    addTearDown(database.close);
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [appDatabaseProvider.overrideWithValue(database)],
+        child: const EtyraApp(),
+      ),
+    );
+    await tester.tap(find.text('词根').last);
+    await tester.pumpAndSettle();
+
+    expect(find.text('暂无词根内容'), findsOneWidget);
+    expect(find.text('词根示例 A'), findsNothing);
+    expect(tester.takeException(), isNull);
+  });
+
   testWidgets('launches the learner home without preview controls', (
     tester,
   ) async {

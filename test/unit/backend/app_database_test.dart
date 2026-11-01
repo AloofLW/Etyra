@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:etyra/database/app_database.dart';
+import 'package:etyra/database/migrations/schema_migrations.dart';
 import 'package:etyra/features/content_import/data/seed_importer.dart';
 import 'package:etyra/features/content_import/data/seed_package.dart';
 import 'package:etyra/features/roots/domain/root.dart';
@@ -47,6 +50,37 @@ void main() {
         .getSingle();
     expect(foreignKeys.read<int>('foreign_keys'), 1);
   });
+
+  test(
+    'file database can close and reopen without losing its schema',
+    () async {
+      final directory = await Directory.systemTemp.createTemp('etyra-db-');
+      final file = File('${directory.path}/etyra.sqlite');
+      var fileDatabase = AppDatabase(NativeDatabase(file));
+      try {
+        final beforeClose = await fileDatabase
+            .customSelect("SELECT name FROM sqlite_master WHERE type = 'table'")
+            .map((row) => row.read<String>('name'))
+            .get();
+        expect(beforeClose, contains('roots'));
+        expect(beforeClose, contains('learning_states'));
+        await fileDatabase.close();
+
+        fileDatabase = AppDatabase(NativeDatabase(file));
+        final afterReopen = await fileDatabase
+            .customSelect('SELECT COUNT(*) AS count FROM roots')
+            .getSingle();
+        expect(afterReopen.read<int>('count'), 0);
+        final version = await fileDatabase
+            .customSelect('PRAGMA user_version')
+            .getSingle();
+        expect(version.read<int>('user_version'), currentSchemaVersion);
+      } finally {
+        await fileDatabase.close();
+        await directory.delete(recursive: true);
+      }
+    },
+  );
 
   test('seed import is idempotent and rejects changed content', () async {
     final importer = SeedImporter(

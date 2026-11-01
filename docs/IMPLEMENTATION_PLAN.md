@@ -110,8 +110,8 @@ assets/
 3. **ET-01C 依赖与质量门**：已加入并解析 Riverpod/Drift 依赖，生成 lockfile；静态分析、测试和运行验收待后续阶段。
 4. **ET-01D domain/application 契约实现**：按共享契约实现不可变模型、错误结果和最小用例接口；先用内存 fake 解耦 UI 与数据库。
 5. **ET-01E database/data 骨架**：建立 Drift schema、迁移、Repository 实现和种子导入边界。
-6. **ET-01F UI/App 组装**：Cupertino app、导航、主题和 fixture 已接入；`lib/app/composition/providers.dart` 已建立唯一数据库生命周期、Root/Word/Study/学习状态 Repository 与 application 用例 provider。页面仍显示明确标注的 fixture；provider 首次读库、真机持久化与 ET-01G 验收待完成。
-7. **ET-01G 验收**：模拟器启动、静态分析、单测/Widget 测试、空库迁移和重复种子导入验证，记录结果。
+6. **ET-01F UI/App 组装**：Cupertino app、导航、主题和 fixture 已接入；`lib/app/composition/providers.dart` 已建立唯一数据库生命周期、Root/Word/Study/学习状态 Repository 与 application 用例 provider。词根 Tab 使用真实 provider；首页学习流程仍是明确标注且不持久化的 fixture 演示。
+7. **ET-01G 验收（部分完成）**：已新增文件 SQLite 创建/关闭/重开测试和真实 Drift 空库 UI 测试；`flutter test --no-pub` 56 项通过，`flutter analyze --no-pub` 无问题，`flutter run --no-pub -d 00008101-00054C380141001E` 已在 iPhone 12 Pro（iOS 17.6.1）构建、安装并启动。此前的 Drift 重复实例诊断警告仍会在特定测试中输出，但测试通过，未见失败；需关注实例生命周期。真机核心流程、外观及无障碍仍需人工验收。
 
 前端可在 ET-01D 的模型与 fake provider 可用后并行；后端可在 ET-01B 工程路径确认后建立 domain/data/database。`app/`、锁文件和公共路由不允许多个对话同时改。
 
