@@ -24,9 +24,21 @@ vocab-candidate-15eaa75240aed625be3e,when,conj,zh,何時 /何时,at what time; a
 vocab-candidate-15eaa75240aed625be3e,when,conj,zh,幾時 /几时,at what time; at which time,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
 vocab-candidate-15eaa75240aed625be3e,when,conj,zh,當 /当,"as soon as, at the time that",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
 vocab-candidate-15eaa75240aed625be3e,when,intj,zh,够了,that's enough,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-28e5c066055aeb3de147,sometimes,adv,cmn,有時 /有时,"on certain occasions, but not always",https://en.wiktionary.org/wiki/sometimes,translation_clue_unreviewed
+vocab-candidate-28e5c066055aeb3de147,sometimes,adv,cmn,有時候 /有时候,"on certain occasions, but not always",https://en.wiktionary.org/wiki/sometimes,translation_clue_unreviewed
+vocab-candidate-378ce56a9d146d5174c8,away,adv,cmn,消,from a state or condition of being; out of existence,https://en.wiktionary.org/wiki/away,translation_clue_unreviewed
 vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某事,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
 vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某東西 /某东西,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
 vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某物,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
+vocab-candidate-442c621dafad2a69126d,himself,pron,cmn,他自己,"(emphatic, exclusive) he",https://en.wiktionary.org/wiki/himself,translation_clue_unreviewed
+vocab-candidate-6497e4b3d7bed16979a3,never,adv,cmn,不曾,at no time,https://en.wiktionary.org/wiki/never,translation_clue_unreviewed
+vocab-candidate-6497e4b3d7bed16979a3,never,adv,cmn,從不 /从不,at no time,https://en.wiktionary.org/wiki/never,translation_clue_unreviewed
+vocab-candidate-6497e4b3d7bed16979a3,never,adv,cmn,從來 /从来,at no time,https://en.wiktionary.org/wiki/never,translation_clue_unreviewed
+vocab-candidate-6497e4b3d7bed16979a3,never,adv,cmn,從未 /从未,at no time,https://en.wiktionary.org/wiki/never,translation_clue_unreviewed
+vocab-candidate-6497e4b3d7bed16979a3,never,adv,cmn,未曾,at no time,https://en.wiktionary.org/wiki/never,translation_clue_unreviewed
+vocab-candidate-6bab65a2bddec8af5dbc,least,det,cmn,最小,smallest in amount or extent,https://en.wiktionary.org/wiki/least,translation_clue_unreviewed
+vocab-candidate-6bab65a2bddec8af5dbc,least,det,cmn,最少,smallest in amount or extent,https://en.wiktionary.org/wiki/least,translation_clue_unreviewed
+vocab-candidate-6bab65a2bddec8af5dbc,least,det,cmn,至少,smallest in amount or extent,https://en.wiktionary.org/wiki/least,translation_clue_unreviewed
 vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,сый,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
 vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,何人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
 vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,啥人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
@@ -75,6 +87,30 @@ vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎麼樣 /怎么样,"in what st
 vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
 vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
 vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎樣 /按怎样,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-88c7f08d0be5407e361c,above,adj,cmn,上述,being located higher on the same page or on a preceding page,https://en.wiktionary.org/wiki/above,translation_clue_unreviewed
+vocab-candidate-88c7f08d0be5407e361c,above,adv,cmn,高於 /高于,higher in rank,https://en.wiktionary.org/wiki/above,translation_clue_unreviewed
+vocab-candidate-88c7f08d0be5407e361c,above,prep,cmn,在...上面,farther north,https://en.wiktionary.org/wiki/above,translation_clue_unreviewed
+vocab-candidate-88c7f08d0be5407e361c,above,prep,cmn,在...上面,in or to a higher place,https://en.wiktionary.org/wiki/above,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,noun,zh,同意,answer that shows agreement or acceptance,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,noun,zh,同意票,vote of support,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,particle,zh,啊,word used to indicate agreement or acceptance,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,particle,zh,好,word used to indicate agreement or acceptance,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,particle,zh,對 /对,word used to indicate agreement or acceptance,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8a798890fe93817163b1,yes,particle,zh,是,word used to indicate agreement or acceptance,https://en.wiktionary.org/wiki/yes,translation_clue_unreviewed
+vocab-candidate-8ada24bf6bf313927389,below,prep,cmn,在...下面,lower in spatial position than,https://en.wiktionary.org/wiki/below,translation_clue_unreviewed
+vocab-candidate-8ada24bf6bf313927389,below,prep,cmn,在...之下,lower in spatial position than,https://en.wiktionary.org/wiki/below,translation_clue_unreviewed
+vocab-candidate-94f106e0117354cedb9e,either,adv,cmn,也不,(after a negative) as well,https://en.wiktionary.org/wiki/either,translation_clue_unreviewed
+vocab-candidate-94f106e0117354cedb9e,either,conj,cmn,或者……或者……,introduces the first of two options,https://en.wiktionary.org/wiki/either,translation_clue_unreviewed
+vocab-candidate-94f106e0117354cedb9e,either,conj,cmn,要麼……要麼…… /要么……要么……,introduces the first of two options,https://en.wiktionary.org/wiki/either,translation_clue_unreviewed
+vocab-candidate-a093d3f5ecffec653f68,quickly,adv,cmn,快速地,"rapidly, fast",https://en.wiktionary.org/wiki/quickly,translation_clue_unreviewed
+vocab-candidate-a093d3f5ecffec653f68,quickly,adv,cmn,急速地,"rapidly, fast",https://en.wiktionary.org/wiki/quickly,translation_clue_unreviewed
+vocab-candidate-a093d3f5ecffec653f68,quickly,adv,cmn,趕快地 /赶快地,"rapidly, fast",https://en.wiktionary.org/wiki/quickly,translation_clue_unreviewed
+vocab-candidate-a093d3f5ecffec653f68,quickly,adv,cmn,迅速地,"rapidly, fast",https://en.wiktionary.org/wiki/quickly,translation_clue_unreviewed
+vocab-candidate-a0a44ed8cfc32b7e61be,everything,pron,cmn,一切,all the things,https://en.wiktionary.org/wiki/everything,translation_clue_unreviewed
+vocab-candidate-a0a44ed8cfc32b7e61be,everything,pron,cmn,什麼都 /什么都,all the things,https://en.wiktionary.org/wiki/everything,translation_clue_unreviewed
+vocab-candidate-a0a44ed8cfc32b7e61be,everything,pron,cmn,凡事,all the things,https://en.wiktionary.org/wiki/everything,translation_clue_unreviewed
+vocab-candidate-a0a44ed8cfc32b7e61be,everything,pron,cmn,每事,all the things,https://en.wiktionary.org/wiki/everything,translation_clue_unreviewed
+vocab-candidate-a0a44ed8cfc32b7e61be,everything,pron,cmn,萬事 /万事,all the things,https://en.wiktionary.org/wiki/everything,translation_clue_unreviewed
 vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
 vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
 vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
@@ -102,3 +138,18 @@ vocab-candidate-b48111c10c65fc119368,where,adv,zh,那裡 /那里,at or in which 
 vocab-candidate-b8d31e852725afb1e26d,on,prep,cmn,……上,positioned at the upper surface of,https://en.wiktionary.org/wiki/on,translation_clue_unreviewed
 vocab-candidate-b9776d7ddf459c9ad5b0,the,adv,cmn,愈……愈……,"the + comparative, the + comparative",https://en.wiktionary.org/wiki/the,translation_clue_unreviewed
 vocab-candidate-b9776d7ddf459c9ad5b0,the,adv,cmn,越……越……,"the + comparative, the + comparative",https://en.wiktionary.org/wiki/the,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,向,in the direction of,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,對 /对,located near,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,往,in the direction of,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,朝,in the direction of,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,為了 /为了,for the purpose of,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-cc58a5f8986c71d49b82,toward,prep,cmn,關於 /关于,in relation to,https://en.wiktionary.org/wiki/toward,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,adv,cmn,but see 從...的一邊向 /从...的一边向,in a particular direction,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,adv,cmn,but see 從一邊到另一邊 /从一边到另一边,from one side to the other,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,adv,cmn,在對面 /在对面,on the other side,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,adv,cmn,橫寫的 /横写的,crosswords: horizontally,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,prep,cmn,but see 從一邊到另一邊 /从一边到另一边,from one side to another,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,prep,cmn,在對面 /在对面,on the opposite side,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-deb538b50cb6318b008c,across,prep,cmn,橫過 /横过,from the far side,https://en.wiktionary.org/wiki/across,translation_clue_unreviewed
+vocab-candidate-e06e309b66b35433fd31,myself,pron,cmn,自己,"me, reflexive form of me",https://en.wiktionary.org/wiki/myself,translation_clue_unreviewed
+vocab-candidate-f106376011688eda079c,within,prep,cmn,在...里面,spatially enclosed by,https://en.wiktionary.org/wiki/within,translation_clue_unreviewed
