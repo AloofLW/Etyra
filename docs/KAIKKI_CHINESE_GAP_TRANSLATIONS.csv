@@ -1,0 +1,67 @@
+candidate_id,headword,pos,language_code,translation_original,source_sense_label,source_url,status
+vocab-candidate-0cfcdc2f0991b0be4482,alongside,adv,cmn,旁邊 /旁边,"along the side; by the side; side by side; abreast — see also side by side, abreast",https://en.wiktionary.org/wiki/alongside,translation_clue_unreviewed
+vocab-candidate-0cfcdc2f0991b0be4482,alongside,prep,cmn,一起,together with or at the same time,https://en.wiktionary.org/wiki/alongside,translation_clue_unreviewed
+vocab-candidate-0cfcdc2f0991b0be4482,alongside,prep,cmn,旁邊 /旁边,side by side with — see also next to,https://en.wiktionary.org/wiki/alongside,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,例外,forming an exception,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,傑出 /杰出,superior due to exception or rarity,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,優異 /优异,superior due to exception or rarity,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,優越 /优越,superior due to exception or rarity,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,特別 /特别,forming an exception,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,特殊,forming an exception,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,特異 /特异,forming an exception,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,異常 /异常,forming an exception,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,超群,superior due to exception or rarity,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-14930a90c71a8711f252,exceptional,adj,cmn,非凡,superior due to exception or rarity,https://en.wiktionary.org/wiki/exceptional,translation_clue_unreviewed
+vocab-candidate-3549b0028b75d981cdda,database,noun,cmn,數據庫 /数据库,collection of information,https://en.wiktionary.org/wiki/database,translation_clue_unreviewed
+vocab-candidate-3549b0028b75d981cdda,database,noun,cmn,數據庫 /数据库,software program,https://en.wiktionary.org/wiki/database,translation_clue_unreviewed
+vocab-candidate-3a6eb0790f39ac87c94f,data,noun,zh,數據 /数据,information,https://en.wiktionary.org/wiki/data,translation_clue_unreviewed
+vocab-candidate-3a6eb0790f39ac87c94f,data,noun,zh,資料 /资料,information,https://en.wiktionary.org/wiki/data,translation_clue_unreviewed
+vocab-candidate-4221a8f26bb25551c649,eastern,adj,cmn,東方的 /东方的,related to the east,https://en.wiktionary.org/wiki/eastern,translation_clue_unreviewed
+vocab-candidate-4221a8f26bb25551c649,eastern,adj,cmn,東的 /东的,related to the east,https://en.wiktionary.org/wiki/eastern,translation_clue_unreviewed
+vocab-candidate-42c97db3df4b1373d948,campus,noun,cmn,校園 /校园,"grounds or property of a school, etc.",https://en.wiktionary.org/wiki/campus,translation_clue_unreviewed
+vocab-candidate-42c97db3df4b1373d948,campus,noun,cmn,馆区,"grounds or property of a school, etc.",https://en.wiktionary.org/wiki/campus,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,adv,cmn,上船,on board,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,adv,cmn,上車 /上车,on board,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,adv,cmn,上飛機 /上飞机,on board,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,prep,cmn,上船,on board of,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,prep,cmn,上車 /上车,on board of,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-4fb10800cbeeca991a6b,aboard,prep,cmn,上飛機 /上飞机,on board of,https://en.wiktionary.org/wiki/aboard,translation_clue_unreviewed
+vocab-candidate-50f5d3a0117236c1735f,county,noun,cmn,伯國 /伯国,land ruled by a count or countess,https://en.wiktionary.org/wiki/county,translation_clue_unreviewed
+vocab-candidate-50f5d3a0117236c1735f,county,noun,cmn,縣 /县,administrative region of various countries,https://en.wiktionary.org/wiki/county,translation_clue_unreviewed
+vocab-candidate-50f5d3a0117236c1735f,county,noun,cmn,郡,administrative region of various countries,https://en.wiktionary.org/wiki/county,translation_clue_unreviewed
+vocab-candidate-68b8f014518125a10f35,grandparent,noun,cmn,祖父母,parent of one's parent,https://en.wiktionary.org/wiki/grandparent,translation_clue_unreviewed
+vocab-candidate-86ae35d58a6aa3b5742d,decision,noun,cmn,決定 /决定,choice or judgement,https://en.wiktionary.org/wiki/decision,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,帥哥 /帅哥,someone beautiful: male,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,漂亮,quality of pleasing appearance,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,美,quality of pleasing appearance,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,美,something particularly good or pleasing,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,美人,someone beautiful: female,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,美女,someone beautiful: female,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-b5610de1f6ffecc890aa,beauty,noun,cmn,美麗 /美丽,quality of pleasing appearance,https://en.wiktionary.org/wiki/beauty,translation_clue_unreviewed
+vocab-candidate-c354eb166766cbcb08ae,enormous,adj,cmn,巨大的,extremely large,https://en.wiktionary.org/wiki/enormous,translation_clue_unreviewed
+vocab-candidate-c7575274a20d035b5a72,frontier,noun,cmn,國境 /国境,part of a country that fronts or faces another country or an unsettled region,https://en.wiktionary.org/wiki/frontier,translation_clue_unreviewed
+vocab-candidate-c7575274a20d035b5a72,frontier,noun,cmn,國界 /国界,part of a country that fronts or faces another country or an unsettled region,https://en.wiktionary.org/wiki/frontier,translation_clue_unreviewed
+vocab-candidate-c7575274a20d035b5a72,frontier,noun,cmn,邊境 /边境,part of a country that fronts or faces another country or an unsettled region,https://en.wiktionary.org/wiki/frontier,translation_clue_unreviewed
+vocab-candidate-c7575274a20d035b5a72,frontier,noun,cmn,邊界 /边界,part of a country that fronts or faces another country or an unsettled region,https://en.wiktionary.org/wiki/frontier,translation_clue_unreviewed
+vocab-candidate-c7575274a20d035b5a72,frontier,noun,cmn,邊疆 /边疆,part of a country that fronts or faces another country or an unsettled region,https://en.wiktionary.org/wiki/frontier,translation_clue_unreviewed
+vocab-candidate-c8bf82c2cbf5a469c558,eventually,adv,cmn,始終 /始终,in the end,https://en.wiktionary.org/wiki/eventually,translation_clue_unreviewed
+vocab-candidate-c8bf82c2cbf5a469c558,eventually,adv,cmn,最後 /最后,in the end,https://en.wiktionary.org/wiki/eventually,translation_clue_unreviewed
+vocab-candidate-c8bf82c2cbf5a469c558,eventually,adv,cmn,終於 /终于,in the end,https://en.wiktionary.org/wiki/eventually,translation_clue_unreviewed
+vocab-candidate-c8bf82c2cbf5a469c558,eventually,adv,cmn,終歸 /终归,in the end,https://en.wiktionary.org/wiki/eventually,translation_clue_unreviewed
+vocab-candidate-c8bf82c2cbf5a469c558,eventually,adv,cmn,終究 /终究,in the end,https://en.wiktionary.org/wiki/eventually,translation_clue_unreviewed
+vocab-candidate-c9046f7a37ad0ea7cee7,description,noun,cmn,描寫 /描写,account in words,https://en.wiktionary.org/wiki/description,translation_clue_unreviewed
+vocab-candidate-c9046f7a37ad0ea7cee7,description,noun,cmn,描述,account in words,https://en.wiktionary.org/wiki/description,translation_clue_unreviewed
+vocab-candidate-da8cc7909055a96967f8,fisherman,noun,cmn,漁人 /渔人,person catching fish,https://en.wiktionary.org/wiki/fisherman,translation_clue_unreviewed
+vocab-candidate-da8cc7909055a96967f8,fisherman,noun,cmn,漁夫 /渔夫,person catching fish,https://en.wiktionary.org/wiki/fisherman,translation_clue_unreviewed
+vocab-candidate-da8cc7909055a96967f8,fisherman,noun,cmn,漁民 /渔民,person catching fish,https://en.wiktionary.org/wiki/fisherman,translation_clue_unreviewed
+vocab-candidate-def53e95f1fc7a2aa7db,blog,noun,cmn,博客,a personal or corporate website,https://en.wiktionary.org/wiki/blog,translation_clue_unreviewed
+vocab-candidate-def53e95f1fc7a2aa7db,blog,noun,cmn,博落,a personal or corporate website,https://en.wiktionary.org/wiki/blog,translation_clue_unreviewed
+vocab-candidate-def53e95f1fc7a2aa7db,blog,noun,cmn,網誌 /网志,a personal or corporate website,https://en.wiktionary.org/wiki/blog,translation_clue_unreviewed
+vocab-candidate-def53e95f1fc7a2aa7db,blog,noun,cmn,部落格,a personal or corporate website,https://en.wiktionary.org/wiki/blog,translation_clue_unreviewed
+vocab-candidate-e97166b54500da3a32ea,enable,verb,cmn,啟用 /启用,to activate a function of an electronic or mechanical device,https://en.wiktionary.org/wiki/enable,translation_clue_unreviewed
+vocab-candidate-f70da08ab93595f06f16,educator,noun,cmn,教育家,person distinguished for educational work — see also teacher,https://en.wiktionary.org/wiki/educator,translation_clue_unreviewed
+vocab-candidate-f70da08ab93595f06f16,educator,noun,cmn,教育者,person distinguished for educational work — see also teacher,https://en.wiktionary.org/wiki/educator,translation_clue_unreviewed
+vocab-candidate-fc91368f2036677b48a4,envy,noun,cmn,妒嫉,resentful desire of something possessed by another,https://en.wiktionary.org/wiki/envy,translation_clue_unreviewed
+vocab-candidate-fc91368f2036677b48a4,envy,noun,cmn,嫉妒,resentful desire of something possessed by another,https://en.wiktionary.org/wiki/envy,translation_clue_unreviewed
+vocab-candidate-fc91368f2036677b48a4,envy,noun,cmn,羨慕 /羡慕,resentful desire of something possessed by another,https://en.wiktionary.org/wiki/envy,translation_clue_unreviewed
+vocab-candidate-fc91368f2036677b48a4,envy,verb,cmn,羡慕,"to feel displeasure towards (someone) because of their good fortune, possessions",https://en.wiktionary.org/wiki/envy,translation_clue_unreviewed
