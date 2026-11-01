@@ -37,13 +37,46 @@ abstract final class FixtureTokens {
     color: Color(0xFF91412F),
     darkColor: Color(0xFFEEAB96),
   );
+  static const secondaryText = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFF584E48),
+    darkColor: Color(0xFFCCBFB5),
+  );
   static Color accent(BuildContext context) => warmLink.resolveFrom(context);
   static Color background(BuildContext context) =>
       warmBackground.resolveFrom(context);
   static Color surface(BuildContext context) =>
       warmSurface.resolveFrom(context);
   static Color secondary(BuildContext context) =>
-      CupertinoColors.secondaryLabel.resolveFrom(context);
+      secondaryText.resolveFrom(context);
+}
+
+abstract final class FixtureTypography {
+  static const bodyWeight = FontWeight.w500;
+  static const headingWeight = FontWeight.w600;
+
+  static CupertinoThemeData theme(BuildContext context) {
+    final base = CupertinoTheme.of(context);
+    final text = base.textTheme;
+    return base.copyWith(
+      primaryColor: FixtureTokens.warmLink,
+      textTheme: text.copyWith(
+        textStyle: text.textStyle.copyWith(fontWeight: bodyWeight),
+        actionTextStyle: text.actionTextStyle.copyWith(fontWeight: bodyWeight),
+        navTitleTextStyle: text.navTitleTextStyle.copyWith(
+          fontWeight: headingWeight,
+        ),
+        navLargeTitleTextStyle: text.navLargeTitleTextStyle.copyWith(
+          fontWeight: headingWeight,
+        ),
+        navActionTextStyle: text.navActionTextStyle.copyWith(
+          fontWeight: bodyWeight,
+        ),
+        tabLabelTextStyle: text.tabLabelTextStyle.copyWith(
+          fontWeight: bodyWeight,
+        ),
+      ),
+    );
+  }
 }
 
 class FixtureScaffold extends StatelessWidget {
@@ -60,8 +93,7 @@ class FixtureScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => CupertinoTheme(
-    data: CupertinoTheme.of(context)
-        .copyWith(primaryColor: FixtureTokens.warmLink),
+    data: FixtureTypography.theme(context),
     child: CupertinoPageScaffold(
       backgroundColor: FixtureTokens.background(context),
       navigationBar: CupertinoNavigationBar(
@@ -82,12 +114,16 @@ class FixtureScaffold extends StatelessWidget {
                   )
                 : null),
       ),
-      child: SafeArea(
-        child: ListView.separated(
-          padding: const EdgeInsets.all(FixtureTokens.gap),
-          itemCount: children.length,
-          separatorBuilder: (_, _) => const SizedBox(height: FixtureTokens.gap),
-          itemBuilder: (_, index) => children[index],
+      child: DefaultTextStyle.merge(
+        style: FixtureTypography.theme(context).textTheme.textStyle,
+        child: SafeArea(
+          child: ListView.separated(
+            padding: const EdgeInsets.all(FixtureTokens.gap),
+            itemCount: children.length,
+            separatorBuilder: (_, _) =>
+                const SizedBox(height: FixtureTokens.gap),
+            itemBuilder: (_, index) => children[index],
+          ),
         ),
       ),
     ),
@@ -122,7 +158,8 @@ class FixtureHeading extends StatelessWidget {
     header: true,
     child: Text(
       text,
-      style: CupertinoTheme.of(context).textTheme.navTitleTextStyle,
+      style: CupertinoTheme.of(context).textTheme.navTitleTextStyle
+          .copyWith(fontWeight: FixtureTypography.headingWeight),
     ),
   );
 }
@@ -145,6 +182,7 @@ class FixtureAction extends StatelessWidget {
       textAlign: TextAlign.center,
       style: TextStyle(
         color: primary ? CupertinoColors.white : FixtureTokens.accent(context),
+        fontWeight: FixtureTypography.bodyWeight,
       ),
     );
     return ConstrainedBox(
@@ -202,6 +240,9 @@ class FixtureContentNotice extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Text(
     '演示内容 · 未接入真实词库，学习记录不会保存。',
-    style: TextStyle(color: FixtureTokens.secondary(context)),
+    style: TextStyle(
+      color: FixtureTokens.secondary(context),
+      fontWeight: FixtureTypography.bodyWeight,
+    ),
   );
 }

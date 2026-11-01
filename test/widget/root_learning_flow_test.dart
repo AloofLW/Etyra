@@ -13,6 +13,12 @@ Future<void> tapText(WidgetTester tester, String text) async {
   await tester.pump();
 }
 
+TextStyle resolvedTextStyle(WidgetTester tester, String text) {
+  final target = find.text(text).first;
+  return DefaultTextStyle.of(tester.element(target)).style
+      .merge(tester.widget<Text>(target).style);
+}
+
 Future<void> loadFixture(WidgetTester tester) async {
   expect(find.text('正在加载'), findsOneWidget);
   await tester.pump(const Duration(milliseconds: 700));
@@ -147,8 +153,10 @@ void main() {
       const CupertinoApp(home: FixtureStudyPage(rootLabel: '测试词根')),
     );
     expect(find.text('答案与解释'), findsNothing);
+    expect(resolvedTextStyle(tester, '回忆提示占位 1').fontWeight, FontWeight.w500);
     await tapText(tester, '显示答案');
     expect(find.text('答案与解释'), findsOneWidget);
+    expect(resolvedTextStyle(tester, '答案与解释').fontWeight, FontWeight.w600);
     await tapText(tester, '知道了');
     expect(find.text('正在提交反馈…'), findsOneWidget);
     expect(
@@ -169,6 +177,9 @@ void main() {
     expect(find.text('已跳过。本项不计入完成数。'), findsOneWidget);
     await tapText(tester, '查看总结');
     expect(find.text('本组学习已完成'), findsOneWidget);
+    expect(resolvedTextStyle(tester, '本组学习已完成').fontWeight, FontWeight.w600);
+    expect(resolvedTextStyle(tester, '完成').fontWeight, FontWeight.w500);
+    expect(resolvedTextStyle(tester, '返回词根详情').fontWeight, FontWeight.w500);
     final semantics = tester.ensureSemantics();
     await tester.pump();
     expect(find.bySemanticsLabel('本组数量：2'), findsOneWidget);
