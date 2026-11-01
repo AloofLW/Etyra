@@ -166,6 +166,8 @@
 
 同一组件对照还出现 `airport` 的 `port`，但其[固定来源修订](https://en.wiktionary.org/w/index.php?title=airport&oldid=94579816)明确标记港口义 `portus`；当前 `RC-027` 仅表示“搬运”义的 port 候选，因此不建立 `airport` → `RC-027` 关系。此反例说明同形和词典构词模板不能独立证明词根义项相同。
 
+随后新增 `justify` → `fac`（`WC-070`）和 `educator` → `duc`（`WC-071`）两个候选，累计 71 条关系、覆盖 46 个 root/stem 方向。前者的[固定页面](https://en.wiktionary.org/w/index.php?title=justify&oldid=91338458)把历史 `-ficare` 联系到拉丁语 `facere`，同时另给出现代英语 `just + -ify` 分析；不能要求英语表面必然出现 `fac`。后者的[固定页面](https://en.wiktionary.org/w/index.php?title=educator&oldid=93551642)给出拉丁语 `ēducātor`，词干路径需再结合 [educate 固定修订](https://en.wiktionary.org/w/index.php?title=educate&oldid=92744085)及其他可追溯资料核对。两条均为待审的历史关联候选，不是已确认的现代词素拆分，也不是正式词库。
+
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
