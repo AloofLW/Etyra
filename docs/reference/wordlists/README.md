@@ -41,6 +41,8 @@
 
 来源为 Wiktionary contributors 经 Tatu Ylonen 的 Wiktextract/Kaikki 处理的数据；本表筛选候选并保留原始 gloss 与标签，是其改编。Kaikki [许可说明](https://kaikki.org/dictionary/index.html)指出数据依据 Wiktionary 的 CC BY-SA 与 GFDL 许可发布；使用须遵守 [Wiktionary 版权和署名条款](https://en.wiktionary.org/wiki/Wiktionary:Copyrights)、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 及所选许可的适用要求，保留页面及其历史、版权归属、许可链接和修改说明。Kaikki 后处理还可能合并其他来源；最终分发前应逐项确认附加来源和许可，不能仅凭本表标记内容可用于产品。学术引用参见 Tatu Ylonen, *Wiktextract: Wiktionary as Machine-Readable Structured Data* (LREC 2022)。
 
+[`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选中人工选取 13 个常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。每词只选了一个义项，不能当作该词全部用法。
+
 本索引基于 Open English WordNet 2024 和 Princeton WordNet 改编：提取词条标识、词性与义项数量，关联 Etyra 候选拼写，不含 OEWN 释义正文。OEWN 团队与 Princeton WordNet 均须署名；OEWN 为 CC BY 4.0，底层 Princeton WordNet 条款及免责声明同时适用。保留发布版本的原始 [OEWN 许可](OEWN-2024-LICENSE.md) 和 [WordNet 条款](OEWN-2024-WNDB-license.txt)。合并候选本身还受上节所述 CC BY-SA 4.0 条件约束；内容与应用代码分别管理。
 
 输入文件为发行版 XML gzip，下载地址 `https://github.com/globalwordnet/english-wordnet/releases/download/2024-edition/english-wordnet-2024.xml.gz`，SHA-256 `e1f633b0a93758cae34ea27c44c4dad310a8af2467b155f99dd6673af697e875`。运行 `python3 tools/content/index_oewn_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-index.csv` 可复现；脚本校验摘要且拒绝覆盖输出，需要 Python 3.11 及以上。原始词典体积较大，未放入项目；后续正式内容包须再次保留适用许可和署名。
