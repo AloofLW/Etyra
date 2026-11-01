@@ -27,6 +27,10 @@
 
 [`docs/OEWN_CANDIDATE_INDEX.csv`](../../OEWN_CANDIDATE_INDEX.csv) 将 5342 个合并候选的规范化拼写与 [Open English WordNet 2024 发行版](https://github.com/globalwordnet/english-wordnet/releases/tag/2024-edition)的 `Lemma.writtenForm` 以去首尾空格、Unicode casefold 方式比对。5265 个候选至少匹配一个 OEWN 词条，77 个未匹配；每行记录候选 ID、OEWN 词条 ID、词性代码和不同义项 ID 数量，状态仍为 `candidate_only`。小写归并会合并不同大小写含义，例如 `a` 可能匹配 `A`；相同拼写也可能有大量不同词义。匹配结果不能自动选择义项、释义、课标等级或词根，未匹配也不代表不是单词。
 
+对于未匹配词头的 77 个候选，另以同版 OEWN 的显式 `Form.writtenForm` 检查，找到 2 个候选、2 条词形—词典条目线索：`criteria` → `criterion`，`media` → `medium`，见 [`docs/OEWN_FORM_CANDIDATES.csv`](../../OEWN_FORM_CANDIDATES.csv)。结果只记录词典给出的词形关联，大小写、词性、具体义项和中文翻译仍需审核；例如 `media` 的常见用法不能直接套用 `medium` 的任一义项。其余 75 个候选没有找到精确匹配的显式 Form；其中有大量介词、连词和代词，不能据此认定无效或没有释义。此处没有合并候选 ID，也未自动生成词根关系。
+
+复现：`python3 tools/content/index_oewn_form_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-forms.csv`，脚本校验与此前 OEWN 索引相同的归档摘要并拒绝覆盖输出。OEWN 词条来源及许可要求见下文，任何释义或翻译入库前须独立审核。
+
 本索引基于 Open English WordNet 2024 和 Princeton WordNet 改编：提取词条标识、词性与义项数量，关联 Etyra 候选拼写，不含 OEWN 释义正文。OEWN 团队与 Princeton WordNet 均须署名；OEWN 为 CC BY 4.0，底层 Princeton WordNet 条款及免责声明同时适用。保留发布版本的原始 [OEWN 许可](OEWN-2024-LICENSE.md) 和 [WordNet 条款](OEWN-2024-WNDB-license.txt)。合并候选本身还受上节所述 CC BY-SA 4.0 条件约束；内容与应用代码分别管理。
 
 输入文件为发行版 XML gzip，下载地址 `https://github.com/globalwordnet/english-wordnet/releases/download/2024-edition/english-wordnet-2024.xml.gz`，SHA-256 `e1f633b0a93758cae34ea27c44c4dad310a8af2467b155f99dd6673af697e875`。运行 `python3 tools/content/index_oewn_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-index.csv` 可复现；脚本校验摘要且拒绝覆盖输出，需要 Python 3.11 及以上。原始词典体积较大，未放入项目；后续正式内容包须再次保留适用许可和署名。
