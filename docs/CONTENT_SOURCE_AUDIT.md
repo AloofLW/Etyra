@@ -63,7 +63,7 @@
 
 第二轮页面核验发现，初始 root brainstorm 中有 8 项实际更适合先放入词缀候选表：`bio-`、`geo-`、`-graph`、`photo-`、`micro-`、`tele-`、`-phone`、`-scope`。Wiktionary 对这些形式提供了明确的前缀/后缀条目或组合分析。已将它们登记到 `docs/AFFIX_CANDIDATES_V0_1.csv`，并在 root 表标记重分类。`phon` 对应形式暂记为 `-phone`；`scope` 改记为 `-scope`。这些仍是未批准候选，需逐词核实形态边界及高中适用性。
 
-这一轮也暴露出：初始 50 个 root brainstorm 中 8 项移出 root 计数，目前只有 42 项保留为 root 候选（其中 4 项已做首轮词源分诊，仍未完成高中适用性审核）。后续需补充 8 个真正的 root 候选，才能恢复“约 50 个词根”的候选池目标；不应为了维持数字把词缀留在词根表。
+这一轮也暴露出：初始 50 个 root brainstorm 中 8 项移出 root 计数，目前只有 42 项保留为 root 候选（其中 4 项已做首轮词源分诊，仍未完成高中适用性审核）。后续需补充真正的 root 候选，才能恢复“约 50 个词根”的候选池目标；不应为了维持数字把词缀留在词根表。
 
 ## 第二批词根页面分诊
 
@@ -94,6 +94,21 @@
 
 这些结果只支持候选词根/词干家族继续审核，不意味着这些形式可以在 UI 中互换或自动生成关联。8 项仍待高中范围、词频、具体关联词、释义与来源许可审核。
 
+
+## 第四批词根/词缀边界分诊
+
+2026-11-01 对 `ject`、`leg`、`morph`、`mort`、`path`、`ped`、`scop` 做了初步页面核对：
+
+- [reject](https://en.wiktionary.org/wiki/reject) 经 Latin `reiectus`/`reicere` 回溯到 `re-` + `iacere`（throw），支持 `ject` 作为受限词干候选；英语派生词仍须逐条审核。
+- [legible](https://en.wiktionary.org/wiki/legible) 回溯到 Latin `legō`（read），支持 `leg` 候选继续评估。
+- [morphology](https://en.wiktionary.org/wiki/morphology) 表层分析为 `morpho-` + `-logy`，且英语 `morph` 属于从 `morpheme` 反向构成的词形；将 `morph` 移出 root 计数，并在词缀表新增 `morpho-` combining-form 候选。
+- [mortal](https://en.wiktionary.org/wiki/mortal) 回溯到 Latin `mors` 经 `mortalis`，支持 `mort` 候选继续评估；`mort/mors` 变体须逐词核验。
+- [pathology](https://en.wiktionary.org/wiki/pathology) 提供 `path-` + `-ology` 或 `patho-` + `-logy` 的表层分析；将其移出 root 计数，在词缀表新增 `patho-` combining-form 候选。不可仅凭拼写把 `empathy` 归入同一构词关系。
+- [pedestrian](https://en.wiktionary.org/wiki/pedestrian) 追溯至 Latin `pedester`/`pes`（foot），支持拉丁语“足”义的 `ped` 候选；须与希腊语“儿童”义的 `pedi-/paedo-` 区分。
+- [telescope](https://en.wiktionary.org/wiki/telescope) 使用 `tele-` + `-scope`；`scop` 移出 root 计数并并入既有 AC-008 `-scope` 候选，不重复登记。
+
+截至本批，共 23 个 root 候选做过来源页面分诊；11 个原 root 条目已移出 root 计数或并入词缀候选。root 候选池约剩 39 项，需补充约 11 个候选以回到约 50 项。上述均为来源层初筛，未完成高中范围、词频、释义、逐词关系和独立编辑审核；全部仍为 `candidate_only`。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -106,6 +121,7 @@
 - 已对 `port`、`spect`、`struct`、`dict` 做首轮来源页面分诊；候选处置与关键歧义已写入 CSV。它们仍待高中适用性和逐词关联审查，`dict` 的候选形式需继续核验。
 - 已对 `act`、`aud`、`cred`、`fac`、`fer`、`fin`、`form` 做第二批页面分诊；其中 `factory` 作为 `fac` 关联词证据不足，不能纳入已验证关系。
 - 已对 `cap`、`ced`、`duc`、`mit`、`mot`、`rupt`、`script`、`tract` 做第三批页面分诊，并将潜在 allomorph 记录为待核，不据拼写自动建立关系。
-- 另将 8 个前缀/后缀形式转入 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前需补 8 项。
+- 第四批核对 `ject`、`leg`、`mort`、`ped`，并将 `morph`、`path`、`scop` 重分类/并入词缀候选；来源证据与形态边界说明见本文件和 CSV。
+- 另将 11 个前缀/后缀/combining-form 候选转入或合并至 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前约需补 11 项。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
