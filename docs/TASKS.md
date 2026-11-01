@@ -32,7 +32,7 @@
 - [x] 创建 Flutter iOS-only 空工程骨架，记录 SDK 和最低 iOS 部署目标。
 - [x] 初始化 Git 主分支（`main`）并创建工程基线提交。
 - [x] 建立 feature-first app/database 目录和共享依赖装配点。
-- [ ] 按 ADR-025 与 `docs/CONTENT_SOURCE_AUDIT.md` 建立候选审核清单；50 个 root/stem 候选已形成初步来源表（`docs/ROOT_CANDIDATES_V0_1.csv`，均为 candidate_only），下一步建立 300–500 个关联词逐词审核表，并补齐每个词条/关系的来源版本、许可、署名、修改说明、释义/词源证据和审校状态。候选词根表不等同产品 seed；不得臆造词源。
+- [ ] 按 ADR-025 与 `docs/CONTENT_SOURCE_AUDIT.md` 建立候选审核清单；50 个 root/stem 候选已形成初步来源表（`docs/ROOT_CANDIDATES_V0_1.csv`，均为 candidate_only），已建立 59 个关联单词关系候选（`docs/WORD_CANDIDATES_V0_1.csv`）；继续扩充至 300–500 个，并逐条补齐版本、许可、署名、释义/词源证据和审校状态。候选词根表不等同产品 seed；不得臆造词源。
 - [x] 约定测试层：模型/映射/迁移/Repository 单测，关键页面 widget 测试，核心学习流程集成测试。
 - [x] 约定分支、worktree、文件所有权和合并检查。
 
