@@ -76,6 +76,10 @@
 
 状态：接受并已验证。用户确认首版应用使用 `com.lovmus.etyra`；RunnerTests 使用 `com.lovmus.etyra.RunnerTests`。Xcode 自动签名成功，应用已安装并启动于已配对的 iPhone 12 Pro（iOS 17.6.1）。
 
+## ADR-020：Etyra 应用图标
+
+状态：接受并已真机验证。图标以“词根分支/构词网络 + 翻开的书页”组成单一符号，使用暖象牙底色、藏蓝主图和一枚灰绿色节点；不放文字，按 iOS 自动圆角裁切设计。1024px 母图保存在 `assets/branding/etyra-app-icon-1024.png`，iOS AppIcon asset catalog 包含全部声明尺寸。新图标已签名重装到 iPhone 12 Pro，并从设备读取确认不是 placeholder。
+
 ## 待决问题
 
 - 初始词库的权威来源、许可和具体词条清单。
