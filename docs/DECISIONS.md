@@ -98,6 +98,10 @@
 
 之后的页面实现遵循 `frontend/DESIGN_SPEC.md` 与 `frontend/UI_GUIDELINES.md`；不得未经项目管理对话确认而改变全局字体比例、配色、导航图标比例或底栏分隔方式。功能页面可增加必要布局，但不能偏离已确认的视觉系统。
 
+## ADR-024：v0.1 单词详情消费聚合
+
+状态：接受。单词详情读取采用只读 `WordDetail(word, roots, affixes, components, examples)` 聚合，避免前端为呈现一个详情页分别协调多个存储查询。单词存在但无构词关系/例句时返回空集合；ID 不存在时返回 `NotFound`。关联实体只由已存储的 `WordComponent` 明确关系解析；不得根据拼写相似性臆造词源。发音仍为未接入能力，详情页不得提供假播放交互。对应契约见 `docs/CONTRACTS_V0_1.md`。
+
 ## 待决问题
 
 - 初始词库的权威来源、许可和具体词条清单。

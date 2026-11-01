@@ -61,6 +61,14 @@ ExampleSentence {
   List<SourceRef> sources
 }
 
+WordDetail {
+  Word word
+  List<Root> roots
+  List<Affix> affixes
+  List<WordComponent> components
+  List<ExampleSentence> examples
+}
+
 SourceRef {
   String id
   String title
@@ -91,6 +99,8 @@ SourceRef {
 持久化枚举使用稳定字符串值；遇到未来未知值时映射为 `unknown` 或安全降级，不能导致数据库读取失败。未经验证或有争议的词源不能在 UI 中显示为确定事实。
 
 `SourceRef` 保存可追溯出处和许可/署名信息。词条没有来源时必须保持 `unverified`；导入审核需能判断来源是否允许复制内容、改编或再分发。
+
+`WordDetail` 是只读聚合：单词存在但没有构词关系或例句时，相关集合为空；单词 ID 不存在时，`getWordDetail` 返回 `NotFound`。`components` 保留构词关系的类型、角色、置信度和来源，`roots`/`affixes` 提供关联实体。前端不得仅凭词形相似推断构词关系或词源。
 
 ## 学习模型
 
@@ -171,6 +181,7 @@ Session 在最后一张卡片被答题或跳过时自动完成。`finishSession`
 ```text
 listRoots(query, cursor, limit) -> Page<Root>
 getRootDetail(rootId) -> RootDetail
+getWordDetail(wordId) -> WordDetail
 startStudySession(mode, contentIds?) -> StudySessionStart
 submitAnswer(input) -> AnswerResult
 skipItem(sessionId, itemId) -> AnswerResult
@@ -179,6 +190,8 @@ abandonSession(sessionId) -> SessionSummary
 ```
 
 `RootDetail` 包含一个 `Root`、关联的 `Affix`、`Word`、`WordComponent` 和 `ExampleSentence` 只读集合。筛选后没有学习项时，`StudySessionStart.session` 与 `firstCard` 均为 null，`totalCount` 为 0；不创建可提交的 session。
+
+`WordDetail` 包含一个 `Word`、关联的 `Root`/`Affix`、`WordComponent` 和 `ExampleSentence` 只读集合；构词关系与例句可为空。v0.1 不提供发音播放能力；`pronunciationRef` 仅为预留引用。
 
 ## 状态语义
 

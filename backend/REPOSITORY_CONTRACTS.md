@@ -5,7 +5,7 @@ Repository 是 domain 定义的抽象，返回领域模型或不可变结果，�
 ## 最小接口意图
 
 - `RootRepository`: `listRoots(query, cursor)`、`getRoot(id)`、`getRelatedWords(rootId)`。
-- `WordRepository`: `getWord(id)`、`listWords(filter, cursor)`、`getExamples(wordId)`。
+- `WordRepository`: `getWord(id)`、`getWordDetail(id)`、`listWords(filter, cursor)`、`getExamples(wordId)`。
 - `StudyRepository`: `createSession(mode)`、`nextItem(sessionId)`、`recordAnswer(input)`、`skipItem(sessionId, itemId)`、`finishSession(sessionId)`、`abandonSession(sessionId)`。
 - `LearningStateRepository`: `getState(contentId)`、`upsertState(state)`、`listDueStates(asOf)`。
 - `SettingsRepository`: `read(key)`、`write(key, value)`、`exportData()`、`importData(payload)`。
@@ -33,11 +33,11 @@ Repository 是 domain 定义的抽象，返回领域模型或不可变结果，�
 以上“最小接口意图”为早期规划；本轮以 `docs/CONTRACTS_V0_1.md` 的命令命名为准，不为旧命名增加重复接口。
 
 - `features/roots/domain/root_repository.dart`：`listRoots({query, cursor, limit = 30})`、`getRootDetail(rootId)`。
-- `features/words/domain/word_repository.dart`：`getWord(id)`、`listWords({query, cursor, limit = 30})`、`getExamples(wordId)`。
+- `features/words/domain/word_repository.dart`：`getWord(id)`、`listWords({query, cursor, limit = 30})`、`getExamples(wordId)`；单词详情实现前增加 `getWordDetail(id)`，返回 `WordDetail(word, roots, affixes, components, examples)`。
 - `features/study/domain/study_repository.dart`：`startStudySession(mode, {contentIds})`、`submitAnswer(input)`、`skipItem(sessionId, itemId)`、`finishSession(sessionId)`、`abandonSession(sessionId)`；只读 `LearningStateRepository.getState(contentType, contentId)` 使用复合身份避免 root/word ID 冲突。
 - 所有异步返回 `Future<Result<T>>`。`Success<T>.value` 表示成功；`Failure<T>.error` 包含 `FailureKind` 和稳定 `messageKey`，不包含 SQL 文本或原始异常。错误类别采用 Dart lowerCamelCase：`notFound/validation/storage/conflict/unsupported`。
 - `features/shared/domain/page.dart`：`items` 防御性复制并不可修改，`nextCursor` 不透明；`isFromCache` 在本地事实来源和 fake 中均为 false。
-- `application/` 提供 `ListRoots`、`GetRootDetail`、`GetWord`、`ListWords`、`GetExamples`、`StartStudySession`、`SubmitAnswer`、`SkipItem`、`FinishSession`、`AbandonSession`、`GetLearningState`，通过 `call` 调用。
+- `application/` 提供 `ListRoots`、`GetRootDetail`、`GetWord`、`ListWords`、`GetExamples`、`StartStudySession`、`SubmitAnswer`、`SkipItem`、`FinishSession`、`AbandonSession`、`GetLearningState`，通过 `call` 调用。单词详情实现同步增加 `GetWordDetail` 用例。
 - 前端开发可注入 `InMemoryContentRepository` 和 `InMemoryStudyRepository`。它们不含默认词条，数据重启即丢失；不得当作真实持久化。fake 对不存在的显式 ID 返回 NotFound，对重复/非当前卡片提交返回 Conflict；跳过不增加 studyCount。
 - fake 在最后一次处理卡片时结束 session；`finishSession` 可重复读取已完成总结，未完成时返回 Conflict；重复 abandon 保留首次结束时间，已完成 session 不能再 abandon。此行为已由 ADR-015 接受。
 - `DriftContentRepository` 提供读取实现；`DriftLearningStateRepository` 提供只读状态映射。`DriftStudyRepository` 使用现有 v1 Schema：开始会话在事务中持久化有序卡片快照；答题或跳过在同一事务内写日志、计数和结束状态，非跳过答题同步学习状态。重复/乱序提交返回 Conflict；SQLite 暂时锁定时有限重试整个事务，超过重试上限返回 Storage。

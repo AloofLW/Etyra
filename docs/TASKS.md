@@ -68,7 +68,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 ## 下一执行批次
 
 1. **对话 01 / ET-01G 装配验收（部分完成）**：已验证文件 SQLite 空库创建、关闭重开、schema 版本保持；真实 Drift provider 在应用词根 Tab 展示空态且不混入 fixture；当前版本已部署并启动于 iPhone 12 Pro（iOS 17.6.1）。待完成真机交互、深浅色、动态字体和 VoiceOver 人工验收。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 仍由对话 01 独占维护（ADR-018）。
-2. **对话 02 / 前端真实数据接线**：词根列表与详情已在 `feat/frontend-root-data` 完成真实 provider 接线；测试覆盖加载、空数据、错误重试、cursor 分页、稳定 ID 跳转和来源可信度。下一批接入单词列表/详情及明确的空状态；真实 Study Session 接线待有正式词库后单独安排。底部演示路径继续使用 fixture。动态字体、VoiceOver、Reduce Motion 仍需设备人工验收。
+2. **单词浏览 / 详情（本轮开发）**：先由对话 03 实现 `WordDetail(word, roots, affixes, components, examples)`、`WordRepository.getWordDetail(id)`、application 用例和 Drift 显式关系查询；单词不存在返回 NotFound，空关系/例句返回空集合。随后由对话 02 实现真实单词列表/详情 provider UI：加载、空、错误重试、分页、稳定 ID 导航、词性/释义/来源、构词关系、例句；不展示没有来源依据的词源推断，不提供假发音按钮。必须用测试 fake 覆盖有内容与边界，不得在正式空数据库页面混入 fixture。共享 `lib/app/composition/providers.dart` 由对话 01 接入新增 application provider，前后端不得并行修改。真实 Study Session UI 暂不在本批，等待单独验收；词库内容来源与许可仍待确认。
 3. **对话 03 / ET-01E 后续**：DriftStudyRepository 已实现真实会话/答题/跳过/结束/放弃事务，并有重启、并发重复提交和回滚测试；当前没有按 Session ID 恢复未完成界面的 application 查询契约，跨重启恢复需求先由对话 01 决策后再扩展。
 4. **对话 01 / 内容来源**：确认可再分发的词库来源与许可，建立约 50 个词根、300–500 个关联单词的审核清单；来源未确认前不制作产品 seed 内容。
 
