@@ -30,6 +30,7 @@ def main():
         "oewn_senses": count("OEWN_SENSE_CANDIDATES.csv"),
         "cow_sense_links": count("COW_SENSE_CANDIDATES.csv"),
         "kaikki_function_senses": count("KAIKKI_FUNCTION_SENSE_CANDIDATES.csv"),
+        "kaikki_gap_senses": count("KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv"),
         "oewn_form_links": count("OEWN_FORM_CANDIDATES.csv"),
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
         "function_drafts": count("CURATED_FUNCTION_WORD_PILOT.csv"),
@@ -51,11 +52,12 @@ def main():
             candidate_id = row["candidate_id"]
             counts = [sources[name][candidate_id] for name in columns]
             flags = []
-            if not (counts[0] or counts[2]):
+            if not (sources["oewn_senses"][candidate_id] or sources["kaikki_function_senses"][candidate_id] or sources["kaikki_gap_senses"][candidate_id]):
                 flags.append("english_sense_clue_needed")
-            if not (counts[1] or counts[4] or counts[5]):
+            if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id]):
                 flags.append("chinese_sense_clue_needed")
-            if counts[0] > 1 or counts[2] > 1:
+            if (sources["oewn_senses"][candidate_id] + sources["kaikki_function_senses"][candidate_id]
+                    + sources["kaikki_gap_senses"][candidate_id]) > 1:
                 flags.append("sense_selection_needed")
             flags.extend(("curriculum_review_needed", "license_review_needed"))
             source_status = revisions_by_id.get(candidate_id, {}).get("status", "not_indexed")

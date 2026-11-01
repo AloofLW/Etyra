@@ -23,7 +23,7 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 虚词义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前 13 个候选缺少直接英文义项线索、497 个缺少中文线索、4609 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不等于词典真实缺项，也不保证现有线索正确。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、497 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
@@ -60,6 +60,8 @@
 [`docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv`](../../CURATED_SUPPLEMENT_FUNCTION_PILOT.csv) 从补充候选中选出 15 个词的 17 条义项并编写中文及用法草稿，保留原始 gloss、词性、sense ID 和页面；这些是待复核的编辑草稿，不代表包含该词所有用法，也不能当作课标词义或正式译文。后续须复核代词的指代范围、单复数、语境和许可。
 
 来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 27 条编辑草稿均未使用该重复 ID。
+
+此前未找到英文 gloss 的 13 个主候选现从 Kaikki 单词页固定快照取得 101 条义项线索，见 [`docs/KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv`](../../KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv)。其中 `criteria`、`founded` 等包含词形义，应回到原形及所需语境核对；`multi` 和 `trans` 的单词页面所含词性不等同词缀 `multi-` 和 `trans-`，不能据此为词缀生成释义或词根关系。数据保留词性、标签、英文 gloss、源页面和 sense ID，未收例句；所有义项未审校。适用上述 Kaikki/Wiktionary 来源、署名及许可条件。各单词快照的顺序和 SHA-256 记录在 `tools/content/extract_kaikki_main_gap_words.py`；将快照按 0–12 命名放入目录后，运行 `python3 tools/content/extract_kaikki_main_gap_words.py /path/to/snapshots /tmp/etyra-main-gap-senses.csv` 可复现，源文件不提交仓库。
 
 本索引基于 Open English WordNet 2024 和 Princeton WordNet 改编：提取词条标识、词性与义项数量，关联 Etyra 候选拼写，不含 OEWN 释义正文。OEWN 团队与 Princeton WordNet 均须署名；OEWN 为 CC BY 4.0，底层 Princeton WordNet 条款及免责声明同时适用。保留发布版本的原始 [OEWN 许可](OEWN-2024-LICENSE.md) 和 [WordNet 条款](OEWN-2024-WNDB-license.txt)。合并候选本身还受上节所述 CC BY-SA 4.0 条件约束；内容与应用代码分别管理。
 
