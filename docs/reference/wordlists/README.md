@@ -64,6 +64,14 @@
 
 补充候选表取自 Open English WordNet 2024 和 Princeton WordNet，筛选与课标镜像比较后未精确匹配的词头，保留词典标识及页码；适用前述 OEWN/Princeton 许可及署名要求，产品分发前须核对实际使用内容。复现：在有 `pdfplumber` 的 Python 3.11+ 环境中运行 `python3 tools/content/build_curriculum_gap_candidates.py /path/to/mirror.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-gap-candidates.csv`；脚本验证两个输入摘要并拒绝覆盖输出。课标原文及整表没有放入仓库。
 
+### 词典未匹配的 18 个简单词形
+
+2026-11-01 对剩余 18 个拼写查询 English Wiktionary，均找到包含英语章节和相关词性标题的页面，结果写入 [`docs/WIKTIONARY_GAP_CANDIDATES.csv`](../../WIKTIONARY_GAP_CANDIDATES.csv)。其中多为代词或限定词，`chopsticks` 页面包含名词标题；表内记录固定页面修订 ID、该修订时间、英语章节中机器识别到的词性标题及课标镜像页码。机器识别整个英语章节的标题，不代表每个标题的所有义项都适合该词的高中语境；每个词仍须人工选义并核验课标原件。不得把未在 WordNet 找到视为无效单词，也不应强制构造词根关系。
+
+这些页面为 Wiktionary 社群内容，页面修订链接见 CSV；文字复用须核对修订内容的来源、许可、署名、修改标记和适用的 CC BY-SA 4.0 条件，具体参见 `docs/CONTENT_SOURCE_AUDIT.md`。表内只记录词头、词性标题和定位元数据，不收录释义；未来纳入释义或词源前须逐页核查。生成时对 `/tmp` 中的 MediaWiki API 修订内容响应检查了英语章节及标题，脚本为 `tools/content/build_wiktionary_gap_candidates.py`，输入为本地镜像试算 CSV 和 API 修订响应，现有输出不会被覆盖。页面可能变化，正式审校应使用记录的修订 ID。
+
+以规范化拼写计，原始 5342 个候选加 OEWN 补充 274 个、Wiktionary 补充 18 个，共 5634 个不同候选键。数字只代表待审工作量；85 个复杂词形、课标原件一致性、词义、翻译和词源关系仍未完成，也未证明高中必学词已全部覆盖。
+
 ## 工作顺序与验收口径
 
 1. 获得并核实适用的 2025 版课标附录、实施范围及使用权限，保留基准版本；先处理必修、选择性必修，再处理相关地方增补和常用扩展词。
