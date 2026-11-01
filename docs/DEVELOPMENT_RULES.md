@@ -26,6 +26,8 @@
 ## Git、worktree 与所有权
 
 - 建议分支：`main`、`chore/baseline`、`feat/frontend-<name>`、`feat/backend-<name>`、`docs/<name>`。
+- 项目默认远端为 `origin`（`https://github.com/AloofLW/Etyra.git`）；本机仓库通过 `.githooks/post-commit` 自动推送每次分支提交。首次推送会为当前分支建立 upstream；推送失败时提交仍留在本地，必须检查并补推。detached HEAD 不自动推送。
+- Git worktree 共用本机 `core.hooksPath` 配置；新克隆仓库需按本机路径重新启用 `.githooks`，不能假设此本地 Git 配置会随仓库克隆传播。
 - 项目管理对话拥有 `docs/` 与 `AGENTS.md`；前端对话拥有 `lib/features/*/presentation/` 和 `frontend/`；后端对话拥有 `lib/features/*/domain/`、`data/`、`database/` 和 `backend/`。
 - 共享文件（路由注册、provider 汇总、公共模型、导入索引）一次只由一个对话编辑；其他对话通过契约提出变更。
 - 合并前检查：格式、静态分析、相关测试、迁移可执行性和文档同步。

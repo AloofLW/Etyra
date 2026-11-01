@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+
+# Keep local commits and the configured Etyra origin in sync.
+# Detached worktree commits cannot be mapped safely to a branch, so leave them local.
+git symbolic-ref --quiet HEAD >/dev/null || {
+  printf '%s\n' 'Etyra auto-push skipped: HEAD is detached.' >&2
+  exit 0
+}
+
+git remote get-url origin >/dev/null 2>&1 || {
+  printf '%s\n' 'Etyra auto-push skipped: remote "origin" is not configured.' >&2
+  exit 0
+}
+
+git push --set-upstream origin HEAD
