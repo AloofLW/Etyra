@@ -116,7 +116,7 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
           ],
         ),
       ),
-    if (session.busy) const Semantics(liveRegion: true, child: Text('正在提交反馈…')),
+    if (session.busy) Semantics(liveRegion: true, child: const Text('正在提交反馈…')),
     if (session.feedback != null) ...[
       Semantics(
         liveRegion: true,
