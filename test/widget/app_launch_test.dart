@@ -32,7 +32,7 @@ void main() {
     expect(find.text('模拟首次提交失败'), findsNothing);
     expect(find.text('查看列表'), findsNothing);
     expect(effectiveStyle(tester, '开始学习演示').fontWeight, FontWeight.w500);
-    expect(effectiveStyle(tester, '学习').fontWeight, FontWeight.w500);
+    expect(effectiveStyle(tester, '学习').fontWeight, FontWeight.w600);
     expect(
       effectiveStyle(tester, '演示内容 · 尚未接入真实词库，学习记录不会保存。').fontWeight,
       FontWeight.w500,

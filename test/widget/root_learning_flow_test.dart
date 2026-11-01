@@ -1,10 +1,14 @@
 import 'package:etyra/app/etyra_app.dart';
+import 'package:etyra/app/composition/providers.dart';
 import 'package:etyra/features/roots/presentation/fixtures/root_learning_fixture.dart';
 import 'package:etyra/features/roots/presentation/root_learning_pages.dart';
 import 'package:etyra/features/roots/presentation/widgets/fixture_widgets.dart';
 import 'package:etyra/features/study/presentation/fixture_study_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import 'root_catalog_test.dart' show FakeRoots;
 
 Future<void> tapText(WidgetTester tester, String text) async {
   final target = find.text(text);
@@ -62,7 +66,12 @@ void main() {
   });
 
   testWidgets('四个底部入口可访问，未接入页面明确提示', (tester) async {
-    await tester.pumpWidget(const EtyraApp());
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [rootRepositoryProvider.overrideWithValue(FakeRoots())],
+        child: const EtyraApp(),
+      ),
+    );
     expect(find.byType(CupertinoTabBar), findsOneWidget);
     for (final (label, message) in [('单词', '单词浏览尚未接入。'), ('设置', '设置功能尚未接入。')]) {
       await tester.tap(find.text(label).last);
@@ -72,7 +81,7 @@ void main() {
     }
     await tester.tap(find.text('词根').last);
     await tester.pumpAndSettle();
-    expect(find.text('查看词根示例 A'), findsOneWidget);
+    expect(find.text('暂无词根内容'), findsOneWidget);
     await tester.tap(find.text('学习').last);
     await tester.pumpAndSettle();
     expect(find.text('开始学习演示'), findsOneWidget);
