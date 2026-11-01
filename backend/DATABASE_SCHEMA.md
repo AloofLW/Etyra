@@ -22,3 +22,18 @@
 ## 迁移原则
 
 数据库版本单调递增；迁移只增量、不删除用户数据；破坏性变更先备份并提供回滚/恢复策略。内容导入使用稳定 ID 和 upsert，禁止用词库刷新覆盖学习状态。每次迁移有空库、旧库、重复执行和失败恢复测试。
+
+## ET-01E v1 实现骨架（尚未执行生成/迁移）
+
+- 入口为 `lib/database/app_database.dart`，`schemaVersion = 1`；连接由 app 组装方传入，本模块不在 import 时打开数据库。
+- `onCreate` 使用 Drift `createAll`；不存在已发布旧版本，`onUpgrade` 对未实现路径明确拒绝，后续必须添加并验证增量步骤。`beforeOpen` 启用外键。
+- 内容表：`roots`、`affixes`、`words`、`word_components`、`examples`。完整 `SourceRef` 以 JSON 存储在对应记录的 `source_refs`，保留许可和署名字段。
+- 用户表：`learning_states`、`study_sessions`、`study_session_items`、`study_logs`。`study_session_items` 保存队列顺序和卡片文本快照，避免内容升级改变已启动会话；`study_logs` 对 session/content 设置唯一约束以支持重复提交拒绝。
+- `learning_states` 主键为 `(content_type, content_id)`；不同内容类型允许相同字符串 ID。v1 仅预留 nullable `due_at`、`fsrs_state_json`、`fsrs_due_at`、`fsrs_version`，v0.1 不写排程。
+- 所有数据库时间列采用 UTC Unix 毫秒整数，映射到领域层时显式使用 UTC。枚举存储字符串，不用限制未来枚举值的 SQL CHECK。
+- `word_components` 的多态目标由导入器校验；`word_id` 和例句关联使用外键。学习状态不对内容做级联删除。
+- 审计表 `seed_imports`：包 ID、正整数版本、规范载荷、审核人、审核依据、审核时间、导入时间、条目数；主键为 `(package_id, version)`。成功收据与内容在同一事务提交。
+- 本轮导入只允许新增或同值复用；同版本载荷变化、降级、已有 ID 内容变化返回 `Conflict`。完整的内容变更 upsert 策略尚待确认，骨架不会覆盖用户进度或删除内容。
+- 导入包必须自包含，校验稳定 ID、重复记录、来源/许可、人工再分发审核依据、关系目标、confidence 范围；不提供词库资产或默认词条。失败返回领域错误并回滚，失败尝试的持久审计尚未实现。
+
+迁移依据：[Drift migrations](https://drift.simonbinder.eu/migrations/)、[migrator API](https://drift.simonbinder.eu/migrations/api/)。生成文件和数据库实际行为须在后续获准后验证，当前不可将 v1 标记为已验收。
