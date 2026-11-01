@@ -152,6 +152,14 @@
 
 固定版本索引由 `tools/content/index_etymology_revisions.py` 生成，输入是包含页面修订正文的 MediaWiki API 响应，输出仅为定位元数据，不包含正文，不能替代内容审校。原响应未提交仓库；永久链接可用于定位对应来源。为保持候选表既有的 `component_role_candidate` 约定，将 WC-063 `spectator` 的非标准 `suffixal_root` 标记改为 `root`，具体英文构词切分依然待审核，不因此批准任何关系。
 
+## 第一批词义与词源编辑草稿
+
+2026-11-01 由 Codex 根据固定 Wiktionary 词源修订、OEWN 英文义项和 COW 中文词项整理了 8 条编辑草稿，见 `docs/CURATED_WORD_PILOT.csv`。涉及 `action`、`precede`、`final`、`formation`、`submit`、`inspect`、`visible`、`generate`；每行关联候选关系、OEWN 义项、CILI、COW synset、所选中文词项和词源修订 URL。草稿由 Codex 初步审阅，状态为 `editorial_draft_pending_final_review`，尚需核对课标适用性、中文上下文、词根/词缀在模型中的表示方式、来源授权义务和最终入库格式；不能直接视为已验收产品数据。
+
+词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
+
+审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
