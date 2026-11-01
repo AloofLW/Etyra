@@ -56,7 +56,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv` 的 17 条补充虚词义项草稿，尤其复核代词的指代范围、语境、翻译及许可。
 - [ ] 审查 `docs/KAIKKI_TRANSLATION_CANDIDATES.csv` 中 33 个候选的 118 条中文翻译线索，逐条核对来源义项、繁简、上下文及许可；不可将翻译框标签当作经过确认的义项 ID。
 - [ ] 审查 `docs/KAIKKI_COMMON_GAP_TRANSLATIONS.csv` 中 26 个候选的 154 条中文线索；4 个快照未提取到中文，后续需核对来源、词性与语境。
-- [ ] 复核 `docs/CURATED_COMMON_GAP_PILOT.csv` 的 12 条常用词义草稿；其中 `the` 和 `might` 为基于英文义项的编辑中文，原始翻译线索的语言标签也需检查。
+- [ ] 复核 `docs/CURATED_COMMON_GAP_PILOT.csv` 的 30 条常用词义草稿；其中 6 条为基于英文义项的编辑中文，`upon` 的具体搭配及原始翻译线索的语言标签也需检查。
 - [ ] 审查镜像标星且原先缺中文线索的 53 个候选：47 个取得 138 条翻译线索，6 个在快照中未找到中文翻译；全部须核对义项、课标和许可。
 - [ ] 复核 `docs/CURATED_UNTRANSLATED_PILOT.csv` 中 6 条依据英文义项自主编写的中文草稿，尤其检查 `bacteria` 复数词形和 `statistic` 的语境。
 - [ ] 复核 `docs/CURATED_GAP_TRANSLATION_PILOT.csv` 中 45 条根据英文 gloss 和中文翻译线索编辑的草稿；语义对应为编辑判断，不可自动视为来源确认，另核查 `somehow`、`prior` 的线索歧义。
