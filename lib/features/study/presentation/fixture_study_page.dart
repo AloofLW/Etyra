@@ -94,9 +94,29 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
         ),
       ),
     ),
+    ExcludeSemantics(
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(4),
+        child: Container(
+          height: 4,
+          color: CupertinoColors.systemGrey5.resolveFrom(context),
+          alignment: Alignment.centerLeft,
+          child: FractionallySizedBox(
+            widthFactor: (session.position + 1) / session.total,
+            child: Container(color: FixtureTokens.accent(context)),
+          ),
+        ),
+      ),
+    ),
     FixturePanel(
       children: [
-        FixtureHeading(widget.rootLabel),
+        Semantics(
+          header: true,
+          child: Text(
+            widget.rootLabel,
+            style: CupertinoTheme.of(context).textTheme.navLargeTitleTextStyle,
+          ),
+        ),
         Text('回忆提示占位 ${session.position + 1}'),
         const Text('内容待核验 · 未提供真实词源或释义'),
         if (session.revealed) ...[

@@ -53,12 +53,15 @@ class _RootListState extends State<RootFixtureListPage>
       if (phase != FixturePhase.data)
         FixtureStateView(phase: phase, onRetry: load)
       else ...[
-        for (final root in RootLearningFixture.samples)
-          FixturePanel(
-            children: [
+        FixturePanel(
+          children: [
+            const FixtureHeading('选择词根'),
+            for (final root in RootLearningFixture.samples) ...[
+              if (root != RootLearningFixture.samples.first)
+                const SizedBox(height: 4),
               FixtureHeading(root.label),
               const Text('释义待接入审核内容'),
-              Text('${root.words.length} 个关联单词 · 来源待核验'),
+              const Text('演示占位 · 来源待核验'),
               FixtureAction(
                 label: '查看${root.label}',
                 onPressed: () => Navigator.of(context).push<void>(
@@ -72,7 +75,8 @@ class _RootListState extends State<RootFixtureListPage>
                 ),
               ),
             ],
-          ),
+          ],
+        ),
         const Text('已显示全部预览内容'),
       ],
     ],
@@ -115,14 +119,10 @@ class _RootDetailState extends State<RootFixtureDetailPage>
             FixtureHeading(widget.root.label),
             const Text('释义待接入审核内容'),
             const Text('尚无可追溯来源 · 待核验'),
-            const Text('此处不提供确定的词源解释。审核后的来源、许可和署名将在此呈现。'),
-          ],
-        ),
-        const FixturePanel(
-          children: [FixtureHeading('构词关系'), Text('暂无已审核的词根、词缀关系。')],
-        ),
-        FixturePanel(
-          children: [
+            const SizedBox(height: 4),
+            const FixtureHeading('构词关系'),
+            const Text('暂无已审核的词根、词缀关系。'),
+            const SizedBox(height: 4),
             const FixtureHeading('关联单词'),
             if (widget.root.words.isEmpty)
               const Text('暂无关联单词。仍可预览词根学习流程。')

@@ -25,14 +25,9 @@ void main() {
 
   testWidgets('应用入口可进入词根列表、详情和学习', (tester) async {
     await tester.pumpWidget(const EtyraApp());
-    expect(find.text('词根学习界面预览'), findsOneWidget);
-
-    await tester.tap(find.text('查看列表').first);
-    await tester.pump();
+    expect(find.text('从词根开始，\n理解单词。'), findsOneWidget);
+    await tapText(tester, '浏览演示词根  ›');
     await tester.pumpAndSettle();
-    expect(find.text('准备浏览词根'), findsOneWidget);
-    await tapText(tester, '加载词根');
-    await loadFixture(tester);
     await tapText(tester, '查看词根示例 A');
     await tester.pumpAndSettle();
     expect(find.text('尚无可追溯来源 · 待核验'), findsOneWidget);
@@ -42,6 +37,20 @@ void main() {
     await tapText(tester, '开始预览');
     await tester.pumpAndSettle();
     expect(find.text('回忆提示占位 1'), findsOneWidget);
+  });
+
+  testWidgets('主要动作进入演示详情，预览工具独立可用', (tester) async {
+    await tester.pumpWidget(const EtyraApp());
+    await tapText(tester, '开始学习演示');
+    await tester.pumpAndSettle();
+    expect(find.text('词根示例 A'), findsOneWidget);
+    expect(find.text('尚无可追溯来源 · 待核验'), findsOneWidget);
+    await tester.pageBack();
+    await tester.pumpAndSettle();
+    await tapText(tester, '预览工具');
+    await tester.pumpAndSettle();
+    expect(find.text('模拟首次提交失败'), findsOneWidget);
+    expect(find.text('查看列表'), findsWidgets);
   });
 
   for (final isDetail in [false, true]) {
