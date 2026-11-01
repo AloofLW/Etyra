@@ -1,3 +1,5 @@
 # Preserve upstream files byte-for-byte, including their CRLF line endings.
 NGSL-GR-1.0-rank.csv -text whitespace=cr-at-eol
 NAWL-1.2-alphabetized.txt -text whitespace=cr-at-eol
+OEWN-2024-LICENSE.md -text whitespace=-blank-at-eol
+OEWN-2024-WNDB-license.txt -text whitespace=-blank-at-eol
