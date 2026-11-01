@@ -178,6 +178,8 @@
 
 从该批选取 `abstract`、`attract`、`attraction`、`attractive`、`extract`、`subtract` 六条 OEWN/COW 对照义项建立中文草稿，词根关系编辑草稿累计 72 条；例如 `extract` 选动词“取出”，不代表名词“摘录”义。`distract` 的现有中文链接对应使人烦恼或不安的义项，不能直接当作常见“使分心”义，故本批未选取；需要进一步查找对应英文义项和中文来源。所有草稿的跨词网对应、中文用法、词源和许可仍待复核。
 
+后续从 [Kaikki distract 单词数据](https://kaikki.org/dictionary/English/meaning/d/di/distract.html)找到“转移某人注意力”义项及“分心”翻译线索，单独建立 [`docs/CURATED_TRACT_KAIKKI_PILOT.csv`](CURATED_TRACT_KAIKKI_PILOT.csv) 的“使分心；转移注意力”待审草稿；中文使动语境由编辑补充。源 JSONL 快照 SHA-256 为 `d4d9bf77c38681ba3eadfce4fe2cab4f4e451c6b2c3393777aea3df7b31ae311`，词源仍使用 `WC-094` 固定 Wiktionary 修订。此草稿不覆盖原 COW 义项，词义、翻译、词源和许可均须复核，适用 Wiktionary/Kaikki 署名许可条件。
+
 本次没有把 `trace` 自动加入该家族：其[固定修订](https://en.wiktionary.org/w/index.php?title=trace&oldid=94591535)将动词来源描述为可能由不止一条路径混合，需先审查相应词源章节及义项；这不是判定两者无关，而是保留来源的不确定性。
 
 从该批候选选取 `report`、`reporter`、`support`、`transportation` 四条常用义项，保留 OEWN/COW 对照与固定词源来源，词根关系编辑草稿累计 66 条；译文与历史关系仍待审核。`supporter` 尚未加入此批草稿：OEWN `oewn-supporter__1.18.02..` 所述支持某事物的人，通过 CILI `i91907` 关联到 COW `cow-10407954-n` 的“主办方”，语义范围可能错位，不能直接把它选为一般“支持者”译文。`portfolio` 的现有 OEWN 义项缺少对应 COW 中文线索，也须另寻来源或编辑核验。

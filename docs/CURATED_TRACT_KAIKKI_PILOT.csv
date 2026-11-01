@@ -1,0 +1,2 @@
+candidate_id,word_relation_candidate_id,root_candidate_id,word,pos,source_glosses_json,source_tags_json,chinese_editorial_draft,usage_note,translation_provenance,kaikki_snapshot_sha256,etymology_revision_url,status
+vocab-candidate-4f6457b362b766c70011,WC-094,RC-039,distract,verb,"[""To divert the attention of.""]","[""transitive""]",使分心；转移注意力,此处为及物动词，指转移某人的注意力。,Kaikki/Wiktionary 翻译框列有“分心”；编辑补充使动语境。,d4d9bf77c38681ba3eadfce4fe2cab4f4e451c6b2c3393777aea3df7b31ae311,https://en.wiktionary.org/w/index.php?title=distract&oldid=94553197,editorial_draft_pending_final_review
