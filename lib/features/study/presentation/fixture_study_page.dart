@@ -66,17 +66,17 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
       onPopInvokedWithResult: (didPop, _) {
         if (!didPop) confirmExit();
       },
-      child: FixtureScaffold(
-        title: session.finished ? '学习总结' : '词根学习',
-        leading: session.finished
-            ? null
-            : CupertinoButton(
+      child: session.finished
+          ? _summary(context)
+          : FixtureScaffold(
+              title: '词根学习',
+              leading: CupertinoButton(
                 padding: EdgeInsets.zero,
                 onPressed: session.busy ? null : confirmExit,
                 child: const Text('退出'),
               ),
-        children: session.finished ? _summary(context) : _card(),
-      ),
+              children: _card(),
+            ),
     ),
   );
 
@@ -187,31 +187,132 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
     ],
   ];
 
-  List<Widget> _summary(BuildContext context) => [
-    const FixtureContentNotice(),
-    FixturePanel(
-      children: [
-        FixtureHeading(session.abandoned ? '本次学习已结束' : '本组学习已完成'),
-        Text('本组数量：${session.total}'),
-        Text('完成：${session.completed}'),
-        Text('跳过：${session.skipped}'),
-        Text('尚未完成：${session.total - session.completed - session.skipped}'),
-        const Text('完成数包含“知道了”和“需要再学”，不表示答对数量或长期掌握。'),
-      ],
-    ),
-    FixtureAction(
-      label: '返回词根详情',
-      primary: true,
-      onPressed: () => Navigator.of(context).pop(),
-    ),
-    FixtureAction(
-      label: '再预览一组',
-      onPressed: () => Navigator.of(context).pushReplacement<void, void>(
-        FixturePageRoute<void>(
-          context: context,
-          builder: (_) => FixtureStudyPage(rootLabel: widget.rootLabel),
+  Widget _summary(BuildContext context) {
+    final text = CupertinoTheme.of(context).textTheme;
+    final link = FixtureTokens.warmLink.resolveFrom(context);
+    final canReturn = Navigator.of(context).canPop();
+    return CupertinoPageScaffold(
+      backgroundColor: FixtureTokens.warmBackground.resolveFrom(context),
+      navigationBar: CupertinoNavigationBar(
+        middle: const Text('学习总结'),
+        border: null,
+        backgroundColor: FixtureTokens.warmBackground.resolveFrom(context),
+        automaticallyImplyLeading: false,
+        leading: canReturn
+            ? CupertinoButton(
+                padding: EdgeInsets.zero,
+                onPressed: () => Navigator.of(context).pop(),
+                child: Text('返回', style: TextStyle(color: link)),
+              )
+            : null,
+      ),
+      child: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(24, 24, 24, 32),
+          children: [
+            Semantics(
+              header: true,
+              child: Text(
+                session.abandoned ? '本次学习已结束' : '本组学习已完成',
+                style: text.navLargeTitleTextStyle,
+              ),
+            ),
+            const SizedBox(height: 12),
+            Text(widget.rootLabel, style: text.textStyle),
+            const SizedBox(height: 24),
+            Container(
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: FixtureTokens.warmSurface.resolveFrom(context),
+                borderRadius: BorderRadius.circular(FixtureTokens.radius),
+              ),
+              child: Wrap(
+                spacing: 32,
+                runSpacing: 16,
+                children: [
+                  _SummaryMetric(label: '本组数量', value: session.total),
+                  _SummaryMetric(label: '完成', value: session.completed),
+                  _SummaryMetric(label: '跳过', value: session.skipped),
+                  if (session.abandoned)
+                    _SummaryMetric(
+                      label: '尚未完成',
+                      value:
+                          session.total - session.completed - session.skipped,
+                    ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              '完成包含“知道了”和“需要再学”。',
+              style: text.textStyle.copyWith(
+                color: FixtureTokens.secondary(context),
+              ),
+            ),
+            const SizedBox(height: 24),
+            Semantics(
+              liveRegion: true,
+              child: Text(
+                '演示内容 · 未接入真实词库\n学习记录不会保存',
+                style: text.textStyle.copyWith(
+                  color: link,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ),
+            const SizedBox(height: 24),
+            CupertinoButton(
+              color: FixtureTokens.warmAction.resolveFrom(context),
+              onPressed: canReturn ? () => Navigator.of(context).pop() : null,
+              child: const Text(
+                '返回词根详情',
+                style: TextStyle(color: CupertinoColors.white),
+              ),
+            ),
+            const SizedBox(height: 8),
+            CupertinoButton(
+              onPressed: () =>
+                  Navigator.of(context).pushReplacement<void, void>(
+                    FixturePageRoute<void>(
+                      context: context,
+                      builder: (_) =>
+                          FixtureStudyPage(rootLabel: widget.rootLabel),
+                    ),
+                  ),
+              child: Text('再预览一组', style: TextStyle(color: link)),
+            ),
+          ],
         ),
       ),
+    );
+  }
+}
+
+class _SummaryMetric extends StatelessWidget {
+  const _SummaryMetric({required this.label, required this.value});
+
+  final String label;
+  final int value;
+
+  @override
+  Widget build(BuildContext context) => Semantics(
+    container: true,
+    label: '$label：$value',
+    child: ExcludeSemantics(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            '$value',
+            style: CupertinoTheme.of(context).textTheme.navLargeTitleTextStyle,
+          ),
+          Text(
+            label,
+            style: TextStyle(color: FixtureTokens.secondary(context)),
+          ),
+        ],
+      ),
     ),
-  ];
+  );
 }
