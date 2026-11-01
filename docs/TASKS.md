@@ -43,8 +43,8 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 ## 下一执行批次
 
 1. **对话 03 / ET-01D/E（基础验证通过，仍未完整验收）**：domain/application、内存 fake、Drift v1 表/迁移入口、只读 Repository 与种子导入骨架已提交至 `feat/backend-et01-de`。已生成 Drift 代码；`flutter analyze --no-pub` 无问题，后端定向 17 项测试通过，包含空库建表、外键开启与种子幂等/冲突。迁移升级/恢复、导入回滚、持久学习写入仍未验证或实现。
-2. **对话 02 / F-01 前端准备（已集成，待交互验收）**：presentation 静态流程与 fixture 从 `feat/frontend-root-flow`（`786df4f`）合入 ET-01 集成分支。全工程分析通过；当前无 widget 测试，动态字体/VoiceOver/浅深色仍需人工验收。
-3. **对话 01 / 当前整合**：后端与前端专题提交已在 ET-01 集成分支汇合；`main` 推进后继续冻结共享 app/provider 入口所有者，再安排前后端 application 接线。
+2. **对话 02 / F-01 前端准备（已集成，待交互验收）**：presentation 静态流程与 fixture 从 `feat/frontend-root-flow`（`786df4f`）合入 `main`。全工程分析通过；当前无 widget 测试，动态字体/VoiceOver/浅深色仍需人工验收。
+3. **对话 01 / 当前整合**：后端与前端专题提交已集成至 `main`；共享 app/provider 入口 owner 仍待指定，再安排前后端 application 接线。
 4. **共享入口 owner（待指定）**：定义 `lib/app`、路由/provider 汇总和 `main.dart` 的唯一所有者；此项完成前不挂载预览页面，不接入数据库。
 
 ## ET-01 验收标准
@@ -58,6 +58,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 后端与前端变更已汇入 ET-01 集成分支；`flutter analyze --no-pub` 无问题，`flutter test` 17 项通过，Drift 代码生成成功。未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
+- 后端与前端变更已快进集成到 `main`；`flutter analyze --no-pub` 无问题，`flutter test` 17 项通过，Drift 代码生成成功。未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
 - 前端 `786df4f` 已集成；无前端 widget 测试，运行时交互与无障碍仍需后续验收。
 - 首轮学习转换、Session 关闭、未知枚举及内容包更新策略由 ADR-014..017 收口；ADR-014 已同步至 fake，行为测试仍待执行。
