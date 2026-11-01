@@ -35,6 +35,7 @@ def main():
         "oewn_form_links": count("OEWN_FORM_CANDIDATES.csv"),
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
         "function_drafts": count("CURATED_FUNCTION_WORD_PILOT.csv"),
+        "main_gap_drafts": count("CURATED_MAIN_GAP_PILOT.csv"),
     }
     for name, values in sources.items():
         # Word drafts can refer to the separately maintained supplementary inventory.
@@ -55,7 +56,7 @@ def main():
             flags = []
             if not (sources["oewn_senses"][candidate_id] or sources["kaikki_function_senses"][candidate_id] or sources["kaikki_gap_senses"][candidate_id]):
                 flags.append("english_sense_clue_needed")
-            if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id] or sources["kaikki_translation_clues"][candidate_id]):
+            if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id] or sources["main_gap_drafts"][candidate_id] or sources["kaikki_translation_clues"][candidate_id]):
                 flags.append("chinese_sense_clue_needed")
             if (sources["oewn_senses"][candidate_id] + sources["kaikki_function_senses"][candidate_id]
                     + sources["kaikki_gap_senses"][candidate_id]) > 1:
