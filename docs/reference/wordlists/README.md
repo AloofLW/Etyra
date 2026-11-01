@@ -23,7 +23,7 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、457 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、430 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
@@ -63,7 +63,7 @@
 
 从上述已固定的五种词性和 20 个单词 JSONL 快照提取简体/繁体中文及普通话翻译线索，形成 [`docs/KAIKKI_TRANSLATION_CANDIDATES.csv`](../../KAIKKI_TRANSLATION_CANDIDATES.csv)：33 个候选共 118 行，保留原文、来源词性、来源提供的义项说明和快照编号。该表可能包含繁简并列写法、专用或地区用法，原文不自动拆分；来源 `sense` 字段只是翻译框标签，不是已验证的 sense ID，绝不能自动将翻译与任一英文义项配对。译文、来源和许可均须逐条复核。数据来源、署名和许可适用本节 Wiktionary/Kaikki 条件。复现：`python3 tools/content/extract_kaikki_translation_candidates.py /path/to/pos-snapshots /path/to/main-snapshots /path/to/supplement-snapshots /tmp/etyra-translations.csv`；脚本校验此前各节记录的全部快照摘要，拒绝覆盖输出。
 
-从主清单中无中文线索且未认证课标镜像带星号的候选，先抽取 24 个单词页面快照，见 [`docs/KAIKKI_CHINESE_GAP_SNAPSHOTS.csv`](../../KAIKKI_CHINESE_GAP_SNAPSHOTS.csv)，以原始文件摘要锁定本次结果；其中 20 个词找到 66 条中文翻译线索，见 [`docs/KAIKKI_CHINESE_GAP_TRANSLATIONS.csv`](../../KAIKKI_CHINESE_GAP_TRANSLATIONS.csv)。`bacteria`、`beneath`、`elsewhere`、`evolve` 的本次页面快照未提取到中文翻译；这不证明没有可用译文。镜像共筛得 53 个此类候选，尚有 29 个未查询；分批停止是工作进度，不是覆盖结论。此表同样保留原始繁简及翻译框标签，不自动选义；课标版本、译文、许可和来源均须复核。
+从主清单中无中文线索且未认证课标镜像带星号的候选，分批获取 53 个单词页面快照，见 [`docs/KAIKKI_CHINESE_GAP_SNAPSHOTS.csv`](../../KAIKKI_CHINESE_GAP_SNAPSHOTS.csv)，以原始文件摘要锁定本次结果；其中 47 个词找到 138 条中文翻译线索，见 [`docs/KAIKKI_CHINESE_GAP_TRANSLATIONS.csv`](../../KAIKKI_CHINESE_GAP_TRANSLATIONS.csv)。`bacteria`、`beneath`、`elsewhere`、`evolve`、`respective`、`statistic` 的本次页面快照未提取到中文翻译；这不证明没有可用译文。此结果只覆盖镜像简单行匹配到的候选，不证明课标覆盖。翻译表保留原始繁简及翻译框标签，不自动选义；课标版本、译文、许可和来源均须复核。
 
 复现：按快照清单的 URL 下载并将每份文件命名为 `candidate_id.jsonl`，运行 `python3 tools/content/extract_kaikki_gap_translations.py /path/to/snapshots /tmp/etyra-gap-translations.csv`；脚本核验文件摘要、词条及候选 ID，拒绝覆盖输出。源数据及译文使用适用前述 Wiktionary/Kaikki 署名及许可条件，快照原文不提交仓库。
 
