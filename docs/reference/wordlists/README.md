@@ -17,6 +17,12 @@
 - 名称：New Academic Word List (NAWL) 1.2；作者 Charles Browne、Brent Culligan、Joseph Phillips。[官方页面](https://www.newgeneralservicelist.com/new-academic-word-list)说明这是面向学术英语学习的 957 词清单，以 CC BY-SA 4.0 提供。署名：Browne, C., Culligan, B. and Phillips, J., *The New Academic Word List*, https://www.newgeneralservicelist.com/new-academic-word-list；许可和修改标记要求同上。
 - SHA-256：`88a99099e10010ea40992cca4a5119102d05a0f2888ee5d43d4c8b4afd597fef`。原文件前 6 行为介绍、空行及参考文献，之后是 957 个不同词项。按去除首尾空格、忽略大小写的精确文本比对，与 NGSL-GR 重合 665 项、NAWL 独有 292 项、两表并集 5342 项；未处理英美拼写、词形、词义或课程适用性。此结果只描述候选文本并集，不代表独立产品词条数或高中覆盖率，学术性过强的词须筛除。
 
+## 合并候选清单
+
+[`docs/VOCABULARY_CANDIDATES.csv`](../../VOCABULARY_CANDIDATES.csv) 是上述两份词表的改编整理，按去除首尾空格并执行 Unicode casefold 后的拼写合并、排序。每行保留来源标识、NGSL 原始 `WordID`（不是已确认的词频排名）和 `candidate_only` 状态；两个来源同时出现时同时保留标识。候选 ID 是规范化拼写 SHA-256 的前 20 个十六进制字符，仅用于这份审核清单，不是产品稳定 ID。合并会遮蔽同拼写词项的词义、词性或大小写差异，必须在产品入库前单独审查。文件不含释义、课标标签或词源关系。
+
+合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
+
 ## 高中课标覆盖基准
 
 - [教育部制定的《普通高中英语课程标准（2017 年版 2020 年修订）》](https://www.ictr.edu.cn/Uploads/File/2025/02/07/4.%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%EF%BC%882017%E5%B9%B4%E7%89%882020%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.20250207211247.pdf)由教育部课程教材研究所网站提供，附录 2 称列 3000 词，其中包含义务教育 1500 词、高中必修新增 500 词、选择性必修新增 1000 词；正文不含词性和中文释义。作为已定位的官方历史对照来源，不能据此声称已满足最新版。
