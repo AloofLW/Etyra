@@ -67,8 +67,8 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 下一执行批次
 
-1. **对话 01 / application composition**：建立 `AppDatabase` 生命周期和 Root/Word/Study Repository 的 Riverpod provider 装配；在真实词库数据接入前保留 fixture 预览入口，不将空库误报为存储错误。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 由对话 01 独占维护（ADR-018）。
-2. **对话 02 / F-01 数据接线**：将列表/详情/学习 presentation 从本地 fixture controller 逐步接到 application provider；保留空态和错误态。当前 fixture widget 流程已有 14 项自动测试；浅深色、动态字体、VoiceOver、Reduce Motion 仍需设备人工验收。
+1. **对话 01 / ET-01G 装配验收**：验证真实 provider 首次读取时单一 `AppDatabase` 能创建/重开/释放，空库返回可展示空态且不会混入 fixture；再完成目标设备上的启动与核心流程记录。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 仍由对话 01 独占维护（ADR-018）。
+2. **对话 02 / 前端真实数据接线**：词根列表与详情已在 `feat/frontend-root-data` 完成真实 provider 接线；测试覆盖加载、空数据、错误重试、cursor 分页、稳定 ID 跳转和来源可信度。下一批接入单词列表/详情及明确的空状态；真实 Study Session 接线待有正式词库后单独安排。底部演示路径继续使用 fixture。动态字体、VoiceOver、Reduce Motion 仍需设备人工验收。
 3. **对话 03 / ET-01E 后续**：DriftStudyRepository 已实现真实会话/答题/跳过/结束/放弃事务，并有重启、并发重复提交和回滚测试；当前没有按 Session ID 恢复未完成界面的 application 查询契约，跨重启恢复需求先由对话 01 决策后再扩展。
 4. **对话 01 / 内容来源**：确认可再分发的词库来源与许可，建立约 50 个词根、300–500 个关联单词的审核清单；来源未确认前不制作产品 seed 内容。
 
@@ -88,5 +88,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - 新应用图标已生成并替换 iOS AppIcon 全部尺寸；从已部署真机取回图标确认生效。图标母图位于 `assets/branding/etyra-app-icon-1024.png`。
 - 前端首屏已重设计为学习者入口；状态模拟和故障注入移至“预览工具”，演示数据及不保存记录均有明确说明。列表/详情减少重复面板，学习卡片增加进度层级。重设计 widget 测试通过，已合入 `main` 并重新安装到 iPhone 12 Pro。2026-11-01 用户已确认首屏视觉与底部导航基线（ADR-023）；真实 provider 接线、核心交互复核及无障碍设备验收仍待完成。
 - ET-01F App composition 已建立：`lib/app/composition/providers.dart` 提供单一惰性 `AppDatabase` 生命周期、Root/Word 共享内容 Repository、Study/LearningState Repository 及对应 application 用例 providers；当前首页仍为 fixture，不会将空数据库展示成真实词库。`flutter analyze --no-pub` 无问题；本轮未运行测试或构建，数据库首次打开/关闭及持久化仍待运行验收。
+- 词根真实数据接线已完成并集成到本工作分支（`feat/frontend-root-data`，提交 `e3193aa`、`6f74898`）：正式词根 Tab 消费列表/详情 providers，展示加载、空库、失败重试、分页和来源校验；首页/演示路径继续使用 fixture。对话 02 报告 27 项 widget 测试、静态分析和 diff 检查通过；真实 SQLite 数据展示/设备验收尚未完成。
 - `DriftStudyRepository` 已持久化学习 session 与事件，关键事务/重启行为通过 SQLite 测试；没有 schema 变更。全套测试输出存在 Drift “同一 QueryExecutor 多个数据库实例”诊断警告，但测试通过；须在稳定 app composition 阶段核对数据库实例生命周期，避免生产环境重复构造。
 - 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。
