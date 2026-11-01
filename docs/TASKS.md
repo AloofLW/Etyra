@@ -50,7 +50,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
 - [ ] 获得适用的 2025 版高中课标权威原文及完整附录，核实版本、实施范围与可使用权限；第三方 PDF 镜像已定位但未获认证，第三方整理词表存在可见差异；2020 版作为历史对照。详见 `docs/reference/wordlists/README.md`。
 - [ ] 依据课标逐项比对候选词表，保存精确匹配、待复核、缺失和歧义结果；解决所有必学项的覆盖及词形映射。
-- [ ] 审查 `docs/CURRICULUM_GAP_CANDIDATES.csv` 中 274 个 OEWN 缺口候选及 `docs/WIKTIONARY_GAP_CANDIDATES.csv` 中 18 个 Wiktionary 候选；处理 85 个复杂形式，核验原件及各版本等级。
+- [ ] 审查 `docs/CURRICULUM_GAP_CANDIDATES.csv` 中 274 个 OEWN 缺口候选、`docs/WIKTIONARY_GAP_CANDIDATES.csv` 中 18 个 Wiktionary 候选、`docs/COMPLEX_FORM_CANDIDATES.csv` 中 74 个复杂行片段候选；处理其余 10 个未匹配片段，逐行核对全部 85 个复杂形式、权威原件和各版本等级。
 - [ ] 筛选并审核至少 5000 个正式词条的词形、词性、释义、来源和许可；词源关系单独验证，不强制为每词虚构词根。
 - [ ] 生成正式离线词库包并验证词条数量、课标覆盖、数据来源及导入后可学习；词库更新保留用户进度。
 

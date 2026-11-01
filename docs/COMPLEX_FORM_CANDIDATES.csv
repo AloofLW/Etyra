@@ -1,0 +1,75 @@
+candidate_id,normalized_key,oewn_forms,oewn_entry_ids,oewn_pos,case_match,mirror_pdf_pages,status
+vocab-candidate-7b455f2dd791ffcc1278,a.m.,A.M.|a.m.,oewn-A.M.-n|oewn-A.M.-r|oewn-a.m.-n|oewn-a.m.-r,n|r,exact_present,76,candidate_only
+vocab-candidate-f1fc3326d9fc752b3f71,according,according,oewn-according-a,a,exact_present,77,candidate_only
+vocab-candidate-32e83e92d45d71f69dcf,ai,AI|ai,oewn-AI-n|oewn-ai-n,n,exact_present,78,candidate_only
+vocab-candidate-ab6db599234d2636659c,am,AM|Am|am,oewn-AM-n|oewn-AM-r|oewn-Am-n|oewn-am-n|oewn-am-r,n|r,exact_present,81,candidate_only
+vocab-candidate-ea325d761f98c6b73320,an,AN,oewn-AN-n,n,casefold_only,76,candidate_only
+vocab-candidate-d41852293ee0e17d2362,analyse,analyse,oewn-analyse-v,v,exact_present,78,candidate_only
+vocab-candidate-faebbd710849d7b292e3,apologise,apologise,oewn-apologise-v,v,exact_present,79,candidate_only
+vocab-candidate-ba78973ddcf98d4e5369,are,are,oewn-are-n,n,exact_present,81,candidate_only
+vocab-candidate-803b3eb2b6af02715195,artificial intelligence,artificial intelligence,oewn-artificial_intelligence-n,n,exact_present,78,candidate_only
+vocab-candidate-3f5319c51e359ee04fab,bce,BCE,oewn-BCE-r,r,exact_present,81,candidate_only
+vocab-candidate-4fc8e16d25ee6b7a4f7c,bean curd,bean curd,oewn-bean_curd-n,n,exact_present,127,candidate_only
+vocab-candidate-b4fea5ac8069c02dfadc,bridegroom,bridegroom,oewn-bridegroom-n,n,exact_present,83,candidate_only
+vocab-candidate-e64c826b6b33f307cecf,ce,CE|Ce,oewn-CE-r|oewn-Ce-n,n|r,exact_present,84,candidate_only
+vocab-candidate-e60061df78be5e38d0bf,centimeter,centimeter,oewn-centimeter-n,n,exact_present,84,candidate_only
+vocab-candidate-58c5c7b981e9c066a5f7,centimetre,centimetre,oewn-centimetre-n,n,exact_present,84,candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,Centre|centre,oewn-Centre-n|oewn-centre-a|oewn-centre-n|oewn-centre-s|oewn-centre-v,a|n|s|v,exact_present,84,candidate_only
+vocab-candidate-ff8d42dd804fd53b15cc,chairwoman,chairwoman,oewn-chairwoman-n,n,exact_present,85,candidate_only
+vocab-candidate-bf487e25d4996f60ee74,civilisation,civilisation,oewn-civilisation-n,n,exact_present,86,candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,oewn-colour-a|oewn-colour-n|oewn-colour-v,a|n|v,exact_present,86,candidate_only
+vocab-candidate-47d7ef07a8177c7898f5,common era,Common Era|Common era,oewn-Common_Era-r|oewn-Common_era-n,n|r,exact_present,84,candidate_only
+vocab-candidate-52d1df5a365f904c3f97,criticise,criticise,oewn-criticise-v,v,exact_present,89,candidate_only
+vocab-candidate-abe0ba24dae6eb854ba2,dialogue,dialogue,oewn-dialogue-n,n,exact_present,90,candidate_only
+vocab-candidate-6bf99799d0ef91be6c25,disc,disc,oewn-disc-n,n,exact_present,91,candidate_only
+vocab-candidate-64646fbc4b7b5a8e31ba,empress,empress,oewn-empress-n,n,exact_present,93,candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,oewn-favour-n|oewn-favour-v,n|v,exact_present,96,candidate_only
+vocab-candidate-775cf3abc9be67866542,favourite,favourite,oewn-favourite-a|oewn-favourite-n|oewn-favourite-v,a|n|v,exact_present,96,candidate_only
+vocab-candidate-f616cb3ccd8df4d931cd,flavour,flavour,oewn-flavour-n|oewn-flavour-v,n|v,exact_present,96,candidate_only
+vocab-candidate-c8d391dc588ad0819dac,gramme,gramme,oewn-gramme-n,n,exact_present,99,candidate_only
+vocab-candidate-ba8d3e6a2d8b5ed67ba2,grandma,grandma,oewn-grandma-n,n,exact_present,99,candidate_only
+vocab-candidate-1eb4d6a000efefe9aadb,grandpa,grandpa,oewn-grandpa-n,n,exact_present,99,candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,Grey|grey,oewn-Grey-n|oewn-grey-a|oewn-grey-n|oewn-grey-v,a|n|v,exact_present,99,candidate_only
+vocab-candidate-db7d1e32769c6a3bbe48,gymnasium,Gymnasium|gymnasium,oewn-Gymnasium-n|oewn-gymnasium-n,n,exact_present,99,candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,oewn-honour-n|oewn-honour-v,n|v,exact_present,101,candidate_only
+vocab-candidate-16103864ac47b5a014b6,hostess,hostess,oewn-hostess-n,n,exact_present,101,candidate_only
+vocab-candidate-5242ef88723012b4b96c,humour,humour,oewn-humour-n|oewn-humour-v,n|v,exact_present,101,candidate_only
+vocab-candidate-e971c330aab8741082ab,ice cream,ice cream,oewn-ice_cream-n,n,exact_present,101,candidate_only
+vocab-candidate-54c5ccf0f305a9a1529d,kilo,kilo,oewn-kilo-n,n,exact_present,104,candidate_only
+vocab-candidate-16db10b2848943982d5d,kilogram,kilogram,oewn-kilogram-n,n,exact_present,104,candidate_only
+vocab-candidate-875f01c5306fbc2304c8,kilometre,kilometre,oewn-kilometre-n,n,exact_present,104,candidate_only
+vocab-candidate-0be30369a574d79fbbdd,kung fu,kung fu,oewn-kung_fu-n,n,exact_present,104,candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,Labour|labour,oewn-Labour-n|oewn-labour-n|oewn-labour-v,n|v,exact_present,104,candidate_only
+vocab-candidate-58a6d6801ae771e63235,math,math,oewn-math-n,n,exact_present,107,candidate_only
+vocab-candidate-acc017392425439be5e3,maths,maths,oewn-maths-n,n,exact_present,107,candidate_only
+vocab-candidate-b35ce4fd7c8fbe7027e5,metre,metre,oewn-metre-n,n,exact_present,107,candidate_only
+vocab-candidate-20fc9133f8c1daf9a29e,millimetre,millimetre,oewn-millimetre-n,n,exact_present,108,candidate_only
+vocab-candidate-c339fb7706a7edcf4ecf,mobile phone,mobile phone,oewn-mobile_phone-n,n,exact_present,108,candidate_only
+vocab-candidate-79032b8a85663acddd60,mr,Mr,oewn-Mr-n,n,exact_present,109,candidate_only
+vocab-candidate-6405cf0c2f2418e27e53,mr.,Mr.,oewn-Mr.-n,n,exact_present,109,candidate_only
+vocab-candidate-b21dabb4c22d87c7e22f,mrs,Mrs,oewn-Mrs-n,n,exact_present,109,candidate_only
+vocab-candidate-5520f551aa89217efa78,mrs.,Mrs.,oewn-Mrs.-n,n,exact_present,109,candidate_only
+vocab-candidate-f785c3ce1d580c8f22c1,ms,MS|Ms|ms,oewn-MS-n|oewn-Ms-n|oewn-ms-n,n,exact_present,109,candidate_only
+vocab-candidate-db0683221aebc02cc034,ms.,Ms.,oewn-Ms.-n,n,exact_present,109,candidate_only
+vocab-candidate-968ccf654c356f62f975,neighbour,neighbour,oewn-neighbour-n|oewn-neighbour-v,n|v,exact_present,109,candidate_only
+vocab-candidate-d221bc0442edd1c2fcaa,neighbourhood,neighbourhood,oewn-neighbourhood-n,n,exact_present,109,candidate_only
+vocab-candidate-d9019ff220a47ff8fc99,organisation,organisation,oewn-organisation-n,n,exact_present,111,candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,oewn-organise-v,v,exact_present,111,candidate_only
+vocab-candidate-36e11c186286bdb79b77,p.m.,P.M.|p.m.,oewn-P.M.-n|oewn-P.M.-r|oewn-p.m.-n|oewn-p.m.-r,n|r,exact_present,114,candidate_only
+vocab-candidate-cdf69b25a417e25753dc,pe,pe,oewn-pe-n,n,casefold_only,112,candidate_only
+vocab-candidate-1761b93ae46f92f36264,physical education,physical education,oewn-physical_education-n,n,exact_present,112,candidate_only
+vocab-candidate-f2764ee70e739a32a7aa,ping-pong,Ping-Pong,oewn-Ping-Pong-n,n,casefold_only,113,candidate_only
+vocab-candidate-f9852209bcf6eaa5e6ac,policewoman,policewoman,oewn-policewoman-n,n,exact_present,114,candidate_only
+vocab-candidate-b0be485102cc287bf9ca,practise,practise,oewn-practise-v,v,exact_present,114,candidate_only
+vocab-candidate-04e77bf8f95cb3e1a36a,princess,princess,oewn-princess-n,n,exact_present,115,candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,oewn-programme-n|oewn-programme-v,n|v,exact_present,115,candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,oewn-realise-v,v,exact_present,117,candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,oewn-recognise-v,v,exact_present,117,candidate_only
+vocab-candidate-0cf35ab8cf8d2c5a4d14,refrigerator,refrigerator,oewn-refrigerator-n,n,exact_present,97,candidate_only
+vocab-candidate-3dcedf90013a36685c88,salesman,salesman,oewn-salesman-n,n,exact_present,119,candidate_only
+vocab-candidate-1d898a074cb4fca35a54,saleswoman,saleswoman,oewn-saleswoman-n,n,exact_present,119,candidate_only
+vocab-candidate-5a6ae5c8d6d82bd913f3,t-shirt,T-shirt,oewn-T-shirt-n,n,exact_present,128,candidate_only
+vocab-candidate-d05c34e72352778bfa90,theatre,theatre,oewn-theatre-n,n,exact_present,126,candidate_only
+vocab-candidate-cc52e9ceb39eabd803ce,tofu,tofu,oewn-tofu-n,n,exact_present,127,candidate_only
+vocab-candidate-a46e5d2bbe2d3b05b2d2,tv,TV|tv,oewn-TV-n|oewn-tv-n,n,exact_present,128,candidate_only
+vocab-candidate-b2170dfac0589e2a701c,x-ray,X-ray|x-ray,oewn-X-ray-n|oewn-x-ray-v,n|v,exact_present,132,candidate_only
