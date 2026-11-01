@@ -176,6 +176,8 @@
 
 从该批候选选取 `report`、`reporter`、`support`、`transportation` 四条常用义项，保留 OEWN/COW 对照与固定词源来源，词根关系编辑草稿累计 66 条；译文与历史关系仍待审核。`supporter` 尚未加入此批草稿：OEWN `oewn-supporter__1.18.02..` 所述支持某事物的人，通过 CILI `i91907` 关联到 COW `cow-10407954-n` 的“主办方”，语义范围可能错位，不能直接把它选为一般“支持者”译文。`portfolio` 的现有 OEWN 义项缺少对应 COW 中文线索，也须另寻来源或编辑核验。
 
+为继续处理上述两词，另查询 Kaikki 的 [supporter](https://kaikki.org/dictionary/English/meaning/s/su/supporter.html) 与 [portfolio](https://kaikki.org/dictionary/English/meaning/p/po/portfolio.html) 单词数据，建立 [`docs/CURATED_PORT_KAIKKI_PILOT.csv`](CURATED_PORT_KAIKKI_PILOT.csv) 两条待审草稿：前者选“支持者”，与其翻译框和英文义项对照；后者选个人作品材料集合义，中文“作品集”为编辑草稿，来源快照未提供中文译文。来源 JSONL 快照 SHA-256 分别为 `ece3d8387b1815f7c47af73ec92eeb1700a2d2189f2dd708cd9d8db11711718f` 和 `0ada5669eaba999d9ab90e17429bfc41e112b43cd901910855bc53dd549964a5`；两条词源仍使用前述固定 Wiktionary 修订。这些草稿不修正或覆盖原 COW 数据，所有义项、翻译、许可和历史关联仍待复核，适用 Wiktionary/Kaikki 的署名和许可条件。
+
 从上述 `cap` 家族新增 11 条中文选义草稿，涵盖 `except`、`exception`、`accept`、`acceptance`、`concept`、`conception`、`receive`、`reception`、`perceive`、`perception`、`capable`；词根关系编辑草稿累计 62 条。英文义项、CILI 和中文词项分别保留 OEWN/COW 定位，词源摘要保留固定页面链接。所选义项只是每词的一种用法，例如 `except` 草稿为动词“排除”，不能代替其介词用法；`reception` 选正式“招待会”，不代表“接待”或信号接收义。跨词网对应、中文语境、来源许可和历史词根均需最终审校。
 
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
