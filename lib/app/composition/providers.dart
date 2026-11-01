@@ -55,6 +55,10 @@ final getWordProvider = Provider<GetWord>(
   (ref) => GetWord(ref.watch(wordRepositoryProvider)),
 );
 
+final getWordDetailProvider = Provider<GetWordDetail>(
+  (ref) => GetWordDetail(ref.watch(wordRepositoryProvider)),
+);
+
 final listWordsProvider = Provider<ListWords>(
   (ref) => ListWords(ref.watch(wordRepositoryProvider)),
 );
