@@ -140,9 +140,11 @@
 
 ## 首批关联单词候选
 
-建立 `docs/WORD_CANDIDATES_V0_1.csv`，按冻结模型中的 `Word` + 显式 `WordComponent(root)` 关系记账，首批登记 59 个词根—单词关系候选，覆盖 50 个有效 root/stem 候选中的主要高产方向。每行有独立单词来源 URL、初步证据摘要、候选构词形式和待审核状态；没有填写释义、词性或例句，避免未经编辑核验的内容进入产品字段。候选行全部为 `candidate_only` 和 `pending_word_level_review`，不得由 CSV 自动生成产品 Word/WordComponent。
+建立 `docs/WORD_CANDIDATES_V0_1.csv`，按冻结模型中的 `Word` + 显式 `WordComponent(root)` 关系记账；截至本轮登记 68 个词根—单词关系候选，覆盖 50 个有效 root/stem 候选中的 45 个方向。每行有独立单词来源 URL、初步证据摘要、候选构词形式和待审核状态；没有填写释义、词性或例句，避免未经编辑核验的内容进入产品字段。候选行全部为 `candidate_only` 和 `pending_word_level_review`，不得由 CSV 自动生成产品 Word/WordComponent。
 
-这 59 项只是内容审核队列的起步，不等于 300–500 个关联词目标已完成。接下来须逐页固定 revision ID/版本定位，复核词形/词义/词性/高中适用性、关系类型、内容许可与署名；对多词源、多义或有异形的词，必要时拆分词义候选或排除。例句须另行审核版权，不得由模型自行造句后伪装成来源材料。
+本轮新增 9 条候选，集中在 `port`、`spect` 和 `struct` 词根组。证据分别来自 Wiktionary 的 [transport](https://en.wiktionary.org/wiki/transport)、[import](https://en.wiktionary.org/wiki/import)、[export](https://en.wiktionary.org/wiki/export)、[spectator](https://en.wiktionary.org/wiki/spectator)、[prospect](https://en.wiktionary.org/wiki/prospect)、[prospectus](https://en.wiktionary.org/wiki/prospectus)、[construct](https://en.wiktionary.org/wiki/construct)、[instruct](https://en.wiktionary.org/wiki/instruct) 和 [instruction](https://en.wiktionary.org/wiki/instruction)。对 `import` 的多义/异源、`prospect` 的多种词源、`prospectus` 的双词源关系及 `instruct/instruction` 的词干边界均保留待审提示；来源页面出现某词根并不自动批准教学关系。
+
+这 68 项只是内容审核队列的起步，不等于 300–500 个关联词目标已完成。接下来须逐页固定 revision ID/版本定位，复核词形/词义/词性/高中适用性、关系类型、内容许可与署名；对多词源、多义或有异形的词，必要时拆分词义候选或排除。例句须另行审核版权，不得由模型自行造句后伪装成来源材料。
 
 ## 待决事项
 
