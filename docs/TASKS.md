@@ -71,6 +71,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 80 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位。
 - [ ] 审查 `docs/CURATED_PORT_KAIKKI_PILOT.csv` 的 `supporter`、`portfolio` 两条替代来源草稿，核对义项、翻译及对应词源；不覆盖原 COW 线索。
 - [ ] 审查 `docs/CURATED_TRACT_KAIKKI_PILOT.csv` 的 `distract`“使分心”草稿，核对使动语境、词源和许可；不覆盖原 COW 义项。
+- [ ] 审查 `docs/CURATED_SPECT_KAIKKI_PILOT.csv` 的 `respective`、`spectacular` 两条替代来源草稿，核对语义、历史关联与许可。
 - [x] 为 11 个此前不在候选词表内的词根关联词补充 OEWN 词头和英文义项；其中 5 个词找到 COW 中文义项线索，所有词条仍待审。
 - [x] 以 CILI 将 OEWN 义项与 Chinese Open Wordnet 1.1 对照，形成 `docs/COW_SENSE_CANDIDATES.csv` 中文词项候选；人工选义、翻译准确性和最终词库导入仍待完成。
 - [x] 为 348 个 OEWN 补充候选提取英文义项，并为其中 272 个候选建立中文词项线索；大小写、词性、课标适用性和中文表达均待审。

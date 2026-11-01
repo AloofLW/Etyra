@@ -186,6 +186,8 @@
 
 从该批选取 `inspection`、`perspective`、`aspect`、`expect`、`expectation`、`suspect`、`suspicion`、`spectrum` 八条 OEWN/COW 对照义项建立中文草稿，词根关系编辑草稿累计 80 条。所选词义均有具体范围：`suspect` 选名词“嫌疑人”，`spectrum` 选广泛范围义而非物理光谱，`inspection` 的“评审”只适用于相应正式审查语境。`spectacular` 的现有部分中英文对照在“戏剧性的”和“壮观的”等语义间需进一步核对，本批未选；`respective` 则已有单独的英文来源中文草稿，但词根关联尚未完成联合审校。所有草稿均未批准入库。
 
+随后以 Kaikki 固定快照建立 [`docs/CURATED_SPECT_KAIKKI_PILOT.csv`](CURATED_SPECT_KAIKKI_PILOT.csv)：`respective` 连接此前“各自的”英文来源草稿及 `WC-098` 词源候选；`spectacular` 选“令人惊叹或值得特别注意”义，对应来源翻译框中的“壮观”，并由编辑补充“引人注目的”。`spectacular` 单词 JSONL 快照 SHA-256 为 `680a021095ea5d38ee3fe51f2d69727ed6ab0531ef2c0b45757da4cddb2f5847`，[来源页](https://kaikki.org/dictionary/English/meaning/s/sp/spectacular.html)；`respective` 使用 `KAIKKI_CHINESE_GAP_SNAPSHOTS.csv` 已固定的快照，中文由编辑编写。这两条不覆盖原 COW 数据，词义、历史关联和许可均须复核，适用 Wiktionary/Kaikki 署名许可条件。
+
 从该批候选选取 `report`、`reporter`、`support`、`transportation` 四条常用义项，保留 OEWN/COW 对照与固定词源来源，词根关系编辑草稿累计 66 条；译文与历史关系仍待审核。`supporter` 尚未加入此批草稿：OEWN `oewn-supporter__1.18.02..` 所述支持某事物的人，通过 CILI `i91907` 关联到 COW `cow-10407954-n` 的“主办方”，语义范围可能错位，不能直接把它选为一般“支持者”译文。`portfolio` 的现有 OEWN 义项缺少对应 COW 中文线索，也须另寻来源或编辑核验。
 
 为继续处理上述两词，另查询 Kaikki 的 [supporter](https://kaikki.org/dictionary/English/meaning/s/su/supporter.html) 与 [portfolio](https://kaikki.org/dictionary/English/meaning/p/po/portfolio.html) 单词数据，建立 [`docs/CURATED_PORT_KAIKKI_PILOT.csv`](CURATED_PORT_KAIKKI_PILOT.csv) 两条待审草稿：前者选“支持者”，与其翻译框和英文义项对照；后者选个人作品材料集合义，中文“作品集”为编辑草稿，来源快照未提供中文译文。来源 JSONL 快照 SHA-256 分别为 `ece3d8387b1815f7c47af73ec92eeb1700a2d2189f2dd708cd9d8db11711718f` 和 `0ada5669eaba999d9ab90e17429bfc41e112b43cd901910855bc53dd549964a5`；两条词源仍使用前述固定 Wiktionary 修订。这些草稿不修正或覆盖原 COW 数据，所有义项、翻译、许可和历史关联仍待复核，适用 Wiktionary/Kaikki 的署名和许可条件。
