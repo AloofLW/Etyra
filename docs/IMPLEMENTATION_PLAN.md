@@ -110,7 +110,7 @@ assets/
 3. **ET-01C 依赖与质量门**：已加入并解析 Riverpod/Drift 依赖，生成 lockfile；静态分析、测试和运行验收待后续阶段。
 4. **ET-01D domain/application 契约实现**：按共享契约实现不可变模型、错误结果和最小用例接口；先用内存 fake 解耦 UI 与数据库。
 5. **ET-01E database/data 骨架**：建立 Drift schema、迁移、Repository 实现和种子导入边界。
-6. **ET-01F UI/App 组装**：装配 Cupertino app、导航、主题和 fixture provider，完成空/错/加载/数据状态骨架。
+6. **ET-01F UI/App 组装**：Cupertino app、导航、主题和 fixture 已接入；`lib/app/composition/providers.dart` 已建立唯一数据库生命周期、Root/Word/Study/学习状态 Repository 与 application 用例 provider。页面仍显示明确标注的 fixture；provider 首次读库、真机持久化与 ET-01G 验收待完成。
 7. **ET-01G 验收**：模拟器启动、静态分析、单测/Widget 测试、空库迁移和重复种子导入验证，记录结果。
 
 前端可在 ET-01D 的模型与 fake provider 可用后并行；后端可在 ET-01B 工程路径确认后建立 domain/data/database。`app/`、锁文件和公共路由不允许多个对话同时改。

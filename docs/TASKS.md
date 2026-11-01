@@ -23,7 +23,7 @@
 - [x] 记录当前 Flutter/Dart/Xcode 工具链事实：Flutter 3.47.1、Dart 3.13.1、Xcode 16.2。
 - [x] 确认最低 iOS 部署版本为 iOS 17.0；指定 iPhone 12 Pro（iOS 17.6）为真机验收设备；支持并验收浅色/深色外观、动态字体和 VoiceOver。
 - [x] 将 Riverpod、Drift/SQLite 和代码生成工具加入 `pubspec.yaml`，成功解析并生成有效的 `pubspec.lock`。
-- [ ] 创建 feature-first 目录和空的 app/database 组装点。
+- [x] 创建 feature-first 目录、App/Database 组装入口和共享 Riverpod provider 装配点。
 - [ ] 定义 Drift 数据库版本、迁移入口、种子导入入口和内容/用户数据分区。
 - [ ] 定义 domain 实体、Repository 接口及前端消费用例。
 - [x] 冻结 v0.1 领域模型、分页 cursor、错误类型、学习会话命令和返回值；详见 `docs/CONTRACTS_V0_1.md`。
@@ -31,7 +31,7 @@
 - [x] 按官方包资料核对依赖和 Dart SDK 下限，并由 `pubspec.lock` 锁定解析结果。
 - [x] 创建 Flutter iOS-only 空工程骨架，记录 SDK 和最低 iOS 部署目标。
 - [x] 初始化 Git 主分支（`main`）并创建工程基线提交。
-- [ ] 建立 feature-first app/database 目录和共享依赖装配点。
+- [x] 建立 feature-first app/database 目录和共享依赖装配点。
 - [ ] 建立约 50 个词根、300–500 个单词的来源清单和校验字段；首批数据不得臆造词源。
 - [x] 约定测试层：模型/映射/迁移/Repository 单测，关键页面 widget 测试，核心学习流程集成测试。
 - [x] 约定分支、worktree、文件所有权和合并检查。
@@ -87,5 +87,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - 用户已确认 Bundle ID `com.lovmus.etyra`；应用当前已安装并启动于 iPhone 12 Pro（iOS 17.6.1），待人工体验核心学习流程。
 - 新应用图标已生成并替换 iOS AppIcon 全部尺寸；从已部署真机取回图标确认生效。图标母图位于 `assets/branding/etyra-app-icon-1024.png`。
 - 前端首屏已重设计为学习者入口；状态模拟和故障注入移至“预览工具”，演示数据及不保存记录均有明确说明。列表/详情减少重复面板，学习卡片增加进度层级。重设计 widget 测试通过，已合入 `main` 并重新安装到 iPhone 12 Pro。2026-11-01 用户已确认首屏视觉与底部导航基线（ADR-023）；真实 provider 接线、核心交互复核及无障碍设备验收仍待完成。
+- ET-01F App composition 已建立：`lib/app/composition/providers.dart` 提供单一惰性 `AppDatabase` 生命周期、Root/Word 共享内容 Repository、Study/LearningState Repository 及对应 application 用例 providers；当前首页仍为 fixture，不会将空数据库展示成真实词库。`flutter analyze --no-pub` 无问题；本轮未运行测试或构建，数据库首次打开/关闭及持久化仍待运行验收。
 - `DriftStudyRepository` 已持久化学习 session 与事件，关键事务/重启行为通过 SQLite 测试；没有 schema 变更。全套测试输出存在 Drift “同一 QueryExecutor 多个数据库实例”诊断警告，但测试通过；须在稳定 app composition 阶段核对数据库实例生命周期，避免生产环境重复构造。
 - 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。
