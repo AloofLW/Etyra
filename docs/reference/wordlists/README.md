@@ -27,7 +27,7 @@
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
-[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前 7 项无已提取英文义项、109 项无中文线索、248 项有多个已提取英文义项行；Wiktionary 页面定位只证明找到页面/标题，不代表释义已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
+[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前 7 项无已提取英文义项、94 项无中文线索、248 项有多个已提取英文义项行；Wiktionary 页面定位只证明找到页面/标题，不代表释义已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
@@ -52,6 +52,8 @@
 [`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选中选取 27 条常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。所选义项不能当作该词全部用法。
 
 对 27 个缺少 OEWN 义项的补充候选，以相同 Kaikki 五类词性快照及忽略大小写的精确拼写匹配，另提取 [`docs/KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv`](../../KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv)：20 个候选、96 条英文义项。`chopsticks`、`has`、`app`、`per cent`、`o’clock`、`wi-fi`、`ought to` 未在这五类中得到精确匹配的 gloss，并不代表词典无对应条目；例如 `o’clock` 的弯引号与来源词形 `o'clock` 不同，未自动归并。来源、改编和许可条件同上，全部待审。复现：使用上述相同的固定快照目录运行 `python3 tools/content/extract_kaikki_function_candidates.py /path/to/directory /tmp/etyra-supplement-function.csv --supplement`。
+
+[`docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv`](../../CURATED_SUPPLEMENT_FUNCTION_PILOT.csv) 从补充候选中选出 15 个词的 17 条义项并编写中文及用法草稿，保留原始 gloss、词性、sense ID 和页面；这些是待复核的编辑草稿，不代表包含该词所有用法，也不能当作课标词义或正式译文。后续须复核代词的指代范围、单复数、语境和许可。
 
 来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 27 条编辑草稿均未使用该重复 ID。
 
