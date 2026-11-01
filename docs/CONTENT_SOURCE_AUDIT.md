@@ -182,6 +182,8 @@
 
 本次没有把 `trace` 自动加入该家族：其[固定修订](https://en.wiktionary.org/w/index.php?title=trace&oldid=94591535)将动词来源描述为可能由不止一条路径混合，需先审查相应词源章节及义项；这不是判定两者无关，而是保留来源的不确定性。
 
+为 `spect`/`spec` 历史家族新增 `inspection`、`respective`、`perspective`、`aspect`、`expect`、`expectation`、`suspect`、`suspicion`、`spectrum`、`spectacular` 十个候选（`WC-097`～`WC-106`），关联候选累计 106 条。各英文页面固定修订见 `docs/WORD_ETYM_SOURCE_REVISIONS.csv`；部分词需经其他词条及拉丁语中间形式核验，例如 [respectus](https://en.wiktionary.org/w/index.php?title=respectus&oldid=90523553) 的拉丁语章节和 [spectaculum](https://en.wiktionary.org/w/index.php?title=spectaculum&oldid=93458565)。`suspicion` 来源还提及可能受到法语路径影响；英文 `spec`、`spic`、`spect` 的历史变化、现代语义及许可须逐项审核，不应一律按现代词素机械切分。
+
 从该批候选选取 `report`、`reporter`、`support`、`transportation` 四条常用义项，保留 OEWN/COW 对照与固定词源来源，词根关系编辑草稿累计 66 条；译文与历史关系仍待审核。`supporter` 尚未加入此批草稿：OEWN `oewn-supporter__1.18.02..` 所述支持某事物的人，通过 CILI `i91907` 关联到 COW `cow-10407954-n` 的“主办方”，语义范围可能错位，不能直接把它选为一般“支持者”译文。`portfolio` 的现有 OEWN 义项缺少对应 COW 中文线索，也须另寻来源或编辑核验。
 
 为继续处理上述两词，另查询 Kaikki 的 [supporter](https://kaikki.org/dictionary/English/meaning/s/su/supporter.html) 与 [portfolio](https://kaikki.org/dictionary/English/meaning/p/po/portfolio.html) 单词数据，建立 [`docs/CURATED_PORT_KAIKKI_PILOT.csv`](CURATED_PORT_KAIKKI_PILOT.csv) 两条待审草稿：前者选“支持者”，与其翻译框和英文义项对照；后者选个人作品材料集合义，中文“作品集”为编辑草稿，来源快照未提供中文译文。来源 JSONL 快照 SHA-256 分别为 `ece3d8387b1815f7c47af73ec92eeb1700a2d2189f2dd708cd9d8db11711718f` 和 `0ada5669eaba999d9ab90e17429bfc41e112b43cd901910855bc53dd549964a5`；两条词源仍使用前述固定 Wiktionary 修订。这些草稿不修正或覆盖原 COW 数据，所有义项、翻译、许可和历史关联仍待复核，适用 Wiktionary/Kaikki 的署名和许可条件。
