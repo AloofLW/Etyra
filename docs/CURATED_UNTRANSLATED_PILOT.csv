@@ -1,0 +1,7 @@
+candidate_id,word,pos,source_glosses_json,source_tags_json,chinese_editorial_draft,usage_note,source_url,status
+vocab-candidate-2ca82203124aaaaf3e64,bacteria,noun,"[""plural of bacterium""]","[""form-of"", ""plural""]",细菌,bacterium 的复数形式；正式词库须决定词形归并方式。,https://en.wiktionary.org/wiki/bacteria,editorial_draft_pending_final_review
+vocab-candidate-2f3ca61c7e8e99361399,beneath,adv,"[""Below or underneath.""]",[],在下方,此处为副词，介词用法另列。,https://en.wiktionary.org/wiki/beneath,editorial_draft_pending_final_review
+vocab-candidate-7b1b763ee8f62eb88e47,elsewhere,adv,"[""Synonym of somewhere else: in, at, or to some other place.""]","[""not-comparable""]",在别处；到别处,表示位于或前往其他地方。,https://en.wiktionary.org/wiki/elsewhere,editorial_draft_pending_final_review
+vocab-candidate-b200897121bfd4012645,evolve,verb,"[""To change, to transform.""]","[""intransitive""]",演变；发展,此处为不及物动词的一般变化义，生物进化义需另行说明。,https://en.wiktionary.org/wiki/evolve,editorial_draft_pending_final_review
+vocab-candidate-969656cc5f0c62c224fb,respective,adj,"[""Relating to particular persons or things, each to each; particular; own.""]","[""not-comparable""]",各自的；分别的,指分别属于各个人或事物。,https://en.wiktionary.org/wiki/respective,editorial_draft_pending_final_review
+vocab-candidate-e5930e63213247ccae01,statistic,noun,"[""A single item in a statistical study.""]",[],统计数字；统计数据,此处指统计研究中的单项数据；注意与复数 statistics 的区别。,https://en.wiktionary.org/wiki/statistic,editorial_draft_pending_final_review
