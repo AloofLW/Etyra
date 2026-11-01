@@ -52,6 +52,22 @@
 
 状态：完成。2026-11-01 使用 Flutter 3.47.1 stable 初始化 iOS-only 空应用；创建阶段使用 `--no-pub`，随后按 ADR-011 解析依赖。未运行构建或测试。Xcode 的 iOS Deployment Target 设置为 17.0。Bundle ID 暂为 `com.example.etyra`，部署真机前必须替换为用户确认的唯一标识。
 
+## ADR-014：v0.1 首轮学习完成条件
+
+状态：接受。对单个内容条目，首次提交 `recalled` 后其学习阶段变为 `learned`；`needsPractice` 只将 `new` 转为 `learning`，不会把 `learned` 降级；跳过不更改学习状态。Session 是否完成不影响条目阶段。`learned` 仅表示完成一次主动回忆，不表示长期掌握，也不产生到期时间或 FSRS 状态。
+
+## ADR-015：学习会话关闭语义
+
+状态：接受。处理最后一张卡片（答题或跳过）时自动将 Session 置为 `completed`；`finishSession` 仅重复读取已完成总结，对尚有卡片或已放弃 Session 返回 `Conflict`。`abandonSession` 对 active Session 记录放弃时刻且保留既有事件；重复放弃返回原总结并保留首次结束时间；已完成 Session 不可放弃。
+
+## ADR-016：持久化未知枚举值
+
+状态：接受。已知但可安全替代的值按共享契约降级：校验状态为 `unverified`，affix kind/component role 为 `unknown`。未知多态构词类型不映射成 root/affix，忽略该关系；未知学习阶段不覆盖原始数据库值并返回 `Unsupported`。未知命令/内容类型返回 `Unsupported`。不得为了兼容而猜测语义。
+
+## ADR-017：首版内容包更新策略
+
+状态：接受。v0.1 导入仅允许新增内容或复用完全相同内容；稳定 ID 已存在但内容有差异时返回 `Conflict`，不覆盖、删除词条或改变用户学习状态。待定义并验证显式内容修订策略后再开放更新。
+
 ## 待决问题
 
 - 初始词库的权威来源、许可和具体词条清单。
@@ -59,3 +75,4 @@
 - 备份格式、是否加密、导入冲突策略。
 - FSRS 具体实现包/版本、参数默认值和复习时区策略。
 - v0.1 SourceRef 使用完整来源字段；Dart 类型与错误类别已在共享契约冻结。
+- 词库关系/例句逐条可信度字段及后续显式内容修订策略扩展条件。

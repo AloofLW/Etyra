@@ -162,7 +162,9 @@ v0.1 的 `AnswerRating` 只表达本次学习反馈，不声称是 FSRS 调度�
 
 `completedCount` 统计已提交 `recalled` 或 `needsPractice` 的条目；`skippedCount` 单独统计跳过项。Session 中所有条目都已答题或跳过后，`sessionFinished` 为 true。
 
-`new` 表示从未学习；第一次提交结果后转为 `learning`；完成词条首轮学习后为 `learned`。v0.1 不提供长期掌握状态或到期排程，`dueAt` 保持 null。
+`new` 表示从未学习；首次提交 `needsPractice` 后转为 `learning`，首次提交 `recalled` 后转为 `learned`；`needsPractice` 不会将已 `learned` 降级，跳过不改变学习状态。Session 完成与否不改变条目阶段。`learned` 仅表示完成一次主动回忆，不代表长期掌握。v0.1 不提供长期掌握状态或到期排程，`dueAt` 保持 null。详见 ADR-014。
+
+Session 在最后一张卡片被答题或跳过时自动完成。`finishSession` 仅可重复读取已完成总结；尚有未处理卡片或已放弃的 Session 返回 `Conflict`。重复放弃返回首次放弃时生成的总结；已完成 Session 不可放弃。详见 ADR-015。
 
 ## Repository / application 命令
 

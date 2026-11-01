@@ -42,10 +42,10 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 下一执行批次
 
-1. **对话 03 / ET-01D**：按 `docs/CONTRACTS_V0_1.md` 实现 domain 模型、错误类型、Repository 抽象及 application use case；提供内存 fake，供前端不接数据库开发。
-2. **对话 03 / ET-01E**：建立 Drift `AppDatabase`、v1 Schema、迁移入口和 Repository 实现骨架；内容导入只做结构与幂等机制，不填未审核词库。
-3. **对话 02 / 并行准备**：可按冻结契约搭建 F-01 应用壳和列表/详情/学习页面骨架，先用 fixture；不得改动 `main.dart`、路由注册或 provider 总装文件，除非被指定为该共享文件 owner。
-4. **对话 01 / 整合**：审查模型与迁移是否符合产品目标和契约，再冻结共享模型入口，随后让前端接入 application provider。
+1. **对话 03 / ET-01D/E（骨架已交付，待验证）**：domain/application、内存 fake、Drift v1 表/迁移入口、只读 Repository 与种子导入骨架已提交至 `feat/backend-et01-de`。fake 已按 ADR-014 更新；测试源码尚未执行。后续获准后生成 Drift 代码并执行迁移、Repository 测试。真实学习写入仍未实现。
+2. **对话 02 / F-01 前端准备（已交付，待审阅）**：presentation 静态流程与 fixture 已提交至 `feat/frontend-root-flow`（`786df4f`），未合并。与实际 domain/application provider 的适配尚未完成。
+3. **对话 01 / 当前整合**：核对两个分支的文件所有权、契约与交接限制；保持分支隔离，先收口 ADR-014..017 与实现一致性，再安排受控集成。
+4. **共享入口 owner（待指定）**：定义 `lib/app`、路由/provider 汇总和 `main.dart` 的唯一所有者；此项完成前不挂载预览页面，不接入数据库。
 
 ## ET-01 验收标准
 
@@ -55,3 +55,9 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - 前端只消费稳定的 domain/application 接口；后端没有 UI 依赖。
 - 词源数据有来源、校验状态和审计记录；未知内容不会被当作确定事实。
 - 关键决策写入 `docs/DECISIONS.md`，遗留问题有负责人和下一步。
+
+## 2026-11-01 ET-01 执行状态
+
+- 后端提交仍在 `feat/backend-et01-de` 工作区；未合并。代码生成、迁移、测试及全工程分析未运行，不能视作 ET-01D/E 验收完成。
+- 前端隔离提交 `786df4f` 位于 `feat/frontend-root-flow`；未合并，未运行测试/构建。
+- 首轮学习转换、Session 关闭、未知枚举及内容包更新策略由 ADR-014..017 收口；ADR-014 已同步至 fake，行为测试仍待执行。
