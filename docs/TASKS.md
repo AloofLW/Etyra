@@ -58,9 +58,9 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 后端与前端变更已集成到 `main`；Drift 代码生成成功，`flutter analyze --no-pub` 无问题，`flutter test --no-pub` 41 项通过。iOS Simulator/设备构建和 iPhone 自动签名安装/启动均成功。尚未完成真机交互、深浅色/无障碍验收或持久库迁移升级/恢复验证，不能视作 ET-01 完整验收。
+- 后端与前端变更已集成到 `main`；Drift 代码生成成功，`flutter analyze --no-pub` 无问题，当前 `flutter test --no-pub` 43 项通过。iOS Simulator/设备构建和 iPhone 自动签名安装/启动均成功。尚未完成真机交互、深浅色/无障碍验收或持久库迁移升级/恢复验证，不能视作 ET-01 完整验收。
 - 用户已确认 Bundle ID `com.lovmus.etyra`；应用当前已安装并启动于 iPhone 12 Pro（iOS 17.6.1），待人工体验核心学习流程。
 - 新应用图标已生成并替换 iOS AppIcon 全部尺寸；从已部署真机取回图标确认生效。图标母图位于 `assets/branding/etyra-app-icon-1024.png`。
-- 前端预览已挂载在 Cupertino 应用入口；入口和核心学习 fixture 共 15 项 widget 测试通过。真实 provider 接线及无障碍设备验收仍待完成。
+- 前端首屏已重设计为学习者入口；状态模拟和故障注入移至“预览工具”，演示数据及不保存记录均有明确说明。列表/详情减少重复面板，学习卡片增加进度层级。重设计 widget 测试通过，已合入 `main` 并重新安装到 iPhone 12 Pro。真实 provider 接线、真机视觉复核及无障碍设备验收仍待完成。
 - `DriftStudyRepository` 已持久化学习 session 与事件，关键事务/重启行为通过 SQLite 测试；没有 schema 变更。全套测试输出存在 Drift “同一 QueryExecutor 多个数据库实例”诊断警告，但测试通过；须在稳定 app composition 阶段核对数据库实例生命周期，避免生产环境重复构造。
 - 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。
