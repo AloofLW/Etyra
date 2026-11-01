@@ -174,6 +174,8 @@
 
 为表示“搬运”的 `port` 家族新增 `report`、`reporter`、`support`、`supporter`、`transportation`、`portfolio` 六个待审候选（`WC-084`～`WC-089`），累计 89 条关系；逐词英文固定修订见 `docs/WORD_ETYM_SOURCE_REVISIONS.csv`。历史中间来源包括拉丁语 [reporto](https://en.wiktionary.org/w/index.php?title=reporto&oldid=90535316)、[supporto](https://en.wiktionary.org/w/index.php?title=supporto&oldid=90486203) 的拉丁语章节和意大利语 [portafoglio](https://en.wiktionary.org/w/index.php?title=portafoglio&oldid=92166971)；后者涉及“携带”和“纸页”的历史构词。每个词的历史来源、现代语义及教学解释须独立复核，不能将现代含义直接等同于“搬运”，也不得混入 `portus` 港口义。
 
+从该批候选选取 `report`、`reporter`、`support`、`transportation` 四条常用义项，保留 OEWN/COW 对照与固定词源来源，词根关系编辑草稿累计 66 条；译文与历史关系仍待审核。`supporter` 尚未加入此批草稿：OEWN `oewn-supporter__1.18.02..` 所述支持某事物的人，通过 CILI `i91907` 关联到 COW `cow-10407954-n` 的“主办方”，语义范围可能错位，不能直接把它选为一般“支持者”译文。`portfolio` 的现有 OEWN 义项缺少对应 COW 中文线索，也须另寻来源或编辑核验。
+
 从上述 `cap` 家族新增 11 条中文选义草稿，涵盖 `except`、`exception`、`accept`、`acceptance`、`concept`、`conception`、`receive`、`reception`、`perceive`、`perception`、`capable`；词根关系编辑草稿累计 62 条。英文义项、CILI 和中文词项分别保留 OEWN/COW 定位，词源摘要保留固定页面链接。所选义项只是每词的一种用法，例如 `except` 草稿为动词“排除”，不能代替其介词用法；`reception` 选正式“招待会”，不代表“接待”或信号接收义。跨词网对应、中文语境、来源许可和历史词根均需最终审校。
 
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
