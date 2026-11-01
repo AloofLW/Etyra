@@ -56,6 +56,14 @@
 
 复现方式：准备摘要与上节记录完全相同的 PDF 镜像，使用已提供 `pdfplumber` 的 Python 环境运行 `python3 tools/content/compare_curriculum_pilot.py /path/to/mirror.pdf`。默认只打印汇总；可用 `--review-csv /tmp/etyra-review.csv` 在本地新建含页码、原始词行与匹配分类的待审清单，现有文件不会被覆盖。镜像来源和整理内容的再分发权利未核实，该清单只用于本地审核；摘要不符则拒绝运行。下一步逐页核对布局、重名项和复杂项，并通过权威原件确认附录后才可计算正式覆盖率。
 
+## 课标镜像缺口补充候选
+
+上述 293 个未匹配的简单词项行按忽略大小写去重后为 292 个拼写；通过 OEWN 2024 的 `Lemma.writtenForm` 比对，有 274 个拼写找到词典入口。已将这些 OEWN 词头、词条 ID、词性和镜像 PDF 页码写入 [`docs/CURRICULUM_GAP_CANDIDATES.csv`](../../CURRICULUM_GAP_CANDIDATES.csv)，每条仍为 `candidate_only`。其余 18 个拼写尚未匹配到 OEWN，包括代词和部分词形，需要其他来源或词形审核；85 行复杂形式也尚未处理。
+
+这 274 条是以第三方课标镜像探索性比对结果筛选出的 OEWN 词条候选，并非经核验的课标词表或产品词条。表中原始词形取自 OEWN，PDF 页码用于定位线索；相同规范化拼写可能对应不同大小写或词义，专名是否纳入词库仍需审查。其候选 ID 与主清单采用同一规则；按当前拼写键计算，与主清单没有重复，合计 5616 个待审候选键，但不能推断正式词条数或课标覆盖率。词典词项和词性仅作为审核线索，不证明词源关系。
+
+补充候选表取自 Open English WordNet 2024 和 Princeton WordNet，筛选与课标镜像比较后未精确匹配的词头，保留词典标识及页码；适用前述 OEWN/Princeton 许可及署名要求，产品分发前须核对实际使用内容。复现：在有 `pdfplumber` 的 Python 3.11+ 环境中运行 `python3 tools/content/build_curriculum_gap_candidates.py /path/to/mirror.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-gap-candidates.csv`；脚本验证两个输入摘要并拒绝覆盖输出。课标原文及整表没有放入仓库。
+
 ## 工作顺序与验收口径
 
 1. 获得并核实适用的 2025 版课标附录、实施范围及使用权限，保留基准版本；先处理必修、选择性必修，再处理相关地方增补和常用扩展词。
