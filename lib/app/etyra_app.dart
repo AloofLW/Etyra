@@ -12,6 +12,7 @@ class EtyraApp extends StatelessWidget {
   Widget build(BuildContext context) => ProviderScope(
     child: CupertinoApp(
       title: 'Etyra',
+      debugShowCheckedModeBanner: false,
       theme: EtyraTheme.cupertino,
       home: const RootLearningFixturePreview(),
     ),
