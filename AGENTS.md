@@ -42,4 +42,4 @@ Etyra 是 Flutter + Dart 的 iOS 词根词缀学习应用，采用离线优先�
 
 ## 当前基线
 
-Flutter iOS 工程和 Git `main` 已初始化；当前工具链为 Flutter 3.47.1 stable、Dart 3.13.1、Xcode 16.2，最低 iOS 部署版本 17.0。Riverpod/Drift 依赖已解析并记录在 `pubspec.lock`。已配对的 iPhone 12 Pro 实际系统为 iOS 17.6.1；模拟器和真机架构不签名构建均通过。Bundle ID 暂为 `com.example.etyra`，真机安装/签名前需确认可用的唯一标识。
+Flutter iOS 工程和 Git `main` 已初始化；当前工具链为 Flutter 3.47.1 stable、Dart 3.13.1、Xcode 16.2，最低 iOS 部署版本 17.0。Riverpod/Drift 依赖已解析并记录在 `pubspec.lock`。iOS Simulator 与 iPhoneOS 架构不签名构建均通过；用户已确认 Bundle ID `com.lovmus.etyra`，签名安装/启动已在 iPhone 12 Pro（iOS 17.6.1）验证。

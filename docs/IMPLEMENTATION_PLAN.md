@@ -27,7 +27,7 @@
 
 - 2026-11-01 复核：Flutter 3.47.1 stable、Dart 3.13.1、Xcode 16.2。
 - Flutter 工程通过 `flutter create --no-pub --empty --platforms=ios` 建立；最低 iOS Deployment Target 已设置为 17.0。
-- 工程组织标识暂用 Flutter 默认占位 `com.example.etyra`；配置真机签名/发布前需换成用户确定且可用的唯一 Bundle ID。
+- 工程 Bundle ID 为用户确认的 `com.lovmus.etyra`；真机签名仍需由当前 Xcode Apple Developer Team 成功生成/选择 provisioning profile。
 - 初始 `--no-pub` 阶段未执行依赖解析或构建；ET-01C 随后加入 Riverpod/Drift 并成功解析，现已生成有效 `pubspec.lock`。
 
 ## 依赖选择原则
@@ -125,7 +125,7 @@ assets/
 
 ## ET-01 完成定义
 
-- 在 iOS 17.5/18.3 模拟器可启动应用，并通过 Xcode 部署到 iPhone 12 Pro（iOS 17.6 系列）完成核心流程。当前已完成 iOS Simulator 和 iPhoneOS 不签名构建，尚未安装/启动 app 或验收核心流程。
+- 在 iOS 17.5/18.3 模拟器可启动应用，并通过 Xcode 部署到 iPhone 12 Pro（iOS 17.6 系列）完成核心流程。当前 Simulator 与设备架构构建通过，且已签名安装/启动；核心学习流程、外观和无障碍仍需人工真机验收。
 - 依赖清单与 lockfile 一致，关键依赖选择有依据。
 - 前后端能通过 domain/application 契约独立工作，UI 不访问数据库。
 - 数据库有版本化迁移入口，内容导入幂等且不改写学习状态。

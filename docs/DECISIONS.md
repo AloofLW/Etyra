@@ -50,7 +50,7 @@
 
 ## ADR-013：Flutter 工程骨架初始化
 
-状态：完成。2026-11-01 使用 Flutter 3.47.1 stable 初始化 iOS-only 空应用；创建阶段使用 `--no-pub`，随后按 ADR-011 解析依赖。Xcode 的 iOS Deployment Target 设置为 17.0。后续完成 Drift 代码生成、分析与测试；iOS Simulator 和 iPhoneOS 架构不签名构建通过。Bundle ID 暂为 `com.example.etyra`，部署真机前必须替换为用户确认的唯一标识。
+状态：完成。2026-11-01 使用 Flutter 3.47.1 stable 初始化 iOS-only 空应用；创建阶段使用 `--no-pub`，随后按 ADR-011 解析依赖。Xcode 的 iOS Deployment Target 设置为 17.0。后续完成 Drift 代码生成、分析与测试；iOS Simulator 和 iPhoneOS 架构不签名构建通过。Bundle ID 由 ADR-019 更新为 `com.lovmus.etyra`，并在已配对的 iPhone 12 Pro 上完成签名安装和启动。
 
 ## ADR-014：v0.1 首轮学习完成条件
 
@@ -71,6 +71,10 @@
 ## ADR-018：共享 App 入口与依赖装配所有权
 
 状态：接受。项目管理对话（对话 01）是 `lib/main.dart`、`lib/app/**`、根 `ProviderScope`、全局路由注册和 application provider 装配的唯一 owner；后端对话提供可注入接口/实现，不修改共享 app 入口；前端对话只实现 presentation 并提交消费契约。首个入口仅挂载明确标注的本地 fixture 预览，使用系统外观的 Cupertino app；不把未持久化的学习 fake 作为正式保存能力。接入持久化前需完成 Drift 学习写入事务及测试。
+
+## ADR-019：iOS Bundle ID
+
+状态：接受并已验证。用户确认首版应用使用 `com.lovmus.etyra`；RunnerTests 使用 `com.lovmus.etyra.RunnerTests`。Xcode 自动签名成功，应用已安装并启动于已配对的 iPhone 12 Pro（iOS 17.6.1）。
 
 ## 待决问题
 
