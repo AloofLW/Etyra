@@ -65,6 +65,20 @@
 
 这一轮也暴露出：初始 50 个 root brainstorm 中 8 项移出 root 计数，目前只有 42 项保留为 root 候选（其中 4 项已做首轮词源分诊，仍未完成高中适用性审核）。后续需补充 8 个真正的 root 候选，才能恢复“约 50 个词根”的候选池目标；不应为了维持数字把词缀留在词根表。
 
+## 第二批词根页面分诊
+
+2026-11-01 对 `act`、`aud`、`cred`、`fac`、`fer`、`fin`、`form` 做页面分诊，详情见 root CSV：
+
+- [action](https://en.wiktionary.org/wiki/action) 支持 `act` 候选并提及 Latin āctus/agere；不能据此批量推断其他相似拼写词。
+- [audible](https://en.wiktionary.org/wiki/audible) 追溯到 Latin audire（hear），支持 `aud` 候选。
+- [credit](https://en.wiktionary.org/wiki/credit) 追溯到 Latin crēdere（believe），支持 `cred` 候选。
+- [transfer](https://en.wiktionary.org/wiki/transfer) 追溯到 Latin trānsferō（bear across），支持继续审核 `fer` 词干，但尚未批准其英语词组或 morpheme 切分。
+- [final](https://en.wiktionary.org/wiki/final) 追溯到 Latin fīnis（end/limit），支持 `fin` 候选。
+- [formation](https://en.wiktionary.org/wiki/formation) 明确给出 `form` + `-ation`，并追溯到 Latin fōrmō，支持 `form` 候选。
+- [factory](https://en.wiktionary.org/wiki/factory) 对来源有保留措辞：词可能由 factor + -y 构成，而制造场所义受 Latin fact- 影响。故不能把 factory 当成 `fac` 的已证关联词；`fac/fact` 候选仍需更清晰的词例。
+
+这 7 项仍全部是待审核候选；本次只审了词源页面，尚未完成高中词汇范围、使用频率、词义编辑、逐词构词关系以及复核人审阅。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
@@ -75,6 +89,7 @@
 - 许可方向及高中选词基线已确认；ET-01 可开始建立候选审核表，但具体条目必须逐条完成来源、许可、释义和词源校验后才能进入产品 seed。
 - 首批 50 个待评估词形已登记在 `docs/ROOT_CANDIDATES_V0_1.csv`。该文件只用于排序和逐项审核，所有行仍为 `candidate_only`；任何 `decision` 值都只是候选处置，不代表产品批准。词形不代表已确认的词根定义、来源、构词关系或高中范围适配性。审核完成前不得导入应用、seed 或展示为已验证内容。
 - 已对 `port`、`spect`、`struct`、`dict` 做首轮来源页面分诊；候选处置与关键歧义已写入 CSV。它们仍待高中适用性和逐词关联审查，`dict` 的候选形式需继续核验。
+- 已对 `act`、`aud`、`cred`、`fac`、`fer`、`fin`、`form` 做第二批页面分诊；其中 `factory` 作为 `fac` 关联词证据不足，不能纳入已验证关系。
 - 另将 8 个前缀/后缀形式转入 `docs/AFFIX_CANDIDATES_V0_1.csv`，避免计入 50 个 root 候选；root 候选池当前需补 8 项。
 - 后续 ET-10C 词库包必须携带来源/许可/署名/修改信息；导入校验只检查元数据完整性，不宣称来源内容真实或发布者身份已认证。
 - 本文记录的是来源策略和候选，不是具体数据集版本或词条批准清单。具体数据集/页面版本及条目批准结果必须另行审计。
