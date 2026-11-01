@@ -158,6 +158,8 @@
 
 第二批新增 19 条，总计 27 条编辑草稿：`interrupt`、`respect`、`structure`、`contract`、`solution`、`attention`、`position`、`generation`、`location`、`memory`、`operation`、`sign`、`significant`、`civil`、`sensation`、`marine`、`nominate`、`nomination`、`construct`。每条选定一个特定义项，例如 `contract` 选合同名词义、`operation` 选操作义，其他常见或专业义项仍需单独选取；词干形态变化与历史借词路径保留在备注中。所有条目仍为 Codex 编辑草稿，课标适用性和入库许可尚未最终验收。
 
+第三批新增 19 条，累计 46 条编辑草稿：`credit`、`conduct`、`transfer`、`reject`、`motion`、`movement`、`vocal`、`migrate`、`depend`、`pressure`、`attend`、`number`、`regular`、`rule`、`current`、`transport`、`import`、`spectator`、`prospect`。每行只选择一个与来源中英文义项对应的中文词项，不代表收齐该词全部义项。例如 `pressure` 选物理学压强义，`current` 选当前时间的形容词义；`conduct`、`transfer`、`depend` 和 `regular` 的词干边界仍需进一步核查。词条与词根关系仍为待最终审核的草稿。
+
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
