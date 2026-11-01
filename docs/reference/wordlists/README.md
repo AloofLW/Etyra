@@ -31,6 +31,10 @@
 
 输入文件为发行版 XML gzip，下载地址 `https://github.com/globalwordnet/english-wordnet/releases/download/2024-edition/english-wordnet-2024.xml.gz`，SHA-256 `e1f633b0a93758cae34ea27c44c4dad310a8af2467b155f99dd6673af697e875`。运行 `python3 tools/content/index_oewn_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-index.csv` 可复现；脚本校验摘要且拒绝覆盖输出，需要 Python 3.11 及以上。原始词典体积较大，未放入项目；后续正式内容包须再次保留适用许可和署名。
 
+[`docs/OEWN_SENSE_CANDIDATES.csv`](../../OEWN_SENSE_CANDIDATES.csv) 是同一固定版本进一步提取的英文释义审核材料：5265 个候选词关联 28696 行 OEWN 义项。每行保留候选 ID、OEWN 原始拼写、词条 ID、词性、义项 ID、同义词集 ID、原始英文定义的 JSON 数组和 `candidate_only` 状态；不包含例句或中文释义。该表保留多义词的全部匹配义项和不同大小写的原始词形；排序仅用于稳定生成，不能作为常用程度或默认释义排序。审核须选择合适义项并区分词性、大小写和语境；OEWN 不用于证明词源。
+
+本表根据 OEWN 2024 与 Princeton WordNet 的定义内容改编：按候选拼写筛选并关联候选 ID，保留原定义及出处；使用范围须遵守上一节的 OEWN、Princeton WordNet 与候选词表许可和署名要求。复现命令：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-senses.csv`。脚本校验源文件摘要、词项/义项标识和同义词集定义完整性，并拒绝覆盖已有文件。
+
 ## 高中课标覆盖基准
 
 - [教育部制定的《普通高中英语课程标准（2017 年版 2020 年修订）》](https://www.ictr.edu.cn/Uploads/File/2025/02/07/4.%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%EF%BC%882017%E5%B9%B4%E7%89%882020%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.20250207211247.pdf)由教育部课程教材研究所网站提供，附录 2 称列 3000 词，其中包含义务教育 1500 词、高中必修新增 500 词、选择性必修新增 1000 词；正文不含词性和中文释义。作为已定位的官方历史对照来源，不能据此声称已满足最新版。
