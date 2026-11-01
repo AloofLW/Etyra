@@ -57,6 +57,6 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 ## 2026-11-01 ET-01 执行状态
 
-- 后端与前端变更已集成到 `main`；Drift 代码生成成功，`flutter analyze --no-pub` 无问题，`flutter test` 18 项通过。未做 iOS 构建、设备调试、持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
+- 后端与前端变更已集成到 `main`；Drift 代码生成成功，`flutter analyze --no-pub` 无问题，`flutter test` 18 项通过，iOS Simulator 与 iPhoneOS 不签名构建成功。尚未签名安装/启动 app、真机交互调试或完成持久库迁移升级/恢复验证，不能视作 ET-01D/E 完整验收。
 - 前端预览已挂载在 Cupertino 应用入口，并新增 app launch widget 测试；学习交互 widget 覆盖、真实持久化及无障碍设备验收仍待完成。
 - 首轮学习转换、Session 关闭、未知枚举、内容包更新和共享入口所有权由 ADR-014..018 收口。

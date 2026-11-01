@@ -11,7 +11,7 @@ Etyra 通过词根、词缀和构词关系帮助用户理解并记忆英语单�
 ## 约束
 
 - Flutter + Dart；首版面向 iOS，本地 Xcode 构建和真机调试。
-- 最低 iOS 部署版本为 iOS 17.0；真机验收设备为 iPhone 12 Pro（iOS 17.6），通过 Xcode 部署；首版支持浅色和深色系统外观。
+- 最低 iOS 部署版本为 iOS 17.0；真机验收设备为已配对的 iPhone 12 Pro（当前 iOS 17.6.1，用户目标为 17.6），通过 Xcode 部署；首版支持浅色和深色系统外观。
 - 离线优先；SQLite 为事实来源，Drift 负责类型安全访问和迁移。
 - Riverpod 管理依赖注入和 UI 状态；Cupertino 为主要视觉语言。
 - 首版不依赖账号、云端同步或联网 API。

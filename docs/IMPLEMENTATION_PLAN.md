@@ -9,8 +9,8 @@
 ### 已确定
 
 - Flutter + Dart，iOS 优先，本地 Xcode 构建和真机调试。
-- 最低 iOS 部署版本为 iOS 17.0；指定真机验收设备为 iPhone 12 Pro（iOS 17.6），通过 Xcode 部署。
-- 验收模拟器至少覆盖 iOS 17.5 和 18.3；真机验收在 iPhone 12 Pro（iOS 17.6）完成。
+- 最低 iOS 部署版本为 iOS 17.0；指定真机验收设备为 iPhone 12 Pro（目标 iOS 17.6；当前已配对设备为 17.6.1），通过 Xcode 部署。
+- 验收模拟器至少覆盖 iOS 17.5 和 18.3；真机验收在 iPhone 12 Pro（目标 iOS 17.6；当前实际为 17.6.1）完成。
 - v0.1 支持并验收浅色与深色系统外观；采用语义化颜色并跟随系统外观。
 - 动态字体和 VoiceOver 纳入 v0.1 基础验收。
 - feature-first，功能内采用 `presentation / application / domain / data` 分层；数据库作为共享基础设施。
@@ -125,7 +125,7 @@ assets/
 
 ## ET-01 完成定义
 
-- 在 iOS 17.5/18.3 模拟器可启动应用，并可通过 Xcode 部署到 iPhone 12 Pro（iOS 17.6）完成核心流程。
+- 在 iOS 17.5/18.3 模拟器可启动应用，并通过 Xcode 部署到 iPhone 12 Pro（iOS 17.6 系列）完成核心流程。当前已完成 iOS Simulator 和 iPhoneOS 不签名构建，尚未安装/启动 app 或验收核心流程。
 - 依赖清单与 lockfile 一致，关键依赖选择有依据。
 - 前后端能通过 domain/application 契约独立工作，UI 不访问数据库。
 - 数据库有版本化迁移入口，内容导入幂等且不改写学习状态。

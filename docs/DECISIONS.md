@@ -38,7 +38,7 @@
 
 ## ADR-010：最低平台与系统外观
 
-状态：接受。最低 iOS 部署版本为 iOS 17.0；指定 iPhone 12 Pro（iOS 17.6）作为 Xcode 真机验收设备，并覆盖 iOS 17.5/18.3 模拟器。首版支持并验收浅色与深色系统外观，采用语义化颜色并跟随系统设置。动态字体和 VoiceOver 纳入 v0.1 基础验收；v1.0 再做完整可访问性审计。
+状态：接受。最低 iOS 部署版本为 iOS 17.0；指定 iPhone 12 Pro（用户目标 iOS 17.6，2026-11-01 实际已配对设备为 17.6.1）作为 Xcode 真机验收设备，并覆盖 iOS 17.5/18.3 模拟器。首版支持并验收浅色与深色系统外观，采用语义化颜色并跟随系统设置。动态字体和 VoiceOver 纳入 v0.1 基础验收；v1.0 再做完整可访问性审计。
 
 ## ADR-011：依赖候选版本与 SQLite 原生支持
 
@@ -50,7 +50,7 @@
 
 ## ADR-013：Flutter 工程骨架初始化
 
-状态：完成。2026-11-01 使用 Flutter 3.47.1 stable 初始化 iOS-only 空应用；创建阶段使用 `--no-pub`，随后按 ADR-011 解析依赖。未运行构建或测试。Xcode 的 iOS Deployment Target 设置为 17.0。Bundle ID 暂为 `com.example.etyra`，部署真机前必须替换为用户确认的唯一标识。
+状态：完成。2026-11-01 使用 Flutter 3.47.1 stable 初始化 iOS-only 空应用；创建阶段使用 `--no-pub`，随后按 ADR-011 解析依赖。Xcode 的 iOS Deployment Target 设置为 17.0。后续完成 Drift 代码生成、分析与测试；iOS Simulator 和 iPhoneOS 架构不签名构建通过。Bundle ID 暂为 `com.example.etyra`，部署真机前必须替换为用户确认的唯一标识。
 
 ## ADR-014：v0.1 首轮学习完成条件
 
