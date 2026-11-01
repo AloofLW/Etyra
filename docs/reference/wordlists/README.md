@@ -25,7 +25,11 @@
 
 [`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 虚词义项数、OEWN Form 线索数、两类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前 13 个候选缺少直接英文义项线索、497 个缺少中文线索、4609 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不等于词典真实缺项，也不保证现有线索正确。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐和中文草稿均非已验收释义。
 
-复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；课标缺口、复杂词形和关联词补充表须另行纳入审核，不能据此声称全部候选已经处理。
+复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
+
+[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前 27 项无已提取英文义项、109 项无中文线索、230 项有多个 OEWN 义项行；前两类的 Wiktionary 页面定位只证明找到页面/标题，不代表已抽取或验证释义。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
+
+补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
 ## OEWN 词义候选索引
 
