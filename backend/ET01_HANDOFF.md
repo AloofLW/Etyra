@@ -29,9 +29,10 @@
 ## 验证及当前限制
 
 - 已执行格式化、`dart run build_runner build`、`flutter analyze --no-pub` 和 `flutter test test/unit/backend`；分析无问题，17 项测试通过。
+- 本次持久化任务另运行 `flutter test --no-pub test/unit/backend`，27 项通过；测试中的双连接场景触发 Drift 多实例调试警告，两个实例分别使用独立连接，以验证同一文件的重复提交处理。
 - 新增 AppDatabase 测试在内存 SQLite 验证 v1 表创建和外键开启；SeedImporter 测试验证同包幂等回执及同版本变更冲突。
 - `app_database.g.dart` 已生成；data 仍依赖 Drift 的 GeneratedDatabase 查询边界，由后续 composition 注入 AppDatabase。未执行 iOS 构建或真机验证。
-- DriftStudyRepository 为显式 Unsupported 骨架，尚不持久化会话/答题；内存 fake 只用于前端交互开发。不得向用户承诺进度保存。
+- DriftStudyRepository 已实现真实 SQLite 学习写入：创建会话/卡片快照，事务性答题和跳过、阶段更新、计数、完成与幂等放弃。内存 fake 仍仅用于前端交互开发；共享 app 入口尚未装配真实 Repository。
 - SeedImporter 的事务性、SQL/约束、幂等与失败回滚尚未在真实 SQLite 上验证；成功收据审计已设计，失败导入尝试的持久审计和内容更新策略留待后续。
 - v1 尚无已发布前序库；不把“旧版升级已覆盖”当成当前事实。
 
@@ -44,7 +45,7 @@
 | schema | 已生成 Drift 代码并验证内存空库创建、外键开启；仍需导出 v1 schema、复合主键/唯一约束、持久库重复打开验证 |
 | seed | 已验证同包两次导入幂等和同版本变更拒绝；仍需乱序规范化、旧版本拒绝、悬空关系/重复 ID/来源/许可缺失验证 |
 | 事务隔离 | 仍需注入中途异常验证无部分内容/成功收据、同 ID 冲突全包回滚，以及导入前后学习状态与日志保持不变 |
-| 持久化学习 | 队列/日志/状态/计数同事务；重启恢复；并发重复提交；已结束会话拒绝写入；FSRS 字段保持 null |
+| 持久化学习 | 文件 SQLite 覆盖会话快照重启读回、答题/跳过、重复/乱序提交、完成/放弃和触发器注入的事务回滚；FSRS 字段保持 null。按 session ID 恢复当前卡片的公共读取契约尚未定义。 |
 | 后续迁移 | 从导出的历史版本增量升级；保留学习数据与来源；失败恢复；未知版本拒绝且不清库 |
 
-下一步顺序：前端使用已落地 application/domain 和 fake → 获准生成及测试 → 实现并验收真实学习写入 → 再完成 app 持久化装配。实际词库接入前另行收口逐条可信度与稳定 ID 命名空间。
+下一步：项目管理对话评审持久化实现和测试，协调 app/provider 装配；如需跨重启恢复学习界面，先确定会话恢复契约。实际词库接入前另行收口逐条可信度与稳定 ID 命名空间。
