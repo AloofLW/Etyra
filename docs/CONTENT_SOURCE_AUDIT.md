@@ -172,6 +172,8 @@
 
 同一历史家族再登记 `accept`、`acceptance`、`concept`、`conception`、`receive`、`reception`、`perceive`、`perception`、`capable` 九条候选（`WC-075`～`WC-083`），累计 83 条关联；每个英文页面固定修订见 `docs/WORD_ETYM_SOURCE_REVISIONS.csv`。涉及的拉丁语中间词源还可核对 [accipio](https://en.wiktionary.org/w/index.php?title=accipio&oldid=90523009)、[concipio](https://en.wiktionary.org/w/index.php?title=concipio&oldid=90793429)、[recipio](https://en.wiktionary.org/w/index.php?title=recipio&oldid=89362725)、[percipio](https://en.wiktionary.org/w/index.php?title=percipio&oldid=90538699) 和 [capabilis](https://en.wiktionary.org/w/index.php?title=capabilis&oldid=92685173) 固定修订。英语的 `-cept-`、`-ceive` 等不是可直接替换的现代词素；各词历史链、语义、候选形式及许可仍须逐条验收。
 
+从上述 `cap` 家族新增 11 条中文选义草稿，涵盖 `except`、`exception`、`accept`、`acceptance`、`concept`、`conception`、`receive`、`reception`、`perceive`、`perception`、`capable`；词根关系编辑草稿累计 62 条。英文义项、CILI 和中文词项分别保留 OEWN/COW 定位，词源摘要保留固定页面链接。所选义项只是每词的一种用法，例如 `except` 草稿为动词“排除”，不能代替其介词用法；`reception` 选正式“招待会”，不代表“接待”或信号接收义。跨词网对应、中文语境、来源许可和历史词根均需最终审校。
+
 词源摘要是对固定 Wiktionary 页面来源路径的改写；英文义项定位来自 OEWN/Princeton WordNet，所选中文词项来自 COW 1.1。相关来源、版权声明和许可详见 `docs/reference/wordlists/README.md`，再分发需同时保留相应署名、许可证与适用的修改说明。历史词源与现代英语表层拆分分别记录；未根据拼写推断其他关联。
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
