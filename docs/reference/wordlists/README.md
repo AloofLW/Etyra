@@ -80,6 +80,14 @@
 
 该表从 OEWN 2024 与 Princeton WordNet 提取词头和词条定位，适用前述许可及署名要求；筛选依据是未认证镜像的复杂行，所有条目仍为 `candidate_only`。复现命令：`python3 tools/content/build_complex_gap_candidates.py /path/to/mirror.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-complex.csv`，需要 `pdfplumber` 和 Python 3.11+；脚本校验两个输入摘要并拒绝覆盖已有文件。切分只是查找线索，不作词形、词义或词源判断。
 
+### 剩余复杂片段的来源线索
+
+2026-11-01 对上节 10 个未匹配片段查询 English Wiktionary：9 个找到含英语章节和相关词性标题的词典页面，记录在 [`docs/COMPLEX_WIKTIONARY_CANDIDATES.csv`](../../COMPLEX_WIKTIONARY_CANDIDATES.csv)，保留镜像片段、实际词条标题、固定修订、词性标题和 PDF 页码。`o’clock` 的查询通过词典重定向到 `o'clock`，两个形式均保留；尚需确认词义与展示形式。`has`、`is` 等可能是已有动词的屈折形式，`due to`、`ought to`、`per cent` 是多词片段，不能仅据候选 ID 把它们认定为独立产品单词。英语章节词性标题可能涵盖多种含义，仍需逐条人工选义。
+
+剩余 `Before the Common Era` 未找到独立的同名词典页面；镜像中它是 `BCE` 的括号展开说明。Wiktionary 的 [BCE 固定修订](https://en.wiktionary.org/w/index.php?title=BCE&oldid=93568235)也列出这一展开形式，现仅作为缩写与展开关系的审查线索，不额外计作独立单词。上述 9 条均为 `candidate_only`；词典修订的来源、许可和署名按本页 Wiktionary 候选要求逐项核查。原始课标镜像、API 响应和完整课标表不包含在仓库中。
+
+复现需固定摘要的课标镜像及包含指定页面修订正文的 MediaWiki API 响应，使用 `python3 tools/content/build_complex_wiktionary_candidates.py /path/to/mirror.pdf /path/to/api-response.json /tmp/etyra-complex-wiktionary.csv`，需要 Python 3.11+ 和 `pdfplumber`；脚本检查镜像摘要、页面英语章节及词性标题，并拒绝覆盖输出。检查不会证明词义、课标真伪或权利。85 行复杂形式仍须逐行对照权威原件和审核词形关系，不能因九个入口已找到就视为全部覆盖。
+
 ## 工作顺序与验收口径
 
 1. 获得并核实适用的 2025 版课标附录、实施范围及使用权限，保留基准版本；先处理必修、选择性必修，再处理相关地方增补和常用扩展词。
