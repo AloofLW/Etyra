@@ -114,26 +114,45 @@ class _RootDetailState extends State<RootFixtureDetailPage>
       if (phase != FixturePhase.data)
         FixtureStateView(phase: phase, onRetry: load)
       else ...[
-        FixturePanel(
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            FixtureHeading(widget.root.label),
+            Semantics(
+              header: true,
+              child: Text(
+                widget.root.label,
+                style: CupertinoTheme.of(context)
+                    .textTheme
+                    .navLargeTitleTextStyle,
+              ),
+            ),
+            const SizedBox(height: 8),
             const Text('释义待接入审核内容'),
             const Text('尚无可追溯来源 · 待核验'),
-            const SizedBox(height: 4),
+            const SizedBox(height: 16),
             const FixtureHeading('构词关系'),
-            const Text('暂无已审核的词根、词缀关系。'),
             const SizedBox(height: 4),
-            const FixtureHeading('关联单词'),
+            const Text('暂无已审核的词根、词缀关系。'),
+            const SizedBox(height: 16),
+            const FixtureHeading('关联单词 · 演示占位，待核验'),
+            const SizedBox(height: 4),
             if (widget.root.words.isEmpty)
               const Text('暂无关联单词。仍可预览词根学习流程。')
             else
               for (final word in widget.root.words)
-                FixtureAction(
-                  label: '查看$word',
-                  onPressed: () => Navigator.of(context).push<void>(
-                    FixturePageRoute<void>(
-                      context: context,
-                      builder: (_) => _RelatedWordPreview(word: word),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: CupertinoButton(
+                    padding: EdgeInsets.zero,
+                    onPressed: () => Navigator.of(context).push<void>(
+                      FixturePageRoute<void>(
+                        context: context,
+                        builder: (_) => _RelatedWordPreview(word: word),
+                      ),
+                    ),
+                    child: Text(
+                      '查看$word',
+                      style: TextStyle(color: FixtureTokens.accent(context)),
                     ),
                   ),
                 ),

@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:etyra/app/etyra_app.dart';
+import 'package:etyra/features/roots/presentation/widgets/fixture_widgets.dart';
 
 void main() {
   testWidgets('launches the learner home without preview controls', (
@@ -39,6 +40,14 @@ void main() {
       await tester.tap(find.text('开始学习演示'));
       await tester.pumpAndSettle();
       expect(find.text('词根示例 A'), findsOneWidget);
+      expect(find.text('返回'), findsOneWidget);
+      expect(find.byType(CupertinoNavigationBarBackButton), findsNothing);
+      await tester.scrollUntilVisible(find.text('开始词根学习'), 250);
+      final context = tester.element(find.text('开始词根学习'));
+      final button = tester.widget<CupertinoButton>(
+        find.widgetWithText(CupertinoButton, '开始词根学习'),
+      );
+      expect(button.color, FixtureTokens.warmAction.resolveFrom(context));
       expect(tester.takeException(), isNull);
     },
   );

@@ -37,21 +37,11 @@ abstract final class FixtureTokens {
     color: Color(0xFF91412F),
     darkColor: Color(0xFFEEAB96),
   );
-  static const _accent = CupertinoDynamicColor.withBrightness(
-    color: Color(0xFF416D66),
-    darkColor: Color(0xFF9CCDC1),
-  );
-  static const _accentBackground = CupertinoDynamicColor.withBrightness(
-    color: Color(0xFFE1EFEB),
-    darkColor: Color(0xFF233D39),
-  );
-  static Color accent(BuildContext context) => _accent.resolveFrom(context);
-  static Color accentBackground(BuildContext context) =>
-      _accentBackground.resolveFrom(context);
+  static Color accent(BuildContext context) => warmLink.resolveFrom(context);
   static Color background(BuildContext context) =>
-      CupertinoColors.systemGroupedBackground.resolveFrom(context);
+      warmBackground.resolveFrom(context);
   static Color surface(BuildContext context) =>
-      CupertinoColors.secondarySystemGroupedBackground.resolveFrom(context);
+      warmSurface.resolveFrom(context);
   static Color secondary(BuildContext context) =>
       CupertinoColors.secondaryLabel.resolveFrom(context);
 }
@@ -69,18 +59,36 @@ class FixtureScaffold extends StatelessWidget {
   final Widget? leading;
 
   @override
-  Widget build(BuildContext context) => CupertinoPageScaffold(
-    backgroundColor: FixtureTokens.background(context),
-    navigationBar: CupertinoNavigationBar(
-      middle: Text(title),
-      leading: leading,
-    ),
-    child: SafeArea(
-      child: ListView.separated(
-        padding: const EdgeInsets.all(FixtureTokens.gap),
-        itemCount: children.length,
-        separatorBuilder: (_, _) => const SizedBox(height: FixtureTokens.gap),
-        itemBuilder: (_, index) => children[index],
+  Widget build(BuildContext context) => CupertinoTheme(
+    data: CupertinoTheme.of(context)
+        .copyWith(primaryColor: FixtureTokens.warmLink),
+    child: CupertinoPageScaffold(
+      backgroundColor: FixtureTokens.background(context),
+      navigationBar: CupertinoNavigationBar(
+        middle: Text(title),
+        border: null,
+        backgroundColor: FixtureTokens.background(context),
+        automaticallyImplyLeading: false,
+        leading:
+            leading ??
+            (Navigator.of(context).canPop()
+                ? CupertinoButton(
+                    padding: EdgeInsets.zero,
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: Text(
+                      '返回',
+                      style: TextStyle(color: FixtureTokens.accent(context)),
+                    ),
+                  )
+                : null),
+      ),
+      child: SafeArea(
+        child: ListView.separated(
+          padding: const EdgeInsets.all(FixtureTokens.gap),
+          itemCount: children.length,
+          separatorBuilder: (_, _) => const SizedBox(height: FixtureTokens.gap),
+          itemBuilder: (_, index) => children[index],
+        ),
       ),
     ),
   );
@@ -132,11 +140,21 @@ class FixtureAction extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final child = Text(label, textAlign: TextAlign.center);
+    final child = Text(
+      label,
+      textAlign: TextAlign.center,
+      style: TextStyle(
+        color: primary ? CupertinoColors.white : FixtureTokens.accent(context),
+      ),
+    );
     return ConstrainedBox(
       constraints: const BoxConstraints(minHeight: FixtureTokens.touchTarget),
       child: primary
-          ? CupertinoButton.filled(onPressed: onPressed, child: child)
+          ? CupertinoButton(
+              color: FixtureTokens.warmAction.resolveFrom(context),
+              onPressed: onPressed,
+              child: child,
+            )
           : CupertinoButton(onPressed: onPressed, child: child),
     );
   }

@@ -44,7 +44,10 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
           CupertinoDialogAction(
             isDefaultAction: true,
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('继续学习'),
+            child: Text(
+              '继续学习',
+              style: TextStyle(color: FixtureTokens.accent(context)),
+            ),
           ),
           CupertinoDialogAction(
             isDestructiveAction: true,
@@ -73,7 +76,10 @@ class _FixtureStudyState extends State<FixtureStudyPage> {
               leading: CupertinoButton(
                 padding: EdgeInsets.zero,
                 onPressed: session.busy ? null : confirmExit,
-                child: const Text('退出'),
+                child: Text(
+                  '退出',
+                  style: TextStyle(color: FixtureTokens.accent(context)),
+                ),
               ),
               children: _card(),
             ),
