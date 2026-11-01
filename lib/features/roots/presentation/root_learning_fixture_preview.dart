@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart' show Icons;
 
 import 'fixtures/root_learning_fixture.dart';
 import 'root_learning_pages.dart';
@@ -10,34 +9,130 @@ class RootLearningFixturePreview extends StatelessWidget {
   const RootLearningFixturePreview({super.key});
 
   @override
-  Widget build(BuildContext context) => CupertinoTabScaffold(
-    tabBar: CupertinoTabBar(
-      backgroundColor: FixtureTokens.background(context),
-      activeColor: FixtureTokens.accent(context),
-      inactiveColor: FixtureTokens.secondary(context),
-      items: const [
-        BottomNavigationBarItem(icon: Icon(Icons.school_outlined), label: '学习'),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.account_tree_outlined),
-          label: '词根',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.menu_book_outlined),
-          label: '单词',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.settings_outlined),
-          label: '设置',
-        ),
-      ],
+  Widget build(BuildContext context) => CupertinoTheme(
+    data: FixtureTypography.theme(context),
+    child: CupertinoTabScaffold(
+      tabBar: CupertinoTabBar(
+        backgroundColor: FixtureTokens.background(context),
+        activeColor: FixtureTokens.accent(context),
+        inactiveColor: FixtureTokens.secondary(context),
+        items: const [
+          BottomNavigationBarItem(
+            icon: _TabIcon(_TabSymbol.study),
+            label: '学习',
+          ),
+          BottomNavigationBarItem(
+            icon: _TabIcon(_TabSymbol.roots),
+            label: '词根',
+          ),
+          BottomNavigationBarItem(
+            icon: _TabIcon(_TabSymbol.words),
+            label: '单词',
+          ),
+          BottomNavigationBarItem(
+            icon: _TabIcon(_TabSymbol.settings),
+            label: '设置',
+          ),
+        ],
+      ),
+      tabBuilder: (context, index) => switch (index) {
+        0 => const _LearnerHome(),
+        1 => const RootFixtureListPage(),
+        2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
+        _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
+      },
     ),
-    tabBuilder: (context, index) => switch (index) {
-      0 => const _LearnerHome(),
-      1 => const RootFixtureListPage(),
-      2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
-      _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
-    },
   );
+}
+
+enum _TabSymbol { study, roots, words, settings }
+
+/// Consistent SF-style outlines drawn without a bundled icon font.
+class _TabIcon extends StatelessWidget {
+  const _TabIcon(this.symbol);
+  final _TabSymbol symbol;
+
+  @override
+  Widget build(BuildContext context) => ExcludeSemantics(
+    child: CustomPaint(
+      size: const Size(24, 24),
+      painter: _TabIconPainter(symbol, IconTheme.of(context).color!),
+    ),
+  );
+}
+
+class _TabIconPainter extends CustomPainter {
+  const _TabIconPainter(this.symbol, this.color);
+  final _TabSymbol symbol;
+  final Color color;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    canvas.save();
+    canvas.scale(size.width / 24, size.height / 24);
+    final line = Paint()
+      ..color = color
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 1.7
+      ..strokeCap = StrokeCap.round
+      ..strokeJoin = StrokeJoin.round;
+    switch (symbol) {
+      case _TabSymbol.study:
+        final path = Path()
+          ..moveTo(3, 6)
+          ..quadraticBezierTo(8, 4, 12, 7)
+          ..quadraticBezierTo(16, 4, 21, 6)
+          ..lineTo(21, 18)
+          ..quadraticBezierTo(16, 16, 12, 19)
+          ..quadraticBezierTo(8, 16, 3, 18)
+          ..close();
+        canvas.drawPath(path, line);
+        canvas.drawLine(const Offset(12, 7), const Offset(12, 19), line);
+      case _TabSymbol.roots:
+        canvas.drawLine(const Offset(12, 20), const Offset(12, 11), line);
+        canvas.drawLine(const Offset(12, 15), const Offset(6, 9), line);
+        canvas.drawLine(const Offset(12, 12), const Offset(18, 7), line);
+        for (final point in [
+          const Offset(6, 8),
+          const Offset(12, 6),
+          const Offset(18, 6),
+        ]) {
+          canvas.drawCircle(point, 2, line);
+        }
+        canvas.drawLine(const Offset(12, 8), const Offset(12, 11), line);
+      case _TabSymbol.words:
+        canvas.drawRRect(
+          RRect.fromRectAndRadius(
+            const Rect.fromLTWH(5, 3, 14, 18),
+            const Radius.circular(2),
+          ),
+          line,
+        );
+        canvas.drawLine(const Offset(9, 8), const Offset(15, 8), line);
+        canvas.drawLine(const Offset(9, 12), const Offset(15, 12), line);
+        canvas.drawLine(const Offset(9, 16), const Offset(13, 16), line);
+      case _TabSymbol.settings:
+        canvas.drawCircle(const Offset(12, 12), 7, line);
+        canvas.drawCircle(const Offset(12, 12), 2.4, line);
+        for (final (start, end) in [
+          (const Offset(12, 2), const Offset(12, 5)),
+          (const Offset(12, 19), const Offset(12, 22)),
+          (const Offset(2, 12), const Offset(5, 12)),
+          (const Offset(19, 12), const Offset(22, 12)),
+          (const Offset(5, 5), const Offset(7, 7)),
+          (const Offset(17, 17), const Offset(19, 19)),
+          (const Offset(19, 5), const Offset(17, 7)),
+          (const Offset(7, 17), const Offset(5, 19)),
+        ]) {
+          canvas.drawLine(start, end, line);
+        }
+    }
+    canvas.restore();
+  }
+
+  @override
+  bool shouldRepaint(covariant _TabIconPainter oldDelegate) =>
+      oldDelegate.symbol != symbol || oldDelegate.color != color;
 }
 
 class _UnavailablePage extends StatelessWidget {
@@ -110,7 +205,10 @@ class _LearnerHome extends StatelessWidget {
               ),
               child: const Text(
                 '开始学习演示',
-                style: TextStyle(color: CupertinoColors.white),
+                style: TextStyle(
+                  color: CupertinoColors.white,
+                  fontWeight: FixtureTypography.bodyWeight,
+                ),
               ),
             ),
             const SizedBox(height: 16),

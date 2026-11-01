@@ -123,7 +123,8 @@ class _RootDetailState extends State<RootFixtureDetailPage>
                 widget.root.label,
                 style: CupertinoTheme.of(context)
                     .textTheme
-                    .navLargeTitleTextStyle,
+                    .navLargeTitleTextStyle
+                    .copyWith(fontWeight: FixtureTypography.headingWeight),
               ),
             ),
             const SizedBox(height: 8),
