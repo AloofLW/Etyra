@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:etyra/app/composition/providers.dart';
 import 'package:etyra/features/roots/domain/root.dart';
-import 'package:etyra/features/roots/domain/root_repository.dart';
 import 'package:etyra/features/roots/presentation/root_catalog_page.dart';
 import 'package:etyra/features/shared/domain/content_types.dart';
 import 'package:etyra/features/shared/domain/page.dart' as domain;
@@ -13,26 +12,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-class FakeRoots implements RootRepository {
-  Future<Result<domain.Page<Root>>> Function(String? cursor) list = (_) async =>
-      Success(domain.Page(items: []));
-  Future<Result<RootDetail>> Function(String id) detail = (_) async =>
-      const Failure(DomainFailure(FailureKind.notFound, 'root.not_found'));
-  final cursors = <String?>[];
-
-  @override
-  Future<Result<domain.Page<Root>>> listRoots({
-    String? query,
-    String? cursor,
-    int limit = 30,
-  }) {
-    cursors.add(cursor);
-    return list(cursor);
-  }
-
-  @override
-  Future<Result<RootDetail>> getRootDetail(String rootId) => detail(rootId);
-}
+import '../support/fake_roots.dart';
 
 Root root(
   String id, {

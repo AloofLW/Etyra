@@ -8,7 +8,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'root_catalog_test.dart' show FakeRoots;
+import '../support/fake_roots.dart';
 
 Future<void> tapText(WidgetTester tester, String text) async {
   final target = find.text(text);
