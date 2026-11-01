@@ -1,36 +1,73 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart' show Icons;
 
 import 'fixtures/root_learning_fixture.dart';
 import 'root_learning_pages.dart';
 import 'widgets/fixture_widgets.dart';
-
-abstract final class _HomeColors {
-  static const background = CupertinoDynamicColor.withBrightness(
-    color: Color(0xFFFAF6EF),
-    darkColor: Color(0xFF1C1917),
-  );
-  static const action = CupertinoDynamicColor.withBrightness(
-    color: Color(0xFFA04A38),
-    darkColor: Color(0xFF9A4535),
-  );
-  static const link = CupertinoDynamicColor.withBrightness(
-    color: Color(0xFF91412F),
-    darkColor: Color(0xFFEEAB96),
-  );
-}
 
 /// Learner-facing entry point; the preview tools remain available separately.
 class RootLearningFixturePreview extends StatelessWidget {
   const RootLearningFixturePreview({super.key});
 
   @override
+  Widget build(BuildContext context) => CupertinoTabScaffold(
+    tabBar: CupertinoTabBar(
+      backgroundColor: FixtureTokens.background(context),
+      activeColor: FixtureTokens.accent(context),
+      inactiveColor: FixtureTokens.secondary(context),
+      items: const [
+        BottomNavigationBarItem(icon: Icon(Icons.school_outlined), label: '学习'),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.account_tree_outlined),
+          label: '词根',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.menu_book_outlined),
+          label: '单词',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.settings_outlined),
+          label: '设置',
+        ),
+      ],
+    ),
+    tabBuilder: (context, index) => switch (index) {
+      0 => const _LearnerHome(),
+      1 => const RootFixtureListPage(),
+      2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
+      _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
+    },
+  );
+}
+
+class _UnavailablePage extends StatelessWidget {
+  const _UnavailablePage({required this.title, required this.message});
+  final String title;
+  final String message;
+
+  @override
+  Widget build(BuildContext context) => FixtureScaffold(
+    title: title,
+    children: [
+      const FixtureContentNotice(),
+      FixtureHeading(title),
+      Text(message),
+    ],
+  );
+}
+
+class _LearnerHome extends StatelessWidget {
+  const _LearnerHome();
+
+  @override
   Widget build(BuildContext context) {
     final text = CupertinoTheme.of(context).textTheme;
     return CupertinoPageScaffold(
-      backgroundColor: _HomeColors.background.resolveFrom(context),
+      backgroundColor: FixtureTokens.background(context),
       navigationBar: CupertinoNavigationBar(
         border: null,
-        backgroundColor: _HomeColors.background.resolveFrom(context),
+        backgroundColor: FixtureTokens.background(context),
+        automaticallyImplyLeading: false,
         middle: const Text('Etyra'),
         trailing: CupertinoButton(
           padding: EdgeInsets.zero,
@@ -42,7 +79,7 @@ class RootLearningFixturePreview extends StatelessWidget {
           ),
           child: Text(
             '预览工具',
-            style: TextStyle(color: _HomeColors.link.resolveFrom(context)),
+            style: TextStyle(color: FixtureTokens.accent(context)),
           ),
         ),
       ),
@@ -62,7 +99,7 @@ class RootLearningFixturePreview extends StatelessWidget {
             ),
             const SizedBox(height: 24),
             CupertinoButton(
-              color: _HomeColors.action.resolveFrom(context),
+              color: FixtureTokens.warmAction.resolveFrom(context),
               onPressed: () => Navigator.of(context).push<void>(
                 FixturePageRoute<void>(
                   context: context,
@@ -97,9 +134,7 @@ class RootLearningFixturePreview extends StatelessWidget {
                 ),
                 child: Text(
                   '浏览演示词根  ›',
-                  style: TextStyle(
-                    color: _HomeColors.link.resolveFrom(context),
-                  ),
+                  style: TextStyle(color: FixtureTokens.accent(context)),
                 ),
               ),
             ),
@@ -134,6 +169,7 @@ class _PreviewToolsPageState extends State<_PreviewToolsPage> {
               label: '模拟首次提交失败',
               child: CupertinoSwitch(
                 value: failNextWrite,
+                activeTrackColor: FixtureTokens.warmAction.resolveFrom(context),
                 onChanged: (value) => setState(() => failNextWrite = value),
               ),
             ),
@@ -158,7 +194,10 @@ class _PreviewToolsPageState extends State<_PreviewToolsPage> {
                       ),
                     ),
                   ),
-                  child: const Text('查看列表'),
+                  child: Text(
+                    '查看列表',
+                    style: TextStyle(color: FixtureTokens.accent(context)),
+                  ),
                 ),
                 CupertinoButton(
                   padding: EdgeInsets.zero,
@@ -172,7 +211,10 @@ class _PreviewToolsPageState extends State<_PreviewToolsPage> {
                       ),
                     ),
                   ),
-                  child: const Text('查看详情'),
+                  child: Text(
+                    '查看详情',
+                    style: TextStyle(color: FixtureTokens.accent(context)),
+                  ),
                 ),
               ],
             ),

@@ -1,6 +1,7 @@
 import 'package:etyra/app/etyra_app.dart';
 import 'package:etyra/features/roots/presentation/fixtures/root_learning_fixture.dart';
 import 'package:etyra/features/roots/presentation/root_learning_pages.dart';
+import 'package:etyra/features/roots/presentation/widgets/fixture_widgets.dart';
 import 'package:etyra/features/study/presentation/fixture_study_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -45,12 +46,45 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('词根示例 A'), findsOneWidget);
     expect(find.text('尚无可追溯来源 · 待核验'), findsOneWidget);
-    await tester.pageBack();
+    expect(find.byType(CupertinoNavigationBarBackButton), findsNothing);
+    await tapText(tester, '返回');
     await tester.pumpAndSettle();
     await tapText(tester, '预览工具');
     await tester.pumpAndSettle();
     expect(find.text('模拟首次提交失败'), findsOneWidget);
     expect(find.text('查看列表'), findsWidgets);
+  });
+
+  testWidgets('四个底部入口可访问，未接入页面明确提示', (tester) async {
+    await tester.pumpWidget(const EtyraApp());
+    expect(find.byType(CupertinoTabBar), findsOneWidget);
+    for (final (label, message) in [('单词', '单词浏览尚未接入。'), ('设置', '设置功能尚未接入。')]) {
+      await tester.tap(find.text(label).last);
+      await tester.pumpAndSettle();
+      expect(find.text(message), findsOneWidget);
+      expect(find.text('演示内容 · 未接入真实词库，学习记录不会保存。'), findsOneWidget);
+    }
+    await tester.tap(find.text('词根').last);
+    await tester.pumpAndSettle();
+    expect(find.text('查看词根示例 A'), findsOneWidget);
+    await tester.tap(find.text('学习').last);
+    await tester.pumpAndSettle();
+    expect(find.text('开始学习演示'), findsOneWidget);
+  });
+
+  testWidgets('词根详情使用暖色按钮和文字返回', (tester) async {
+    await tester.pumpWidget(const EtyraApp());
+    await tapText(tester, '开始学习演示');
+    await tester.pumpAndSettle();
+    expect(find.text('返回'), findsOneWidget);
+    expect(find.byType(CupertinoNavigationBarBackButton), findsNothing);
+    expect(find.text('关联单词 · 演示占位，待核验'), findsOneWidget);
+    expect(find.text('尚无可追溯来源 · 待核验'), findsOneWidget);
+    final button = tester.widget<CupertinoButton>(
+      find.widgetWithText(CupertinoButton, '开始词根学习'),
+    );
+    final context = tester.element(find.text('开始词根学习'));
+    expect(button.color, FixtureTokens.warmAction.resolveFrom(context));
   });
 
   for (final isDetail in [false, true]) {
