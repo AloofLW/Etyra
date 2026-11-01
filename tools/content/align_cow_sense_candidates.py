@@ -28,12 +28,15 @@ def main():
     parser.add_argument("oewn", type=Path, help="Pinned OEWN 2024 XML gzip")
     parser.add_argument("cow", type=Path, help="Pinned COW 1.1 tar.xz")
     parser.add_argument("output", type=Path, help="New CSV output; existing files are not overwritten")
+    parser.add_argument("--sense-csv", type=Path, default=ROOT / "docs/OEWN_SENSE_CANDIDATES.csv", help="Candidate sense CSV to align")
     args = parser.parse_args()
     verify(args.oewn, OEWN_SHA256, parser)
     verify(args.cow, COW_SHA256, parser)
 
-    with (ROOT / "docs/OEWN_SENSE_CANDIDATES.csv").open(encoding="utf-8", newline="") as source:
+    with args.sense_csv.open(encoding="utf-8", newline="") as source:
         candidates = list(csv.DictReader(source))
+    if any(row.get("status") != "candidate_only" for row in candidates):
+        raise ValueError("Sense input contains non-candidate rows")
     wanted_senses = {row["sense_id"]: row["synset_id"] for row in candidates}
     wanted_synsets = set(wanted_senses.values())
     found_senses = {}

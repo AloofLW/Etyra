@@ -1,0 +1,531 @@
+candidate_id,headword,oewn_written_form,pos,sense_id,oewn_synset_id,ili,cow_synset_ids,chinese_lemmas_json,status
+vocab-candidate-00c764f20f35309838fb,blackboard,blackboard,n,oewn-blackboard__1.06.00..,oewn-02849749-n,i50814,cow-02846511-n,"[""黑板""]",candidate_only
+vocab-candidate-01431b46f1839c1e618e,amazing,amazing,a,oewn-amazing__5.00.00.impressive.00,oewn-01285602-s,i6996,cow-01282510-a,"[""令人惊异"", ""令人惊异的"", ""惊艳"", ""敬畏"", ""敬畏的""]",candidate_only
+vocab-candidate-01431b46f1839c1e618e,amazing,amazing,a,oewn-amazing__5.00.00.surprising.00,oewn-02368344-s,i13069,cow-02359789-a,"[""了不起"", ""了不起的"", ""令人惊讶"", ""令人惊讶的"", ""精彩"", ""精彩的""]",candidate_only
+vocab-candidate-0237742265ea9ac1dba0,salty,salty,a,oewn-salty__5.00.00.stimulating.00,oewn-02314554-s,i12774,cow-02306874-a,"[""刺激"", ""刺激的"", ""有煽动性"", ""有煽动性的""]",candidate_only
+vocab-candidate-0237742265ea9ac1dba0,salty,salty,a,oewn-salty__5.00.00.tasty.00,oewn-02407497-s,i13277,cow-02398773-a,"[""咸"", ""咸的""]",candidate_only
+vocab-candidate-023dfb3b81fc4ae0fc11,radium,radium,n,oewn-radium__1.27.00..,oewn-14676100-n,i113992,cow-14651921-n,"[""镭""]",candidate_only
+vocab-candidate-03f3ef306333f494f7a9,thirsty,thirsty,a,oewn-thirsty__3.00.00..,oewn-01273114-a,i6936,cow-01270004-a,"[""口干"", ""口干的"", ""口渴"", ""干渴"", ""干渴的"", ""渴"", ""渴的""]",candidate_only
+vocab-candidate-03f3ef306333f494f7a9,thirsty,thirsty,a,oewn-thirsty__5.00.00.desirous.00,oewn-00891492-s,i4870,cow-00888200-a,"[""渴望"", ""渴望的"", ""热望"", ""热望的""]",candidate_only
+vocab-candidate-03f3ef306333f494f7a9,thirsty,thirsty,a,oewn-thirsty__5.00.00.dry.01,oewn-02564910-s,i14170,cow-02554140-a,"[""干旱"", ""干旱的"", ""干燥"", ""干燥的""]",candidate_only
+vocab-candidate-04e77bf8f95cb3e1a36a,princess,princess,n,oewn-princess__1.18.00..,oewn-10493649-n,i92247,cow-10474064-n,"[""公主"", ""王妃""]",candidate_only
+vocab-candidate-06612c2832341c9e69c8,volcano,volcano,n,oewn-volcano__1.17.00..,oewn-09495727-n,i86399,cow-09472597-n,"[""火山""]",candidate_only
+vocab-candidate-09aabcd859e4a72f9223,pork,pork,n,oewn-pork__1.13.00..,oewn-07684447-n,i77237,cow-07668702-n,"[""猪肉""]",candidate_only
+vocab-candidate-09aabcd859e4a72f9223,pork,pork,n,oewn-pork__1.21.00..,oewn-13379173-n,i106904,cow-13358000-n,"[""政治拨款""]",candidate_only
+vocab-candidate-09cf980b5ff304ac11b7,fable,fable,n,oewn-fable__1.10.01..,oewn-06383036-n,i69960,cow-06371413-n,"[""传说"", ""寓言""]",candidate_only
+vocab-candidate-0a4346f806b28b3ce949,penguin,penguin,n,oewn-penguin__1.05.00..,oewn-02058457-n,i46202,cow-02055803-n,"[""企鹅""]",candidate_only
+vocab-candidate-0a7a27bedd1f822ac176,cabbage,cabbage,n,oewn-cabbage__1.13.00..,oewn-07729640-n,i77536,cow-07713895-n,"[""莲白""]",candidate_only
+vocab-candidate-0a7a27bedd1f822ac176,cabbage,cabbage,n,oewn-cabbage__1.21.00..,oewn-13406389-n,i107060,cow-13385216-n,"[""金钱"", ""钱币"", ""钱财""]",candidate_only
+vocab-candidate-0a7a27bedd1f822ac176,cabbage,cabbage,v,oewn-cabbage__2.40.00..,oewn-02281711-v,i33118,cow-02276866-v,"[""偷"", ""偷窃"", ""盗"", ""窃""]",candidate_only
+vocab-candidate-0bf474896363505e5ea5,digest,digest,v,oewn-digest__2.30.07..,oewn-00398893-v,i23721,cow-00397987-v,"[""浸提"", ""煮解"", ""蒸煮""]",candidate_only
+vocab-candidate-0bf474896363505e5ea5,digest,digest,v,oewn-digest__2.31.03..,oewn-00670017-v,i25064,cow-00668099-v,"[""包容"", ""受"", ""够受"", ""容忍"", ""忍受"", ""忍耐"", ""耐""]",candidate_only
+vocab-candidate-0c873ecbd3c57a0116ca,symphony,symphony,n,oewn-symphony__1.14.00..,oewn-08265777-n,i80473,cow-08248856-n,"[""交响乐团"", ""交响乐队""]",candidate_only
+vocab-candidate-0c9cb79b5639f08756f4,endangered,endangered,a,oewn-endangered__5.00.00.vulnerable.00,oewn-02534351-s,i13998,cow-02524192-a,"[""濒临灭绝"", ""濒临灭绝的"", ""濒危"", ""濒危的""]",candidate_only
+vocab-candidate-0d4268591d78dcf6d5d9,sour,sour,a,oewn-sour__3.00.00..,oewn-02377355-a,i13120,cow-02368787-a,"[""有酸味"", ""有酸味的"", ""酸"", ""酸的""]",candidate_only
+vocab-candidate-0d4268591d78dcf6d5d9,sour,sour,a,oewn-sour__5.00.00.soured.00,oewn-02378437-s,i13127,cow-02369869-a,"[""酸臭"", ""酸臭的""]",candidate_only
+vocab-candidate-0d4268591d78dcf6d5d9,sour,sour,a,oewn-sour__5.00.00.tasty.00,oewn-02407738-s,i13279,cow-02399014-a,"[""酸"", ""酸的""]",candidate_only
+vocab-candidate-0d4268591d78dcf6d5d9,sour,sour,v,oewn-sour__2.39.00..,oewn-02201136-v,i32738,cow-02196690-v,"[""使变酸"", ""变酸"", ""酸化""]",candidate_only
+vocab-candidate-0eccfe263668d171bd19,ham,ham,n,oewn-ham__1.13.00..,oewn-07685636-n,i77246,cow-07669891-n,"[""火腿"", ""火腿肉""]",candidate_only
+vocab-candidate-0f09538d0ea075eeabc6,microscope,microscope,n,oewn-microscope__1.06.00..,oewn-03766206-n,i56218,cow-03760671-n,"[""显微镜""]",candidate_only
+vocab-candidate-0f540d3e12e3abb7c31d,nationality,nationality,n,oewn-nationality__1.26.00..,oewn-13977005-n,i110266,cow-13953787-n,"[""国籍"", ""籍""]",candidate_only
+vocab-candidate-0f78fcc486f5315418fb,grape,grape,n,oewn-grape__1.06.00..,oewn-03458491-n,i54400,cow-03453547-n,"[""葡萄弹""]",candidate_only
+vocab-candidate-0f78fcc486f5315418fb,grape,grape,n,oewn-grape__1.13.00..,oewn-07774656-n,i77835,cow-07758680-n,"[""葡萄""]",candidate_only
+vocab-candidate-0f78fcc486f5315418fb,grape,grape,n,oewn-grape__1.20.00..,oewn-13165571-n,i105723,cow-13144794-n,"[""葡萄属植物"", ""葡萄藤""]",candidate_only
+vocab-candidate-0fd924362117d03662f0,meeting,meeting,n,oewn-meeting__1.04.00..,oewn-01233454-n,i41841,cow-01230965-n,"[""会议"", ""大会"", ""相见"", ""聚会"", ""集会""]",candidate_only
+vocab-candidate-0fd924362117d03662f0,meeting,meeting,n,oewn-meeting__1.11.00..,oewn-07429522-n,i75679,cow-07414922-n,"[""邂逅""]",candidate_only
+vocab-candidate-0fd924362117d03662f0,meeting,meeting,n,oewn-meeting__1.14.00..,oewn-08324519-n,i80791,cow-08307589-n,"[""年会""]",candidate_only
+vocab-candidate-112895d7af6c125315cd,rating,rating,n,oewn-rating__1.09.00..,oewn-05744094-n,i67050,cow-05736149-n,"[""评级""]",candidate_only
+vocab-candidate-112895d7af6c125315cd,rating,rating,n,oewn-rating__1.26.00..,oewn-14452786-n,i112831,cow-14429382-n,"[""等级""]",candidate_only
+vocab-candidate-112895d7af6c125315cd,rating,rating,n,oewn-rating__1.26.02..,oewn-14454897-n,i112840,cow-14431471-n,"[""军职"", ""军衔""]",candidate_only
+vocab-candidate-142d31ead54fc3388ee6,fibre,fibre,n,oewn-fibre__1.06.01..,oewn-03336189-n,i53654,cow-03331244-n,"[""纤维织物""]",candidate_only
+vocab-candidate-142d31ead54fc3388ee6,fibre,fibre,n,oewn-fibre__1.27.00..,oewn-14891040-n,i115191,cow-14866889-n,"[""天然纤维"", ""纤维""]",candidate_only
+vocab-candidate-144ac86d05c00f559949,bakery,bakery,n,oewn-bakery__1.06.00..,oewn-02779636-n,i50375,cow-02776631-n,"[""面包厂"", ""面包店"", ""面包房"", ""饼店""]",candidate_only
+vocab-candidate-14a78db18a9fbb57b004,hometown,hometown,n,oewn-hometown__1.15.00..,oewn-08689382-n,i82509,cow-08671644-n,"[""家园""]",candidate_only
+vocab-candidate-15626af7abddf6321e27,idiom,idiom,n,oewn-idiom__1.10.00..,oewn-07170369-n,i74268,cow-07155661-n,"[""土语"", ""方言"", ""话""]",candidate_only
+vocab-candidate-15dacf6574831a179293,souvenir,souvenir,n,oewn-souvenir__1.06.00..,oewn-03615483-n,i55343,cow-03610270-n,"[""纪念品"", ""赠品""]",candidate_only
+vocab-candidate-16103864ac47b5a014b6,hostess,hostess,n,oewn-hostess__1.18.01..,oewn-10675314-n,i93318,cow-10655875-n,"[""女性空服员"", ""空中小姐"", ""空姐""]",candidate_only
+vocab-candidate-1615b69d830f0ee25bdb,saucer,saucer,n,oewn-saucer__1.06.00..,oewn-04146374-n,i58474,cow-04139291-n,"[""浅碟""]",candidate_only
+vocab-candidate-1615b69d830f0ee25bdb,saucer,saucer,n,oewn-saucer__1.06.01..,oewn-03211323-n,i52961,cow-03206602-n,"[""铁饼""]",candidate_only
+vocab-candidate-1615b69d830f0ee25bdb,saucer,saucer,n,oewn-saucer__1.06.02..,oewn-03212026-n,i52964,cow-03207305-n,"[""截抛物面天线"", ""抛物面天线""]",candidate_only
+vocab-candidate-1615b69d830f0ee25bdb,saucer,saucer,n,oewn-saucer__1.25.00..,oewn-13897824-n,i109843,cow-13875185-n,"[""圆平面"", ""圆盘形"", ""圆盘状物""]",candidate_only
+vocab-candidate-16a7b8d12931f9a10a86,defence,defence,n,oewn-defence__1.06.00..,oewn-03176022-n,i52762,cow-03171356-n,"[""防御组织""]",candidate_only
+vocab-candidate-16a7b8d12931f9a10a86,defence,defence,n,oewn-defence__1.14.00..,oewn-08081359-n,i79588,cow-08064523-n,"[""辩护团""]",candidate_only
+vocab-candidate-16a7b8d12931f9a10a86,defence,defence,n,oewn-defence__1.22.00..,oewn-13480525-n,i107469,cow-13459322-n,"[""自卫机能"", ""防卫机制"", ""防御机制""]",candidate_only
+vocab-candidate-16be882827ec3f5a5611,recite,recite,v,oewn-recite__2.32.01..,oewn-00955248-v,i26365,cow-00953216-v,"[""叙说"", ""叙述"", ""讲"", ""讲述"", ""诉说"", ""详述""]",candidate_only
+vocab-candidate-16be882827ec3f5a5611,recite,recite,v,oewn-recite__2.32.02..,oewn-01053236-v,i26832,cow-01051364-v,"[""诵""]",candidate_only
+vocab-candidate-16be882827ec3f5a5611,recite,recite,v,oewn-recite__2.32.03..,oewn-00948137-v,i26332,cow-00946105-v,"[""悉数""]",candidate_only
+vocab-candidate-16be882827ec3f5a5611,recite,recite,v,oewn-recite__2.36.00..,oewn-01707313-v,i30261,cow-01703454-v,"[""诵""]",candidate_only
+vocab-candidate-16db10b2848943982d5d,kilogram,kilogram,n,oewn-kilogram__1.23.00..,oewn-13746692-n,i108982,cow-13724582-n,"[""公斤"", ""千克""]",candidate_only
+vocab-candidate-18c76b5a4a409a0aff42,selfish,selfish,a,oewn-selfish__3.00.00..,oewn-02105605-a,i11502,cow-02098325-a,"[""利己"", ""利己的"", ""自私"", ""自私的"", ""自私自利"", ""自私自利的""]",candidate_only
+vocab-candidate-1c79ce7ffd92648aa656,rhyme,rhyme,v,oewn-rhyme__2.42.00..,oewn-02756307-v,i35428,cow-02750432-v,"[""压韵"", ""押韵""]",candidate_only
+vocab-candidate-1c97db665f1495dc252b,strait,strait,n,oewn-strait__1.26.00..,oewn-13959972-n,i110184,cow-13936939-n,"[""困境"", ""窘境""]",candidate_only
+vocab-candidate-1d9283d848ea941ace1f,later,later,r,oewn-later__4.02.01..,oewn-00061741-r,i18505,cow-00061203-r,"[""下"", ""之后"", ""再"", ""后"", ""既而"", ""继而""]",candidate_only
+vocab-candidate-1e8abffb973c275e041e,feeling,feeling,n,oewn-feeling__1.09.00..,oewn-05715665-n,i66905,cow-05707718-n,"[""知觉""]",candidate_only
+vocab-candidate-1e8abffb973c275e041e,feeling,feeling,n,oewn-feeling__1.09.02..,oewn-05730374-n,i66980,cow-05722427-n,"[""感觉"", ""知觉"", ""触觉""]",candidate_only
+vocab-candidate-1e8abffb973c275e041e,feeling,feeling,n,oewn-feeling__1.09.03..,oewn-05925333-n,i67929,cow-05916739-n,"[""印象"", ""感想""]",candidate_only
+vocab-candidate-1e8abffb973c275e041e,feeling,feeling,n,oewn-feeling__1.26.00..,oewn-14549784-n,i113340,cow-14526182-n,"[""味"", ""情"", ""情怀"", ""情绪"", ""感觉"", ""气场"", ""气氛"", ""色彩"", ""韵味"", ""风情"", ""风气""]",candidate_only
+vocab-candidate-1eb4d6a000efefe9aadb,grandpa,grandpa,n,oewn-grandpa__1.18.00..,oewn-10161911-n,i90287,cow-10142391-n,"[""外公"", ""外祖父"", ""爷爷"", ""祖父""]",candidate_only
+vocab-candidate-20cd4732ae60507a2e2e,kettle,kettle,n,oewn-kettle__1.06.00..,oewn-03618023-n,i55356,cow-03612814-n,"[""壶"", ""水壶""]",candidate_only
+vocab-candidate-20cd4732ae60507a2e2e,kettle,kettle,n,oewn-kettle__1.06.01..,oewn-03618174-n,i55357,cow-03612965-n,"[""定音鼓""]",candidate_only
+vocab-candidate-20cd4732ae60507a2e2e,kettle,kettle,n,oewn-kettle__1.23.00..,oewn-13790294-n,i109245,cow-13768154-n,"[""一壶的量""]",candidate_only
+vocab-candidate-20fc9133f8c1daf9a29e,millimetre,millimetre,n,oewn-millimetre__1.23.00..,oewn-13680427-n,i108491,cow-13658657-n,"[""毫米""]",candidate_only
+vocab-candidate-22ba2d6f2848f4c040f5,pyramid,pyramid,n,oewn-pyramid__1.21.00..,oewn-13364299-n,i106826,cow-13343284-n,"[""金字塔现象""]",candidate_only
+vocab-candidate-22ba2d6f2848f4c040f5,pyramid,pyramid,n,oewn-pyramid__1.25.00..,oewn-13937870-n,i110068,cow-13914837-n,"[""棱锥"", ""棱锥体"", ""角锥"", ""角锥体"", ""角锥形"", ""角锥状物""]",candidate_only
+vocab-candidate-22ba2d6f2848f4c040f5,pyramid,pyramid,v,oewn-pyramid__2.40.01..,oewn-02251082-v,i32968,cow-02246300-v,"[""步步升高""]",candidate_only
+vocab-candidate-2406f46e506c14b5a936,skateboard,skateboard,v,oewn-skateboard__2.38.00..,oewn-01941654-v,i31408,cow-01937795-v,"[""用滑板滑行""]",candidate_only
+vocab-candidate-257c4a121ae568ba528f,nutrition,nutrition,n,oewn-nutrition__1.22.00..,oewn-13544864-n,i107787,cow-13523661-n,"[""滋养"", ""营养作用"", ""营养摄取""]",candidate_only
+vocab-candidate-2689367b205c16ce32ed,ok,OK,n,oewn-ok__1.10.00..,oewn-06700446-n,i71628,cow-06687701-n,"[""好的""]",candidate_only
+vocab-candidate-2689367b205c16ce32ed,ok,OK,r,oewn-ok__4.02.00..,oewn-00053542-r,i18450,cow-00053004-r,"[""好啦""]",candidate_only
+vocab-candidate-2689367b205c16ce32ed,ok,ok,a,oewn-ok__5.00.00.satisfactory.00,oewn-02088253-s,i11402,cow-02081114-a,"[""令人满意"", ""令人满意的"", ""可以接受"", ""可以接受的"", ""好"", ""好的"", ""很好"", ""很好的"", ""行"", ""说得过去"", ""说得过去的""]",candidate_only
+vocab-candidate-2744ccd10c7533bd736a,me,ME,n,oewn-me__1.15.00..,oewn-09115069-n,i84409,cow-09092497-n,"[""缅因"", ""缅因州""]",candidate_only
+vocab-candidate-2753cb15f1d6d34c2d6e,cuisine,cuisine,n,oewn-cuisine__1.13.00..,oewn-07586889-n,i76543,cow-07571324-n,"[""料理"", ""菜式"", ""菜系""]",candidate_only
+vocab-candidate-285a615116ddc6314540,granddaughter,granddaughter,n,oewn-granddaughter__1.18.00..,oewn-10161252-n,i90281,cow-10141732-n,"[""孙女儿""]",candidate_only
+vocab-candidate-29e1be7654a414195711,forehead,forehead,n,oewn-forehead__1.08.00..,oewn-05610303-n,i66351,cow-05602548-n,"[""前额"", ""额"", ""额头""]",candidate_only
+vocab-candidate-2c50624bea38c570f59f,pants,pants,n,oewn-pants__1.06.01..,oewn-02857998-n,i50863,cow-02854739-n,"[""女式灯笼裤"", ""灯笼裤"", ""短裤""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,n,oewn-programme__1.09.00..,oewn-05907175-n,i67842,cow-05898568-n,"[""计划"", ""设计""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,n,oewn-programme__1.10.00..,oewn-06761180-n,i71957,cow-06748466-n,"[""节目单""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,n,oewn-programme__1.10.01..,oewn-06631935-n,i71256,cow-06619428-n,"[""广播"", ""广播节目"", ""节目""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,n,oewn-programme__1.10.02..,oewn-06581154-n,i70974,cow-06568978-n,"[""应用程序"", ""应用程式"", ""程序""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,n,oewn-programme__1.10.05..,oewn-06689161-n,i71570,cow-06676416-n,"[""专业课程""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,v,oewn-programme__2.32.00..,oewn-00796926-v,i25655,cow-00795264-v,"[""安排活动""]",candidate_only
+vocab-candidate-2c6ed1182b4176016ebb,programme,programme,v,oewn-programme__2.36.00..,oewn-01751525-v,i30473,cow-01747717-v,"[""编程""]",candidate_only
+vocab-candidate-2cdbdd82910725464b02,sorrow,sorrow,n,oewn-sorrow__1.12.01..,oewn-07551058-n,i76356,cow-07535670-n,"[""后悔"", ""悲伤"", ""懊悔"", ""遗憾""]",candidate_only
+vocab-candidate-2cdbdd82910725464b02,sorrow,sorrow,n,oewn-sorrow__1.26.00..,oewn-14012536-n,i110448,cow-13989051-n,"[""伤心"", ""悲伤""]",candidate_only
+vocab-candidate-2e094b416432919c2a8d,blouse,blouse,n,oewn-blouse__1.06.00..,oewn-02858206-n,i50864,cow-02854926-n,"[""女衬衫"", ""宽松的上衣"", ""宽松短衫""]",candidate_only
+vocab-candidate-2e6073ea718e40e588da,inquire,inquire,v,oewn-inquire__2.32.01..,oewn-00899241-v,i26103,cow-00897746-v,"[""发问"", ""提问"", ""询问"", ""问道""]",candidate_only
+vocab-candidate-2e6073ea718e40e588da,inquire,inquire,v,oewn-inquire__2.32.02..,oewn-00787624-v,i25614,cow-00785962-v,"[""打听"", ""探询"", ""查处"", ""查明"", ""访"", ""询问"", ""调查"", ""追查"", ""追究""]",candidate_only
+vocab-candidate-2efa64f91736e51bfbca,spicy,spicy,a,oewn-spicy__5.00.00.sexy.00,oewn-02139604-s,i11674,cow-02132224-a,"[""下流"", ""下流的"", ""淫秽"", ""淫秽的"", ""败坏风俗"", ""败坏风俗的"", ""近乎淫猥"", ""近乎淫猥的""]",candidate_only
+vocab-candidate-2efa64f91736e51bfbca,spicy,spicy,a,oewn-spicy__5.00.01.tasty.00,oewn-02406317-s,i13270,cow-02397732-a,"[""辛辣"", ""辛辣的"", ""辣"", ""辣的""]",candidate_only
+vocab-candidate-2fa1b1f6ab9bf73eedd2,fulfil,fulfil,v,oewn-fulfil__2.34.00..,oewn-01185870-v,i35005,cow-02667900-v,"[""合适"", ""符合"", ""适宜"", ""配合""]",candidate_only
+vocab-candidate-2fa1b1f6ab9bf73eedd2,fulfil,fulfil,v,oewn-fulfil__2.36.00..,oewn-01644397-v,i29944,cow-01640855-v,"[""付诸"", ""展开""]",candidate_only
+vocab-candidate-2fa1b1f6ab9bf73eedd2,fulfil,fulfil,v,oewn-fulfil__2.42.00..,oewn-02677669-v,i35023,cow-02671880-v,"[""具备"", ""满"", ""满足"", ""符合""]",candidate_only
+vocab-candidate-30caae2fcb7c34ecadfd,sausage,sausage,n,oewn-sausage__1.06.00..,oewn-02854209-n,i50841,cow-02850950-n,"[""软式小飞艇""]",candidate_only
+vocab-candidate-30caae2fcb7c34ecadfd,sausage,sausage,n,oewn-sausage__1.13.00..,oewn-07691372-n,i77287,cow-07675627-n,"[""腊肠"", ""香肠""]",candidate_only
+vocab-candidate-31fc15942b0c47f6c640,shark,shark,n,oewn-shark__1.05.00..,oewn-01484971-n,i43092,cow-01482330-n,"[""鲨鱼""]",candidate_only
+vocab-candidate-31fc15942b0c47f6c640,shark,shark,v,oewn-shark__2.41.00..,oewn-02579088-v,i34553,cow-02573031-v,"[""敲诈"", ""诈骗""]",candidate_only
+vocab-candidate-32e382dfb93f0f3f26f7,dumpling,dumpling,n,oewn-dumpling__1.13.01..,oewn-07717938-n,i77471,cow-07702193-n,"[""云吞"", ""汤圆"", ""蒸饺"", ""饺"", ""饺子""]",candidate_only
+vocab-candidate-32e83e92d45d71f69dcf,ai,AI,n,oewn-ai__1.04.00..,oewn-00847013-n,i39845,cow-00845352-n,"[""人工受孕"", ""人工授精""]",candidate_only
+vocab-candidate-32e83e92d45d71f69dcf,ai,AI,n,oewn-ai__1.09.00..,oewn-06142654-n,i68815,cow-06133203-n,"[""人工智能""]",candidate_only
+vocab-candidate-32e83e92d45d71f69dcf,ai,AI,n,oewn-ai__1.14.00..,oewn-08412639-n,i81220,cow-08395682-n,"[""军事情报局""]",candidate_only
+vocab-candidate-32e83e92d45d71f69dcf,ai,ai,n,oewn-ai__1.05.00..,oewn-02460039-n,i48572,cow-02457408-n,"[""三趾树懒""]",candidate_only
+vocab-candidate-3603a9780bdecf2bb5bf,buffet,buffet,n,oewn-buffet__1.06.00..,oewn-02915411-n,i51214,cow-02912065-n,"[""餐具柜""]",candidate_only
+vocab-candidate-3603a9780bdecf2bb5bf,buffet,buffet,n,oewn-buffet__1.13.00..,oewn-07591747-n,i76573,cow-07576182-n,"[""自助餐""]",candidate_only
+vocab-candidate-364d78e6fc3db7860429,disappointed,disappointed,a,oewn-disappointed__5.00.00.unsuccessful.00,oewn-02341968-s,i12925,cow-02333976-a,"[""失意"", ""失望"", ""失望的"", ""挫败"", ""挫败的"", ""败兴"", ""败兴的""]",candidate_only
+vocab-candidate-36e11c186286bdb79b77,p.m.,P.M.,r,oewn-p.m.__4.02.00..,oewn-00252877-r,i19879,cow-00251408-r,"[""下午""]",candidate_only
+vocab-candidate-36e11c186286bdb79b77,p.m.,p.m.,r,oewn-p.m.__4.02.03..,oewn-00252877-r,i19879,cow-00251408-r,"[""下午""]",candidate_only
+vocab-candidate-3789e352cc1eacc0f1fd,recreation,recreation,n,oewn-recreation__1.04.00..,oewn-00427931-n,i37650,cow-00426928-n,"[""娱乐"", ""娱乐活动"", ""消遣""]",candidate_only
+vocab-candidate-3789e352cc1eacc0f1fd,recreation,recreation,n,oewn-recreation__1.04.01..,oewn-00402591-n,i37516,cow-00401783-n,"[""娱乐"", ""消遣"", ""游艺"", ""精神爽快""]",candidate_only
+vocab-candidate-3b0fe0d342e9fa16a5c6,internet,internet,n,oewn-internet__1.06.00..,oewn-03585784-n,i55155,cow-03580615-n,"[""互联网"", ""因特网"", ""网"", ""网络"", ""网络空间"", ""网际"", ""虚拟空间"", ""赛博空间""]",candidate_only
+vocab-candidate-3d6215a692a63c7e24a5,equator,equator,n,oewn-equator__1.25.00..,oewn-13896712-n,i109837,cow-13874073-n,"[""中纬线"", ""赤道""]",candidate_only
+vocab-candidate-3e9df2cb288efe7a21cc,rugby,rugby,n,oewn-rugby__1.04.00..,oewn-00472041-n,i37878,cow-00470966-n,"[""英式橄榄球""]",candidate_only
+vocab-candidate-3ebb153fb24e4411400e,recording,recording,n,oewn-recording__1.06.01..,oewn-04070980-n,i58017,cow-04063868-n,"[""唱片"", ""录制品""]",candidate_only
+vocab-candidate-3f5053b3ae70794bff96,africa,Africa,n,oewn-africa__1.17.00..,oewn-09212308-n,i84937,cow-09189411-n,"[""阿非利加洲"", ""非"", ""非洲""]",candidate_only
+vocab-candidate-3f722a0f62b2bc44cc4f,extinction,extinction,n,oewn-extinction__1.04.01..,oewn-00230801-n,i36618,cow-00229934-n,"[""灭火""]",candidate_only
+vocab-candidate-3f722a0f62b2bc44cc4f,extinction,extinction,n,oewn-extinction__1.22.00..,oewn-13499545-n,i107564,cow-13478342-n,"[""消退""]",candidate_only
+vocab-candidate-3f722a0f62b2bc44cc4f,extinction,extinction,n,oewn-extinction__1.26.01..,oewn-13986368-n,i110311,cow-13963032-n,"[""消亡"", ""灭绝"", ""绝种""]",candidate_only
+vocab-candidate-3f722a0f62b2bc44cc4f,extinction,extinction,n,oewn-extinction__1.26.02..,oewn-14035644-n,i110564,cow-14012173-n,"[""毁灭"", ""消亡"", ""消灭"", ""灭绝""]",candidate_only
+vocab-candidate-41024084d2e27b7db742,garlic,garlic,n,oewn-garlic__1.13.00..,oewn-07834253-n,i78211,cow-07818277-n,"[""大蒜"", ""蒜头"", ""香蒜""]",candidate_only
+vocab-candidate-41762bcf88c5e7148181,elevator,elevator,n,oewn-elevator__1.06.00..,oewn-03286056-n,i53387,cow-03281145-n,"[""升降机"", ""电梯""]",candidate_only
+vocab-candidate-41762bcf88c5e7148181,elevator,elevator,n,oewn-elevator__1.06.01..,oewn-03286435-n,i53388,cow-03281524-n,"[""升降舵""]",candidate_only
+vocab-candidate-41d6f409e16df1200721,cafeteria,cafeteria,n,oewn-cafeteria__1.06.00..,oewn-02939275-n,i51357,cow-02935891-n,"[""自助餐厅"", ""食堂"", ""餐厅""]",candidate_only
+vocab-candidate-439872a2ee86c812ae38,applaud,applaud,v,oewn-applaud__2.32.00..,oewn-00861956-v,i25930,cow-00860292-v,"[""赞"", ""赞赏""]",candidate_only
+vocab-candidate-439872a2ee86c812ae38,applaud,applaud,v,oewn-applaud__2.32.01..,oewn-00863593-v,i25939,cow-00861929-v,"[""拍手"", ""拍手喝彩"", ""拍掌"", ""称赞"", ""鼓掌""]",candidate_only
+vocab-candidate-474a744f02d8b7ff5e1d,shorts,shorts,n,oewn-shorts__1.06.00..,oewn-04212364-n,i58849,cow-04205318-n,"[""短裤""]",candidate_only
+vocab-candidate-474a744f02d8b7ff5e1d,shorts,shorts,n,oewn-shorts__1.06.01..,oewn-03238867-n,i53127,cow-03234164-n,"[""四角裤"", ""平角裤"", ""衬裤"", ""裤衩""]",candidate_only
+vocab-candidate-47d7ef07a8177c7898f5,common era,Common era,n,oewn-common_era__1.28.00..,oewn-15273907-n,i117378,cow-15249096-n,"[""基督纪元""]",candidate_only
+vocab-candidate-4812585e944994cb91ca,camel,camel,n,oewn-camel__1.05.00..,oewn-02439767-n,i48451,cow-02437136-n,"[""骆驼""]",candidate_only
+vocab-candidate-493a15e7bda88b072720,scissors,scissors,n,oewn-scissors__1.04.01..,oewn-00439665-n,i37703,cow-00438725-n,"[""剪式跳法""]",candidate_only
+vocab-candidate-49742b4b8dd3a7ff2a2a,noodle,noodle,n,oewn-noodle__1.08.00..,oewn-05547087-n,i66029,cow-05539454-n,"[""脑袋""]",candidate_only
+vocab-candidate-49742b4b8dd3a7ff2a2a,noodle,noodle,n,oewn-noodle__1.13.00..,oewn-07715329-n,i77447,cow-07699584-n,"[""米线"", ""面"", ""面食""]",candidate_only
+vocab-candidate-49eff747f7b66f70133b,thunder,thunder,n,oewn-thunder__1.06.00..,oewn-02840630-n,i50752,cow-02837416-n,"[""海洛因""]",candidate_only
+vocab-candidate-49eff747f7b66f70133b,thunder,thunder,v,oewn-thunder__2.32.00..,oewn-00917558-v,i26190,cow-00915605-v,"[""喊道""]",candidate_only
+vocab-candidate-49eff747f7b66f70133b,thunder,thunder,v,oewn-thunder__2.38.00..,oewn-02093059-v,i32195,cow-02088792-v,"[""轰隆隆地移动""]",candidate_only
+vocab-candidate-49eff747f7b66f70133b,thunder,thunder,v,oewn-thunder__2.43.00..,oewn-02776493-v,i35534,cow-02770535-v,"[""发出隆隆声"", ""发隆隆声"", ""打雷"", ""轰隆地响""]",candidate_only
+vocab-candidate-4bd9354bb652233497a0,warning,warning,a,oewn-warning__5.00.00.dissuasive.00,oewn-01775648-s,i9716,cow-01771124-a,"[""警戒"", ""警戒的""]",candidate_only
+vocab-candidate-4bd9354bb652233497a0,warning,warning,n,oewn-warning__1.10.01..,oewn-06685042-n,i71549,cow-06672297-n,"[""告诫"", ""警告"", ""训诫""]",candidate_only
+vocab-candidate-4d1608c849f1a4968565,candy,candy,n,oewn-candy__1.13.00..,oewn-07612936-n,i76721,cow-07597365-n,"[""糖果"", ""蜜饯""]",candidate_only
+vocab-candidate-4d1608c849f1a4968565,candy,candy,v,oewn-candy__2.39.00..,oewn-02200824-v,i32736,cow-02196378-v,"[""裹以糖衣""]",candidate_only
+vocab-candidate-4d51fd998fd3a724c06a,mercy,mercy,n,oewn-mercy__1.04.00..,oewn-01073335-n,i41029,cow-01071411-n,"[""仁慈"", ""宽厚"", ""宽恕"", ""慈悲""]",candidate_only
+vocab-candidate-4d51fd998fd3a724c06a,mercy,mercy,n,oewn-mercy__1.26.00..,oewn-14498019-n,i113068,cow-14474435-n,"[""幸运""]",candidate_only
+vocab-candidate-4fc8e16d25ee6b7a4f7c,bean curd,bean curd,n,oewn-bean_curd__1.13.00..,oewn-07725626-n,i77512,cow-07709881-n,"[""豆腐""]",candidate_only
+vocab-candidate-4ff366d40ef0729acab0,wrestle,wrestle,v,oewn-wrestle__2.35.00..,oewn-01507331-v,i29249,cow-01504699-v,"[""摔跤""]",candidate_only
+vocab-candidate-4ff366d40ef0729acab0,wrestle,wrestle,v,oewn-wrestle__2.38.00..,oewn-01872363-v,i31046,cow-01868370-v,"[""扭动"", ""蠕动""]",candidate_only
+vocab-candidate-50ae1773ef826ed5f6a2,careless,careless,a,oewn-careless__3.00.00..,oewn-00312461-a,i1719,cow-00311663-a,"[""大意""]",candidate_only
+vocab-candidate-50c0152c2952082aeaf4,china,China,n,oewn-china__1.15.00..,oewn-08740839-n,i82738,cow-08723006-n,"[""中"", ""中国"", ""华""]",candidate_only
+vocab-candidate-50c0152c2952082aeaf4,china,China,n,oewn-china__1.15.01..,oewn-08748383-n,i82771,cow-08730550-n,"[""中国"", ""台"", ""台湾""]",candidate_only
+vocab-candidate-50c0152c2952082aeaf4,china,china,n,oewn-china__1.06.00..,oewn-03021863-n,i51852,cow-03018209-n,"[""瓷器""]",candidate_only
+vocab-candidate-50c0152c2952082aeaf4,china,china,n,oewn-china__1.06.01..,oewn-03022147-n,i51854,cow-03018493-n,"[""瓷制的餐具""]",candidate_only
+vocab-candidate-5129a4a62c66ddf286d4,abnormal,abnormal,a,oewn-abnormal__3.00.00..,oewn-01600178-a,i8732,cow-01595596-a,"[""不正常"", ""不正常的"", ""不自然"", ""不自然的"", ""异常"", ""异常的""]",candidate_only
+vocab-candidate-5129a4a62c66ddf286d4,abnormal,abnormal,a,oewn-abnormal__3.00.03..,oewn-01603174-a,i8745,cow-01598592-a,"[""不正常"", ""不正常的""]",candidate_only
+vocab-candidate-5129a4a62c66ddf286d4,abnormal,abnormal,a,oewn-abnormal__5.00.00.immoderate.00,oewn-01537654-s,i8420,cow-01533535-a,"[""极大"", ""极大的"", ""极高"", ""极高的"", ""过大"", ""过大的""]",candidate_only
+vocab-candidate-5167e9677e1fbc500ecb,building,building,n,oewn-building__1.04.01..,oewn-01106542-n,i41189,cow-01104637-n,"[""工程""]",candidate_only
+vocab-candidate-5167e9677e1fbc500ecb,building,building,n,oewn-building__1.06.00..,oewn-02916498-n,i51221,cow-02913152-n,"[""大厦"", ""大建筑物"", ""建筑"", ""建筑物"", ""房屋"", ""楼""]",candidate_only
+vocab-candidate-5242ef88723012b4b96c,humour,humour,n,oewn-humour__1.07.01..,oewn-04657558-n,i61505,cow-04650201-n,"[""幽默"", ""幽默感"", ""诙谐""]",candidate_only
+vocab-candidate-5242ef88723012b4b96c,humour,humour,n,oewn-humour__1.12.00..,oewn-07566518-n,i76443,cow-07551052-n,"[""兴致"", ""心境"", ""心情"", ""情绪""]",candidate_only
+vocab-candidate-52d1df5a365f904c3f97,criticise,criticise,v,oewn-criticise__2.32.00..,oewn-00828170-v,i25788,cow-00826509-v,"[""批评"", ""挑剔""]",candidate_only
+vocab-candidate-54c5ccf0f305a9a1529d,kilo,kilo,n,oewn-kilo__1.23.00..,oewn-13746692-n,i108982,cow-13724582-n,"[""公斤"", ""千克""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.30.00..,oewn-00405549-v,i23752,cow-00404642-v,"[""有机化"", ""组织""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.31.00..,oewn-00711834-v,i25255,cow-00710005-v,"[""承办"", ""指导"", ""策"", ""策划"", ""管理"", ""组织"", ""设计""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.36.00..,oewn-01654986-v,i29995,cow-01651444-v,"[""办成"", ""编成""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.41.00..,oewn-02437377-v,i33890,cow-02432530-v,"[""组织""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.41.01..,oewn-02453050-v,i33966,cow-02448185-v,"[""使组成"", ""创建"", ""组织"", ""结成""]",candidate_only
+vocab-candidate-554af0672faf8426c267,organise,organise,v,oewn-organise__2.41.02..,oewn-02439085-v,i33898,cow-02434238-v,"[""加入工会"", ""组成工会"", ""组织""]",candidate_only
+vocab-candidate-58a6d6801ae771e63235,math,math,n,oewn-math__1.09.00..,oewn-06009822-n,i68341,cow-06000644-n,"[""数学""]",candidate_only
+vocab-candidate-58c5c7b981e9c066a5f7,centimetre,centimetre,n,oewn-centimetre__1.23.00..,oewn-13680636-n,i108492,cow-13658828-n,"[""公分"", ""厘米""]",candidate_only
+vocab-candidate-5a324108508a69447776,handkerchief,handkerchief,n,oewn-handkerchief__1.06.00..,oewn-03490877-n,i54611,cow-03485794-n,"[""手帕"", ""手绢""]",candidate_only
+vocab-candidate-5a6ae5c8d6d82bd913f3,t-shirt,T-shirt,n,oewn-t-shirt__1.06.00..,oewn-03600807-n,i55249,cow-03595614-n,"[""T恤"", ""T恤衫"", ""体恤衫"", ""圆领汗衫"", ""汗衫"", ""运动衫""]",candidate_only
+vocab-candidate-5ae666e5b1a641b37709,exciting,exciting,a,oewn-exciting__3.00.00..,oewn-00924255-a,i5047,cow-00921014-a,"[""令人兴奋"", ""令人兴奋的"", ""使人激动"", ""使人激动的"", ""劲爆"", ""劲爆热辣""]",candidate_only
+vocab-candidate-5ae666e5b1a641b37709,exciting,exciting,a,oewn-exciting__5.00.00.stimulating.00,oewn-02314443-s,i12773,cow-02306763-a,"[""令人兴奋"", ""令人兴奋的"", ""使人激动"", ""使人激动的""]",candidate_only
+vocab-candidate-5bed85bd69a5502a8f64,tablet,tablet,n,oewn-tablet__1.06.00..,oewn-03942844-n,i57275,cow-03936568-n,"[""丸药"", ""药丸"", ""药片""]",candidate_only
+vocab-candidate-5e737f891db1175442a3,strawberry,strawberry,n,oewn-strawberry__1.13.00..,oewn-07761916-n,i77753,cow-07745940-n,"[""草莓""]",candidate_only
+vocab-candidate-5e737f891db1175442a3,strawberry,strawberry,n,oewn-strawberry__1.20.00..,oewn-12650905-n,i103254,cow-12630144-n,"[""地莓"", ""洋莓"", ""红莓"", ""草莓""]",candidate_only
+vocab-candidate-5e9562c786d9ca040985,cloudy,cloudy,a,oewn-cloudy__5.00.00.indistinct.00,oewn-00785533-s,i4309,cow-00781974-a,"[""含糊"", ""含糊的"", ""朦胧"", ""朦胧的"", ""模糊"", ""模糊不清"", ""模糊不清的"", ""模糊的""]",candidate_only
+vocab-candidate-5e9562c786d9ca040985,cloudy,cloudy,a,oewn-cloudy__5.00.00.opaque.00,oewn-00435243-s,i2444,cow-00433529-a,"[""浑浊"", ""浑浊的"", ""混浊"", ""混浊的""]",candidate_only
+vocab-candidate-5f435b82e7e9e75e9819,criterion,criterion,n,oewn-criterion__1.10.00..,oewn-07275291-n,i74827,cow-07260623-n,"[""标准"", ""规范""]",candidate_only
+vocab-candidate-6084392347f92be9ce89,dessert,dessert,n,oewn-dessert__1.13.00..,oewn-07625449-n,i76811,cow-07609840-n,"[""点心"", ""甜品"", ""甜点"", ""甜食"", ""西点"", ""餐后甜点""]",candidate_only
+vocab-candidate-60e6aa4ad2d315ff8ab5,bored,bored,a,oewn-bored__5.00.00.tired.00,oewn-02441494-s,i13467,cow-02432682-a,"[""厌世"", ""厌世的""]",candidate_only
+vocab-candidate-6247a5ccc27edc5161f4,smog,smog,n,oewn-smog__1.26.00..,oewn-14541979-n,i113297,cow-14518377-n,"[""烟雾"", ""烟雾污染""]",candidate_only
+vocab-candidate-637ab2808704d851a93b,interesting,interesting,a,oewn-interesting__3.00.00..,oewn-01346766-a,i7324,cow-01343918-a,"[""令人关注"", ""令人关注的"", ""令人感兴趣"", ""令人感兴趣的"", ""令人瞩目"", ""令人瞩目的"", ""吸引人"", ""吸引人的"", ""引起兴趣"", ""引起兴趣的"", ""有兴趣的"", ""有吸引力"", ""有吸引力的"", ""有意思"", ""有意思的"", ""有趣"", ""有趣味"", ""有趣味的"", ""有趣的"", ""精彩"", ""精彩的""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,n,oewn-labour__1.04.00..,oewn-00621992-n,i38687,cow-00620752-n,"[""劳作"", ""劳动"", ""工作""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,n,oewn-labour__1.04.01..,oewn-00797381-n,i39587,cow-00795720-n,"[""专案"", ""事业"", ""任务"", ""工作"", ""工程"", ""方案"", ""计划"", ""项目""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,n,oewn-labour__1.14.00..,oewn-08197557-n,i80130,cow-08180639-n,"[""一堆"", ""劳动阶级"", ""劳工"", ""劳方"", ""工人阶级"", ""无产阶级""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,n,oewn-labour__1.26.00..,oewn-14071923-n,i110758,cow-14048441-n,"[""分娩""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,v,oewn-labour__2.41.00..,oewn-02424873-v,i33834,cow-02419773-v,"[""务工"", ""忙碌工作"", ""辛劳工作"", ""辛苦工作""]",candidate_only
+vocab-candidate-63bff13fdc934ac1f446,labour,labour,v,oewn-labour__2.41.01..,oewn-02412046-v,i33778,cow-02406916-v,"[""苦干""]",candidate_only
+vocab-candidate-6405cf0c2f2418e27e53,mr.,Mr.,n,oewn-mr.__1.10.00..,oewn-06352710-n,i69800,cow-06341340-n,"[""先生""]",candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,n,oewn-favour__1.04.00..,oewn-01229430-n,i41816,cow-01226941-n,"[""亲切"", ""亲切的行为"", ""善意的帮助"", ""善意的行动"", ""善行"", ""好意"", ""帮助"", ""帮忙"", ""德"", ""恩惠""]",candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,n,oewn-favour__1.07.00..,oewn-05163702-n,i64077,cow-05156319-n,"[""利""]",candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,v,oewn-favour__2.41.00..,oewn-02405179-v,i33746,cow-02400037-v,"[""偏爱"", ""偏袒"", ""偏重"", ""更喜欢"", ""青睐""]",candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,v,oewn-favour__2.41.01..,oewn-02470148-v,i34044,cow-02464725-v,"[""妥为照料"", ""宠爱"", ""小心地对待""]",candidate_only
+vocab-candidate-661666ed532b81880635,favour,favour,v,oewn-favour__2.41.03..,oewn-02459141-v,i33991,cow-02453692-v,"[""特免"", ""特别恩典""]",candidate_only
+vocab-candidate-672a81ef923ec75d16b0,premier,premier,n,oewn-premier__1.18.01..,oewn-09926439-n,i88905,cow-09906986-n,"[""总理"", ""首相""]",candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,grey,a,oewn-grey__5.00.00.achromatic.00,oewn-00390371-s,i2192,cow-00389310-a,"[""呈灰色"", ""呈灰色的"", ""微带灰色"", ""微带灰色的"", ""浅灰色"", ""浅灰色的"", ""淡灰色"", ""淡灰色的"", ""灰白"", ""灰白的"", ""灰色"", ""灰色的""]",candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,grey,a,oewn-grey__5.00.00.old.02,oewn-01650120-s,i9009,cow-01645678-a,"[""斑白"", ""斑白的""]",candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,grey,n,oewn-grey__1.05.00..,oewn-02384016-n,i48099,cow-02381364-n,"[""灰色马""]",candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,grey,n,oewn-grey__1.06.00..,oewn-03461130-n,i54418,cow-03456186-n,"[""灰色衣服""]",candidate_only
+vocab-candidate-67fc36385bb47db091a4,grey,grey,v,oewn-grey__2.30.00..,oewn-00290154-v,i23172,cow-00289392-v,"[""变斑白"", ""斑白""]",candidate_only
+vocab-candidate-69e1b1f7ae9d01694066,complicated,complicated,a,oewn-complicated__5.00.00.complex.00,oewn-02185144-s,i11971,cow-02177584-a,"[""复杂"", ""复杂的"", ""繁复"", ""难解"", ""难解的""]",candidate_only
+vocab-candidate-6bb7e067447139b18f60,giraffe,giraffe,n,oewn-giraffe__1.05.00..,oewn-02441664-n,i48463,cow-02439033-n,"[""长颈鹿""]",candidate_only
+vocab-candidate-6bf99799d0ef91be6c25,disc,disc,n,oewn-disc__1.06.00..,oewn-03213277-n,i52972,cow-03208556-n,"[""圆盘"", ""磁盘""]",candidate_only
+vocab-candidate-6bf99799d0ef91be6c25,disc,disc,n,oewn-disc__1.06.01..,oewn-03930191-n,i57205,cow-03924069-n,"[""唱片"", ""黑胶唱片""]",candidate_only
+vocab-candidate-6bf99799d0ef91be6c25,disc,disc,n,oewn-disc__1.06.03..,oewn-03712192-n,i55922,cow-03706653-n,"[""磁盘"", ""磁碟""]",candidate_only
+vocab-candidate-6bf99799d0ef91be6c25,disc,disc,n,oewn-disc__1.25.00..,oewn-13897824-n,i109843,cow-13875185-n,"[""圆平面"", ""圆盘形"", ""圆盘状物""]",candidate_only
+vocab-candidate-6c13fff8ae63bd0edb78,saying,saying,n,oewn-saying__1.10.00..,oewn-07166088-n,i74244,cow-07151380-n,"[""措辞""]",candidate_only
+vocab-candidate-6d205806e19dba5306a0,marathon,marathon,n,oewn-marathon__1.04.00..,oewn-00799022-n,i39594,cow-00797361-n,"[""耐力的考验""]",candidate_only
+vocab-candidate-6d205806e19dba5306a0,marathon,marathon,n,oewn-marathon__1.11.00..,oewn-07475503-n,i75922,cow-07460546-n,"[""马拉松""]",candidate_only
+vocab-candidate-6e35523474433a85bd34,dining,dining,n,oewn-dining__1.04.00..,oewn-00842178-n,i39816,cow-00840517-n,"[""吃饭""]",candidate_only
+vocab-candidate-6ee16429668c2d820770,thinking,thinking,n,oewn-thinking__1.09.00..,oewn-05778923-n,i67220,cow-05770926-n,"[""思想"", ""思考"", ""考虑""]",candidate_only
+vocab-candidate-70332d559269a27a08e8,means,means,n,oewn-means__1.04.00..,oewn-00173531-n,i36321,cow-00172710-n,"[""办法"", ""手段"", ""方式"", ""方法""]",candidate_only
+vocab-candidate-70332d559269a27a08e8,means,means,n,oewn-means__1.06.01..,oewn-03580409-n,i55130,cow-03575240-n,"[""仪器"", ""仪表""]",candidate_only
+vocab-candidate-70332d559269a27a08e8,means,means,n,oewn-means__1.21.00..,oewn-13374873-n,i106881,cow-13353858-n,"[""大量的资产""]",candidate_only
+vocab-candidate-705db0603fd5431451da,awesome,awesome,a,oewn-awesome__5.00.00.impressive.00,oewn-01285602-s,i6996,cow-01282510-a,"[""令人惊异"", ""令人惊异的"", ""惊艳"", ""敬畏"", ""敬畏的""]",candidate_only
+vocab-candidate-707ff1c8a83dad594edb,atlantic,Atlantic,a,oewn-atlantic__3.01.00..,oewn-02957844-a,i16800,cow-02946507-a,"[""在大西洋里"", ""在大西洋里的"", ""大西洋沿岸"", ""大西洋沿岸的"", ""近大西洋"", ""近大西洋的""]",candidate_only
+vocab-candidate-707ff1c8a83dad594edb,atlantic,Atlantic,n,oewn-atlantic__1.17.00..,oewn-09232170-n,i85024,cow-09209263-n,"[""大西洋""]",candidate_only
+vocab-candidate-7153a86186dd04c026f5,toothache,toothache,n,oewn-toothache__1.26.00..,oewn-14347383-n,i112220,cow-14323974-n,"[""牙痛""]",candidate_only
+vocab-candidate-74fa5327cc0f4e947789,frog,frog,n,oewn-frog__1.05.00..,oewn-01642406-n,i43933,cow-01639765-n,"[""疥蛤蟆"", ""癞蛤蟆"", ""蛙类"", ""蟾蜍"", ""青蛙""]",candidate_only
+vocab-candidate-74fa5327cc0f4e947789,frog,frog,n,oewn-frog__1.06.00..,oewn-03403297-n,i54069,cow-03398382-n,"[""装饰纽扣"", ""饰扣""]",candidate_only
+vocab-candidate-756e1aca491f16516fc8,sow,sow,n,oewn-sow__1.05.00..,oewn-02398740-n,i48204,cow-02396088-n,"[""母猪""]",candidate_only
+vocab-candidate-756e1aca491f16516fc8,sow,sow,v,oewn-sow__2.35.00..,oewn-01503512-v,i29226,cow-01500873-v,"[""播种""]",candidate_only
+vocab-candidate-763268b8dbdcf3275705,voyage,voyage,n,oewn-voyage__1.04.00..,oewn-00313379-n,i37051,cow-00312553-n,"[""旅行"", ""海程"", ""航海"", ""航程""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__3.00.01..,oewn-01452455-a,i7924,cow-01449564-a,"[""丧失"", ""丧失的"", ""失去"", ""失去的"", ""遗失"", ""遗失的""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__3.00.02..,oewn-01453748-a,i7933,cow-01450969-a,"[""毁坏"", ""毁坏的"", ""遭难"", ""遭难的""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__5.00.00.perplexed.00,oewn-01770645-s,i9692,cow-01766133-a,"[""惑""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__5.00.00.thoughtful.00,oewn-02427955-s,i13392,cow-02419159-a,"[""一心一意"", ""出神"", ""出神的""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__5.00.00.unoriented.00,oewn-01688793-s,i9225,cow-01684133-a,"[""迷失""]",candidate_only
+vocab-candidate-76f75e6129fe30135bd4,lost,lost,a,oewn-lost__5.00.00.unrecoverable.00,oewn-01963677-s,i10713,cow-01956855-a,"[""不再拥有"", ""不再拥有的"", ""丢失"", ""丢失的"", ""丧失"", ""丧失的"", ""失去"", ""失去的"", ""遗失"", ""遗失的"", ""遗忘的""]",candidate_only
+vocab-candidate-775cf3abc9be67866542,favourite,favourite,a,oewn-favourite__5.00.00.popular.00,oewn-01821720-s,i9980,cow-01816376-a,"[""最喜爱""]",candidate_only
+vocab-candidate-775cf3abc9be67866542,favourite,favourite,n,oewn-favourite__1.09.00..,oewn-05798763-n,i67316,cow-05790758-n,"[""首选""]",candidate_only
+vocab-candidate-775cf3abc9be67866542,favourite,favourite,n,oewn-favourite__1.18.00..,oewn-10011405-n,i89391,cow-09991867-n,"[""亲昵的人"", ""亲爱的人"", ""心爱的人"", ""爱人""]",candidate_only
+vocab-candidate-77646f5a4f3166637627,frank,frank,a,oewn-frank__5.00.00.direct.02,oewn-00768027-s,i4222,cow-00764484-a,"[""坦率"", ""坦率的"", ""坦白"", ""坦白的"", ""率直"", ""率直的"", ""直爽"", ""直言无讳"", ""直言无讳的"", ""直言无隐"", ""直言无隐的"", ""老实"", ""老实的"", ""讲话坦率"", ""讲话坦率的""]",candidate_only
+vocab-candidate-77646f5a4f3166637627,frank,frank,n,oewn-frank__1.13.00..,oewn-07692347-n,i77293,cow-07676602-n,"[""法兰克福香肠"", ""维也纳香肠""]",candidate_only
+vocab-candidate-79032b8a85663acddd60,mr,Mr,n,oewn-mr__1.10.00..,oewn-06352710-n,i69800,cow-06341340-n,"[""先生""]",candidate_only
+vocab-candidate-795b6904e54f82411df4,garbage,garbage,n,oewn-garbage__1.06.00..,oewn-03421810-n,i54175,cow-03416900-n,"[""垃圾箱""]",candidate_only
+vocab-candidate-795b6904e54f82411df4,garbage,garbage,n,oewn-garbage__1.27.00..,oewn-14881302-n,i115132,cow-14857151-n,"[""残羹剩饭"", ""食物渣滓""]",candidate_only
+vocab-candidate-79adb2a2fce5c6ba215f,us,US,n,oewn-us__1.15.00..,oewn-09067337-n,i84182,cow-09044862-n,"[""美国""]",candidate_only
+vocab-candidate-79da076caae649f460e4,drone,drone,n,oewn-drone__1.05.00..,oewn-02209831-n,i47087,cow-02207179-n,"[""雄蜂""]",candidate_only
+vocab-candidate-79da076caae649f460e4,drone,drone,n,oewn-drone__1.06.00..,oewn-03250427-n,i53192,cow-03245724-n,"[""低音部音塞""]",candidate_only
+vocab-candidate-79da076caae649f460e4,drone,drone,n,oewn-drone__1.06.01..,oewn-03250592-n,i53193,cow-03245889-n,"[""无人飞机"", ""无人驾驶飞机""]",candidate_only
+vocab-candidate-79da076caae649f460e4,drone,drone,v,oewn-drone__2.39.00..,oewn-02192888-v,i32697,cow-02188442-v,"[""嗡嗡作声"", ""嗡嗡叫"", ""嗡嗡响""]",candidate_only
+vocab-candidate-7b508dace774f8adc1b1,limited,limited,a,oewn-limited__3.00.00..,oewn-01417858-a,i7721,cow-01415021-a,"[""有限"", ""有限的""]",candidate_only
+vocab-candidate-7b508dace774f8adc1b1,limited,limited,a,oewn-limited__5.00.00.restricted.00,oewn-02009566-s,i10962,cow-02002470-a,"[""划界"", ""划界的"", ""受限制"", ""受限制的"", ""局限于"", ""有界限"", ""有界限的"", ""有限"", ""有限制"", ""有限制的"", ""有限的"", ""限制"", ""限制的""]",candidate_only
+vocab-candidate-7b508dace774f8adc1b1,limited,limited,n,oewn-limited__1.06.00..,oewn-03311330-n,i53528,cow-03306385-n,"[""直快"", ""直达快车"", ""直达车""]",candidate_only
+vocab-candidate-7b989fe5889d6645056f,pacific,Pacific,a,oewn-pacific__3.01.00..,oewn-02957981-a,i16801,cow-02946644-a,"[""太平洋"", ""太平洋沿岸"", ""太平洋沿岸的"", ""太平洋的"", ""近太平洋"", ""近太平洋的""]",candidate_only
+vocab-candidate-7b9e10dfed0288d691f7,rainy,rainy,a,oewn-rainy__5.00.00.wet.01,oewn-02561103-s,i14148,cow-02550333-a,"[""下阵雨"", ""下阵雨的"", ""下雨"", ""下雨的"", ""多阵雨"", ""多阵雨的"", ""多雨"", ""多雨的"", ""雨"", ""雨的""]",candidate_only
+vocab-candidate-7ec7f5066b80e4c0b207,outgoing,outgoing,a,oewn-outgoing__5.00.00.sociable.00,oewn-02266005-s,i12498,cow-02258249-a,"[""喜社交"", ""喜社交的"", ""外向"", ""外向的"", ""开朗"", ""开朗的"", ""爱社交"", ""爱社交的""]",candidate_only
+vocab-candidate-7f480e744a79953eb916,spoon,spoon,n,oewn-spoon__1.06.00..,oewn-04291140-n,i59365,cow-04284002-n,"[""勺"", ""勺子"", ""匙"", ""匙子"", ""汤匙"", ""调羹""]",candidate_only
+vocab-candidate-7f480e744a79953eb916,spoon,spoon,n,oewn-spoon__1.23.00..,oewn-13792309-n,i109264,cow-13770169-n,"[""一匙""]",candidate_only
+vocab-candidate-803b3eb2b6af02715195,artificial intelligence,artificial intelligence,n,oewn-artificial_intelligence__1.09.00..,oewn-06142654-n,i68815,cow-06133203-n,"[""人工智能""]",candidate_only
+vocab-candidate-806a7e7b173c799ef93e,arctic,Arctic,a,oewn-arctic__5.00.00.polar.00,oewn-02453543-s,i13545,cow-02444475-a,"[""北极"", ""北极的""]",candidate_only
+vocab-candidate-806a7e7b173c799ef93e,arctic,Arctic,n,oewn-arctic__1.15.00..,oewn-08513487-n,i81706,cow-08496477-n,"[""北极""]",candidate_only
+vocab-candidate-806a7e7b173c799ef93e,arctic,arctic,a,oewn-arctic__5.00.00.cold.01,oewn-01255223-s,i6849,cow-01252151-a,"[""冰冷"", ""冰冷的"", ""极寒"", ""极寒的""]",candidate_only
+vocab-candidate-806a7e7b173c799ef93e,arctic,arctic,n,oewn-arctic__1.06.00..,oewn-02738543-n,i50135,cow-02735538-n,"[""套鞋"", ""橡胶套鞋"", ""胶鞋""]",candidate_only
+vocab-candidate-82d048d26ee2fdd4122f,weekday,weekday,n,oewn-weekday__1.28.00..,oewn-15188204-n,i116897,cow-15163157-n,"[""工作日"", ""平常日"", ""平日""]",candidate_only
+vocab-candidate-85262adf74518bbb70c7,eve,eve,n,oewn-eve__1.28.00..,oewn-15191509-n,i116916,cow-15166462-n,"[""傍晚"", ""晚上"", ""薄暮"", ""黄昏""]",candidate_only
+vocab-candidate-85262adf74518bbb70c7,eve,eve,n,oewn-eve__1.28.02..,oewn-15192825-n,i116924,cow-15167778-n,"[""前夕"", ""前夜"", ""重大事件关头""]",candidate_only
+vocab-candidate-85574fa07dae32132675,being,being,n,oewn-being__1.03.00..,oewn-00004475-n,i35553,cow-00004475-n,"[""有机体"", ""生物""]",candidate_only
+vocab-candidate-85574fa07dae32132675,being,being,n,oewn-being__1.26.00..,oewn-13977471-n,i110269,cow-13954253-n,"[""存在""]",candidate_only
+vocab-candidate-87480c5a4819536e47c0,windy,windy,a,oewn-windy__5.00.00.prolix.00,oewn-00551456-s,i3069,cow-00549236-a,"[""赘言""]",candidate_only
+vocab-candidate-87480c5a4819536e47c0,windy,windy,a,oewn-windy__5.00.00.utopian.00,oewn-02508026-s,i13856,cow-02498213-a,"[""不切实际"", ""不切实际的"", ""不实际"", ""不实际的"", ""不现实"", ""不现实的"", ""不能实行"", ""不能实行的"", ""幻想"", ""幻想的"", ""梦想"", ""梦想的""]",candidate_only
+vocab-candidate-875f01c5306fbc2304c8,kilometre,kilometre,n,oewn-kilometre__1.23.00..,oewn-13681796-n,i108497,cow-13659760-n,"[""公里"", ""千米""]",candidate_only
+vocab-candidate-87806434b1b0497155db,chore,chore,n,oewn-chore__1.04.00..,oewn-00720957-n,i39217,cow-00719705-n,"[""工作"", ""零活""]",candidate_only
+vocab-candidate-881df12b68cd344e83f6,capsule,capsule,n,oewn-capsule__1.06.00..,oewn-02961022-n,i51491,cow-02957586-n,"[""胶囊""]",candidate_only
+vocab-candidate-881df12b68cd344e83f6,capsule,capsule,n,oewn-capsule__1.06.03..,oewn-03272379-n,i53317,cow-03267468-n,"[""弹射座椅""]",candidate_only
+vocab-candidate-8933f29abeeda6f6ffbd,gymnastics,gymnastics,n,oewn-gymnastics__1.04.00..,oewn-00434742-n,i37675,cow-00433802-n,"[""体操"", ""体操运动""]",candidate_only
+vocab-candidate-8c6fb1e9e37a1aea1d30,lower,lower,n,oewn-lower__1.06.00..,oewn-03699299-n,i55848,cow-03693973-n,"[""下铺""]",candidate_only
+vocab-candidate-8c6fb1e9e37a1aea1d30,lower,lower,v,oewn-lower__2.30.00..,oewn-00268741-v,i23057,cow-00267855-v,"[""压低"", ""调低""]",candidate_only
+vocab-candidate-8c6fb1e9e37a1aea1d30,lower,lower,v,oewn-lower__2.38.00..,oewn-01977139-v,i31595,cow-01973125-v,"[""拿下"", ""放下"", ""放低"", ""降低""]",candidate_only
+vocab-candidate-8c6fb1e9e37a1aea1d30,lower,lower,v,oewn-lower__2.29.00..,oewn-00032974-v,i21930,cow-00032981-v,"[""怒视"", ""皱眉"", ""蹙眉"", ""蹙额""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,n,oewn-clap__1.11.00..,oewn-07390857-n,i75451,cow-07376257-n,"[""轰隆声""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,n,oewn-clap__1.26.00..,oewn-14157025-n,i111197,cow-14133543-n,"[""淋病""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,v,oewn-clap__2.29.00..,oewn-00034108-v,i21936,cow-00034115-v,"[""拍掌""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,v,oewn-clap__2.32.00..,oewn-00863593-v,i25939,cow-00861929-v,"[""拍手"", ""拍手喝彩"", ""拍掌"", ""称赞"", ""鼓掌""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,v,oewn-clap__2.35.01..,oewn-01240163-v,i27814,cow-01237599-v,"[""拍掌""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,v,oewn-clap__2.38.03..,oewn-02098450-v,i32224,cow-02094172-v,"[""拍"", ""振""]",candidate_only
+vocab-candidate-8cceaf5c89e63591aea2,clap,clap,v,oewn-clap__2.38.04..,oewn-02098577-v,i32225,cow-02094299-v,"[""拍"", ""振""]",candidate_only
+vocab-candidate-8d1c8a7a12c3739bb3b9,excited,excited,a,oewn-excited__3.00.00..,oewn-00922656-a,i5035,cow-00919542-a,"[""兴奋"", ""兴奋不已"", ""兴奋的"", ""激昂"", ""激昂的""]",candidate_only
+vocab-candidate-8d1c8a7a12c3739bb3b9,excited,excited,a,oewn-excited__5.00.00.reactive.00,oewn-01935325-s,i10577,cow-01928926-a,"[""有活性"", ""有活性的""]",candidate_only
+vocab-candidate-8d1c8a7a12c3739bb3b9,excited,excited,a,oewn-excited__5.00.00.wild.02,oewn-02399292-s,i13236,cow-02390724-a,"[""放纵"", ""放纵的"", ""疯狂"", ""疯狂的""]",candidate_only
+vocab-candidate-8d7d5397f8842b4181d3,turkey,Turkey,n,oewn-turkey__1.15.00..,oewn-09061886-n,i84158,cow-09039411-n,"[""土耳其""]",candidate_only
+vocab-candidate-8d7d5397f8842b4181d3,turkey,turkey,n,oewn-turkey__1.05.00..,oewn-01796799-n,i44726,cow-01794158-n,"[""火鸡""]",candidate_only
+vocab-candidate-8e8c7d42b456c9e4ec52,kite,kite,n,oewn-kite__1.06.00..,oewn-03626682-n,i55407,cow-03621473-n,"[""风筝""]",candidate_only
+vocab-candidate-8e8c7d42b456c9e4ec52,kite,kite,n,oewn-kite__1.21.00..,oewn-13403479-n,i107044,cow-13382306-n,"[""通融票据""]",candidate_only
+vocab-candidate-8f4375ec65c2c4092a1c,best,best,a,oewn-best__3.00.00..,oewn-00229099-a,i1251,cow-00227507-a,"[""上"", ""上上"", ""上好"", ""顶级""]",candidate_only
+vocab-candidate-8f4375ec65c2c4092a1c,best,best,a,oewn-best__5.00.00.advisable.00,oewn-00067988-s,i352,cow-00067379-a,"[""绝好""]",candidate_only
+vocab-candidate-8fced00b6ce281456d69,rainbow,rainbow,n,oewn-rainbow__1.17.00..,oewn-09426302-n,i86037,cow-09403427-n,"[""彩虹"", ""虹""]",candidate_only
+vocab-candidate-9010072f85ea54692588,eraser,eraser,n,oewn-eraser__1.06.00..,oewn-03299762-n,i53459,cow-03294833-n,"[""擦子"", ""橡皮"", ""橡皮擦"", ""橡皮擦子""]",candidate_only
+vocab-candidate-9054966f3df0a88caa5a,mist,mist,n,oewn-mist__1.19.00..,oewn-11503106-n,i97934,cow-11482706-n,"[""薄雾""]",candidate_only
+vocab-candidate-9054966f3df0a88caa5a,mist,mist,v,oewn-mist__2.30.00..,oewn-00362148-v,i23542,cow-00361495-v,"[""下雾"", ""蒙上薄雾""]",candidate_only
+vocab-candidate-9054966f3df0a88caa5a,mist,mist,v,oewn-mist__2.39.00..,oewn-02162161-v,i32539,cow-02157731-v,"[""使含糊"", ""使困惑"", ""使看不清"", ""遮掩""]",candidate_only
+vocab-candidate-910daa97a4052206954d,pudding,pudding,n,oewn-pudding__1.13.00..,oewn-07628241-n,i76828,cow-07612632-n,"[""布丁""]",candidate_only
+vocab-candidate-92bc2e412115876270c8,infer,infer,v,oewn-infer__2.31.02..,oewn-00637723-v,i24919,cow-00636061-v,"[""猜中""]",candidate_only
+vocab-candidate-968ccf654c356f62f975,neighbour,neighbour,n,oewn-neighbour__1.18.00..,oewn-10372030-n,i91579,cow-10352299-n,"[""邻居""]",candidate_only
+vocab-candidate-968ccf654c356f62f975,neighbour,neighbour,v,oewn-neighbour__2.42.00..,oewn-02614039-v,i34717,cow-02608004-v,"[""邻接"", ""邻近""]",candidate_only
+vocab-candidate-968ccf654c356f62f975,neighbour,neighbour,v,oewn-neighbour__2.42.01..,oewn-02614211-v,i34718,cow-02608176-v,"[""住在邻近"", ""毗邻"", ""毗邻而居""]",candidate_only
+vocab-candidate-9738b6bf3ae32f433b04,lunar,lunar,a,oewn-lunar__3.01.00..,oewn-02768088-a,i15548,cow-02757316-a,"[""月"", ""月亮"", ""月亮的"", ""月的""]",candidate_only
+vocab-candidate-97cfbe87531abe0c6bac,pear,pear,n,oewn-pear__1.20.00..,oewn-12672372-n,i103361,cow-12651611-n,"[""梨"", ""梨树""]",candidate_only
+vocab-candidate-99f72d7e511685bae651,snowy,snowy,a,oewn-snowy__5.00.00.achromatic.00,oewn-00393154-s,i2215,cow-00392093-a,"[""洁白无瑕"", ""洁白无瑕的"", ""纯白"", ""纯白的"", ""雪白"", ""雪白的""]",candidate_only
+vocab-candidate-9cca0703342e24806a9f,bacon,bacon,n,oewn-bacon__1.13.00..,oewn-07686178-n,i77251,cow-07670433-n,"[""咸肉"", ""培根"", ""熏咸肉"", ""熏肉""]",candidate_only
+vocab-candidate-9f32cc1692eac8fc391f,parking,parking,n,oewn-parking__1.23.00..,oewn-13800883-n,i109317,cow-13778671-n,"[""停车场"", ""停车处""]",candidate_only
+vocab-candidate-9f3a4329d8325465f71e,subway,subway,n,oewn-subway__1.06.00..,oewn-03762667-n,i56197,cow-03757138-n,"[""地下铁路"", ""地下铁道"", ""地铁""]",candidate_only
+vocab-candidate-a4075864ad5e7545961d,liberation,liberation,n,oewn-liberation__1.04.00..,oewn-00789493-n,i39547,cow-00787832-n,"[""解放"", ""解放运动""]",candidate_only
+vocab-candidate-a46e5d2bbe2d3b05b2d2,tv,TV,n,oewn-tv__1.10.00..,oewn-06287933-n,i69499,cow-06277280-n,"[""电视"", ""电视业"", ""电视广播""]",candidate_only
+vocab-candidate-a46e5d2bbe2d3b05b2d2,tv,tv,n,oewn-tv__1.06.00..,oewn-04413042-n,i60090,cow-04405907-n,"[""电视"", ""电视机""]",candidate_only
+vocab-candidate-a7cdf5d0586b392473dd,panda,panda,n,oewn-panda__1.05.01..,oewn-02513086-n,i48871,cow-02510455-n,"[""大熊猫"", ""大猫熊"", ""熊猫"", ""猫熊""]",candidate_only
+vocab-candidate-a7cdf5d0586b392473dd,panda,panda,n,oewn-panda__1.05.02..,oewn-02512446-n,i48868,cow-02509815-n,"[""小熊猫"", ""红熊猫""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,n,oewn-honour__1.07.00..,oewn-04876319-n,i62572,cow-04869106-n,"[""名誉"", ""荣誉""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,n,oewn-honour__1.10.00..,oewn-06709228-n,i71678,cow-06696483-n,"[""大奖"", ""奖项"", ""殊荣""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,n,oewn-honour__1.26.00..,oewn-14460341-n,i112875,cow-14436875-n,"[""名誉"", ""荣誉""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,v,oewn-honour__2.40.00..,oewn-02242413-v,i32928,cow-02237631-v,"[""承兑""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,v,oewn-honour__2.41.00..,oewn-02551772-v,i34427,cow-02546075-v,"[""授予荣誉"", ""授予酬谢"", ""给以荣誉""]",candidate_only
+vocab-candidate-a8e0fe140ed8c623c205,honour,honour,v,oewn-honour__2.41.01..,oewn-02462665-v,i34006,cow-02457233-v,"[""尊敬"", ""尊重""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,a,oewn-living__3.01.00..,oewn-02766901-a,i15540,cow-02756129-a,"[""有生命"", ""有生命的"", ""未死"", ""未死的"", ""活"", ""活的"", ""活着"", ""活着的"", ""生活"", ""生活的""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,a,oewn-living__5.00.00.absolute.00,oewn-00005838-s,i26,cow-00005839-a,"[""完全"", ""完全的"", ""绝对"", ""绝对的""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,a,oewn-living__5.00.00.realistic.00,oewn-01947891-s,i10629,cow-01941274-a,"[""忠于生活"", ""忠于生活的"", ""栩栩如生"", ""栩栩如生的"", ""逼真"", ""逼真的""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,n,oewn-living__1.09.00..,oewn-05818587-n,i67415,cow-05810561-n,"[""生命"", ""生活""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,n,oewn-living__1.21.00..,oewn-13386459-n,i106945,cow-13365286-n,"[""生计""]",candidate_only
+vocab-candidate-a93fcdf7dbae1c2f165a,living,living,n,oewn-living__1.26.00..,oewn-13984978-n,i110305,cow-13961642-n,"[""命"", ""性命"", ""生命"", ""生活""]",candidate_only
+vocab-candidate-a9c43be948c5cabd56ef,dragon,dragon,n,oewn-dragon__1.18.02..,oewn-09517519-n,i86512,cow-09494388-n,"[""火龙"", ""龙""]",candidate_only
+vocab-candidate-aa65d1b65ab4ffc95501,botanical,botanical,a,oewn-botanical__3.01.00..,oewn-02678963-a,i14921,cow-02668258-a,"[""植物"", ""植物学"", ""植物学的"", ""植物的""]",candidate_only
+vocab-candidate-aafe609f4f899a2470d9,behaviour,behaviour,n,oewn-behaviour__1.04.00..,oewn-01223473-n,i41782,cow-01220984-n,"[""为人"", ""举动"", ""举止"", ""品行"", ""行为""]",candidate_only
+vocab-candidate-aafe609f4f899a2470d9,behaviour,behaviour,n,oewn-behaviour__1.07.00..,oewn-04904939-n,i62725,cow-04897762-n,"[""举措""]",candidate_only
+vocab-candidate-aafe609f4f899a2470d9,behaviour,behaviour,n,oewn-behaviour__1.26.00..,oewn-14031827-n,i110547,cow-14008342-n,"[""行为"", ""表现"", ""运行状况""]",candidate_only
+vocab-candidate-ab5c95d2cc5bf9000e8d,barbecue,barbecue,n,oewn-barbecue__1.06.00..,oewn-02793692-n,i50455,cow-02790669-n,"[""烤肉架""]",candidate_only
+vocab-candidate-ab6db599234d2636659c,am,AM,n,oewn-am__1.10.00..,oewn-06292247-n,i69520,cow-06281594-n,"[""调幅""]",candidate_only
+vocab-candidate-ab6db599234d2636659c,am,Am,n,oewn-am__1.27.00..,oewn-14652672-n,i113892,cow-14628494-n,"[""镅""]",candidate_only
+vocab-candidate-abe0ba24dae6eb854ba2,dialogue,dialogue,n,oewn-dialogue__1.10.00..,oewn-07023657-n,i73501,cow-07010541-n,"[""台词"", ""对话""]",candidate_only
+vocab-candidate-abe0ba24dae6eb854ba2,dialogue,dialogue,n,oewn-dialogue__1.10.01..,oewn-07150914-n,i74163,cow-07136206-n,"[""会话"", ""对白"", ""对话""]",candidate_only
+vocab-candidate-abe0ba24dae6eb854ba2,dialogue,dialogue,n,oewn-dialogue__1.10.03..,oewn-07162900-n,i74228,cow-07148192-n,"[""交涉"", ""会谈"", ""谈判""]",candidate_only
+vocab-candidate-acc017392425439be5e3,maths,maths,n,oewn-maths__1.09.00..,oewn-06009822-n,i68341,cow-06000644-n,"[""数学""]",candidate_only
+vocab-candidate-acd8d61b6983eb358899,circus,circus,n,oewn-circus__1.06.00..,oewn-03038845-n,i51952,cow-03034860-n,"[""圆形马戏场""]",candidate_only
+vocab-candidate-acd8d61b6983eb358899,circus,circus,n,oewn-circus__1.06.01..,oewn-03039074-n,i51953,cow-03035089-n,"[""竞技场""]",candidate_only
+vocab-candidate-acd8d61b6983eb358899,circus,circus,n,oewn-circus__1.14.00..,oewn-08206141-n,i80185,cow-08189211-n,"[""马戏""]",candidate_only
+vocab-candidate-acf5bfd986de639d820d,deer,deer,n,oewn-deer__1.05.00..,oewn-02432691-n,i48406,cow-02430045-n,"[""鹿""]",candidate_only
+vocab-candidate-add1743eae5bbd8ea17b,bamboo,bamboo,n,oewn-bamboo__1.20.02..,oewn-12168056-n,i100987,cow-12147539-n,"[""竹筒""]",candidate_only
+vocab-candidate-afd1a8fffb87f7a091c9,wedding,wedding,n,oewn-wedding__1.04.00..,oewn-01039028-n,i40833,cow-01036996-n,"[""婚事"", ""婚礼"", ""结婚"", ""结婚仪式""]",candidate_only
+vocab-candidate-afd1a8fffb87f7a091c9,wedding,wedding,n,oewn-wedding__1.11.00..,oewn-07466684-n,i75876,cow-07452074-n,"[""婚礼"", ""结婚仪式""]",candidate_only
+vocab-candidate-aff0f313b5568afc194b,steak,steak,n,oewn-steak__1.13.00..,oewn-07673512-n,i77154,cow-07657903-n,"[""牛排"", ""肉排"", ""鱼排""]",candidate_only
+vocab-candidate-b04216546057e8659fec,fog,fog,n,oewn-fog__1.09.00..,oewn-05692366-n,i66789,cow-05684561-n,"[""迷惑""]",candidate_only
+vocab-candidate-b04216546057e8659fec,fog,fog,n,oewn-fog__1.19.00..,oewn-11478731-n,i97801,cow-11458314-n,"[""雾"", ""雾气""]",candidate_only
+vocab-candidate-b04216546057e8659fec,fog,fog,n,oewn-fog__1.26.01..,oewn-14545250-n,i113314,cow-14521648-n,"[""阴沉"", ""雾"", ""黝暗""]",candidate_only
+vocab-candidate-b04216546057e8659fec,fog,fog,v,oewn-fog__2.39.00..,oewn-02162161-v,i32539,cow-02157731-v,"[""使含糊"", ""使困惑"", ""使看不清"", ""遮掩""]",candidate_only
+vocab-candidate-b0be485102cc287bf9ca,practise,practise,v,oewn-practise__2.31.00..,oewn-00607488-v,i24790,cow-00606093-v,"[""操练"", ""磨练"", ""练"", ""练习"", ""训练"", ""锻炼""]",candidate_only
+vocab-candidate-b0be485102cc287bf9ca,practise,practise,v,oewn-practise__2.36.00..,oewn-01727101-v,i30355,cow-01723224-v,"[""排演"", ""排练""]",candidate_only
+vocab-candidate-b0be485102cc287bf9ca,practise,practise,v,oewn-practise__2.41.00..,oewn-02574587-v,i34533,cow-02568672-v,"[""从业"", ""实行"", ""实践"", ""干"", ""行使""]",candidate_only
+vocab-candidate-b11f203e8e6ce90d0ab5,europe,Europe,n,oewn-europe__1.17.00..,oewn-09298379-n,i85374,cow-09275473-n,"[""欧洲""]",candidate_only
+vocab-candidate-b1f49eb9e5cf433b7cbd,rejuvenate,rejuvenate,v,oewn-rejuvenate__2.30.04..,oewn-00168396-v,i22553,cow-00168588-v,"[""养精蓄锐""]",candidate_only
+vocab-candidate-b1f49eb9e5cf433b7cbd,rejuvenate,rejuvenate,v,oewn-rejuvenate__2.32.02..,oewn-00796045-v,i25650,cow-00794383-v,"[""使回春"", ""使更生""]",candidate_only
+vocab-candidate-b2170dfac0589e2a701c,x-ray,x-ray,v,oewn-x-ray__2.39.00..,oewn-02154216-v,i32502,cow-02149786-v,"[""照X光""]",candidate_only
+vocab-candidate-b35ce4fd7c8fbe7027e5,metre,metre,n,oewn-metre__1.23.00..,oewn-13681046-n,i108494,cow-13659162-n,"[""公尺"", ""米""]",candidate_only
+vocab-candidate-b41e6560a4467aa44f85,america,America,n,oewn-america__1.15.00..,oewn-09067337-n,i84182,cow-09044862-n,"[""美国""]",candidate_only
+vocab-candidate-b41e6560a4467aa44f85,america,America,n,oewn-america__1.17.00..,oewn-09218493-n,i84962,cow-09195615-n,"[""亚美利加洲"", ""美洲""]",candidate_only
+vocab-candidate-b6234d2ea0d6022be63d,english,English,a,oewn-english__3.01.00..,oewn-03014852-a,i17163,cow-03003344-a,"[""英"", ""英国"", ""英国人"", ""英国人的"", ""英国文化"", ""英国文化的"", ""英国的"", ""英格兰人"", ""英格兰人的""]",candidate_only
+vocab-candidate-b6234d2ea0d6022be63d,english,English,a,oewn-english__3.01.01..,oewn-03015124-a,i17164,cow-03003616-a,"[""与英语有关"", ""与英语有关的"", ""用英语"", ""用英语的"", ""英文""]",candidate_only
+vocab-candidate-b6234d2ea0d6022be63d,english,English,n,oewn-english__1.09.00..,oewn-06165130-n,i68916,cow-06155432-n,"[""英文"", ""英语""]",candidate_only
+vocab-candidate-b6234d2ea0d6022be63d,english,English,n,oewn-english__1.10.00..,oewn-06959794-n,i73104,cow-06947032-n,"[""英文""]",candidate_only
+vocab-candidate-b6234d2ea0d6022be63d,english,English,n,oewn-english__1.18.00..,oewn-09752082-n,i87848,cow-09732668-n,"[""英国人"", ""英格兰人""]",candidate_only
+vocab-candidate-b8192353a3982b4fe7ac,thought,thought,n,oewn-thought__1.09.00..,oewn-05778923-n,i67220,cow-05770926-n,"[""思想"", ""思考"", ""考虑""]",candidate_only
+vocab-candidate-b8192353a3982b4fe7ac,thought,thought,n,oewn-thought__1.09.01..,oewn-05842164-n,i67535,cow-05833840-n,"[""主意"", ""创想"", ""思想"", ""思绪"", ""思维"", ""思路"", ""想法"", ""构想"", ""理念""]",candidate_only
+vocab-candidate-b8192353a3982b4fe7ac,thought,thought,n,oewn-thought__1.09.03..,oewn-05954491-n,i68073,cow-05945642-n,"[""想法"", ""意见"", ""感想"", ""看法""]",candidate_only
+vocab-candidate-b96482290a873ee98752,carrot,carrot,n,oewn-carrot__1.20.02..,oewn-12958438-n,i104745,cow-12937678-n,"[""红萝卜"", ""胡萝卜""]",candidate_only
+vocab-candidate-ba78973ddcf98d4e5369,are,are,n,oewn-are__1.23.00..,oewn-13635143-n,i108227,cow-13613862-n,"[""公亩""]",candidate_only
+vocab-candidate-ba8d3e6a2d8b5ed67ba2,grandma,grandma,n,oewn-grandma__1.18.00..,oewn-10162267-n,i90289,cow-10142747-n,"[""外婆"", ""外祖母"", ""奶奶"", ""祖母""]",candidate_only
+vocab-candidate-bb8805e9131d65ee2353,fascinating,fascinating,a,oewn-fascinating__5.00.00.interesting.00,oewn-01347019-s,i7325,cow-01344171-a,"[""吸引人"", ""吸引人的""]",candidate_only
+vocab-candidate-bb8fee73493277b6fb39,adorable,adorable,a,oewn-adorable__5.00.00.lovable.00,oewn-01462677-s,i7988,cow-01459755-a,"[""可爱"", ""可爱的""]",candidate_only
+vocab-candidate-bcc649cfdb8cc557053d,found,found,v,oewn-found__2.31.00..,oewn-00638550-v,i24923,cow-00636888-v,"[""凭"", ""打底""]",candidate_only
+vocab-candidate-bcc649cfdb8cc557053d,found,found,v,oewn-found__2.36.00..,oewn-01650771-v,i29973,cow-01647229-v,"[""建树""]",candidate_only
+vocab-candidate-bcc649cfdb8cc557053d,found,found,v,oewn-found__2.41.00..,oewn-02431950-v,i33867,cow-02427103-v,"[""创办"", ""创立"", ""始建"", ""建树"", ""建立"", ""开办"", ""成立"", ""扎下"", ""确立"", ""组建"", ""设"", ""设有"", ""设立"", ""设置""]",candidate_only
+vocab-candidate-bd2db00b68d692183fa4,firework,firework,n,oewn-firework__1.06.00..,oewn-03353300-n,i53757,cow-03348454-n,"[""烟花"", ""焰火"", ""花火"", ""花炮""]",candidate_only
+vocab-candidate-bd42f9875b2c2a608bba,mankind,mankind,n,oewn-mankind__1.05.00..,oewn-02475618-n,i48658,cow-02472987-n,"[""人类""]",candidate_only
+vocab-candidate-bf487e25d4996f60ee74,civilisation,civilisation,n,oewn-civilisation__1.14.00..,oewn-08128749-n,i79811,cow-08111783-n,"[""文明"", ""文明社会""]",candidate_only
+vocab-candidate-bf487e25d4996f60ee74,civilisation,civilisation,n,oewn-civilisation__1.14.01..,oewn-08304765-n,i80699,cow-08287844-n,"[""文明""]",candidate_only
+vocab-candidate-bf487e25d4996f60ee74,civilisation,civilisation,n,oewn-civilisation__1.22.00..,oewn-13470143-n,i107416,cow-13448970-n,"[""教化""]",candidate_only
+vocab-candidate-c2fb788c7deedbeaa296,training,training,n,oewn-training__1.04.00..,oewn-00895653-n,i40103,cow-00893955-n,"[""准备工作"", ""培训"", ""训练"", ""锻炼""]",candidate_only
+vocab-candidate-c30b983b5860e0481288,jog,jog,n,oewn-jog__1.25.00..,oewn-13909904-n,i109916,cow-13887211-n,"[""急转弯""]",candidate_only
+vocab-candidate-c30b983b5860e0481288,jog,jog,v,oewn-jog__2.32.00..,oewn-00796195-v,i25651,cow-00794533-v,"[""唤起"", ""提醒""]",candidate_only
+vocab-candidate-c30b983b5860e0481288,jog,jog,v,oewn-jog__2.38.02..,oewn-01991662-v,i31675,cow-01987648-v,"[""做成直角""]",candidate_only
+vocab-candidate-c339fb7706a7edcf4ecf,mobile phone,mobile phone,n,oewn-mobile_phone__1.06.00..,oewn-02995984-n,i51696,cow-02992529-n,"[""大哥大"", ""手提电话"", ""手机"", ""移动电话"", ""蜂窝式移动电话""]",candidate_only
+vocab-candidate-c405760daf9bc32b76f4,tired,tired,a,oewn-tired__3.00.00..,oewn-02440540-a,i13463,cow-02431728-a,"[""倦乏"", ""厌倦的"", ""疲"", ""疲倦"", ""疲倦的"", ""疲劳"", ""疲劳的"", ""累""]",candidate_only
+vocab-candidate-c5220b3c4266890f0471,lantern,lantern,n,oewn-lantern__1.06.00..,oewn-03646302-n,i55528,cow-03640988-n,"[""提灯"", ""灯"", ""灯笼""]",candidate_only
+vocab-candidate-c66ebd0878c92a095099,collaborate,collaborate,v,oewn-collaborate__2.41.00..,oewn-02421408-v,i33818,cow-02416278-v,"[""协作"", ""协力"", ""合伙"", ""合作"", ""联合"", ""通力合作"", ""配合""]",candidate_only
+vocab-candidate-c66ebd0878c92a095099,collaborate,collaborate,v,oewn-collaborate__2.41.01..,oewn-02421881-v,i33819,cow-02416751-v,"[""勾结"", ""合伙""]",candidate_only
+vocab-candidate-c6b23b0f2cf0f9912912,astronomer,astronomer,n,oewn-astronomer__1.18.00..,oewn-09837748-n,i88342,cow-09818343-n,"[""天文学家""]",candidate_only
+vocab-candidate-c886ff11f6a51b611a86,chalk,chalk,n,oewn-chalk__1.06.00..,oewn-03006695-n,i51754,cow-03003091-n,"[""粉笔""]",candidate_only
+vocab-candidate-c886ff11f6a51b611a86,chalk,chalk,n,oewn-chalk__1.06.01..,oewn-03759824-n,i56185,cow-03754295-n,"[""中枢兴奋药"", ""梅太德林"", ""甲基苯丙胺"", ""脱氧麻黄碱""]",candidate_only
+vocab-candidate-c886ff11f6a51b611a86,chalk,chalk,n,oewn-chalk__1.27.00..,oewn-14830768-n,i114848,cow-14806598-n,"[""白垩""]",candidate_only
+vocab-candidate-c8d391dc588ad0819dac,gramme,gramme,n,oewn-gramme__1.23.00..,oewn-13745822-n,i108977,cow-13723712-n,"[""克"", ""公克""]",candidate_only
+vocab-candidate-ca6e99a67a7a8aa26bc0,chorus,chorus,n,oewn-chorus__1.14.00..,oewn-08204767-n,i80177,cow-08187837-n,"[""合唱队""]",candidate_only
+vocab-candidate-cc52e9ceb39eabd803ce,tofu,tofu,n,oewn-tofu__1.13.00..,oewn-07725626-n,i77512,cow-07709881-n,"[""豆腐""]",candidate_only
+vocab-candidate-cc86d865e47a25af4b8f,hamburger,hamburger,n,oewn-hamburger__1.13.01..,oewn-07712845-n,i77434,cow-07697100-n,"[""汉堡"", ""汉堡包""]",candidate_only
+vocab-candidate-cccbe264816db7d93285,saving,saving,a,oewn-saving__5.00.00.thrifty.00,oewn-02430693-s,i13404,cow-02421919-a,"[""节约"", ""节约的""]",candidate_only
+vocab-candidate-cccbe264816db7d93285,saving,saving,n,oewn-saving__1.04.02..,oewn-00094303-n,i35896,cow-00093483-n,"[""援救""]",candidate_only
+vocab-candidate-cebbec9619efd343f958,fluent,fluent,a,oewn-fluent__5.00.00.articulate.00,oewn-00151773-s,i815,cow-00150505-a,"[""有口才"", ""有口才的"", ""雄辩"", ""雄辩的""]",candidate_only
+vocab-candidate-d005d6c459a8a9f40f64,housing,housing,n,oewn-housing__1.06.00..,oewn-03551520-n,i54968,cow-03546340-n,"[""住宅"", ""住房"", ""房屋""]",candidate_only
+vocab-candidate-d005d6c459a8a9f40f64,housing,housing,n,oewn-housing__1.06.01..,oewn-03551946-n,i54969,cow-03546766-n,"[""盒子""]",candidate_only
+vocab-candidate-d005d6c459a8a9f40f64,housing,housing,n,oewn-housing__1.06.02..,oewn-02958976-n,i51477,cow-02955540-n,"[""华丽的鞍辔"", ""马披"", ""马饰""]",candidate_only
+vocab-candidate-d05c34e72352778bfa90,theatre,theatre,n,oewn-theatre__1.10.00..,oewn-07019235-n,i73479,cow-07006119-n,"[""戏剧艺术"", ""演出法"", ""舞台演出艺术""]",candidate_only
+vocab-candidate-d1068beeb96a6a799376,compass,compass,n,oewn-compass__1.06.00..,oewn-03084501-n,i52224,cow-03080497-n,"[""指南针""]",candidate_only
+vocab-candidate-d1068beeb96a6a799376,compass,compass,n,oewn-compass__1.06.01..,oewn-03084637-n,i52225,cow-03080633-n,"[""两脚规"", ""圆规""]",candidate_only
+vocab-candidate-d1068beeb96a6a799376,compass,compass,n,oewn-compass__1.07.00..,oewn-05132642-n,i63922,cow-05125377-n,"[""界限"", ""范围""]",candidate_only
+vocab-candidate-d1068beeb96a6a799376,compass,compass,v,oewn-compass__2.31.00..,oewn-00589616-v,i24708,cow-00588221-v,"[""把握"", ""认识""]",candidate_only
+vocab-candidate-d1068beeb96a6a799376,compass,compass,v,oewn-compass__2.41.00..,oewn-02532751-v,i34342,cow-02527085-v,"[""完成"", ""实现"", ""达到""]",candidate_only
+vocab-candidate-d19949c3d422029d0651,mosquito,mosquito,n,oewn-mosquito__1.05.00..,oewn-02202850-n,i47049,cow-02200198-n,"[""蚊子""]",candidate_only
+vocab-candidate-d1aae4fb5babfe1c8bb9,wrinkle,wrinkle,n,oewn-wrinkle__1.25.00..,oewn-13928798-n,i110019,cow-13905792-n,"[""皱"", ""皱纹"", ""皱褶""]",candidate_only
+vocab-candidate-d221bc0442edd1c2fcaa,neighbourhood,neighbourhood,n,oewn-neighbourhood__1.15.00..,oewn-08658688-n,i82369,cow-08641113-n,"[""一带"", ""周围"", ""周边"", ""附近""]",candidate_only
+vocab-candidate-d417a32def5666de310c,olympic,Olympic,a,oewn-olympic__3.01.01..,oewn-03104837-a,i17737,cow-03093379-a,"[""奥林匹亚"", ""奥林匹亚的""]",candidate_only
+vocab-candidate-d41852293ee0e17d2362,analyse,analyse,v,oewn-analyse__2.31.00..,oewn-00646245-v,i24957,cow-00644583-v,"[""研究""]",candidate_only
+vocab-candidate-d41852293ee0e17d2362,analyse,analyse,v,oewn-analyse__2.31.01..,oewn-00645135-v,i24953,cow-00643473-v,"[""分解""]",candidate_only
+vocab-candidate-d41852293ee0e17d2362,analyse,analyse,v,oewn-analyse__2.31.04..,oewn-00738221-v,i25380,cow-00736216-v,"[""分析""]",candidate_only
+vocab-candidate-d44a08de3981889dae0f,hen,hen,n,oewn-hen__1.05.01..,oewn-01795281-n,i44714,cow-01792640-n,"[""母鸡""]",candidate_only
+vocab-candidate-d531950f9771bdc4a0ef,handbag,handbag,n,oewn-handbag__1.06.00..,oewn-02777157-n,i50361,cow-02774152-n,"[""手提包"", ""皮包"", ""钱包""]",candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,a,oewn-colour__3.00.02..,oewn-00395196-a,i2229,cow-00394135-a,"[""彩"", ""彩色"", ""彩色的""]",candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,n,oewn-colour__1.07.00..,oewn-04963771-n,i63025,cow-04956594-n,"[""色彩"", ""色泽""]",candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,n,oewn-colour__1.07.01..,oewn-04682325-n,i61623,cow-04674968-n,"[""色"", ""色彩"", ""颜色""]",candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,n,oewn-colour__1.27.00..,oewn-15009532-n,i115894,cow-14984973-n,"[""着色剂"", ""色料"", ""颜料""]",candidate_only
+vocab-candidate-d6838c357444c5ad1699,colour,colour,v,oewn-colour__2.41.02..,oewn-02542758-v,i34386,cow-02537092-v,"[""歪曲"", ""粉饰""]",candidate_only
+vocab-candidate-d7bf0c9ea6ea590ff1a4,frost,frost,n,oewn-frost__1.22.01..,oewn-13506473-n,i107598,cow-13485270-n,"[""结霜""]",candidate_only
+vocab-candidate-d7d5dcc369426e2e5f8d,better,better,a,oewn-better__5.00.00.advisable.00,oewn-00067988-s,i352,cow-00067379-a,"[""绝好""]",candidate_only
+vocab-candidate-d7d5dcc369426e2e5f8d,better,better,v,oewn-better__2.30.01..,oewn-00206293-v,i22752,cow-00205885-v,"[""使更好"", ""修改"", ""修正"", ""变好"", ""增进"", ""提高"", ""改善"", ""改正"", ""改良"", ""改进""]",candidate_only
+vocab-candidate-d810e252392052537915,dizzy,dizzy,a,oewn-dizzy__5.00.00.frivolous.00,oewn-02128108-s,i11614,cow-02120828-a,"[""傻而无知"", ""傻而无知的"", ""头昏眼花的"", ""头晕的"", ""愚蠢"", ""愚蠢的"", ""轻浮"", ""轻浮的""]",candidate_only
+vocab-candidate-d810e252392052537915,dizzy,dizzy,a,oewn-dizzy__5.00.00.ill.01,oewn-02554818-s,i14113,cow-02544048-a,"[""使人发晕"", ""使人发晕的"", ""使人头昏眼花"", ""使人头昏眼花的"", ""使人晕眩"", ""使人晕眩的"", ""头昏眼花"", ""头昏眼花的"", ""头晕目眩"", ""头晕目眩的"", ""晕头转向"", ""晕头转向的"", ""晕眩"", ""晕眩的"", ""眼花"", ""眼花的"", ""觉得天旋地转"", ""觉得天旋地转的""]",candidate_only
+vocab-candidate-d852ee03fd93d7902027,dormitory,dormitory,n,oewn-dormitory__1.06.00..,oewn-03229596-n,i53068,cow-03224893-n,"[""学生宿舍"", ""宿舍"", ""集体寝室""]",candidate_only
+vocab-candidate-d852ee03fd93d7902027,dormitory,dormitory,n,oewn-dormitory__1.06.01..,oewn-03229811-n,i53069,cow-03225108-n,"[""大寝室""]",candidate_only
+vocab-candidate-d9019ff220a47ff8fc99,organisation,organisation,n,oewn-organisation__1.04.02..,oewn-00237945-n,i36652,cow-00237078-n,"[""立项"", ""组建""]",candidate_only
+vocab-candidate-d9019ff220a47ff8fc99,organisation,organisation,n,oewn-organisation__1.09.00..,oewn-05734541-n,i67004,cow-05726596-n,"[""组织""]",candidate_only
+vocab-candidate-d9019ff220a47ff8fc99,organisation,organisation,n,oewn-organisation__1.14.00..,oewn-08024893-n,i79383,cow-08008335-n,"[""团体"", ""机构"", ""组织"", ""集团""]",candidate_only
+vocab-candidate-d9019ff220a47ff8fc99,organisation,organisation,n,oewn-organisation__1.14.01..,oewn-08181484-n,i80056,cow-08164585-n,"[""组织""]",candidate_only
+vocab-candidate-d9c82be4e60e1ed83986,patriotism,patriotism,n,oewn-patriotism__1.07.00..,oewn-04885296-n,i62620,cow-04878101-n,"[""爱国主义"", ""爱国心"", ""爱国精神""]",candidate_only
+vocab-candidate-da8b2af143753f86a0a8,graceful,graceful,a,oewn-graceful__3.00.00..,oewn-01142852-a,i6233,cow-01139352-a,"[""帅气""]",candidate_only
+vocab-candidate-da8b2af143753f86a0a8,graceful,graceful,a,oewn-graceful__5.00.00.gracious.00,oewn-01145585-s,i6245,cow-01142069-a,"[""雍容""]",candidate_only
+vocab-candidate-db7d1e32769c6a3bbe48,gymnasium,Gymnasium,n,oewn-gymnasium__1.14.00..,oewn-08301402-n,i80680,cow-08284481-n,"[""中学"", ""中等学校"", ""法国公立中等学校""]",candidate_only
+vocab-candidate-db7d1e32769c6a3bbe48,gymnasium,gymnasium,n,oewn-gymnasium__1.06.00..,oewn-03477235-n,i54524,cow-03472112-n,"[""体育场馆"", ""体育馆"", ""健身房""]",candidate_only
+vocab-candidate-dbdc7bf49b2282178cab,gifted,gifted,a,oewn-gifted__3.00.00..,oewn-01122955-a,i6139,cow-01119192-a,"[""天才"", ""天赋异禀"", ""有天分"", ""有天分的"", ""有才华"", ""有才气"", ""有才气的"", ""有才能"", ""有才能的""]",candidate_only
+vocab-candidate-dc845de6967eb622c209,fireman,fireman,n,oewn-fireman__1.04.00..,oewn-00433527-n,i37668,cow-00432587-n,"[""消防游戏""]",candidate_only
+vocab-candidate-dd832404e8eeb90793f0,cucumber,cucumber,n,oewn-cucumber__1.13.00..,oewn-07734217-n,i77565,cow-07718472-n,"[""青瓜"", ""黄瓜""]",candidate_only
+vocab-candidate-df0c29d39619e8cf2d4b,astronaut,astronaut,n,oewn-astronaut__1.18.00..,oewn-09837427-n,i88341,cow-09818022-n,"[""太空人"", ""太空船上的飞行员"", ""宇宙飞行员"", ""宇航员"", ""航天员""]",candidate_only
+vocab-candidate-df2f18f63c66b2151e04,erupt,erupt,v,oewn-erupt__2.30.01..,oewn-00346162-v,i23464,cow-00345508-v,"[""爆发"", ""突发"", ""突然发生""]",candidate_only
+vocab-candidate-df2f18f63c66b2151e04,erupt,erupt,v,oewn-erupt__2.30.06..,oewn-00423852-v,i23838,cow-00422899-v,"[""发疹""]",candidate_only
+vocab-candidate-df2f18f63c66b2151e04,erupt,erupt,v,oewn-erupt__2.43.00..,oewn-02766580-v,i35484,cow-02760622-v,"[""开始燃烧"", ""点燃"", ""烧起来"", ""燃烧"", ""着火""]",candidate_only
+vocab-candidate-e2d3b41db9567ddf0334,chinese,Chinese,a,oewn-chinese__3.01.00..,oewn-02976327-a,i16910,cow-02964782-a,"[""中"", ""中华"", ""中国"", ""中国人"", ""中国人的"", ""中国文化"", ""中国文化的"", ""中国的"", ""中国话的"", ""中式"", ""中文"", ""中文的"", ""华"", ""汉"", ""汉语"", ""汉语的""]",candidate_only
+vocab-candidate-e2d3b41db9567ddf0334,chinese,Chinese,a,oewn-chinese__3.01.01..,oewn-03134068-a,i17918,cow-03122400-a,"[""台湾"", ""台湾人"", ""台湾人的"", ""台湾的""]",candidate_only
+vocab-candidate-e2d3b41db9567ddf0334,chinese,Chinese,n,oewn-chinese__1.10.00..,oewn-06942519-n,i72988,cow-06929742-n,"[""中文""]",candidate_only
+vocab-candidate-e2d3b41db9567ddf0334,chinese,Chinese,n,oewn-chinese__1.18.00..,oewn-09717504-n,i87618,cow-09698108-n,"[""华族""]",candidate_only
+vocab-candidate-e3b93359365856652e75,crowded,crowded,a,oewn-crowded__3.00.00..,oewn-00561916-a,i3125,cow-00559690-a,"[""人满为患"", ""盈门"", ""门庭若市""]",candidate_only
+vocab-candidate-e409bfc6fe798c2efaaf,meaning,meaning,n,oewn-meaning__1.09.00..,oewn-05928460-n,i67944,cow-05919866-n,"[""含意"", ""意义"", ""意思""]",candidate_only
+vocab-candidate-e409bfc6fe798c2efaaf,meaning,meaning,n,oewn-meaning__1.10.00..,oewn-06613680-n,i71150,cow-06601327-n,"[""含义"", ""含意"", ""意义"", ""意味"", ""意思"", ""词意"", ""语意""]",candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,v,oewn-realise__2.31.00..,oewn-00592510-v,i24720,cow-00591115-v,"[""了解"", ""悟"", ""明白"", ""理解"", ""看清"", ""领会""]",candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,v,oewn-realise__2.31.01..,oewn-00730579-v,i25342,cow-00728617-v,"[""知道"", ""认清""]",candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,v,oewn-realise__2.36.00..,oewn-01648288-v,i29962,cow-01644746-v,"[""成真""]",candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,v,oewn-realise__2.40.00..,oewn-02249385-v,i32961,cow-02244603-v,"[""变卖为现金"", ""变现""]",candidate_only
+vocab-candidate-e411aea7821ca1650ff3,realise,realise,v,oewn-realise__2.40.01..,oewn-02294200-v,i33178,cow-02289295-v,"[""收获"", ""获利"", ""获得"", ""赚"", ""赚到""]",candidate_only
+vocab-candidate-e4db4217a27336b45ca7,surrounding,surrounding,a,oewn-surrounding__5.00.00.close.01,oewn-00451366-s,i2525,cow-00449332-a,"[""周边""]",candidate_only
+vocab-candidate-e60061df78be5e38d0bf,centimeter,centimeter,n,oewn-centimeter__1.23.00..,oewn-13680636-n,i108492,cow-13658828-n,"[""公分"", ""厘米""]",candidate_only
+vocab-candidate-e615f1ebb9066ba1b776,washroom,washroom,n,oewn-washroom__1.06.00..,oewn-04562577-n,i60974,cow-04555291-n,"[""厕所"", ""洗手间"", ""盥洗室""]",candidate_only
+vocab-candidate-e64c826b6b33f307cecf,ce,Ce,n,oewn-ce__1.27.00..,oewn-14658135-n,i113916,cow-14633957-n,"[""铈""]",candidate_only
+vocab-candidate-e718b2dd3e0ac1f9208e,christmas,Christmas,n,oewn-christmas__1.28.00..,oewn-15221021-n,i117079,cow-15196186-n,"[""圣诞"", ""圣诞节""]",candidate_only
+vocab-candidate-e718b2dd3e0ac1f9208e,christmas,Christmas,n,oewn-christmas__1.28.01..,oewn-15221372-n,i117081,cow-15196537-n,"[""圣诞"", ""圣诞季"", ""圣诞季节"", ""圣诞节"", ""圣诞节期"", ""圣诞节节期"", ""耶稣圣诞节"", ""耶诞节""]",candidate_only
+vocab-candidate-e73b48f750be953532c1,eagle,eagle,n,oewn-eagle__1.05.00..,oewn-01615935-n,i43785,cow-01613294-n,"[""老鹰"", ""鹰""]",candidate_only
+vocab-candidate-e73b48f750be953532c1,eagle,eagle,n,oewn-eagle__1.10.00..,oewn-06894613-n,i72661,cow-06881563-n,"[""鹰状标志""]",candidate_only
+vocab-candidate-e73b48f750be953532c1,eagle,eagle,n,oewn-eagle__1.21.00..,oewn-13413645-n,i107107,cow-13392472-n,"[""银鹰徽金币""]",candidate_only
+vocab-candidate-e73b48f750be953532c1,eagle,eagle,n,oewn-eagle__1.23.00..,oewn-13617211-n,i108144,cow-13595968-n,"[""老鹰球""]",candidate_only
+vocab-candidate-e971c330aab8741082ab,ice cream,ice cream,n,oewn-ice_cream__1.13.00..,oewn-07630109-n,i76839,cow-07614500-n,"[""冰淇淋"", ""冰激凌"", ""冰糕"", ""雪糕""]",candidate_only
+vocab-candidate-ea325d761f98c6b73320,an,AN,n,oewn-an__1.10.00..,oewn-06710913-n,i71685,cow-06698150-n,"[""护理专业的大专文凭"", ""护理学副学士""]",candidate_only
+vocab-candidate-ec72b9566a9c3501838a,setting,setting,n,oewn-setting__1.06.01..,oewn-03778801-n,i56292,cow-03773268-n,"[""布景"", ""舞台布景""]",candidate_only
+vocab-candidate-ec72b9566a9c3501838a,setting,setting,n,oewn-setting__1.15.00..,oewn-08585785-n,i82009,cow-08568256-n,"[""背景""]",candidate_only
+vocab-candidate-ec72b9566a9c3501838a,setting,setting,n,oewn-setting__1.26.00..,oewn-14536861-n,i113271,cow-14513259-n,"[""环境情况""]",candidate_only
+vocab-candidate-ec72b9566a9c3501838a,setting,setting,n,oewn-setting__1.26.01..,oewn-14536419-n,i113269,cow-14512817-n,"[""上下文"", ""场合"", ""情况"", ""来龙去脉"", ""环境"", ""背景""]",candidate_only
+vocab-candidate-ee139bd0fd941847bf43,asia,Asia,n,oewn-asia__1.14.00..,oewn-08189776-n,i80097,cow-08172877-n,"[""亚洲国家""]",candidate_only
+vocab-candidate-ee139bd0fd941847bf43,asia,Asia,n,oewn-asia__1.17.00..,oewn-09230176-n,i85019,cow-09207288-n,"[""亚洲""]",candidate_only
+vocab-candidate-ee40e4ea24332b0c6518,antarctica,Antarctica,n,oewn-antarctica__1.17.00..,oewn-09220984-n,i84974,cow-09198106-n,"[""南极洲""]",candidate_only
+vocab-candidate-f0be1f30623191572183,fountain,fountain,n,oewn-fountain__1.06.00..,oewn-03392661-n,i54007,cow-03387815-n,"[""喷泉""]",candidate_only
+vocab-candidate-f0be1f30623191572183,fountain,fountain,n,oewn-fountain__1.06.01..,oewn-03392772-n,i54008,cow-03387926-n,"[""人造喷泉""]",candidate_only
+vocab-candidate-f0be1f30623191572183,fountain,fountain,n,oewn-fountain__1.06.02..,oewn-03392889-n,i54009,cow-03388043-n,"[""人造喷泉""]",candidate_only
+vocab-candidate-f0be1f30623191572183,fountain,fountain,n,oewn-fountain__1.17.00..,oewn-09466357-n,i86235,cow-09443453-n,"[""喷泉"", ""泉"", ""泉水"", ""源泉""]",candidate_only
+vocab-candidate-f1004e926e8eb10e1f6c,nephew,nephew,n,oewn-nephew__1.18.00..,oewn-10373054-n,i91586,cow-10353355-n,"[""侄"", ""侄子"", ""外甥""]",candidate_only
+vocab-candidate-f12e1aedc45deb776350,embarrassed,embarrassed,a,oewn-embarrassed__5.00.00.discomposed.00,oewn-00533833-s,i2975,cow-00531628-a,"[""不好意思"", ""不好意思的"", ""局促不安"", ""局促不安的"", ""窘迫"", ""羞愧"", ""羞愧的""]",candidate_only
+vocab-candidate-f1937e8bf25a4b8c9e6a,confused,confused,a,oewn-confused__3.00.00..,oewn-00437207-a,i2457,cow-00435492-a,"[""困惑"", ""困惑的"", ""糊涂"", ""糊涂的"", ""迷惑"", ""迷惑的""]",candidate_only
+vocab-candidate-f1937e8bf25a4b8c9e6a,confused,confused,a,oewn-confused__5.00.00.perplexed.00,oewn-01770645-s,i9692,cow-01766133-a,"[""惑""]",candidate_only
+vocab-candidate-f1937e8bf25a4b8c9e6a,confused,confused,a,oewn-confused__5.00.00.unoriented.00,oewn-01688793-s,i9225,cow-01684133-a,"[""迷失""]",candidate_only
+vocab-candidate-f1962693b66c092a2acc,stomachache,stomachache,n,oewn-stomachache__1.26.00..,oewn-14350671-n,i112242,cow-14327266-n,"[""肚子痛"", ""胃痛""]",candidate_only
+vocab-candidate-f1fc3326d9fc752b3f71,according,according,a,oewn-according__5.00.00.accordant.00,oewn-00555360-s,i3086,cow-00553140-a,"[""按"", ""按照"", ""据"", ""根据""]",candidate_only
+vocab-candidate-f1fc3326d9fc752b3f71,according,according,a,oewn-according__5.00.00.reported.00,oewn-00473562-s,i2659,cow-00471572-a,"[""依"", ""就"", ""按"", ""按照"", ""据"", ""据闻""]",candidate_only
+vocab-candidate-f2764ee70e739a32a7aa,ping-pong,Ping-Pong,n,oewn-ping-pong__1.04.00..,oewn-00500274-n,i38005,cow-00499263-n,"[""乒乓"", ""乒乓球"", ""桌球""]",candidate_only
+vocab-candidate-f40fd562f63078722310,subscribe,subscribe,v,oewn-subscribe__2.32.02..,oewn-00998530-v,i26564,cow-00996485-v,"[""签名"", ""签字"", ""签署""]",candidate_only
+vocab-candidate-f40fd562f63078722310,subscribe,subscribe,v,oewn-subscribe__2.32.03..,oewn-00807976-v,i25699,cow-00806314-v,"[""同意"", ""支持"", ""认同"", ""赞同""]",candidate_only
+vocab-candidate-f40fd562f63078722310,subscribe,subscribe,v,oewn-subscribe__2.40.00..,oewn-02214527-v,i32797,cow-02209745-v,"[""订阅"", ""认购"", ""预订""]",candidate_only
+vocab-candidate-f40fd562f63078722310,subscribe,subscribe,v,oewn-subscribe__2.40.01..,oewn-02304071-v,i33225,cow-02299110-v,"[""认购""]",candidate_only
+vocab-candidate-f40fd562f63078722310,subscribe,subscribe,v,oewn-subscribe__2.40.04..,oewn-02304230-v,i33226,cow-02299269-v,"[""捐款"", ""捐献""]",candidate_only
+vocab-candidate-f616cb3ccd8df4d931cd,flavour,flavour,n,oewn-flavour__1.09.00..,oewn-05723811-n,i66948,cow-05715864-n,"[""口味"", ""味道"", ""滋味""]",candidate_only
+vocab-candidate-f616cb3ccd8df4d931cd,flavour,flavour,n,oewn-flavour__1.26.00..,oewn-14549784-n,i113340,cow-14526182-n,"[""味"", ""情"", ""情怀"", ""情绪"", ""感觉"", ""气场"", ""气氛"", ""色彩"", ""韵味"", ""风情"", ""风气""]",candidate_only
+vocab-candidate-f616cb3ccd8df4d931cd,flavour,flavour,v,oewn-flavour__2.39.00..,oewn-02196212-v,i32714,cow-02191766-v,"[""加味于"", ""提味""]",candidate_only
+vocab-candidate-f76b61b962db075bb76a,wolf,wolf,n,oewn-wolf__1.05.00..,oewn-02116752-n,i46549,cow-02114100-n,"[""狼""]",candidate_only
+vocab-candidate-f785c3ce1d580c8f22c1,ms,MS,n,oewn-ms__1.26.00..,oewn-14117550-n,i110996,cow-14094068-n,"[""多发性硬化"", ""多发性硬化症""]",candidate_only
+vocab-candidate-f785c3ce1d580c8f22c1,ms,ms,n,oewn-ms__1.10.01..,oewn-06418622-n,i70156,cow-06406979-n,"[""原稿"", ""手稿"", ""草稿""]",candidate_only
+vocab-candidate-f839161355091fcd9e33,used,used,a,oewn-used__3.00.00..,oewn-02504601-a,i13838,cow-02494923-a,"[""使用"", ""使用的"", ""应用"", ""应用的""]",candidate_only
+vocab-candidate-f839161355091fcd9e33,used,used,a,oewn-used__5.00.02.misused.00,oewn-02505376-s,i13843,cow-02495687-a,"[""被利用"", ""被利用的""]",candidate_only
+vocab-candidate-f953f70b9132340e2782,boring,boring,a,oewn-boring__5.00.00.uninteresting.00,oewn-01348155-s,i7331,cow-01345307-a,"[""烦琐""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.31.00..,oewn-00611928-v,i24811,cow-00610374-v,"[""认出"", ""认识""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.31.01..,oewn-00730579-v,i25342,cow-00728617-v,"[""知道"", ""认清""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.31.02..,oewn-00594278-v,i24728,cow-00592883-v,"[""承认"", ""认可""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.32.00..,oewn-00893988-v,i26080,cow-00892467-v,"[""答谢"", ""鸣谢""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.39.01..,oewn-02197640-v,i32720,cow-02193194-v,"[""分清"", ""区别"", ""看清楚"", ""认出"", ""识别"", ""辨别"", ""辨明""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.41.00..,oewn-02480958-v,i34098,cow-02475535-v,"[""承认"", ""认可""]",candidate_only
+vocab-candidate-f97c2c8733f22d355356,recognise,recognise,v,oewn-recognise__2.41.01..,oewn-02552164-v,i34428,cow-02546467-v,"[""承认"", ""认可"", ""赏识""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,a,oewn-centre__3.00.01..,oewn-02039031-a,i11134,cow-02031624-a,"[""中立"", ""中立的""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,n,oewn-centre__1.06.00..,oewn-02997001-n,i51701,cow-02993546-n,"[""中心"", ""馆""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,n,oewn-centre__1.06.13..,oewn-03971750-n,i57445,cow-03965456-n,"[""商场"", ""商城"", ""百货商场"", ""购物中心"", ""购物商场""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,n,oewn-centre__1.09.00..,oewn-05929717-n,i67950,cow-05921123-n,"[""心脏"", ""精髓"", ""要领""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,n,oewn-centre__1.15.00..,oewn-08538999-n,i81833,cow-08521816-n,"[""中心"", ""中心点"", ""中点"", ""正中间""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,n,oewn-centre__1.15.01..,oewn-08540894-n,i81841,cow-08523483-n,"[""中央"", ""中心"", ""中心点"", ""中间"", ""当中""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,v,oewn-centre__2.31.00..,oewn-00724156-v,i25312,cow-00722232-v,"[""全神贯注"", ""集中""]",candidate_only
+vocab-candidate-fa25baee7bacec5c8ca2,centre,centre,v,oewn-centre__2.42.01..,oewn-02682306-v,i35044,cow-02676496-v,"[""围"", ""围绕"", ""集中注意""]",candidate_only
+vocab-candidate-fa3531b78ac7cfc4a0cc,energetic,energetic,a,oewn-energetic__3.00.00..,oewn-00876911-a,i4794,cow-00873603-a,"[""劲"", ""劲爆""]",candidate_only
+vocab-candidate-faebbd710849d7b292e3,apologise,apologise,v,oewn-apologise__2.32.00..,oewn-00894444-v,i26082,cow-00892923-v,"[""认错"", ""谢罪"", ""道歉""]",candidate_only
+vocab-candidate-faebbd710849d7b292e3,apologise,apologise,v,oewn-apologise__2.32.01..,oewn-00896259-v,i26091,cow-00894738-v,"[""辩护"", ""辩解""]",candidate_only
+vocab-candidate-fc261a5e3e3c85a41982,merry,merry,a,oewn-merry__5.00.00.energetic.00,oewn-00877534-s,i4796,cow-00874226-a,"[""敏捷"", ""敏捷的"", ""活泼"", ""活泼的"", ""活跃"", ""活跃的"", ""精力充沛"", ""精力充沛的""]",candidate_only
+vocab-candidate-fc261a5e3e3c85a41982,merry,merry,a,oewn-merry__5.00.01.joyous.00,oewn-01370347-s,i7450,cow-01367431-a,"[""喜庆""]",candidate_only
+vocab-candidate-fc6021af2d4e31f8b731,livestock,livestock,n,oewn-livestock__1.05.00..,oewn-01890115-n,i45231,cow-01887474-n,"[""家畜"", ""牲畜""]",candidate_only
+vocab-candidate-fe41cc968e9814f57a3e,ripe,ripe,a,oewn-ripe__3.00.00..,oewn-01496321-a,i8189,cow-01493173-a,"[""成熟"", ""成熟的"", ""熟"", ""熟的""]",candidate_only
+vocab-candidate-fe41cc968e9814f57a3e,ripe,ripe,a,oewn-ripe__5.00.00.late.00,oewn-00820408-s,i4496,cow-00816839-a,"[""年老"", ""年老的"", ""年高"", ""年高的""]",candidate_only
+vocab-candidate-fe41cc968e9814f57a3e,ripe,ripe,a,oewn-ripe__5.00.00.ready.00,oewn-01938223-s,i10592,cow-01931807-a,"[""成熟"", ""成熟的"", ""时机成熟"", ""时机成熟的""]",candidate_only
+vocab-candidate-ffa63583dfa6706b87d2,missing,missing,a,oewn-missing__5.00.00.lost.01,oewn-01452957-s,i7927,cow-01450178-a,"[""下落不明"", ""去向不明""]",candidate_only
+vocab-candidate-ffa63583dfa6706b87d2,missing,missing,a,oewn-missing__5.00.00.nonexistent.00,oewn-00931073-s,i5084,cow-00927832-a,"[""没有""]",candidate_only

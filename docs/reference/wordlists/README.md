@@ -45,6 +45,14 @@
 
 复现：`python3 tools/content/align_cow_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /path/to/cow-1.1.tar.xz /tmp/etyra-cow-senses.csv`，需要 Python 3.11+。脚本验证两个原始包摘要、OEWN 义项及同义词集引用，仅按非空有效 CILI 匹配并拒绝覆盖已有输出。正式词库须逐义项复核并重新保存许可、署名和修改说明。
 
+## 课标镜像补充词的义项候选
+
+将 OEWN 支持的两份补充候选（`CURRICULUM_GAP_CANDIDATES.csv` 和 `COMPLEX_FORM_CANDIDATES.csv`）同样连接到固定词典版本，得到 [`docs/OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv`](../../OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv)：348 个候选键、1065 条英文义项；其中 [`docs/COW_SUPPLEMENT_SENSE_CANDIDATES.csv`](../../COW_SUPPLEMENT_SENSE_CANDIDATES.csv) 含 272 个候选键、530 条通过 CILI 对照的中文词项候选。两表只包含尚待审核的 `candidate_only` 行，来源、署名、许可和模型辅助筛查限制与上述 OEWN、COW 两节相同。
+
+补充表的 `headword` 是匹配键而非最终展示形式，`oewn_written_form` 保留词典原始拼写。课标镜像本身未经认证，大小写合并或词性歧义可能产生错误义项：例如 `an` 匹配到大写 `AN`、`are` 可匹配名词，这些连接不得视作课标所需义项的证据。每项仍须核对原始词形、词性、语境与权威课标；候选键、义项行或中文关联均不等同正式单词数量。Wiktionary 两份候选未包含在这两张 OEWN 补充表中。
+
+复现：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-supplement-senses.csv --candidate-file docs/CURRICULUM_GAP_CANDIDATES.csv --candidate-file docs/COMPLEX_FORM_CANDIDATES.csv`，然后运行 `python3 tools/content/align_cow_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /path/to/cow-1.1.tar.xz /tmp/etyra-supplement-cow.csv --sense-csv /tmp/etyra-supplement-senses.csv`。输入需为固定摘要版本；两个脚本均拒绝覆盖已存在的输出文件。
+
 ## 高中课标覆盖基准
 
 - [教育部制定的《普通高中英语课程标准（2017 年版 2020 年修订）》](https://www.ictr.edu.cn/Uploads/File/2025/02/07/4.%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%EF%BC%882017%E5%B9%B4%E7%89%882020%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.20250207211247.pdf)由教育部课程教材研究所网站提供，附录 2 称列 3000 词，其中包含义务教育 1500 词、高中必修新增 500 词、选择性必修新增 1000 词；正文不含词性和中文释义。作为已定位的官方历史对照来源，不能据此声称已满足最新版。
