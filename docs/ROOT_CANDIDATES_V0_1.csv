@@ -2,7 +2,7 @@ candidate_id,form_candidate,variant_forms_candidate,status,priority,source_url,s
 RC-001,act,,candidate_only,high,,,,,,,,pending,
 RC-002,aud,,candidate_only,medium,,,,,,,,pending,
 RC-003,bene,,candidate_only,medium,,,,,,,,pending,
-RC-004,bio,,candidate_only,high,,,,,,,,pending,
+RC-004,bio,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English bio- is explicitly treated as a prefix/combining form; see docs/AFFIX_CANDIDATES_V0_1.csv.
 RC-005,cap,,candidate_only,medium,,,,,,,,pending,
 RC-006,ced,,candidate_only,medium,,,,,,,,pending,
 RC-007,cred,,candidate_only,high,,,,,,,,pending,
@@ -12,8 +12,8 @@ RC-010,fac,,candidate_only,high,,,,,,,,pending,
 RC-011,fer,,candidate_only,medium,,,,,,,,pending,
 RC-012,fin,,candidate_only,medium,,,,,,,,pending,
 RC-013,form,,candidate_only,high,,,,,,,,pending,
-RC-014,geo,,candidate_only,high,,,,,,,,pending,
-RC-015,graph,,candidate_only,high,,,,,,,,pending,
+RC-014,geo,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English geo- is explicitly treated as a prefix/combining form; see docs/AFFIX_CANDIDATES_V0_1.csv.
+RC-015,graph,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English -graph is explicitly treated as a suffix; see docs/AFFIX_CANDIDATES_V0_1.csv.
 RC-016,ject,,candidate_only,high,,,,,,,,pending,
 RC-017,leg,,candidate_only,medium,,,,,,,,pending,
 RC-018,log,,candidate_only,medium,,,,,,,,pending,
@@ -22,9 +22,9 @@ RC-020,mit,,candidate_only,high,,,,,,,,pending,
 RC-021,mot,,candidate_only,medium,,,,,,,,pending,
 RC-022,morph,,candidate_only,medium,,,,,,,,pending,
 RC-023,mort,,candidate_only,low,,,,,,,,pending,
-RC-024,micro,,candidate_only,high,,,,,,,,pending,
-RC-025,phon,,candidate_only,high,,,,,,,,pending,
-RC-026,photo,,candidate_only,high,,,,,,,,pending,
+RC-024,micro,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English micro- is explicitly treated as a prefix; see docs/AFFIX_CANDIDATES_V0_1.csv.
+RC-025,phon,,candidate_only,high,,,,,,,,reclassify_affix_candidate_as_phone,For the cited telephone family the relevant English component is -phone; do not equate standalone phone or phon with a root without separate evidence.
+RC-026,photo,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English photo- is explicitly treated as a prefix/combining form; see docs/AFFIX_CANDIDATES_V0_1.csv.
 RC-027,port,"carry sense only; distinguish portus/harbor sense",candidate_only,high,https://en.wiktionary.org/wiki/portable | https://en.wiktionary.org/wiki/port,English Wiktionary pages accessed 2026-11-01,CC BY-SA 4.0 (verify page-level license and imported material),Wiktionary contributors; item-level attribution and change notice required,"portable explicitly analyzes port (“to carry”) + -able; port also has unrelated/other historical senses including portus (“harbor”), so the sense must be disambiguated.",Codex preliminary source triage,2026-11-01,retain_pending_high_school_review,Source supports a candidate carry sense only; no associated product word/definition is approved.
 RC-028,ped,,candidate_only,medium,,,,,,,,pending,
 RC-029,path,,candidate_only,medium,,,,,,,,pending,
@@ -34,7 +34,7 @@ RC-032,script,,candidate_only,high,,,,,,,,pending,
 RC-033,spect,,candidate_only,high,https://en.wiktionary.org/wiki/inspect | https://en.wiktionary.org/wiki/respect,English Wiktionary pages accessed 2026-11-01,CC BY-SA 4.0 (verify page-level license and imported material),Wiktionary contributors; item-level attribution and change notice required,inspect explicitly analyzes in- + -spect from Latin specere; respect traces Latin speciō via respiciō/respectus. Supports a bound-form candidate; each associated word still needs its own source.,Codex preliminary source triage,2026-11-01,retain_pending_high_school_review,Keep as bound root candidate; do not treat spec/spect spelling as interchangeable without evidence.
 RC-034,struct,,candidate_only,high,https://en.wiktionary.org/wiki/structure,English Wiktionary page accessed 2026-11-01,CC BY-SA 4.0 (verify page-level license and imported material),Wiktionary contributors; item-level attribution and change notice required,"structure traces Latin structūra to stru(ere) and structus; this supports considering struct as a bound form/allomorph, not a free-standing English word root without further morphology review.",Codex preliminary source triage,2026-11-01,retain_pending_morphology_and_high_school_review,Verify each proposed association and decide whether the content model can represent the stem family clearly.
 RC-035,tact,,candidate_only,medium,,,,,,,,pending,
-RC-036,tele,,candidate_only,high,,,,,,,,pending,
+RC-036,tele,,candidate_only,high,,,,,,,,reclassify_affix_candidate,English tele- is explicitly treated as a prefix in telephone; see docs/AFFIX_CANDIDATES_V0_1.csv.
 RC-037,ten,,candidate_only,medium,,,,,,,,pending,
 RC-038,therm,,candidate_only,medium,,,,,,,,pending,
 RC-039,tract,,candidate_only,high,,,,,,,,pending,
@@ -47,5 +47,5 @@ RC-045,gram,,candidate_only,medium,,,,,,,,pending,
 RC-046,hydr,,candidate_only,medium,,,,,,,,pending,
 RC-047,migr,,candidate_only,medium,,,,,,,,pending,
 RC-048,psych,,candidate_only,medium,,,,,,,,pending,
-RC-049,scope,,candidate_only,medium,,,,,,,,pending,
+RC-049,scope,,candidate_only,medium,,,,,,,,reclassify_affix_candidate_as_scope_suffix,The morphological candidate is -scope; see docs/AFFIX_CANDIDATES_V0_1.csv.
 RC-050,vis,,candidate_only,high,,,,,,,,pending,
