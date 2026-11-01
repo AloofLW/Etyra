@@ -31,6 +31,16 @@
 
 复现：`python3 tools/content/index_oewn_form_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-forms.csv`，脚本校验与此前 OEWN 索引相同的归档摘要并拒绝覆盖输出。OEWN 词条来源及许可要求见下文，任何释义或翻译入库前须独立审核。
 
+### 补充虚词的英文义项线索
+
+2026-11-01 获取 [Kaikki English](https://kaikki.org/dictionary/English/index.html) 的五份按词性分类的 Wiktextract 后处理数据，以忽略大小写的拼写键匹配上述 77 个 OEWN 词头未命中候选，提取有英文 gloss 的义项至 [`docs/KAIKKI_FUNCTION_SENSE_CANDIDATES.csv`](../../KAIKKI_FUNCTION_SENSE_CANDIDATES.csv)：64 个候选、450 条义项，包括介词 202、代词 116、连词 90、限定词 28、冠词 14 条。保留来源拼写、词性、来源 sense ID、英文 gloss、标签和对应 Wiktionary 页面；未提取例句、发音、中文翻译或词源。结果是未经人工审校的全部匹配义项，不代表高中语境、现代常用义、中文释义或关系已核实。词典可能包含古旧、地区和变体义项，必须连同标签和原始页面检查；忽略大小写也可能错误关联。
+
+剩余 13 个未获本批候选的词是 `café`、`could`、`criteria`、`founded`、`goods`、`hey`、`media`、`multi`、`shall`、`should`、`trans`、`whereby`、`would`；这里只检查五种词性，不表示原词典缺少这些词或该词没有其他词性，前述 `criteria`、`media` 已有 OEWN Form 线索。
+
+来源文件依次为 [article](https://kaikki.org/dictionary/English/pos-article/kaikki.org-dictionary-English-by-pos-article.jsonl.gz)、[conj](https://kaikki.org/dictionary/English/pos-conj/kaikki.org-dictionary-English-by-pos-conj.jsonl.gz)、[det](https://kaikki.org/dictionary/English/pos-det/kaikki.org-dictionary-English-by-pos-det.jsonl.gz)、[prep](https://kaikki.org/dictionary/English/pos-prep/kaikki.org-dictionary-English-by-pos-prep.jsonl.gz)、[pron](https://kaikki.org/dictionary/English/pos-pron/kaikki.org-dictionary-English-by-pos-pron.jsonl.gz)；快照 SHA-256 分别为 `d42ba9fce9ec018bdc606dd1948eb2d4ce7209af5205967f60188ff758a54d92`、`90417a911907ff580f588c7a41846647fc055c930ead96638cb40bb00a29fe11`、`1950b79784a27d931e62bddabe7a5111d86df57af72a22bc3a0b2fc77b9b8a1b`、`a995558554ea0b3e59003925f6aa8ea8a50089da05d3bfff0daaab2f266dddc6`、`38d5dcad952274fa2d3284cb0580f25fdea461007e76980e362dbea475ca9ac2`。站点文件会更新，这些固定摘要是本次依据，源文件未提交仓库。复现：将上述文件分别命名 `etyra-kaikki-词性.jsonl.gz` 并放入同一目录，执行 `python3 tools/content/extract_kaikki_function_candidates.py /path/to/directory /tmp/etyra-function-senses.csv`；脚本检查全部摘要并拒绝覆盖已有输出。
+
+来源为 Wiktionary contributors 经 Tatu Ylonen 的 Wiktextract/Kaikki 处理的数据；本表筛选候选并保留原始 gloss 与标签，是其改编。Kaikki [许可说明](https://kaikki.org/dictionary/index.html)指出数据依据 Wiktionary 的 CC BY-SA 与 GFDL 许可发布；使用须遵守 [Wiktionary 版权和署名条款](https://en.wiktionary.org/wiki/Wiktionary:Copyrights)、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 及所选许可的适用要求，保留页面及其历史、版权归属、许可链接和修改说明。Kaikki 后处理还可能合并其他来源；最终分发前应逐项确认附加来源和许可，不能仅凭本表标记内容可用于产品。学术引用参见 Tatu Ylonen, *Wiktextract: Wiktionary as Machine-Readable Structured Data* (LREC 2022)。
+
 本索引基于 Open English WordNet 2024 和 Princeton WordNet 改编：提取词条标识、词性与义项数量，关联 Etyra 候选拼写，不含 OEWN 释义正文。OEWN 团队与 Princeton WordNet 均须署名；OEWN 为 CC BY 4.0，底层 Princeton WordNet 条款及免责声明同时适用。保留发布版本的原始 [OEWN 许可](OEWN-2024-LICENSE.md) 和 [WordNet 条款](OEWN-2024-WNDB-license.txt)。合并候选本身还受上节所述 CC BY-SA 4.0 条件约束；内容与应用代码分别管理。
 
 输入文件为发行版 XML gzip，下载地址 `https://github.com/globalwordnet/english-wordnet/releases/download/2024-edition/english-wordnet-2024.xml.gz`，SHA-256 `e1f633b0a93758cae34ea27c44c4dad310a8af2467b155f99dd6673af697e875`。运行 `python3 tools/content/index_oewn_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-index.csv` 可复现；脚本校验摘要且拒绝覆盖输出，需要 Python 3.11 及以上。原始词典体积较大，未放入项目；后续正式内容包须再次保留适用许可和署名。
