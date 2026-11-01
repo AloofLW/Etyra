@@ -67,7 +67,7 @@
 
 复现：按快照清单的 URL 下载并将每份文件命名为 `candidate_id.jsonl`，运行 `python3 tools/content/extract_kaikki_gap_translations.py /path/to/snapshots /tmp/etyra-gap-translations.csv`；脚本核验文件摘要、词条及候选 ID，拒绝覆盖输出。源数据及译文使用适用前述 Wiktionary/Kaikki 署名及许可条件，快照原文不提交仓库。
 
-[`docs/CURATED_GAP_TRANSLATION_PILOT.csv`](../../CURATED_GAP_TRANSLATION_PILOT.csv) 对 31 个候选分别选择一条英文 gloss 和含对应语境说明的中文翻译线索，记录编辑中文草稿及用法范围。选择关联是编辑判断而不是来源提供的 sense ID，仍须复核所选语义、中文措辞、课标及许可；每词只覆盖所选义项。来源单词 JSONL 无可用 sense ID 时保留原 gloss 和标签定位，不能据此生成词根关联。
+[`docs/CURATED_GAP_TRANSLATION_PILOT.csv`](../../CURATED_GAP_TRANSLATION_PILOT.csv) 对 45 个候选分别选择一条英文 gloss 和含对应语境说明的中文翻译线索，记录编辑中文草稿及用法范围。选择关联是编辑判断而不是来源提供的 sense ID，仍须复核所选语义、中文措辞、课标及许可；每词只覆盖所选义项。来源单词 JSONL 无可用 sense ID 时保留原 gloss 和标签定位，不能据此生成词根关联。`somehow`、`prior` 的已有中文线索与候选义项存在词义或词性细节差异，暂不加入草稿，须进一步核对。
 
 此前未找到英文 gloss 的 13 个主候选现从 Kaikki 单词页固定快照取得 101 条义项线索，见 [`docs/KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv`](../../KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv)。其中 `criteria`、`founded` 等包含词形义，应回到原形及所需语境核对；`multi` 和 `trans` 的单词页面所含词性不等同词缀 `multi-` 和 `trans-`，不能据此为词缀生成释义或词根关系。数据保留词性、标签、英文 gloss、源页面和 sense ID，未收例句；所有义项未审校。适用上述 Kaikki/Wiktionary 来源、署名及许可条件。各单词快照的顺序和 SHA-256 记录在 `tools/content/extract_kaikki_main_gap_words.py`；将快照按 0–12 命名放入目录后，运行 `python3 tools/content/extract_kaikki_main_gap_words.py /path/to/snapshots /tmp/etyra-main-gap-senses.csv` 可复现，源文件不提交仓库。
 
