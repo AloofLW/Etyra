@@ -30,6 +30,7 @@ def main():
         "oewn_senses": count("OEWN_SENSE_CANDIDATES.csv"),
         "cow_sense_links": count("COW_SENSE_CANDIDATES.csv"),
         "kaikki_function_senses": count("KAIKKI_FUNCTION_SENSE_CANDIDATES.csv"),
+        "kaikki_case_senses": count("KAIKKI_HE_SENSE_CANDIDATES.csv"),
         "kaikki_gap_senses": count("KAIKKI_MAIN_GAP_SENSE_CANDIDATES.csv"),
         "kaikki_translation_clues": collections.Counter(row["candidate_id"] for row in read("KAIKKI_TRANSLATION_CANDIDATES.csv") if row["inventory"] == "main"),
         "kaikki_gap_translation_clues": count("KAIKKI_CHINESE_GAP_TRANSLATIONS.csv"),
@@ -44,6 +45,9 @@ def main():
         if name != "word_drafts" and set(values) - ids:
             raise ValueError(f"Unknown main candidate ID in {name}")
     revisions = read("WIKTIONARY_BULK_SOURCE_INDEX.csv")
+    case_review = {row["candidate_id"] for row in read("COW_CASE_REVIEW.csv")}
+    if case_review - ids:
+        raise ValueError("Unknown case-review candidate ID")
     revisions_by_id = {row["candidate_id"]: row for row in revisions}
     if len(revisions_by_id) != len(revisions) or set(revisions_by_id) - ids:
         raise ValueError("Invalid or duplicated source revision candidate ID")
@@ -56,13 +60,15 @@ def main():
             candidate_id = row["candidate_id"]
             counts = [sources[name][candidate_id] for name in columns]
             flags = []
-            if not (sources["oewn_senses"][candidate_id] or sources["kaikki_function_senses"][candidate_id] or sources["kaikki_gap_senses"][candidate_id]):
+            if not (sources["oewn_senses"][candidate_id] or sources["kaikki_function_senses"][candidate_id] or sources["kaikki_case_senses"][candidate_id] or sources["kaikki_gap_senses"][candidate_id]):
                 flags.append("english_sense_clue_needed")
             if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id] or sources["main_gap_drafts"][candidate_id] or sources["translation_drafts"][candidate_id] or sources["kaikki_translation_clues"][candidate_id] or sources["kaikki_gap_translation_clues"][candidate_id]):
                 flags.append("chinese_sense_clue_needed")
             if (sources["oewn_senses"][candidate_id] + sources["kaikki_function_senses"][candidate_id]
-                    + sources["kaikki_gap_senses"][candidate_id]) > 1:
+                    + sources["kaikki_case_senses"][candidate_id] + sources["kaikki_gap_senses"][candidate_id]) > 1:
                 flags.append("sense_selection_needed")
+            if candidate_id in case_review:
+                flags.append("cow_case_mismatch_review_needed")
             flags.extend(("curriculum_review_needed", "license_review_needed"))
             source_status = revisions_by_id.get(candidate_id, {}).get("status", "not_indexed")
             writer.writerow([candidate_id, row["headword"], row["source_ids"], *counts,

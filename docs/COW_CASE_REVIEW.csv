@@ -1,0 +1,7 @@
+candidate_id,headword,oewn_forms,cow_sense_rows,status
+vocab-candidate-0ebdc3317b75839f6433,hell,Hell,1,case_mismatch_needs_review
+vocab-candidate-372f7e2fd2d01ce2a1d7,he,He,1,case_mismatch_needs_review
+vocab-candidate-abf2fe03b8972cae7fb0,scripture,Scripture,1,case_mismatch_needs_review
+vocab-candidate-b5bea41b6c623f7c09f1,TRUE,true,5,case_mismatch_needs_review
+vocab-candidate-d3986ad4c179b5809a04,reconstruction,Reconstruction,1,case_mismatch_needs_review
+vocab-candidate-fcbcf165908dd18a9e49,FALSE,false,5,case_mismatch_needs_review

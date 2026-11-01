@@ -49,7 +49,7 @@
 
 来源为 Wiktionary contributors 经 Tatu Ylonen 的 Wiktextract/Kaikki 处理的数据；本表筛选候选并保留原始 gloss 与标签，是其改编。Kaikki [许可说明](https://kaikki.org/dictionary/index.html)指出数据依据 Wiktionary 的 CC BY-SA 与 GFDL 许可发布；使用须遵守 [Wiktionary 版权和署名条款](https://en.wiktionary.org/wiki/Wiktionary:Copyrights)、[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 及所选许可的适用要求，保留页面及其历史、版权归属、许可链接和修改说明。Kaikki 后处理还可能合并其他来源；最终分发前应逐项确认附加来源和许可，不能仅凭本表标记内容可用于产品。学术引用参见 Tatu Ylonen, *Wiktextract: Wiktionary as Machine-Readable Structured Data* (LREC 2022)。
 
-[`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选中选取 27 条常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。所选义项不能当作该词全部用法。
+[`docs/CURATED_FUNCTION_WORD_PILOT.csv`](../../CURATED_FUNCTION_WORD_PILOT.csv) 从上述候选及 `he` 补充来源中选取 28 条常用义项，附上编辑编写的中文释义草稿和用法范围；每条保留原始英文 gloss、sense ID 和来源页面。中文文字是编辑草稿，不是来源词典提供或人工专家验收的译文；选义、中文表达、课标适用性及来源许可均须复核后才可用于产品。所选义项不能当作该词全部用法。
 
 对 27 个缺少 OEWN 义项的补充候选，以相同 Kaikki 五类词性快照及忽略大小写的精确拼写匹配，另提取 [`docs/KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv`](../../KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv)：20 个候选、96 条英文义项。`chopsticks`、`has`、`app`、`per cent`、`o’clock`、`wi-fi`、`ought to` 未在这五类中得到精确匹配的 gloss，并不代表词典无对应条目；例如 `o’clock` 的弯引号与来源词形 `o'clock` 不同，未自动归并。来源、改编和许可条件同上，全部待审。复现：使用上述相同的固定快照目录运行 `python3 tools/content/extract_kaikki_function_candidates.py /path/to/directory /tmp/etyra-supplement-function.csv --supplement`。
 
@@ -59,7 +59,7 @@
 
 [`docs/CURATED_SUPPLEMENT_FUNCTION_PILOT.csv`](../../CURATED_SUPPLEMENT_FUNCTION_PILOT.csv) 从补充候选中选出 15 个词的 17 条义项并编写中文及用法草稿，保留原始 gloss、词性、sense ID 和页面；这些是待复核的编辑草稿，不代表包含该词所有用法，也不能当作课标词义或正式译文。后续须复核代词的指代范围、单复数、语境和许可。
 
-来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 27 条编辑草稿均未使用该重复 ID。
+来源数据的 sense ID 并非总能唯一标识义项：本批 `en-of-en-prep-en:possession1` 对应两个不同 gloss。检索或引用时须同时核对词头、词性和原始 gloss，不能单靠 sense ID 合并或覆盖记录；当前 28 条编辑草稿均未使用该重复 ID。
 
 从上述已固定的五种词性和 20 个单词 JSONL 快照提取简体/繁体中文及普通话翻译线索，形成 [`docs/KAIKKI_TRANSLATION_CANDIDATES.csv`](../../KAIKKI_TRANSLATION_CANDIDATES.csv)：33 个候选共 118 行，保留原文、来源词性、来源提供的义项说明和快照编号。该表可能包含繁简并列写法、专用或地区用法，原文不自动拆分；来源 `sense` 字段只是翻译框标签，不是已验证的 sense ID，绝不能自动将翻译与任一英文义项配对。译文、来源和许可均须逐条复核。数据来源、署名和许可适用本节 Wiktionary/Kaikki 条件。复现：`python3 tools/content/extract_kaikki_translation_candidates.py /path/to/pos-snapshots /path/to/main-snapshots /path/to/supplement-snapshots /tmp/etyra-translations.csv`；脚本校验此前各节记录的全部快照摘要，拒绝覆盖输出。
 
@@ -86,6 +86,10 @@
 [`docs/COW_SENSE_CANDIDATES.csv`](../../COW_SENSE_CANDIDATES.csv) 以已保存的 OEWN 英文义项为基础，通过英文与中文词网各自明确给出的 CILI 标识连接 [Chinese Open Wordnet 1.1](https://bond-lab.github.io/cow/) 词义集合，提取该集合的中文词项。得到 15135 行候选义项，涉及 4819 个英文候选键。每行保留 OEWN 词条原始大小写、词性、sense/synset ID、CILI、COW synset ID 和中文词项数组；没有提取拼音或例句。一个义项可能对应多个中文表达，排列不代表优先级。
 
 同一个 CILI 标识是跨词网的关联线索，不保证两种语言用法、搭配或语域完全一致。COW 发布方说明其内容仍可能有错误；COW 1.1 也包含经过模型辅助筛查的数据，不能视作逐项人工认证。该表全部为 `candidate_only`，选义、简体展示、词性、中文表达和高中适用性必须审核；部分不适合直译，部分候选词没有对应项。OEWN 本身没有词源证据，不能从此表推导词根关系。
+
+大小写审计发现 6 个候选的 COW 线索全部来自与候选展示拼写大小写不同的 OEWN 词形，记录在 [`docs/COW_CASE_REVIEW.csv`](../../COW_CASE_REVIEW.csv)，并在主审核队列标为 `cow_case_mismatch_review_needed`。其中候选 `he` 关联的 `He` 是化学元素氦，不是常用主格代词；不能把“氦”当成 `he` 的代词释义。`Hell`、`Scripture`、`Reconstruction` 的专有含义，以及 `TRUE`/`FALSE` 与小写形式的关系也须按语境检查；大小写差异本身不证明每条线索错误。复现：`python3 tools/content/audit_cow_case_mismatches.py /tmp/etyra-cow-case-review.csv`。
+
+为补齐 `he` 的代词线索，使用此前固定的 Kaikki 五类词性快照额外提取 [`docs/KAIKKI_HE_SENSE_CANDIDATES.csv`](../../KAIKKI_HE_SENSE_CANDIDATES.csv)；保留原词形、标签和所有匹配义项，并在虚词草稿中加入一条有来源的主格代词义。大小写归并可能同时匹配其他形式，具体词义、标签、翻译及许可仍须审核。复现：`python3 tools/content/extract_kaikki_function_candidates.py /path/to/snapshots /tmp/etyra-he-senses.csv --headword he`。
 
 来源：[COW 1.1 发行包](https://github.com/bond-lab/cow/releases/tag/v1.1)，SHA-256 `93e9357dda50a38ce626904c2229479afa177df74d9c504aebfeba06ff2f241e`；许可证全文为 [COW-1.1-LICENSE.txt](COW-1.1-LICENSE.txt)，要求保留版权声明及免责声明。署名 Chinese Open Wordnet 的 Francis Bond、Shan Wang、Luís Morgado da Costa 及相应版权年度，完整内容见许可证；同时保留 OEWN 与 Princeton WordNet 的来源和许可，以及原词表的 CC BY-SA 4.0 要求。本表是基于这些来源的筛选与跨词网关联；未修改原始中文词形。原始大型词典包不随仓库提交。
 
