@@ -72,7 +72,8 @@ abstract final class FixtureTypography {
           fontWeight: bodyWeight,
         ),
         tabLabelTextStyle: text.tabLabelTextStyle.copyWith(
-          fontWeight: bodyWeight,
+          fontSize: 13,
+          fontWeight: headingWeight,
         ),
       ),
     );

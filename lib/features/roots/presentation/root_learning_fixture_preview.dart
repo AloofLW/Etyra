@@ -9,40 +9,45 @@ class RootLearningFixturePreview extends StatelessWidget {
   const RootLearningFixturePreview({super.key});
 
   @override
-  Widget build(BuildContext context) => CupertinoTheme(
-    data: FixtureTypography.theme(context),
-    child: CupertinoTabScaffold(
-      tabBar: CupertinoTabBar(
-        backgroundColor: FixtureTokens.background(context),
-        activeColor: FixtureTokens.accent(context),
-        inactiveColor: FixtureTokens.secondary(context),
-        items: const [
-          BottomNavigationBarItem(
-            icon: _TabIcon(_TabSymbol.study),
-            label: '学习',
-          ),
-          BottomNavigationBarItem(
-            icon: _TabIcon(_TabSymbol.roots),
-            label: '词根',
-          ),
-          BottomNavigationBarItem(
-            icon: _TabIcon(_TabSymbol.words),
-            label: '单词',
-          ),
-          BottomNavigationBarItem(
-            icon: _TabIcon(_TabSymbol.settings),
-            label: '设置',
-          ),
-        ],
+  Widget build(BuildContext context) {
+    return CupertinoTheme(
+      data: FixtureTypography.theme(context),
+      child: CupertinoTabScaffold(
+        tabBar: CupertinoTabBar(
+          backgroundColor: FixtureTokens.background(context),
+          activeColor: FixtureTokens.accent(context),
+          inactiveColor: FixtureTokens.secondary(context),
+          iconSize: 26,
+          height: 58,
+          border: const Border(top: BorderSide.none),
+          items: const [
+            BottomNavigationBarItem(
+              icon: _TabIcon(_TabSymbol.study),
+              label: '学习',
+            ),
+            BottomNavigationBarItem(
+              icon: _TabIcon(_TabSymbol.roots),
+              label: '词根',
+            ),
+            BottomNavigationBarItem(
+              icon: _TabIcon(_TabSymbol.words),
+              label: '单词',
+            ),
+            BottomNavigationBarItem(
+              icon: _TabIcon(_TabSymbol.settings),
+              label: '设置',
+            ),
+          ],
+        ),
+        tabBuilder: (context, index) => switch (index) {
+          0 => const _LearnerHome(),
+          1 => const RootFixtureListPage(),
+          2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
+          _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
+        },
       ),
-      tabBuilder: (context, index) => switch (index) {
-        0 => const _LearnerHome(),
-        1 => const RootFixtureListPage(),
-        2 => const _UnavailablePage(title: '单词', message: '单词浏览尚未接入。'),
-        _ => const _UnavailablePage(title: '设置', message: '设置功能尚未接入。'),
-      },
-    ),
-  );
+    );
+  }
 }
 
 enum _TabSymbol { study, roots, words, settings }
@@ -55,7 +60,7 @@ class _TabIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ExcludeSemantics(
     child: CustomPaint(
-      size: const Size(24, 24),
+      size: const Size(26, 26),
       painter: _TabIconPainter(symbol, IconTheme.of(context).color!),
     ),
   );
@@ -73,7 +78,7 @@ class _TabIconPainter extends CustomPainter {
     final line = Paint()
       ..color = color
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 1.7
+      ..strokeWidth = 2.0
       ..strokeCap = StrokeCap.round
       ..strokeJoin = StrokeJoin.round;
     switch (symbol) {

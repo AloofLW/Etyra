@@ -43,3 +43,14 @@ Repository 是 domain 定义的抽象，返回领域模型或不可变结果，�
 - `DriftContentRepository` 提供读取实现；`DriftLearningStateRepository` 提供只读状态映射。`DriftStudyRepository` 使用现有 v1 Schema：开始会话在事务中持久化有序卡片快照；答题或跳过在同一事务内写日志、计数和结束状态，非跳过答题同步学习状态。重复/乱序提交返回 Conflict；SQLite 暂时锁定时有限重试整个事务，超过重试上限返回 Storage。
 - 学习阶段按 ADR-014，完成/放弃按 ADR-015；未知已存学习阶段或会话/内容枚举返回 Unsupported 并保留原值。v0.1 写入不触及 FSRS 字段或到期时间。现有消费契约没有按 session ID 恢复当前卡片的查询方法；重启后已有会话与卡片快照保留，但跨重启恢复 UI 需要单独确定契约。
 - 本轮未开放任意 `upsertState`、设置、备份、FSRS 调度和到期列表接口；这些不属于冻结的 v0.1 前端命令。
+
+## 后续离线导入导出契约规划（未冻结 Dart 签名）
+
+具体类型在 v0.2/v1.0 开工前分别补入共享消费契约；以下只冻结职责边界和语义：
+
+- v0.2 `ProgressBackupService`：`exportProgress(destination)` 生成用户显式保存的版本化备份；`inspectProgressBackup(source)` 只读解析并返回兼容性、日期、记录数、缺失内容和冲突摘要；`importProgressBackup(source, previewToken)` 仅应用已预检的同一文件，并返回 inserted/skipped/restored counts。
+- v0.2 导入默认为幂等合并，不开放全量替换。preview token 必须绑定文件摘要，避免确认另一份文件；摘要失效或文件变化须重新预检。前端消费 `BackupPreview` 和 `ImportSummary`，不读取 payload DTO。
+- v1.0 `VocabularyPackageService`：`inspectPackage(source)` 返回 manifest、来源/许可状态、兼容性及新增/修改/退役计数；`applyPackage(source, previewToken)` 在确认后原子应用并返回导入结果。内容 Repository 仍提供只读查询；导入写入专用 application 命令，不开放任意 UI upsert。
+- 文件解析/编码、摘要算法和 package DTO 属 data 层；事务/导入收据属 database/data；状态和展示模型属 domain/application；文件选择器、预览和确认 UI 属 presentation。
+- `unsupported`、`validation`、`conflict`、`storage` 错误通过现有 Result 错误边界映射；损坏文件/格式错误不得泄露底层解析异常或 SQL。
+- 不执行部分导入。词库导入只能更改内容包拥有的内容记录；进度备份导入只能更改用户数据范围。

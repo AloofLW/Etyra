@@ -26,7 +26,8 @@ lib/
     words/                     # 同上
     study/                     # 学习流程与学习状态
     review/                    # v0.2 FSRS、计划、统计
-    settings/                  # 设置、备份恢复
+    settings/                  # 设置、学习进度备份/恢复
+    content_packages/          # v1.0 手动词库包校验、预览和更新
   database/
     tables/                    # Drift 表定义
     app_database.dart
@@ -47,6 +48,9 @@ assets/
 - `study`：学习队列、卡片呈现、答题结果和学习状态更新。
 - `review`：v0.1 仅提供预留接口；v0.2 接入已验证 FSRS。
 - `settings`：用户偏好、数据导入导出和版本信息。
+- `settings` 的学习备份只序列化用户数据；`content_packages` 只负责词库内容包。两者可共用系统文件访问能力，但必须使用独立的数据格式、预检和写入边界。
+- 导入由 application 编排：选取文件 → 解析与预检 → 展示摘要 → 用户确认 → database transaction → 结果摘要。Presentation 仅消费不可变预检结果/命令状态；文件格式、SQL 和 Drift 留在 data/database。
+- 所有导入遵循“先验证、后写入、单事务提交”。无法识别的版本或记录冲突应返回稳定领域错误，不能部分导入或静默丢弃。
 
 ## 状态与错误
 
