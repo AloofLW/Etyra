@@ -23,7 +23,7 @@
 
 合并清单基于 Browne、Culligan 的 NGSL-GR 1.0 与 Browne、Culligan、Phillips 的 NAWL 1.2 改编，采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)；各来源名称、链接和署名见本页对应章节。改动包括提取单词、大小写归并、排序、记录来源及生成候选 ID；原始来源文件保持不变。复现：`python3 tools/content/build_candidate_inventory.py /tmp/etyra-candidates.csv`；脚本校验两个来源的 SHA-256，拒绝覆盖已存在输出。
 
-[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、430 个缺少中文线索、4622 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
+[`docs/VOCABULARY_REVIEW_QUEUE.csv`](../../VOCABULARY_REVIEW_QUEUE.csv) 对主清单的 5342 个候选按 ID 汇总现有 OEWN 英文义项数、COW 中文线索数、Kaikki 义项和翻译线索数、OEWN Form 线索数、各类编辑草稿数和部分 Wiktionary 定位状态，供逐项分诊；数据仍是 `candidate_only`。当前每个候选均有英文义项线索、430 个缺少中文线索、4623 个存在多个英文义项待选择；以上数字反映本仓库已收集的数据，并不保证现有线索正确、适合高中或包含所需的义项。所有项均需课程和许可审核；`not_indexed` 仅表示未纳入此前那批词源页面索引，不代表没有词源资料。数量按义项行统计，不等同正式词条数，COW 对齐、翻译线索和中文草稿均非已验收释义。
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
@@ -87,9 +87,11 @@
 
 同一个 CILI 标识是跨词网的关联线索，不保证两种语言用法、搭配或语域完全一致。COW 发布方说明其内容仍可能有错误；COW 1.1 也包含经过模型辅助筛查的数据，不能视作逐项人工认证。该表全部为 `candidate_only`，选义、简体展示、词性、中文表达和高中适用性必须审核；部分不适合直译，部分候选词没有对应项。OEWN 本身没有词源证据，不能从此表推导词根关系。
 
-大小写审计发现 6 个候选的 COW 线索全部来自与候选展示拼写大小写不同的 OEWN 词形，记录在 [`docs/COW_CASE_REVIEW.csv`](../../COW_CASE_REVIEW.csv)，并在主审核队列标为 `cow_case_mismatch_review_needed`。其中候选 `he` 关联的 `He` 是化学元素氦，不是常用主格代词；不能把“氦”当成 `he` 的代词释义。`Hell`、`Scripture`、`Reconstruction` 的专有含义，以及 `TRUE`/`FALSE` 与小写形式的关系也须按语境检查；大小写差异本身不证明每条线索错误。复现：`python3 tools/content/audit_cow_case_mismatches.py /tmp/etyra-cow-case-review.csv`。
+大小写审计发现 62 个候选至少一条 COW 线索来自大小写不同的 OEWN 词形，其中 6 个的线索全部如此；83 条大小写不一致的义项行及对应候选汇总在 [`docs/COW_CASE_REVIEW.csv`](../../COW_CASE_REVIEW.csv)，主审核队列标为 `cow_case_mismatch_review_needed`。其中 `he` 关联的 `He` 是化学元素氦，不是常用主格代词；`a` 的大写 `A` 可表示字母或单位，也不能直接当作冠词释义。`in`/`In`、`as`/`As`、`at`/`At` 等还可能涉及化学元素。`Hell`、`Scripture`、`Reconstruction` 的专有含义，以及 `TRUE`/`FALSE` 与小写形式的关系也须按语境检查；大小写差异本身不证明每条线索错误。复现：`python3 tools/content/audit_cow_case_mismatches.py /tmp/etyra-cow-case-review.csv`。
 
 为补齐 `he` 的代词线索，使用此前固定的 Kaikki 五类词性快照额外提取 [`docs/KAIKKI_HE_SENSE_CANDIDATES.csv`](../../KAIKKI_HE_SENSE_CANDIDATES.csv)；保留原词形、标签和所有匹配义项，并在虚词草稿中加入一条有来源的主格代词义。大小写归并可能同时匹配其他形式，具体词义、标签、翻译及许可仍须审核。复现：`python3 tools/content/extract_kaikki_function_candidates.py /path/to/snapshots /tmp/etyra-he-senses.csv --headword he`。
+
+另外从同一固定快照为高频 `a`、`I`、`in`、`at`、`as`、`it`、`or` 获取 [`docs/KAIKKI_COMMON_CASE_SENSE_CANDIDATES.csv`](../../KAIKKI_COMMON_CASE_SENSE_CANDIDATES.csv) 中 112 条词性线索，以便与 OEWN 中可能出现的字母、化学元素或缩写义区分；不自动选义，大小写、词性、语境和来源许可仍须逐条核验。主队列额外标记 `function_word_sense_review_needed`。复现：`python3 tools/content/extract_kaikki_function_candidates.py /path/to/snapshots /tmp/etyra-common-case.csv --headword a --headword I --headword in --headword at --headword as --headword it --headword or`。
 
 来源：[COW 1.1 发行包](https://github.com/bond-lab/cow/releases/tag/v1.1)，SHA-256 `93e9357dda50a38ce626904c2229479afa177df74d9c504aebfeba06ff2f241e`；许可证全文为 [COW-1.1-LICENSE.txt](COW-1.1-LICENSE.txt)，要求保留版权声明及免责声明。署名 Chinese Open Wordnet 的 Francis Bond、Shan Wang、Luís Morgado da Costa 及相应版权年度，完整内容见许可证；同时保留 OEWN 与 Princeton WordNet 的来源和许可，以及原词表的 CC BY-SA 4.0 要求。本表是基于这些来源的筛选与跨词网关联；未修改原始中文词形。原始大型词典包不随仓库提交。
 

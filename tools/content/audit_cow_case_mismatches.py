@@ -16,15 +16,16 @@ def main():
         grouped[row["candidate_id"]].append(row)
     with args.output.open("x", encoding="utf8", newline="") as output:
         writer = csv.writer(output, lineterminator="\n")
-        writer.writerow(("candidate_id", "headword", "oewn_forms", "cow_sense_rows", "status"))
+        writer.writerow(("candidate_id", "headword", "mismatched_forms", "mismatched_sense_rows", "exact_sense_rows", "status"))
         for candidate_id, values in sorted(grouped.items()):
             words = {item["headword"] for item in values}
             if len(words) != 1:
                 raise ValueError(f"Inconsistent headword: {candidate_id}")
             word = next(iter(words))
-            forms = {item["oewn_written_form"] for item in values}
-            if word not in forms:
-                writer.writerow((candidate_id, word, "|".join(sorted(forms)), len(values), "case_mismatch_needs_review"))
+            mismatch = [item for item in values if item["oewn_written_form"] != word]
+            if mismatch:
+                forms = {item["oewn_written_form"] for item in mismatch}
+                writer.writerow((candidate_id, word, "|".join(sorted(forms)), len(mismatch), len(values) - len(mismatch), "case_mismatch_needs_review"))
     print("Case mismatches are review signals, not proof of incorrect meaning.")
 
 

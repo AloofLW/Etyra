@@ -23,17 +23,19 @@ def main():
     parser.add_argument("directory", type=Path, help="Directory containing etyra-kaikki-POS.jsonl.gz snapshots")
     parser.add_argument("output", type=Path)
     parser.add_argument("--supplement", action="store_true", help="Use the two Wiktionary supplement candidate inventories")
-    parser.add_argument("--headword", help="Extract one exact main-inventory headword for manual ambiguity review")
+    parser.add_argument("--headword", action="append", help="Extract exact main-inventory headwords for manual ambiguity review; repeatable")
     args = parser.parse_args()
     candidates = {}
     if args.supplement and args.headword:
         parser.error("Choose supplement or one headword, not both")
     if args.headword:
         with (ROOT / "docs/VOCABULARY_CANDIDATES.csv").open(encoding="utf-8", newline="") as source:
-            selected = [row for row in csv.DictReader(source) if row["headword"] == args.headword]
-        if len(selected) != 1:
-            raise ValueError("Headword must match exactly one main-inventory row")
-        candidates[args.headword.casefold()] = selected[0]
+            inventory = list(csv.DictReader(source))
+        for word in args.headword:
+            selected = [row for row in inventory if row["headword"] == word]
+            if len(selected) != 1 or word.casefold() in candidates:
+                raise ValueError("Each headword must uniquely match the inventory")
+            candidates[word.casefold()] = selected[0]
     elif args.supplement:
         inputs = (("WIKTIONARY_GAP_CANDIDATES.csv", "headword"),
                   ("COMPLEX_WIKTIONARY_CANDIDATES.csv", "normalized_key"))
