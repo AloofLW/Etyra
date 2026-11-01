@@ -1,0 +1,104 @@
+candidate_id,headword,pos,language_code,translation_original,source_sense_label,source_url,status
+vocab-candidate-10c22bcf4c768b515be4,for,conj,cmn,为着,because,https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,conj,cmn,因為 /因为,because,https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,conj,cmn,為著 /为著,because,https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,prep,cmn,對……來說 /对……来说,by the standards of,https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,prep,cmn,為 /为,"directed at, intended to belong to",https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,prep,cmn,為了 /为了,"directed at, intended to belong to",https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-10c22bcf4c768b515be4,for,prep,cmn,給 /给,"directed at, intended to belong to",https://en.wiktionary.org/wiki/for,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,дуәхур,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,何時 /何时,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,啥時 /啥时,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,啥時 /啥时,"at what time, as an indirect question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,啥物時陣 /啥物时阵,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,啥物時陣 /啥物时阵,"at what time, as an indirect question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,底時 /底时,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,底時 /底时,"at what time, as an indirect question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,甚麼時候 /什麼時候 /什么时候,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,甚麼時候 /什麼時候 /什么时候,"at what time, as an indirect question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,當時 /当时,"at what time, as a direct question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,adv,zh,當時 /当时,"at what time, as an indirect question",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,conj,zh,...的時候 /...的时候,during the time that,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,conj,zh,什麼時候 /什么时候,at what time; at which time,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,conj,zh,何時 /何时,at what time; at which time,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,conj,zh,幾時 /几时,at what time; at which time,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,conj,zh,當 /当,"as soon as, at the time that",https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-15eaa75240aed625be3e,when,intj,zh,够了,that's enough,https://en.wiktionary.org/wiki/when,translation_clue_unreviewed
+vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某事,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
+vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某東西 /某东西,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
+vocab-candidate-3fc9b689459d738f8c88,something,pron,cmn,某物,unspecified object,https://en.wiktionary.org/wiki/something,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,сый,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,何人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,啥人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,啥物人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,底人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,是誰 /是谁,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,甚物人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,誰 /谁,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,誰人 /谁人,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-6ed0337140bd32b4adc5,who,pron,zh,阿誰 /阿谁,who? (interrogative pronoun),https://en.wiktionary.org/wiki/who,translation_clue_unreviewed
+vocab-candidate-7383711c1b05e72a1edd,than,prep,cmn,比,Introduces a comparison,https://en.wiktionary.org/wiki/than,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,det,zh,什麼 /什么,interrogative,https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,det,zh,啥,interrogative,https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,intj,zh,什麼 /什么,expression of surprise,https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,intj,zh,啥？,expression of surprise,https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,са,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,什麼 /什么,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,何,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,啥,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,啥物,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,啥貨 /啥货,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-749ab2c0d06c42ae3b84,what,pron,zh,物代,what? (interrogative pronoun),https://en.wiktionary.org/wiki/what,translation_clue_unreviewed
+vocab-candidate-77bc06c55d29ee3cfa29,which,det,cmn,哪,"(interrogative) what, of those mentioned or implied",https://en.wiktionary.org/wiki/which,translation_clue_unreviewed
+vocab-candidate-77bc06c55d29ee3cfa29,which,pron,cmn,...的,"(relative) who, whom, what",https://en.wiktionary.org/wiki/which,translation_clue_unreviewed
+vocab-candidate-77bc06c55d29ee3cfa29,which,pron,cmn,哪些,(interrogative) what one or ones,https://en.wiktionary.org/wiki/which,translation_clue_unreviewed
+vocab-candidate-77bc06c55d29ee3cfa29,which,pron,cmn,哪個 /哪个,(interrogative) what one or ones,https://en.wiktionary.org/wiki/which,translation_clue_unreviewed
+vocab-candidate-77bc06c55d29ee3cfa29,which,pron,cmn,所...的,"(relative) who, whom, what",https://en.wiktionary.org/wiki/which,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,за,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,заму,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,何其,"used as a modifier to indicate surprise, delight, or other strong feelings — see also what, so",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,偌,to what degree — see also to the point,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,咋,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,多,to what degree — see also to the point,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,多,"used as a modifier to indicate surprise, delight, or other strong feelings — see also what, so",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,多麼 /多么,"used as a modifier to indicate surprise, delight, or other strong feelings — see also what, so",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,好不,"used as a modifier to indicate surprise, delight, or other strong feelings — see also what, so",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,如何,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,如何,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎仔樣 /怎仔样,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎樣 /怎样,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎樣 /怎样,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎麼 /怎么,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎麼 /怎么,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎麼樣 /怎么样,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,怎麼樣 /怎么样,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎,"in what state — see also how are you, how's it going",https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-8044aae1f86875d993f2,how,adv,zh,按怎樣 /按怎样,in what manner — see also how so,https://en.wiktionary.org/wiki/how,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,нани,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,натар,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,натар,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,натар,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,何處 /何处,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗位,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗位,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗位,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗位仔,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,佗落,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪兒 /哪儿,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪兒 /哪儿,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪兒 /哪儿,to which place or situation,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪兒 /哪儿,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪裡 /哪裏 /哪里,at what place; to what place; from what place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪裡 /哪里,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪裡 /哪里,to which place or situation,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,哪裡 /哪里,wherever,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,那兒 /那儿,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b48111c10c65fc119368,where,adv,zh,那裡 /那里,at or in which place,https://en.wiktionary.org/wiki/where,translation_clue_unreviewed
+vocab-candidate-b8d31e852725afb1e26d,on,prep,cmn,……上,positioned at the upper surface of,https://en.wiktionary.org/wiki/on,translation_clue_unreviewed
+vocab-candidate-b9776d7ddf459c9ad5b0,the,adv,cmn,愈……愈……,"the + comparative, the + comparative",https://en.wiktionary.org/wiki/the,translation_clue_unreviewed
+vocab-candidate-b9776d7ddf459c9ad5b0,the,adv,cmn,越……越……,"the + comparative, the + comparative",https://en.wiktionary.org/wiki/the,translation_clue_unreviewed

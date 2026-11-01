@@ -1,0 +1,13 @@
+candidate_id,word,url,sha256
+vocab-candidate-b9776d7ddf459c9ad5b0,the,https://kaikki.org/dictionary/English/meaning/t/th/the.jsonl,09a97b3db21f8e7392d7947ed7421f4db96186d7c411379263d4b53fdf744fee
+vocab-candidate-10c22bcf4c768b515be4,for,https://kaikki.org/dictionary/English/meaning/f/fo/for.jsonl,cafc7ab8aa27b42114eeff04a87b690f07a21d9285e8e5dd77bc930a82706339
+vocab-candidate-b8d31e852725afb1e26d,on,https://kaikki.org/dictionary/English/meaning/o/on/on.jsonl,6c0da81723286a2ef199756b322a26819be5896537eecf67f7f911bb0fa99136
+vocab-candidate-77bc06c55d29ee3cfa29,which,https://kaikki.org/dictionary/English/meaning/w/wh/which.jsonl,e5a7064787c7e0c2a8ab1ede52dc02f73f7fc9b08883c7c9716ff93fb4c6e7ee
+vocab-candidate-6ed0337140bd32b4adc5,who,https://kaikki.org/dictionary/English/meaning/w/wh/who.jsonl,6524f2ecc7ca5e9b465f3f045d3e424bf56a2c3019bee5af08ed534f4f9a7711
+vocab-candidate-15eaa75240aed625be3e,when,https://kaikki.org/dictionary/English/meaning/w/wh/when.jsonl,10a68ee5ff5b4579b7f7093c965520d59341bcc20c2fc5f71f0a0ba4b6bd2577
+vocab-candidate-749ab2c0d06c42ae3b84,what,https://kaikki.org/dictionary/English/meaning/w/wh/what.jsonl,478b28367e2311e18fc47505fbb35f0a17bbf633cbd3fcb2f883b0b984cea25a
+vocab-candidate-7383711c1b05e72a1edd,than,https://kaikki.org/dictionary/English/meaning/t/th/than.jsonl,60471d064ac30316b10dd8dd85f259d3faa3d082c5cf65b58e4863064f36e073
+vocab-candidate-b48111c10c65fc119368,where,https://kaikki.org/dictionary/English/meaning/w/wh/where.jsonl,3db764ac2654c00de427157238a90f0031cec7fa36ba2b08b5864900b6d8106d
+vocab-candidate-8044aae1f86875d993f2,how,https://kaikki.org/dictionary/English/meaning/h/ho/how.jsonl,17a0e55d7631687b206bf558c0eec7692546e070bdfe6affff16848bd6f5cd90
+vocab-candidate-3fc9b689459d738f8c88,something,https://kaikki.org/dictionary/English/meaning/s/so/something.jsonl,0ee58cc40c634bfabe7ddc85948cfe3bc4e7adf541a2366352051c63a4eed257
+vocab-candidate-f23be8eed45492f4b531,might,https://kaikki.org/dictionary/English/meaning/m/mi/might.jsonl,5f86034a5839be79f74ae31dd8d82f927f4b77a9a835d0986e60138e53a33671

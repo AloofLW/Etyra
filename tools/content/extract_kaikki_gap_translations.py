@@ -14,8 +14,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("directory", type=Path, help="Directory with candidate-ID.jsonl snapshots")
     parser.add_argument("output", type=Path)
+    parser.add_argument("--manifest", default="KAIKKI_CHINESE_GAP_SNAPSHOTS.csv", help="Snapshot manifest in docs/")
     args = parser.parse_args()
-    manifest = read("KAIKKI_CHINESE_GAP_SNAPSHOTS.csv")
+    manifest = read(args.manifest)
     candidates = {row["candidate_id"]: row["headword"] for row in read("VOCABULARY_CANDIDATES.csv")}
     seen = set()
     rows = set()
