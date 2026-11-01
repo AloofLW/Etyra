@@ -32,7 +32,7 @@
 - [x] 创建 Flutter iOS-only 空工程骨架，记录 SDK 和最低 iOS 部署目标。
 - [x] 初始化 Git 主分支（`main`）并创建工程基线提交。
 - [x] 建立 feature-first app/database 目录和共享依赖装配点。
-- [ ] 按 ADR-025 与 `docs/CONTENT_SOURCE_AUDIT.md` 建立候选审核清单；50 个 root/stem 候选已形成初步来源表（`docs/ROOT_CANDIDATES_V0_1.csv`，均为 candidate_only），已建立 83 个关联单词关系候选（`docs/WORD_CANDIDATES_V0_1.csv`）；继续扩充至 300–500 个，并逐条补齐版本、许可、署名、释义/词源证据和审校状态。候选词根表不等同产品 seed；不得臆造词源。
+- [ ] 按 ADR-025 与 `docs/CONTENT_SOURCE_AUDIT.md` 建立候选审核清单；50 个 root/stem 候选已形成初步来源表（`docs/ROOT_CANDIDATES_V0_1.csv`，均为 candidate_only），已建立 89 个关联单词关系候选（`docs/WORD_CANDIDATES_V0_1.csv`）；继续扩充至 300–500 个，并逐条补齐版本、许可、署名、释义/词源证据和审校状态。候选词根表不等同产品 seed；不得臆造词源。
 - [x] 约定测试层：模型/映射/迁移/Repository 单测，关键页面 widget 测试，核心学习流程集成测试。
 - [x] 约定分支、worktree、文件所有权和合并检查。
 
@@ -63,7 +63,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/COW_CASE_REVIEW.csv` 中 62 个包含大小写不同 COW 关联的候选（其中 6 个全部不同）；化学元素和字母义不能直接用于虚词，已补充 7 个高频词的词性线索。
 - [ ] 复核 `docs/CURATED_COMMON_FUNCTION_PILOT.csv` 的 7 条高频虚词草稿，包括词性、语境、中文表达和许可。
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
-- [x] 为现有 83 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
+- [x] 为现有 89 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
 - [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录前 400 个候选的页面固定修订与英语词源标题，尚余 4942 个；批量请求遇到限流后已停止，稍后依照来源站点要求低速续采。标题只提供定位线索，不证明词源关系。
 - [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 84 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。
 - [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 62 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable` 跨词网义项疑似错位。
