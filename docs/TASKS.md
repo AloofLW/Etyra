@@ -48,6 +48,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 合并两份开放许可词表，生成有来源和可重复生成候选 ID 的 `docs/VOCABULARY_CANDIDATES.csv`；词义、词性、课标适用性和词源均待审核。
 - [x] 以 OEWN 2024 建立候选拼写的词典入口索引，记录词条 ID、候选词性和义项数量；具体义项和内容许可仍须逐项审校。
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
+- [x] 以 CILI 将 OEWN 义项与 Chinese Open Wordnet 1.1 对照，形成 `docs/COW_SENSE_CANDIDATES.csv` 中文词项候选；人工选义、翻译准确性和最终词库导入仍待完成。
 - [ ] 获得适用的 2025 版高中课标权威原文及完整附录，核实版本、实施范围与可使用权限；第三方 PDF 镜像已定位但未获认证，第三方整理词表存在可见差异；2020 版作为历史对照。详见 `docs/reference/wordlists/README.md`。
 - [ ] 依据课标逐项比对候选词表，保存精确匹配、待复核、缺失和歧义结果；解决所有必学项的覆盖及词形映射。
 - [ ] 审查 `docs/CURRICULUM_GAP_CANDIDATES.csv` 中 274 个 OEWN 缺口候选、`docs/WIKTIONARY_GAP_CANDIDATES.csv` 中 18 个 Wiktionary 候选、`docs/COMPLEX_FORM_CANDIDATES.csv` 中 74 个 OEWN 复杂片段候选及 `docs/COMPLEX_WIKTIONARY_CANDIDATES.csv` 中 9 个 Wiktionary 复杂片段候选；核查 BCE 展开形式，逐行核对全部 85 个复杂形式、权威原件和各版本等级。

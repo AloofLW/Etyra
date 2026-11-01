@@ -35,6 +35,16 @@
 
 本表根据 OEWN 2024 与 Princeton WordNet 的定义内容改编：按候选拼写筛选并关联候选 ID，保留原定义及出处；使用范围须遵守上一节的 OEWN、Princeton WordNet 与候选词表许可和署名要求。复现命令：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-senses.csv`。脚本校验源文件摘要、词项/义项标识和同义词集定义完整性，并拒绝覆盖已有文件。
 
+## 中文词义候选：Chinese Open Wordnet
+
+[`docs/COW_SENSE_CANDIDATES.csv`](../../COW_SENSE_CANDIDATES.csv) 以已保存的 OEWN 英文义项为基础，通过英文与中文词网各自明确给出的 CILI 标识连接 [Chinese Open Wordnet 1.1](https://bond-lab.github.io/cow/) 词义集合，提取该集合的中文词项。得到 15135 行候选义项，涉及 4819 个英文候选键。每行保留 OEWN 词条原始大小写、词性、sense/synset ID、CILI、COW synset ID 和中文词项数组；没有提取拼音或例句。一个义项可能对应多个中文表达，排列不代表优先级。
+
+同一个 CILI 标识是跨词网的关联线索，不保证两种语言用法、搭配或语域完全一致。COW 发布方说明其内容仍可能有错误；COW 1.1 也包含经过模型辅助筛查的数据，不能视作逐项人工认证。该表全部为 `candidate_only`，选义、简体展示、词性、中文表达和高中适用性必须审核；部分不适合直译，部分候选词没有对应项。OEWN 本身没有词源证据，不能从此表推导词根关系。
+
+来源：[COW 1.1 发行包](https://github.com/bond-lab/cow/releases/tag/v1.1)，SHA-256 `93e9357dda50a38ce626904c2229479afa177df74d9c504aebfeba06ff2f241e`；许可证全文为 [COW-1.1-LICENSE.txt](COW-1.1-LICENSE.txt)，要求保留版权声明及免责声明。署名 Chinese Open Wordnet 的 Francis Bond、Shan Wang、Luís Morgado da Costa 及相应版权年度，完整内容见许可证；同时保留 OEWN 与 Princeton WordNet 的来源和许可，以及原词表的 CC BY-SA 4.0 要求。本表是基于这些来源的筛选与跨词网关联；未修改原始中文词形。原始大型词典包不随仓库提交。
+
+复现：`python3 tools/content/align_cow_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /path/to/cow-1.1.tar.xz /tmp/etyra-cow-senses.csv`，需要 Python 3.11+。脚本验证两个原始包摘要、OEWN 义项及同义词集引用，仅按非空有效 CILI 匹配并拒绝覆盖已有输出。正式词库须逐义项复核并重新保存许可、署名和修改说明。
+
 ## 高中课标覆盖基准
 
 - [教育部制定的《普通高中英语课程标准（2017 年版 2020 年修订）》](https://www.ictr.edu.cn/Uploads/File/2025/02/07/4.%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E8%AF%BE%E7%A8%8B%E6%A0%87%E5%87%86%EF%BC%882017%E5%B9%B4%E7%89%882020%E5%B9%B4%E4%BF%AE%E8%AE%A2%EF%BC%89.20250207211247.pdf)由教育部课程教材研究所网站提供，附录 2 称列 3000 词，其中包含义务教育 1500 词、高中必修新增 500 词、选择性必修新增 1000 词；正文不含词性和中文释义。作为已定位的官方历史对照来源，不能据此声称已满足最新版。

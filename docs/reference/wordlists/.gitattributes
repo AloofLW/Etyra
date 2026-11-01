@@ -3,3 +3,4 @@ NGSL-GR-1.0-rank.csv -text whitespace=cr-at-eol
 NAWL-1.2-alphabetized.txt -text whitespace=cr-at-eol
 OEWN-2024-LICENSE.md -text whitespace=-blank-at-eol
 OEWN-2024-WNDB-license.txt -text whitespace=-blank-at-eol
+COW-1.1-LICENSE.txt -text whitespace=-blank-at-eol
