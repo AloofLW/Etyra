@@ -135,10 +135,15 @@ void main() {
     expect(find.text('已跳过。本项不计入完成数。'), findsOneWidget);
     await tapText(tester, '查看总结');
     expect(find.text('本组学习已完成'), findsOneWidget);
-    expect(find.text('本组数量：2'), findsOneWidget);
-    expect(find.text('完成：1'), findsOneWidget);
-    expect(find.text('跳过：1'), findsOneWidget);
-    expect(find.text('尚未完成：0'), findsOneWidget);
+    final semantics = tester.ensureSemantics();
+    await tester.pump();
+    expect(find.bySemanticsLabel('本组数量：2'), findsOneWidget);
+    expect(find.bySemanticsLabel('完成：1'), findsOneWidget);
+    expect(find.bySemanticsLabel('跳过：1'), findsOneWidget);
+    expect(find.text('尚未完成'), findsNothing);
+    expect(find.text('演示内容 · 未接入真实词库\n学习记录不会保存'), findsOneWidget);
+    expect(find.byType(CupertinoNavigationBarBackButton), findsNothing);
+    semantics.dispose();
   });
 
   testWidgets('提交失败后重试不推进也不重复计数', (tester) async {
@@ -182,8 +187,66 @@ void main() {
     await tapText(tester, '结束学习');
     await tester.pumpAndSettle();
     expect(find.text('本次学习已结束'), findsOneWidget);
-    expect(find.text('完成：1'), findsOneWidget);
-    expect(find.text('跳过：0'), findsOneWidget);
-    expect(find.text('尚未完成：1'), findsOneWidget);
+    final semantics = tester.ensureSemantics();
+    await tester.pump();
+    expect(find.bySemanticsLabel('完成：1'), findsOneWidget);
+    expect(find.bySemanticsLabel('跳过：0'), findsOneWidget);
+    expect(find.bySemanticsLabel('尚未完成：1'), findsOneWidget);
+    semantics.dispose();
+  });
+
+  testWidgets('总结页提供文字返回并回到词根详情', (tester) async {
+    await tester.pumpWidget(const EtyraApp());
+    await tapText(tester, '开始学习演示');
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(find.text('开始词根学习'), 300);
+    await tapText(tester, '开始词根学习');
+    await tester.pumpAndSettle();
+    await tapText(tester, '开始预览');
+    await tester.pumpAndSettle();
+    for (var index = 0; index < 2; index++) {
+      await tapText(tester, '跳过本项');
+      await tester.pump(const Duration(milliseconds: 400));
+      await tester.pump();
+      await tapText(tester, index == 0 ? '下一项' : '查看总结');
+    }
+    expect(find.text('返回'), findsOneWidget);
+    expect(find.byType(CupertinoNavigationBarBackButton), findsNothing);
+    await tapText(tester, '返回');
+    await tester.pumpAndSettle();
+    expect(find.text('词根详情'), findsOneWidget);
+  });
+
+  testWidgets('总结页在深色和放大文字下可滚动并再次开始', (tester) async {
+    tester.view.physicalSize = const Size(390, 844);
+    tester.view.devicePixelRatio = 1;
+    tester.platformDispatcher.textScaleFactorTestValue = 2;
+    tester.platformDispatcher.platformBrightnessTestValue = Brightness.dark;
+    addTearDown(() {
+      tester.view.resetPhysicalSize();
+      tester.view.resetDevicePixelRatio();
+      tester.platformDispatcher.clearTextScaleFactorTestValue();
+      tester.platformDispatcher.clearPlatformBrightnessTestValue();
+    });
+    await tester.pumpWidget(
+      const CupertinoApp(home: FixtureStudyPage(rootLabel: '测试词根')),
+    );
+    for (var index = 0; index < 2; index++) {
+      await tester.scrollUntilVisible(find.text('跳过本项'), 250);
+      await tapText(tester, '跳过本项');
+      await tester.pump(const Duration(milliseconds: 400));
+      await tester.pump();
+      final next = index == 0 ? '下一项' : '查看总结';
+      await tester.scrollUntilVisible(find.text(next), 250);
+      await tapText(tester, next);
+    }
+    await tester.scrollUntilVisible(find.text('再预览一组'), 250);
+    expect(find.text('演示内容 · 未接入真实词库\n学习记录不会保存'), findsOneWidget);
+    await tester.ensureVisible(find.text('再预览一组'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('再预览一组'));
+    await tester.pumpAndSettle();
+    expect(find.text('回忆提示占位 1'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 }

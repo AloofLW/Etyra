@@ -21,6 +21,22 @@ abstract final class FixtureTokens {
   static const gap = 16.0;
   static const radius = 16.0;
   static const touchTarget = 44.0;
+  static const warmBackground = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFFAF6EF),
+    darkColor: Color(0xFF1C1917),
+  );
+  static const warmSurface = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFFFFBF6),
+    darkColor: Color(0xFF2C2521),
+  );
+  static const warmAction = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFFA04A38),
+    darkColor: Color(0xFF9A4535),
+  );
+  static const warmLink = CupertinoDynamicColor.withBrightness(
+    color: Color(0xFF91412F),
+    darkColor: Color(0xFFEEAB96),
+  );
   static const _accent = CupertinoDynamicColor.withBrightness(
     color: Color(0xFF416D66),
     darkColor: Color(0xFF9CCDC1),
