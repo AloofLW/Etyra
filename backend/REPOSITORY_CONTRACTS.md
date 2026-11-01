@@ -40,5 +40,6 @@ Repository 是 domain 定义的抽象，返回领域模型或不可变结果，�
 - `application/` 提供 `ListRoots`、`GetRootDetail`、`GetWord`、`ListWords`、`GetExamples`、`StartStudySession`、`SubmitAnswer`、`SkipItem`、`FinishSession`、`AbandonSession`、`GetLearningState`，通过 `call` 调用。
 - 前端开发可注入 `InMemoryContentRepository` 和 `InMemoryStudyRepository`。它们不含默认词条，数据重启即丢失；不得当作真实持久化。fake 对不存在的显式 ID 返回 NotFound，对重复/非当前卡片提交返回 Conflict；跳过不增加 studyCount。
 - fake 在最后一次处理卡片时结束 session；`finishSession` 可重复读取已完成总结，未完成时返回 Conflict；重复 abandon 保留首次结束时间，已完成 session 不能再 abandon。此行为已由 ADR-015 接受。
-- `DriftContentRepository` 提供读取实现骨架；`DriftLearningStateRepository` 提供只读状态映射。`DriftStudyRepository` 的写操作明确返回 `Unsupported/study.persistence_not_ready`，等待数据库验证与后续持久化实现，不能接入真实学习保存流程。
+- `DriftContentRepository` 提供读取实现；`DriftLearningStateRepository` 提供只读状态映射。`DriftStudyRepository` 使用现有 v1 Schema：开始会话在事务中持久化有序卡片快照；答题或跳过在同一事务内写日志、计数和结束状态，非跳过答题同步学习状态。重复/乱序提交返回 Conflict；SQLite 暂时锁定时有限重试整个事务，超过重试上限返回 Storage。
+- 学习阶段按 ADR-014，完成/放弃按 ADR-015；未知已存学习阶段或会话/内容枚举返回 Unsupported 并保留原值。v0.1 写入不触及 FSRS 字段或到期时间。现有消费契约没有按 session ID 恢复当前卡片的查询方法；重启后已有会话与卡片快照保留，但跨重启恢复 UI 需要单独确定契约。
 - 本轮未开放任意 `upsertState`、设置、备份、FSRS 调度和到期列表接口；这些不属于冻结的 v0.1 前端命令。
