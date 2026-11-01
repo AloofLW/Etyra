@@ -70,7 +70,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 1. **对话 01 / ET-01G 人工验收**：自动验收已完成：文件 SQLite 空库创建/关闭/重开/schema 版本保持、真实 Drift provider 空态且不混入 fixture；全套 70 项测试和静态分析通过。新版已部署并启动于 iPhone 12 Pro（iOS 17.6.1）。待用户检查真机交互、深浅色、动态字体和 VoiceOver。`lib/main.dart`、`lib/app/**` 和根 `ProviderScope` 仍由对话 01 独占维护（ADR-018）。
 2. **单词浏览 / 详情（已实现，待真机体验）**：当前分支实现了 `WordDetail(word, roots, affixes, components, examples)`、`WordRepository.getWordDetail(id)`、application 用例、Drift 显式关系查询和 provider 装配；单词 Tab 接入真实列表/详情页面，支持 loading/empty/error retry/cursor pagination、稳定 ID 导航、来源/构词关系/例句。无来源依据时不推断词源、不伪造发音；正式空数据库不混入 fixture。全套 70 项测试、`flutter analyze --no-pub` 通过；待 iPhone 12 Pro 人工体验。
 3. **对话 03 / ET-01E 后续**：DriftStudyRepository 已实现真实会话/答题/跳过/结束/放弃事务，并有重启、并发重复提交和回滚测试；当前没有按 Session ID 恢复未完成界面的 application 查询契约，跨重启恢复需求先由对话 01 决策后再扩展。
-4. **对话 01 / 内容来源**：确认可再分发的词库来源与许可，建立约 50 个词根、300–500 个关联单词的审核清单；来源未确认前不制作产品 seed 内容。
+4. **对话 01 / 内容来源**：第一版来源与许可审查见 `docs/CONTENT_SOURCE_AUDIT.md`。已识别候选：OEWN/Princeton WordNet 可辅助词义但不证明词源；Wiktionary 可提供候选词源但须接受并落实适用许可及署名义务；Oxford API 不适合无单独许可的离线打包。待用户确认 CC BY-SA 分发策略及首批词库范围后，才建立逐条审核清单和正式 seed；当前不制作产品 seed 内容。
 
 ## ET-01 验收标准
 
