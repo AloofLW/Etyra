@@ -40,6 +40,7 @@ def main():
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
         "function_drafts": count("CURATED_FUNCTION_WORD_PILOT.csv"),
         "common_function_drafts": count("CURATED_COMMON_FUNCTION_PILOT.csv"),
+        "common_gap_drafts": count("CURATED_COMMON_GAP_PILOT.csv"),
         "main_gap_drafts": count("CURATED_MAIN_GAP_PILOT.csv"),
         "translation_drafts": count("CURATED_GAP_TRANSLATION_PILOT.csv"),
         "untranslated_drafts": count("CURATED_UNTRANSLATED_PILOT.csv"),
@@ -68,7 +69,7 @@ def main():
             flags = []
             if not (sources["oewn_senses"][candidate_id] or sources["kaikki_function_senses"][candidate_id] or sources["kaikki_case_senses"][candidate_id] or sources["kaikki_common_case_senses"][candidate_id] or sources["kaikki_gap_senses"][candidate_id]):
                 flags.append("english_sense_clue_needed")
-            if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id] or sources["common_function_drafts"][candidate_id] or sources["main_gap_drafts"][candidate_id] or sources["translation_drafts"][candidate_id] or sources["untranslated_drafts"][candidate_id] or sources["port_kaikki_drafts"][candidate_id] or sources["tract_kaikki_drafts"][candidate_id] or sources["kaikki_translation_clues"][candidate_id] or sources["kaikki_gap_translation_clues"][candidate_id] or sources["kaikki_common_translation_clues"][candidate_id]):
+            if not (sources["cow_sense_links"][candidate_id] or sources["word_drafts"][candidate_id] or sources["function_drafts"][candidate_id] or sources["common_function_drafts"][candidate_id] or sources["common_gap_drafts"][candidate_id] or sources["main_gap_drafts"][candidate_id] or sources["translation_drafts"][candidate_id] or sources["untranslated_drafts"][candidate_id] or sources["port_kaikki_drafts"][candidate_id] or sources["tract_kaikki_drafts"][candidate_id] or sources["kaikki_translation_clues"][candidate_id] or sources["kaikki_gap_translation_clues"][candidate_id] or sources["kaikki_common_translation_clues"][candidate_id]):
                 flags.append("chinese_sense_clue_needed")
             if (sources["oewn_senses"][candidate_id] + sources["kaikki_function_senses"][candidate_id]
                     + sources["kaikki_case_senses"][candidate_id] + sources["kaikki_common_case_senses"][candidate_id]
