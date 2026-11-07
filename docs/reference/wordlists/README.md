@@ -182,6 +182,8 @@
 
 对这 85 行再按既有 `build_complex_gap_candidates.py` 的规则提取括号、斜线或逗号分隔的字面片段，与主表和补充表的候选拼写键比较：84 行的所有片段有同拼写候选；1 行仍含未匹配片段，即 `BCE` 的括号展开说明 `Before the Common Era`，已在本页后文记录其独立词条查询及缩写关系线索。对全部 85 行检查过两套分片函数的输出一致。分片匹配不代表括号两侧同义，也不证明大小写、专名、缩写、动词变形、词义或课程等级正确；例如 `father (dad)`、`be (am, are, is)` 都不能仅凭分隔符认定为同一词条。全部复杂行继续待审核，未经许可不将镜像整表提交或作为正式覆盖报告。
 
+为逐行跟踪，`docs/COMPLEX_CURRICULUM_REVIEW_INDEX.csv` 保存 85 个提取行在该固定镜像中的顺序、PDF 页码、原始提取行 SHA-256、整行候选 ID、片段候选 ID 和缺失片段数；不保存原始课标行。原始行摘要仅用于与本地提取结果对应，不证明原件真伪或提取正确。`null` 仅表示该拆分片段未匹配候选键；拆分规则有限，候选 ID 不证明词形、词义、等级或许可。全部为 `candidate_only`。使用上述固定摘要的本地 review CSV 运行 `python3 tools/content/build_complex_review_manifest.py /path/to/review.csv /tmp/complex-index.csv` 可复现；源文件授权、逐行识别及权威版本仍须审核。
+
 对 `am`、`are`、`is`、`has` 四项，参照 Cambridge Dictionary 的 [be 形式表](https://dictionary.cambridge.org/grammar/british-grammar/basic)和 [have 形式说明](https://dictionary.cambridge.org/grammar/british-grammar/have%3A)，在 [`docs/INFLECTION_REVIEW_PILOT.csv`](../../INFLECTION_REVIEW_PILOT.csv) 记录与 `be`、`have` 的动词屈折关系线索及各自候选 ID；语法事实用于审核定位，来源作为参考而非授权复制词典文本。拼写可有其他词性，原型、不同词义及是否作为独立学习对象均待审；这些关系不自动合并候选、产品 ID 或学习记录，也不证明课标适用性。镜像行及分级仍须核对权威版本。
 
 对 `colour/color`、`centre/center`、`favourite/favorite` 和 `theatre/theater` 四组，依据 [`SPELLING_REVIEW_PILOT.csv`](../../SPELLING_REVIEW_PILOT.csv) 所列 Cambridge Dictionary 词条记录英美拼写线索，分别保留主候选和补充候选 ID；不复制其词典释义。词性、专名、地区实际用法和课标原文仍须逐项核验，例如 `theatre` 也可见于美国语境。拼写关联不自动证明所有义项等同，也不自动合并产品 ID、学习记录或词条数量。
@@ -229,11 +231,11 @@
 
 ## 主候选词表的词源来源定位（进行中）
 
-2026-11-01 和 2026-11-07 分批查询 English Wiktionary 页面固定修订，主候选清单前 1000 项的定位元数据见 [`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv`](../../WIKTIONARY_BULK_SOURCE_INDEX.csv)；其中 999 项检测到英语词源章节标题，1 项未检测到标题。其余 4342 项尚未查询，不能把未查询解释为没有来源；此前遇到 HTTP 429 后已暂停，2026-11-07 以串行、分批方式恢复。此表仅定位页面版本，并不包含或确认词源、词义、词根关系及高中适用性；缺少标题也不等于没有词源。许可与后续文字复用条件见 `docs/CONTENT_SOURCE_AUDIT.md`。
+2026-11-01 和 2026-11-07 分批查询 English Wiktionary 页面固定修订，主候选清单前 1400 项的定位元数据见 [`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv`](../../WIKTIONARY_BULK_SOURCE_INDEX.csv)；其中 1398 项检测到英语词源章节标题，2 项未检测到标题。其余 3942 项尚未查询，不能把未查询解释为没有来源；此前遇到 HTTP 429 后已暂停，2026-11-07 以串行、分批方式恢复。此表仅定位页面版本，并不包含或确认词源、词义、词根关系及高中适用性；缺少标题也不等于没有词源。许可与后续文字复用条件见 `docs/CONTENT_SOURCE_AUDIT.md`。
 
-工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。原始 400 条临时缓存已不存在，不能仅凭缓存完整复现；可依照固定修订链接逐条追溯。后续单独续采示例：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-resume /tmp/etyra-next.csv --start-offset 1000 --max-batches 5`；校验并与已有索引按 ID 合并，不覆盖旧修订。页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
+工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。原始 400 条临时缓存已不存在，不能仅凭缓存完整复现；可依照固定修订链接逐条追溯。后续单独续采示例：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-resume /tmp/etyra-next.csv --start-offset 1400 --max-batches 5`；校验并与已有索引按 ID 合并，不覆盖旧修订。页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
 
-对上述 1000 个固定修订中的英语词源章节，提取显式的简单 `af`、`affix`、`prefix`、`suffix`、`compound` 模板参数，得到 [`docs/WIKTIONARY_MORPHOLOGY_CLUES.csv`](../../WIKTIONARY_MORPHOLOGY_CLUES.csv) 中 160 个词的 164 条构词线索；每条保留章节、模板、原始组件、页面修订及 `morphology_clue_unreviewed`。仅记录模板参数，并非词根—单词关系：前缀、后缀和复合词组件不能自动归为词根；现代构词分析也不能等同历史词源。模板所在句可能带有不确定、对比或否定语境，命名参数未纳入组件，嵌套模板被排除，必须打开固定修订逐项核验完整上下文、词义、许可及词根边界。该批不覆盖其余 4342 个候选，也不作为正式产品数据。
+对上述 1400 个固定修订中的英语词源章节，提取显式的简单 `af`、`affix`、`prefix`、`suffix`、`compound` 模板参数，得到 [`docs/WIKTIONARY_MORPHOLOGY_CLUES.csv`](../../WIKTIONARY_MORPHOLOGY_CLUES.csv) 中 208 个词的 218 条构词线索；每条保留章节、模板、原始组件、页面修订及 `morphology_clue_unreviewed`。仅记录模板参数，并非词根—单词关系：前缀、后缀和复合词组件不能自动归为词根；现代构词分析也不能等同历史词源。模板所在句可能带有不确定、对比或否定语境，命名参数未纳入组件，嵌套模板被排除，必须打开固定修订逐项核验完整上下文、词义、许可及词根边界。该批不覆盖其余 3942 个候选，也不作为正式产品数据。
 
 本次新增批次在缓存仍可用时可单独复现：`python3 tools/content/extract_wiktionary_morphology_clues.py /tmp/etyra-wiki-resume /tmp/etyra-new-clues.csv --index /tmp/etyra-index-resume-400.csv`；临时文件被清理后需按固定修订重新取得内容。脚本对照缓存中的页面标题、修订和 API 返回的 SHA-1 元数据，未重新计算正文摘要，并拒绝覆盖输出。原始缓存可能被系统清理；重新取得修订时须保持固定版本并遵守站点访问限制。来源是 English Wiktionary contributors，适用前述逐页来源、署名、许可及修改记录要求。
 
