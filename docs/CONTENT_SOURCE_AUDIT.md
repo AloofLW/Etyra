@@ -190,7 +190,7 @@
 
 2026-11-07 从该家族补充 `destruction`、`infrastructure`、`instructor`、`instrument`、`structural` 五条 OEWN/COW 义项草稿，`CURATED_WORD_PILOT.csv` 累计 85 条；其中 `instrument` 选择乐器义，`destruction` 选择摧毁事件义。选义和中文仍为待复核编辑判断，不代表每词只有此义；历史关系、课程适用性及许可同样待审。`construction`、`reconstruct` 和 `reconstruction` 此次未选义，避免将不匹配的中文义项直接归并。
 
-随后针对上述三个尚缺合适 COW 中文线索的词，按 OEWN 2024 已记录的英文常用义建立 [`CURATED_STRUCT_OEWN_PILOT.csv`](CURATED_STRUCT_OEWN_PILOT.csv)，中文为编辑自行编写，并非 COW 对译；保留义项、synset 与固定词源页面链接。三项均待独立复核词义、中文语境、历史关系、课标适用性和 OEWN/Princeton、Wiktionary 等适用许可；不得视为正式产品条目。该独立草稿表目前不汇入主审核队列的 `word_drafts` 计数。
+随后针对上述三个尚缺合适 COW 中文线索的词，按 OEWN 2024 已记录的英文常用义建立 [`CURATED_STRUCT_OEWN_PILOT.csv`](CURATED_STRUCT_OEWN_PILOT.csv)，中文为编辑自行编写，并非 COW 对译；保留义项、synset 与固定词源页面链接。三项均待独立复核词义、中文语境、历史关系、课标适用性和 OEWN/Princeton、Wiktionary 等适用许可；不得视为正式产品条目。该独立草稿表及 `CURATED_PORTABLE_PILOT.csv` 的记录已汇入主审核队列的 `word_drafts` 计数，来源类型仍以原表为准。
 
 从该批选取 `inspection`、`perspective`、`aspect`、`expect`、`expectation`、`suspect`、`suspicion`、`spectrum` 八条 OEWN/COW 对照义项建立中文草稿，词根关系编辑草稿累计 80 条。所选词义均有具体范围：`suspect` 选名词“嫌疑人”，`spectrum` 选广泛范围义而非物理光谱，`inspection` 的“评审”只适用于相应正式审查语境。`spectacular` 的现有部分中英文对照在“戏剧性的”和“壮观的”等语义间需进一步核对，本批未选；`respective` 则已有单独的英文来源中文草稿，但词根关联尚未完成联合审校。所有草稿均未批准入库。
 

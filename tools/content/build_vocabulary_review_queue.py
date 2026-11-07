@@ -26,6 +26,10 @@ def main():
     ids = {row["candidate_id"] for row in inventory}
     if len(ids) != len(inventory):
         raise ValueError("Duplicate main candidate ID")
+    independent_drafts = (count("CURATED_PORTABLE_PILOT.csv")
+                          + count("CURATED_STRUCT_OEWN_PILOT.csv"))
+    if set(independent_drafts) - ids:
+        raise ValueError("Unknown main candidate ID in independent word drafts")
     sources = {
         "oewn_senses": count("OEWN_SENSE_CANDIDATES.csv"),
         "cow_sense_links": count("COW_SENSE_CANDIDATES.csv"),
@@ -37,7 +41,7 @@ def main():
         "kaikki_gap_translation_clues": count("KAIKKI_CHINESE_GAP_TRANSLATIONS.csv"),
         "kaikki_common_translation_clues": count("KAIKKI_COMMON_GAP_TRANSLATIONS.csv"),
         "oewn_form_links": count("OEWN_FORM_CANDIDATES.csv"),
-        "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
+        "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id") + independent_drafts,
         "function_drafts": count("CURATED_FUNCTION_WORD_PILOT.csv"),
         "common_function_drafts": count("CURATED_COMMON_FUNCTION_PILOT.csv"),
         "common_gap_drafts": count("CURATED_COMMON_GAP_PILOT.csv"),
