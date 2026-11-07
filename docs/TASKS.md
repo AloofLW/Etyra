@@ -79,7 +79,8 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 为现有 120 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
 - [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录前 1400 个候选的页面固定修订及词源标题检测状态（1398 个有标题、2 个未检测到），尚余 3942 个；后续依照来源站点要求分批低速续采。标题只提供定位线索，不证明词源关系。
 - [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 218 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。
-- [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 90 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位。
+- [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 95 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位，以及新增五条的词义范围和间接词源。
+- [ ] 复核 `submission` 的 COW 线索：OEWN `1.26.00` 表示屈从控制的状态，不能直接按中文词项“提交”当成文件递交义；按目标义项另找来源。
 - [ ] 审查 `docs/CURATED_PORT_KAIKKI_PILOT.csv` 的 `supporter`、`portfolio` 两条替代来源草稿，核对义项、翻译及对应词源；不覆盖原 COW 线索。
 - [ ] 审查 `docs/CURATED_PORTABLE_PILOT.csv` 的一般携带义草稿及其词源关联、课标适用性和许可；另保留 COW 船外发动机义项对照疑点，不自动认定原因。
 - [ ] 复核 `docs/CURATED_STRUCT_OEWN_PILOT.csv` 三条编辑中文草稿，区分普通重建活动与历史专名；核查 OEWN 义项、词源及许可。
