@@ -74,11 +74,11 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 复核 `docs/CURATED_COMMON_FUNCTION_PILOT.csv` 的 7 条高频虚词草稿，包括词性、语境、中文表达和许可。
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
 - [ ] 审查 `docs/SINGLE_OEWN_REVIEW_BATCH.csv` 的 521 个单条 OEWN 索引候选；逐项核对词性、遗漏用法、英文定义、中文线索、课程范围与许可，不能把单一索引误作唯一词义。
-- [ ] 复核 `docs/CURATED_SINGLE_OEWN_PILOT.csv` 的 319 条选义草稿，检查词性、中文语境、时效性、其他常用义和许可；`salary` 已增加独立草稿，`classmate` 已找到同班用法参考，两者原 OEWN 对齐仍需复核，草稿不代表审核通过。
+- [ ] 复核 `docs/CURATED_SINGLE_OEWN_PILOT.csv` 的 345 条选义草稿，检查词性、中文语境、时效性、其他常用义和许可；`salary` 已增加独立草稿，`classmate` 已找到同班用法参考，两者原 OEWN 对齐仍需复核，草稿不代表审核通过。
 - [ ] 审查 `docs/CURATED_SALARY_KAIKKI_PILOT.csv` 的独立薪金义草稿及 Kaikki 快照、词性和许可；不要把替代来源当成原 OEWN 义项已获确认。
 - [x] 为现有 120 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
-- [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录前 3000 个候选的页面固定修订及词源标题检测状态（2985 个有标题、15 个未检测到），尚余 2342 个；后续依照来源站点要求分批低速续采。标题只提供定位线索，不证明词源关系。
-- [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 489 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。
+- [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录前 3400 个候选的页面固定修订及词源标题检测状态（3384 个有标题、16 个未检测到），尚余 1942 个；后续依照来源站点要求分批低速续采。标题只提供定位线索，不证明词源关系。
+- [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 567 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。
 - [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 95 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位，以及新增五条的词义范围和间接词源。
 - [ ] 复核 `submission` 的 COW 线索：OEWN `1.26.00` 表示屈从控制的状态，不能直接按中文词项“提交”当成文件递交义；按目标义项另找来源。
 - [ ] 复核 `docs/CURATED_SUBMISSION_KAIKKI_PILOT.csv` 的独立递交行为义草稿、词源关系、课标适用性和来源许可；该替代草稿不更改原有 COW 对齐。
