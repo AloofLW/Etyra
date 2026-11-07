@@ -87,6 +87,8 @@
 
 本表根据 OEWN 2024 与 Princeton WordNet 的定义内容改编：按候选拼写筛选并关联候选 ID，保留原定义及出处；使用范围须遵守上一节的 OEWN、Princeton WordNet 与候选词表许可和署名要求。复现命令：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-oewn-senses.csv`。脚本校验源文件摘要、词项/义项标识和同义词集定义完整性，并拒绝覆盖已有文件。
 
+[`docs/SINGLE_OEWN_REVIEW_BATCH.csv`](../../SINGLE_OEWN_REVIEW_BATCH.csv) 汇总主候选中现有 OEWN 索引仅有一条义项且存在一条 COW 对照记录的 521 个候选，保留英文定义、中文词项数组、词性、源义项、CILI 与 synset；其中 109 项的中文数组只有一个词项。该批只是审核工作表：一个 OEWN 义项或一个中文选项均不证明单词只有一种含义或中文准确，例如 `while` 的 OEWN 线索为名词，不能因此忽视常用连词义。中文项未自动选定，全部仍为 `candidate_only`。词典来源、许可和署名分别同本页 OEWN、Princeton WordNet 和下文 COW 说明；本表对这些内容做筛选与关联，不含课标结论或词源判断。复现：`python3 tools/content/build_single_oewn_review_batch.py /tmp/etyra-single-oewn.csv`，脚本验证来源记录之间的 ID/词性/词形并拒绝覆盖已有文件。
+
 ## 中文词义候选：Chinese Open Wordnet
 
 [`docs/COW_SENSE_CANDIDATES.csv`](../../COW_SENSE_CANDIDATES.csv) 以已保存的 OEWN 英文义项为基础，通过英文与中文词网各自明确给出的 CILI 标识连接 [Chinese Open Wordnet 1.1](https://bond-lab.github.io/cow/) 词义集合，提取该集合的中文词项。得到 15135 行候选义项，涉及 4819 个英文候选键。每行保留 OEWN 词条原始大小写、词性、sense/synset ID、CILI、COW synset ID 和中文词项数组；没有提取拼音或例句。一个义项可能对应多个中文表达，排列不代表优先级。
