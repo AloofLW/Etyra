@@ -257,3 +257,5 @@
 单条 OEWN 索引批次新增 20 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 365 条；选用已有 COW 中文词项并记录具体义项范围，例如 `legacy` 所选法律义项为遗赠物，`businessman` 所选来源义项限定男性。选义、课标适用性与来源许可均待独立审核。
 
 单条 OEWN 索引批次新增 20 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 385 条，均按已有 OEWN/COW 对齐选择词项并保留义项边界。`repeatedly` 的来源定义为循环释义，应补充独立参考；`infant` 所选来源义项的年龄与发展条件应专业复核。所有选义、课程适用性与许可均待审。
+
+单条 OEWN 索引批次新增 22 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 407 条。中文取自已有 COW 词项，均按特定 OEWN 英文义项记录语境；涉及 `antibody` 的免疫学机制、星期排序和 `jewelry` 的材料范围须复核，不能将受限来源定义视为完整释义。课标适用性和许可仍待审核。
