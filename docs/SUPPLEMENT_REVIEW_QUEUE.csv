@@ -68,7 +68,7 @@ vocab-candidate-257c4a121ae568ba528f,nutrition,curriculum_gap,110,,3,1,0,0,0,0,,
 vocab-candidate-2689367b205c16ce32ed,ok,curriculum_gap,111,,4,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-2744ccd10c7533bd736a,me,curriculum_gap,107,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-2753cb15f1d6d34c2d6e,cuisine,curriculum_gap,89,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-283deba1f3a5b4a86fb0,humorous,historical_2020,,153,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-283deba1f3a5b4a86fb0,humorous,historical_2020,,153,1,0,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-28561c6b68fca875e23c,german,historical_2020,,151,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-285a615116ddc6314540,granddaughter,curriculum_gap,99,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-29e1be7654a414195711,forehead,curriculum_gap,97,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
@@ -154,13 +154,13 @@ vocab-candidate-5a6ae5c8d6d82bd913f3,t-shirt,complex_oewn,128,,1,1,0,0,0,0,,curr
 vocab-candidate-5a7cf4ac138054a82f60,him,wiktionary_gap,101,,0,0,11,0,1,0,94635078,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-5ae666e5b1a641b37709,exciting,curriculum_gap,94,,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-5bed85bd69a5502a8f64,tablet,curriculum_gap,126,,5,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
-vocab-candidate-5caddc4c49deec8eeb19,olympics,historical_2020,,163,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-5caddc4c49deec8eeb19,olympics,historical_2020,,163,1,0,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-5e737f891db1175442a3,strawberry,curriculum_gap,124,,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-5e9562c786d9ca040985,cloudy,curriculum_gap,86,,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-5eb2da9c26b65531549c,yours,wiktionary_gap,132,,0,0,4,0,1,0,93045641,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-5f435b82e7e9e75e9819,criterion,curriculum_gap,89,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-6084392347f92be9ce89,dessert,curriculum_gap,90,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-6089854c94ca5454b76b,london,historical_2020,,158,2,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-6089854c94ca5454b76b,london,historical_2020,,158,2,0,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-60e6aa4ad2d315ff8ab5,bored,curriculum_gap,82,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-6120d7ff00ac60e0b8f9,those,wiktionary_gap,127,,0,0,2,0,0,0,94574680,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
 vocab-candidate-6247a5ccc27edc5161f4,smog,curriculum_gap,122,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only

@@ -31,7 +31,8 @@ def main():
                             + count("COW_RELATION_SENSE_CANDIDATES.csv")
                             + count("COW_HISTORICAL_2020_SENSE_CANDIDATES.csv")),
         "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("KAIKKI_COMPLEX_SENSE_CANDIDATES.csv"),
-        "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
+        "word_drafts": (count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id")
+                        + count("CURATED_HISTORICAL_2020_PILOT.csv")),
         "function_drafts": count("CURATED_SUPPLEMENT_FUNCTION_PILOT.csv"),
         "kaikki_translation_clues": collections.Counter(row["candidate_id"] for row in read("KAIKKI_TRANSLATION_CANDIDATES.csv") if row["inventory"] == "supplement"),
     }
@@ -47,6 +48,8 @@ def main():
     for name in ("oewn_senses", "cow_sense_links", "kaikki_senses", "function_drafts", "kaikki_translation_clues"):
         if set(sources[name]) - ids:
             raise ValueError(f"Unknown supplemental ID in {name}")
+    if set(count("CURATED_HISTORICAL_2020_PILOT.csv")) - ids:
+        raise ValueError("Unknown supplemental ID in historical word drafts")
     with args.output.open("x", encoding="utf-8", newline="") as output:
         writer = csv.writer(output, lineterminator="\n")
         writer.writerow(("candidate_id", "headword_key", "source_group", "mirror_pdf_pages", "historical_pdf_pages", "oewn_senses",

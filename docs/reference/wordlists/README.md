@@ -27,7 +27,7 @@
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
-[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 425 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11、2020 历史对照候选 39。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、93 项无中文线索、285 项有多个已提取英文义项行；任何线索均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。历史来源页码单列，不能误当 2025 镜像页码。
+[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 425 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11、2020 历史对照候选 39。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、90 项无中文线索或编辑草稿、285 项有多个已提取英文义项行；任何线索或草稿均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。历史来源页码单列，不能误当 2025 镜像页码。
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
@@ -140,6 +140,8 @@
 从同一 OEWN 固定版本提取这 39 个候选的 110 条英文定义线索，见 [`docs/OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv`](../../OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv)；各行保留词头、词性、义项及 synset，全部待审核，不能把多义项数量当单词数量。复现：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-2020-senses.csv --candidate-file docs/HISTORICAL_2020_GAP_CANDIDATES.csv`。
 
 将这 110 条英文义项按 CILI 与已固定版本 COW 1.1 对照，得到 [`docs/COW_HISTORICAL_2020_SENSE_CANDIDATES.csv`](../../COW_HISTORICAL_2020_SENSE_CANDIDATES.csv) 中 82 条中文词项线索，涉及 36 个候选；`humorous`、`London`、`Olympics` 在本次对照中未找到中文词项，并不代表词典中无适当译法。CILI 对齐不是翻译验收，例如 `Indian` 的现有线索涉及不同含义，国籍、族群与语言必须按源义项和语境区分；大小写、专名和词性也须独立审核。来源、许可与复现条件同本页 COW 章节，命令：`python3 tools/content/align_cow_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /path/to/cow-1.1.tar.xz /tmp/etyra-2020-cow.csv --sense-csv docs/OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv`。所有内容保持 `candidate_only`。
+
+对 COW 未匹配的上述三个候选，已依据 OEWN 英文义项建立 [`CURATED_HISTORICAL_2020_PILOT.csv`](../../CURATED_HISTORICAL_2020_PILOT.csv) 编辑中文草稿；它们不是 COW 译文，词义、课标适用性及许可仍待复核。`London` 选城市义，不将同名作家义混入；`Olympics` 参考[国际奥委会说明](https://www.olympics.com/ioc/celebrate-olympic-games)，区分夏奥会与冬奥会的四年周期及交错举办，不将所有奥运会误述为每四年只举办一次。补充队列的 `word_drafts` 已计入三项，但草稿不等同审核通过的中文释义。
 
 复现：使用支持 `pdfplumber` 的 Python，先运行 `python3 tools/content/compare_2020_curriculum.py /path/to/2020.pdf`；如需本地逐页检查，可加 `--review-csv /tmp/etyra-2020-review.csv`，不要公开未经许可的课标整表。再运行 `python3 tools/content/build_2020_gap_candidates.py /path/to/2020.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-2020-gaps.csv`。两个脚本核对输入摘要并拒绝覆盖已有输出；精确拼写统计是发现待审项的辅助，不是审核结论。
 
