@@ -229,3 +229,18 @@ vocab-candidate-b4ca32d7b0dbfc0fe269,cruel,a,oewn-cruel__5.00.01.inhumane.00,oew
 vocab-candidate-b656c4513f109480f96b,merely,r,oewn-merely__4.02.00..,oewn-00005103-r,i18177,cow-00004722-r,仅仅,表示只有所述内容，没有更多。,editorial_draft_pending_final_review
 vocab-candidate-ee275d64dafcd283c25b,restaurant,n,oewn-restaurant__1.06.00..,oewn-04088393-n,i58115,cow-04081281-n,餐馆,人们前往用餐的场所。,editorial_draft_pending_final_review
 vocab-candidate-85738f8f9a7f1b04b532,whatever,a,oewn-whatever__5.00.00.some.00,oewn-02275443-s,i12554,cow-02267686-a,任何,所选限定用法表示未具体限定的一个或多个；连词等用法另审。,editorial_draft_pending_final_review
+vocab-candidate-02a5491a3e834362f918,bacterial,a,oewn-bacterial__3.01.00..,oewn-02844429-a,i16075,cow-02833544-a,细菌的,指与细菌有关或由细菌引起，具体译法取决于语境。,editorial_draft_pending_final_review
+vocab-candidate-07f33781121e176596b3,immense,a,oewn-immense__5.00.01.large.00,oewn-01390253-s,i7552,cow-01387319-a,巨大的,指大小、数量、程度或范围异常之大。,editorial_draft_pending_final_review
+vocab-candidate-093a169186a726bc6007,wealthy,a,oewn-wealthy__5.00.00.rich.00,oewn-02029380-s,i11081,cow-02022167-a,富有的,指拥有大量钱财或有价值的财产。,editorial_draft_pending_final_review
+vocab-candidate-0e8535367f7a0a153902,hepatitis,n,oewn-hepatitis__1.26.00..,oewn-14153836-n,i111183,cow-14130354-n,肝炎,所选来源义项指病毒或毒素引起的肝脏炎症；其他病因需另核验。,editorial_draft_pending_final_review
+vocab-candidate-0f405f80f56801685729,solute,n,oewn-solute__1.27.00..,oewn-15072416-n,i116247,cow-15047849-n,溶质,指溶液中被溶解的物质；具体科学用法待复核。,editorial_draft_pending_final_review
+vocab-candidate-0fc7ee9580a150deaa48,spokesman,n,oewn-spokesman__1.18.00..,oewn-10657708-n,i93217,cow-10638310-n,发言人,所选来源义项特指男性发言人；性别中性的表达另行处理。,editorial_draft_pending_final_review
+vocab-candidate-117621ca9b86ec98e0cf,passionate,a,oewn-passionate__3.00.00..,oewn-01729926-a,i9472,cow-01725712-a,热情的,指具有或表现强烈情绪；具体情感随语境变化。,editorial_draft_pending_final_review
+vocab-candidate-11b9608684bb5563ed6b,kidnap,v,oewn-kidnap__2.35.00..,oewn-01473673-v,i29074,cow-01471043-v,绑架,所选义项涉及违背意愿带往隐秘地点，常为索取赎金；完整法律范围另核验。,editorial_draft_pending_final_review
+vocab-candidate-13bfaf8f3c4750362fa8,partly,r,oewn-partly__4.02.00..,oewn-00008102-r,i18195,cow-00007703-r,部分地,指在一定程度上，并非完全如此。,editorial_draft_pending_final_review
+vocab-candidate-16a41d9ce114db967b4e,useless,a,oewn-useless__3.00.00..,oewn-02506940-a,i13851,cow-02497141-a,无用的,指没有益处或不能有效发挥功能。,editorial_draft_pending_final_review
+vocab-candidate-18b263dcdea6a8a081d4,considerable,a,oewn-considerable__3.00.00..,oewn-00626700-a,i3474,cow-00624026-a,相当大的,指数量、程度或范围相对较大；不表示可精确量化。,editorial_draft_pending_final_review
+vocab-candidate-18d63be10ad544a04a22,robot,n,oewn-robot__1.06.00..,oewn-02764397-n,i50283,cow-02761392-n,机器人,所选来源义项侧重能自动移动的机械装置；其他定义范围另核验。,editorial_draft_pending_final_review
+vocab-candidate-2577e6845506aff8e5a8,behavioral,a,oewn-behavioral__3.01.00..,oewn-02952989-a,i16769,cow-02941652-a,行为方面的,指与行为有关的；美式拼写对应关系另行复核。,editorial_draft_pending_final_review
+vocab-candidate-25f3d45ee3ae026d2134,restructure,v,oewn-restructure__2.30.02..,oewn-00405308-v,i23751,cow-00404401-v,重组,指重新构造、形成或调整结构；具体对象随语境变化。,editorial_draft_pending_final_review
+vocab-candidate-26594677f70e9d271db1,tonne,n,oewn-tonne__1.23.00..,oewn-13747698-n,i108988,cow-13725588-n,公吨,指相当于1000千克的质量单位；注意与其他 ton 的区别。,editorial_draft_pending_final_review
