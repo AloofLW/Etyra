@@ -89,7 +89,7 @@
 
 [`docs/SINGLE_OEWN_REVIEW_BATCH.csv`](../../SINGLE_OEWN_REVIEW_BATCH.csv) 汇总主候选中现有 OEWN 索引仅有一条义项且存在一条 COW 对照记录的 521 个候选，保留英文定义、中文词项数组、词性、源义项、CILI 与 synset；其中 109 项的中文数组只有一个词项。该批只是审核工作表：一个 OEWN 义项或一个中文选项均不证明单词只有一种含义或中文准确，例如 `while` 的 OEWN 线索为名词，不能因此忽视常用连词义。中文项未自动选定，全部仍为 `candidate_only`。词典来源、许可和署名分别同本页 OEWN、Princeton WordNet 和下文 COW 说明；本表对这些内容做筛选与关联，不含课标结论或词源判断。复现：`python3 tools/content/build_single_oewn_review_batch.py /tmp/etyra-single-oewn.csv`，脚本验证来源记录之间的 ID/词性/词形并拒绝覆盖已有文件。
 
-从该批次人工选取 73 个词形成 [`CURATED_SINGLE_OEWN_PILOT.csv`](../../CURATED_SINGLE_OEWN_PILOT.csv) 初步草稿，分别记录 OEWN 义项、CILI、COW 中文词项及编辑语境说明；主审核队列计入相应 `word_drafts`。选择只覆盖所记义项，不证明其他词性或常用义不存在；例如 `download` 的 OEWN 定义可能不涵盖全部现代使用场景，化学元素与其单质或化合物也须区分。`wildlife` 的已选英文义项涉及未驯养的生物，中文草稿选“野生生物”而非只限动物。草稿、中文及语境仍须复核课程范围、来源许可与词源，不能直接导入正式词库。
+从该批次人工选取 108 个词形成 [`CURATED_SINGLE_OEWN_PILOT.csv`](../../CURATED_SINGLE_OEWN_PILOT.csv) 初步草稿，分别记录 OEWN 义项、CILI、COW 中文词项及编辑语境说明；主审核队列计入相应 `word_drafts`。选择只覆盖所记义项，不证明其他词性或常用义不存在；例如 `download` 的 OEWN 定义可能不涵盖全部现代使用场景，化学元素与其单质或化合物也须区分。`wildlife` 的已选英文义项涉及未驯养的生物，中文草稿选“野生生物”而非只限动物。草稿、中文及语境仍须复核课程范围、来源许可与词源，不能直接导入正式词库。
 
 ## 中文词义候选：Chinese Open Wordnet
 
