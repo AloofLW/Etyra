@@ -233,7 +233,7 @@
 
 2026-11-01 和 2026-11-07 分批查询 English Wiktionary 页面固定修订，主候选清单全部 5342 项的定位元数据见 [`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv`](../../WIKTIONARY_BULK_SOURCE_INDEX.csv)；其中 5321 项检测到英语词源章节标题，21 项未检测到标题；未检测到标题不等于没有来源，仍需人工核对或寻找替代来源。此前遇到 HTTP 429 后已暂停，2026-11-07 以串行、分批方式恢复。此表仅定位页面版本，并不包含或确认词源、词义、词根关系及高中适用性；缺少标题也不等于没有词源。许可与后续文字复用条件见 `docs/CONTENT_SOURCE_AUDIT.md`。
 
-对 21 个无标题页面中的 10 个，依据原固定修订英语章节内明确的拼写变体或缩略模板，另记录目标词条的固定修订和词源标题至 [`docs/WIKTIONARY_HEADING_ABSENT_REVIEW.csv`](../../WIKTIONARY_HEADING_ABSENT_REVIEW.csv)。目标页面修订仅定位线索：`descendent` 在不同词性下标注不同，`gym` 还指向 `gymnastics`，不能把列出的单个目标推广到所有义项。其余 11 个尚未在此表建立目标；所有变体、词性、课程适用性和许可仍待审，不自动合并 ID 或学习进度。表仅保存页面元数据和人工审核备注，不复制词典正文。
+对 21 个无标题页面中的 20 个，依据原固定修订英语章节内明确的拼写、缩略和屈折模板、定义链接或大小写使用说明，另记录目标词条的固定修订和词源标题至 [`docs/WIKTIONARY_HEADING_ABSENT_REVIEW.csv`](../../WIKTIONARY_HEADING_ABSENT_REVIEW.csv)。目标页面修订仅定位线索：`descendent` 在不同词性下标注不同，`gym` 还指向 `gymnastics`，不能把列出的单个目标推广到所有义项。其中定义链接只供查找语境，不能证明词源；`TRUE/FALSE` 与小写形式只作大小写对照，不能视为等同。`memorize` 尚未在此表建立目标；所有变体、词性、课程适用性和许可仍待审，不自动合并 ID 或学习进度。表仅保存页面元数据和人工审核备注，不复制词典正文。
 
 工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。原始 400 条临时缓存已不存在，不能仅凭缓存完整复现；可依照固定修订链接逐条追溯。本次最后一批缓存仍可用时可离线重建：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-resume /tmp/etyra-last-check.csv --start-offset 4600 --max-batches 19 --cached-only`；校验并与已保存的固定修订对照，不覆盖旧修订。页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
 
