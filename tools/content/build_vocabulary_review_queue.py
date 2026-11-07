@@ -44,7 +44,7 @@ def main():
         "kaikki_gap_translation_clues": count("KAIKKI_CHINESE_GAP_TRANSLATIONS.csv"),
         "kaikki_common_translation_clues": count("KAIKKI_COMMON_GAP_TRANSLATIONS.csv"),
         "oewn_form_links": count("OEWN_FORM_CANDIDATES.csv"),
-        "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id") + independent_drafts,
+        "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id") + independent_drafts + count("CURATED_ADDITIONAL_ROOT_OEWN_PILOT.csv"),
         "function_drafts": count("CURATED_FUNCTION_WORD_PILOT.csv"),
         "common_function_drafts": count("CURATED_COMMON_FUNCTION_PILOT.csv"),
         "common_gap_drafts": count("CURATED_COMMON_GAP_PILOT.csv"),

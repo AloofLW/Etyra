@@ -32,6 +32,7 @@ def main():
                             + count("COW_HISTORICAL_2020_SENSE_CANDIDATES.csv")),
         "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("KAIKKI_COMPLEX_SENSE_CANDIDATES.csv"),
         "word_drafts": (count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id")
+                        + count("CURATED_ADDITIONAL_ROOT_OEWN_PILOT.csv")
                         + count("CURATED_HISTORICAL_2020_PILOT.csv")
                         + count("CURATED_HISTORICAL_COW_PILOT.csv")),
         "function_drafts": count("CURATED_SUPPLEMENT_FUNCTION_PILOT.csv"),

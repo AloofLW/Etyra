@@ -82,6 +82,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 95 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位，以及新增五条的词义范围和间接词源。
 - [ ] 复核 `submission` 的 COW 线索：OEWN `1.26.00` 表示屈从控制的状态，不能直接按中文词项“提交”当成文件递交义；按目标义项另找来源。
 - [ ] 复核 `docs/CURATED_SUBMISSION_KAIKKI_PILOT.csv` 的独立递交行为义草稿、词源关系、课标适用性和来源许可；该替代草稿不更改原有 COW 对齐。
+- [ ] 复核 `docs/CURATED_ADDITIONAL_ROOT_OEWN_PILOT.csv` 中 10 条基于 OEWN 的独立编辑中文草稿，逐条验证选义、用法范围、词根间接关联、课标适用性与许可；不可仅凭固定修订存在即批准关系。
 - [ ] 审查 `docs/CURATED_PORT_KAIKKI_PILOT.csv` 的 `supporter`、`portfolio` 两条替代来源草稿，核对义项、翻译及对应词源；不覆盖原 COW 线索。
 - [ ] 审查 `docs/CURATED_PORTABLE_PILOT.csv` 的一般携带义草稿及其词源关联、课标适用性和许可；另保留 COW 船外发动机义项对照疑点，不自动认定原因。
 - [ ] 复核 `docs/CURATED_STRUCT_OEWN_PILOT.csv` 三条编辑中文草稿，区分普通重建活动与历史专名；核查 OEWN 义项、词源及许可。

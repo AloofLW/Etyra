@@ -241,3 +241,5 @@
 另发现 `submission` 的 OEWN `1.26.00` 义项描述受控制的状态，对应 COW 的“提交”词项不能据此确定为文件递交含义，故未将其选为文件提交义。词网对齐问题原因未判定；需另找与目标语境一致的来源并复核。
 
 现已从 [Kaikki 的 submission 单词快照](https://kaikki.org/dictionary/English/meaning/s/su/submission.html)找到递交已完成作品的行为义，与其词源页面固定修订的对应英文义项对照，写入 `CURATED_SUBMISSION_KAIKKI_PILOT.csv`。JSONL 快照 SHA-256 为 `796c4792ddd0bed267140e83400b48ec829004c105ef3b55142fb391eec6d51e`；中文“提交；递交”为编辑草稿，不使用上述 COW 对齐结果。词源、具体语境、课标适用性和 Wiktionary/Kaikki 许可仍需复核，原 COW 疑点仍保留，草稿不代表已通过验收。
+
+新增 `CURATED_ADDITIONAL_ROOT_OEWN_PILOT.csv` 十条草稿：`audible`、`legible`、`mortal`、`description`、`scribe`、`tact`、`terrain`、`justify`、`educator`、`exceptional`。按已记录的 OEWN 2024 英文义项自行编辑中文，不引用 COW 中文；每条只覆盖选定的一个义项，并对照固定 Wiktionary 修订定位词源。`educator` 所选 OEWN 义项特指教育年轻人的人；`exceptional` 选不同寻常义；两者不覆盖全部常见用法。固定修订元数据与本地索引已核对，但页面存在不能证明完整词根路径，尤其间接关联和现代形态分析须另行核实。十条均未验收，课标适用性、中文、来源许可与分发义务仍待审核。
