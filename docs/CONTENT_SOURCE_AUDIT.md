@@ -255,3 +255,5 @@
 单条 OEWN 索引批次新增 26 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 345 条。保留 OEWN/COW 义项定位，中文与语境说明待审核；例如 `laser` 选装置义，`auto` 所选词网义项的动力来源表述与现实车型差异需复核，`euro` 的使用范围可能随时间变化。未验收词义、词源、课程适用性或许可。
 
 单条 OEWN 索引批次新增 20 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 365 条；选用已有 COW 中文词项并记录具体义项范围，例如 `legacy` 所选法律义项为遗赠物，`businessman` 所选来源义项限定男性。选义、课标适用性与来源许可均待独立审核。
+
+单条 OEWN 索引批次新增 20 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 385 条，均按已有 OEWN/COW 对齐选择词项并保留义项边界。`repeatedly` 的来源定义为循环释义，应补充独立参考；`infant` 所选来源义项的年龄与发展条件应专业复核。所有选义、课程适用性与许可均待审。

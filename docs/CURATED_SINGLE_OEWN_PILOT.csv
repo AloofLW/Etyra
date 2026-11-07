@@ -364,3 +364,23 @@ vocab-candidate-c75a266d47deb2424c31,businessman,n,oewn-businessman__1.18.00..,o
 vocab-candidate-c983c585ac3c40d92083,consensus,n,oewn-consensus__1.26.00..,oewn-13995348-n,i110360,cow-13971901-n,共识,指一个群体整体形成的一致看法或判断。,editorial_draft_pending_final_review
 vocab-candidate-c9d9454da28129a7c683,kilometer,n,oewn-kilometer__1.23.00..,oewn-13681796-n,i108497,cow-13659760-n,千米,等于 1000 米的长度单位。,editorial_draft_pending_final_review
 vocab-candidate-ce72530a85470c5ba76e,subsequently,r,oewn-subsequently__4.02.00..,oewn-00061741-r,i18505,cow-00061203-r,之后,指在某个参照时间之后。,editorial_draft_pending_final_review
+vocab-candidate-abbe51030b1dbc63a354,appetite,n,oewn-appetite__1.12.00..,oewn-07500766-n,i76075,cow-07485626-n,欲望,所选义项指对某事物的渴望感；食欲这一具体用法另行核验。,editorial_draft_pending_final_review
+vocab-candidate-b6f80f8db1ed2c2d73e1,workforce,n,oewn-workforce__1.14.00..,oewn-08229268-n,i80255,cow-08212347-n,人手,所选义项指可用的劳动者群体。,editorial_draft_pending_final_review
+vocab-candidate-b91d83b6c41a231217b7,popularity,n,oewn-popularity__1.07.00..,oewn-04815891-n,i62274,cow-04808639-n,人气,指受到广泛喜爱、接受或追捧的程度。,editorial_draft_pending_final_review
+vocab-candidate-beb942513440d063f653,magnificent,a,oewn-magnificent__5.00.00.impressive.00,oewn-01288468-s,i7005,cow-01285376-a,壮观,所选义项指具有宏伟特征；具体译法应结合语境。,editorial_draft_pending_final_review
+vocab-candidate-c40e36253c9be87e0101,trader,n,oewn-trader__1.18.00..,oewn-10740102-n,i93720,cow-10720453-n,商人,所选义项指购入并储存待售商品的人。,editorial_draft_pending_final_review
+vocab-candidate-c4276593c65378512965,luckily,r,oewn-luckily__4.02.00..,oewn-00042664-r,i18386,cow-00042254-r,幸好,指由于好运或幸运的情况。,editorial_draft_pending_final_review
+vocab-candidate-c74a66242143ede04202,dissertation,n,oewn-dissertation__1.10.00..,oewn-06420728-n,i70168,cow-06409085-n,论文,所选义项指基于研究提出观点的论著，通常为高级学位要求。,editorial_draft_pending_final_review
+vocab-candidate-c81409883fdefbb3fffa,infant,n,oewn-infant__1.18.00..,oewn-09846929-n,i88382,cow-09827683-n,婴儿,所选来源义项限定为出生至约一岁的幼儿；年龄边界和医学定义需另核验。,editorial_draft_pending_final_review
+vocab-candidate-c82d3d4865e41e2a263f,propaganda,n,oewn-propaganda__1.10.00..,oewn-06687287-n,i71559,cow-06674542-n,宣传,所选义项指为推动某种事业或主张而传播的信息。,editorial_draft_pending_final_review
+vocab-candidate-ce922519a3c3ecaf9b09,transaction,n,oewn-transaction__1.04.00..,oewn-01108713-n,i41201,cow-01106808-n,交易,指团体内或团体间进行交易的行为，包括商业活动。,editorial_draft_pending_final_review
+vocab-candidate-cf2eb894cc40f5c6e781,instructor,n,oewn-instructor__1.18.00..,oewn-10713754-n,i93557,cow-10694258-n,教师,指以教学为职业的人；教练等具体称谓依语境确定。,editorial_draft_pending_final_review
+vocab-candidate-d10149eecff30f56d947,aircraft,n,oewn-aircraft__1.06.00..,oewn-02689427-n,i49876,cow-02686568-n,航空器,指能够飞行的交通工具。,editorial_draft_pending_final_review
+vocab-candidate-d15a1edfb23cdba76277,flee,v,oewn-flee__2.38.00..,oewn-02079709-v,i32122,cow-02075462-v,逃跑,指快速逃离。,editorial_draft_pending_final_review
+vocab-candidate-d5393b48316f7414dd29,resemble,v,oewn-resemble__2.42.00..,oewn-02671359-v,i34992,cow-02665282-v,类似,指外观或特征相像。,editorial_draft_pending_final_review
+vocab-candidate-d61d74587224c86ab5c1,hospitality,n,oewn-hospitality__1.10.00..,oewn-06644013-n,i71330,cow-06631506-n,好客,指热情欢迎客人或陌生人的友善态度。,editorial_draft_pending_final_review
+vocab-candidate-d6e80ff8fdca7b24edc3,repeatedly,r,oewn-repeatedly__4.02.01..,oewn-00178467-r,i19349,cow-00176981-r,反复,指多次或重复地；来源定义循环释义，须补充独立来源复核。,editorial_draft_pending_final_review
+vocab-candidate-d77f5f36b728b2bd3c0e,oversee,v,oewn-oversee__2.41.00..,oewn-02447914-v,i33940,cow-02443049-v,监督,指观察并指导某项工作。,editorial_draft_pending_final_review
+vocab-candidate-d7f4d3ccee7acd3dd7fa,microphone,n,oewn-microphone__1.06.00..,oewn-03765483-n,i56215,cow-03759954-n,麦克风,指将声波转换为电信号的设备。,editorial_draft_pending_final_review
+vocab-candidate-da5e11efa36720a4211a,concept,n,oewn-concept__1.09.00..,oewn-05844071-n,i67543,cow-05835747-n,概念,指从具体事例中推导或归纳出的抽象或一般观念。,editorial_draft_pending_final_review
+vocab-candidate-dc5945e7f9b7f87b97a7,psychologist,n,oewn-psychologist__1.18.00..,oewn-10508450-n,i92326,cow-10488865-n,心理学家,指受过心理学训练的科学工作者。,editorial_draft_pending_final_review
