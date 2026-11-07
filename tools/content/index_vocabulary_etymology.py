@@ -28,7 +28,7 @@ def fetch(titles):
               "rvprop": "ids|timestamp|sha1|content", "maxlag": "5",
               "titles": "|".join(titles)}
     cmd = ["curl", "-fsSL", "--max-time", "45", "--get", "--user-agent",
-           "EtyraVocabularyResearch/0.1 (educational source audit)",
+           "EtyraVocabularyResearch/0.1 (https://github.com/AloofLW/Etyra)",
            "https://en.wiktionary.org/w/api.php"]
     for key, value in params.items():
         cmd += ["--data-urlencode", f"{key}={value}"]
@@ -52,6 +52,8 @@ def main():
     parser.add_argument("cache", type=Path, help="External checkpoint directory")
     parser.add_argument("output", type=Path, help="New output CSV")
     parser.add_argument("--cached-only", action="store_true", help="Index the contiguous cached prefix without making requests")
+    parser.add_argument("--start-offset", type=int, default=0, help="Start at a batch-aligned inventory offset")
+    parser.add_argument("--max-batches", type=int, help="Maximum batches to process in this run")
     args = parser.parse_args()
     if args.output.exists():
         raise FileExistsError(args.output)
@@ -61,10 +63,15 @@ def main():
         candidates = list(csv.DictReader(source))
     if len({row['candidate_id'] for row in candidates}) != len(candidates):
         raise ValueError("Duplicate candidate IDs")
+    if args.start_offset < 0 or args.start_offset >= len(candidates) or args.start_offset % BATCH_SIZE:
+        parser.error("--start-offset must be a valid batch-aligned inventory offset")
+    if args.max_batches is not None and args.max_batches < 1:
+        parser.error("--max-batches must be positive")
     args.cache.mkdir(parents=True, exist_ok=True)
     results = []
     total = (len(candidates) + BATCH_SIZE - 1) // BATCH_SIZE
-    for offset in range(0, len(candidates), BATCH_SIZE):
+    stop = len(candidates) if args.max_batches is None else min(len(candidates), args.start_offset + args.max_batches * BATCH_SIZE)
+    for offset in range(args.start_offset, stop, BATCH_SIZE):
         group = candidates[offset:offset + BATCH_SIZE]
         titles = [row["headword"] for row in group]
         path = args.cache / f"batch-{offset // BATCH_SIZE:04d}.json"

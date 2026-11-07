@@ -21,8 +21,13 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("cache", type=Path)
     parser.add_argument("output", type=Path)
+    parser.add_argument("--index", type=Path, help="Index for this cached batch; defaults to the complete repository index")
     args = parser.parse_args()
-    index = read("WIKTIONARY_BULK_SOURCE_INDEX.csv")
+    if args.index:
+        with args.index.open(encoding="utf8", newline="") as source:
+            index = list(csv.DictReader(source))
+    else:
+        index = read("WIKTIONARY_BULK_SOURCE_INDEX.csv")
     pages = {}
     for path in sorted(args.cache.glob("batch-*.json")):
         checkpoint = json.loads(path.read_text(encoding="utf8"))
