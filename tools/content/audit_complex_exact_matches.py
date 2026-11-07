@@ -17,6 +17,19 @@ def read(path):
         return list(csv.DictReader(f))
 
 
+def fragments(entry):
+    """Return literal pieces without asserting spelling or meaning equivalence."""
+    entry = entry.strip().rstrip("*").strip()
+    outer = entry.split("(", 1)[0].strip()
+    yield from (part.strip() for part in outer.split("/") if part.strip())
+    match = re.search(r"\(([^()]*)\)", entry)
+    if match:
+        for part in re.split(r"[,/]", match.group(1)):
+            part = part.strip().lstrip("=").strip()
+            if part:
+                yield part
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("review_csv", type=Path)
@@ -34,8 +47,13 @@ def main():
         key = re.sub(r"\s*\*+$", "", row["source_line"]).strip().casefold()
         category = "main" if key in main_words else "supplement" if key in supplemental else "other"
         counts[category] += 1
+        pieces = list(fragments(row["source_line"]))
+        if pieces and all(piece.casefold() in main_words | supplemental for piece in pieces):
+            counts["all_fragments_found"] += 1
     print(f"Complex rows: {len(rows)}; exact main: {counts['main']}; "
           f"exact supplement: {counts['supplement']}; other: {counts['other']}")
+    print(f"Rows whose literal fragments all have candidate spelling keys: {counts['all_fragments_found']}; "
+          f"rows with at least one unmatched fragment: {len(rows) - counts['all_fragments_found']}")
     print("Exploratory spelling matches only; all original lines and curriculum levels still need review.")
 
 
