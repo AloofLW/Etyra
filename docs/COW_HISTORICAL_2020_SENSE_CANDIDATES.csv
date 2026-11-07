@@ -1,0 +1,83 @@
+candidate_id,headword,oewn_written_form,pos,sense_id,oewn_synset_id,ili,cow_synset_ids,chinese_lemmas_json,status
+vocab-candidate-103404f85e8aabd2ee9a,australian,Australian,a,oewn-australian__3.01.00..,oewn-03057136-a,i17446,cow-03045750-a,"[""澳"", ""澳大利亚"", ""澳大利亚人"", ""澳大利亚人的"", ""澳大利亚的""]",candidate_only
+vocab-candidate-103404f85e8aabd2ee9a,australian,Australian,n,oewn-australian__1.10.00..,oewn-06953052-n,i73064,cow-06940290-n,"[""澳洲土著语""]",candidate_only
+vocab-candidate-103404f85e8aabd2ee9a,australian,Australian,n,oewn-australian__1.18.00..,oewn-09710675-n,i87573,cow-09691279-n,"[""澳大利亚人"", ""澳洲人""]",candidate_only
+vocab-candidate-17684a3307c6d0527b44,british,British,a,oewn-british__3.01.00..,oewn-03033691-a,i17293,cow-03022177-a,"[""英国"", ""英国人"", ""英国人的"", ""英国的""]",candidate_only
+vocab-candidate-17684a3307c6d0527b44,british,British,n,oewn-british__1.18.00..,oewn-09751958-n,i87847,cow-09732544-n,"[""大不列颠人民"", ""英国人"", ""英国人民""]",candidate_only
+vocab-candidate-1774b8eebdec58c5f119,fifth,fifth,a,oewn-fifth__5.00.00.ordinal.00,oewn-02210381-s,i12144,cow-02202712-a,"[""第五"", ""第五的""]",candidate_only
+vocab-candidate-1774b8eebdec58c5f119,fifth,fifth,n,oewn-fifth__1.23.00..,oewn-13759970-n,i109061,cow-13737830-n,"[""五分之一""]",candidate_only
+vocab-candidate-1774b8eebdec58c5f119,fifth,fifth,n,oewn-fifth__1.23.01..,oewn-13640756-n,i108263,cow-13619475-n,"[""五分之一加仑""]",candidate_only
+vocab-candidate-1774b8eebdec58c5f119,fifth,fifth,n,oewn-fifth__1.24.00..,oewn-13869437-n,i109684,cow-13847240-n,"[""第五""]",candidate_only
+vocab-candidate-1e0bbd6c686ba050b8eb,bc,BC,r,oewn-bc__4.02.00..,oewn-00002190-r,i18160,cow-00002142-r,"[""公元前""]",candidate_only
+vocab-candidate-21bb36ad06385b1ccc1f,french,French,a,oewn-french__3.01.00..,oewn-02969938-a,i16872,cow-02958392-a,"[""法国"", ""法国人"", ""法国人的"", ""法国的"", ""法式"", ""高卢人"", ""高卢人的""]",candidate_only
+vocab-candidate-21bb36ad06385b1ccc1f,french,French,n,oewn-french__1.10.00..,oewn-06977643-n,i73211,cow-06964901-n,"[""法文""]",candidate_only
+vocab-candidate-22f44dee8d6e393f6a46,foggy,foggy,a,oewn-foggy__5.00.00.indistinct.00,oewn-00785203-s,i4308,cow-00781644-a,"[""不清晰"", ""不清晰的"", ""不清楚"", ""不清楚的"", ""朦胧"", ""朦胧的"", ""模糊"", ""模糊不清"", ""模糊不清的"", ""模糊的"", ""黑糊糊""]",candidate_only
+vocab-candidate-22f44dee8d6e393f6a46,foggy,foggy,a,oewn-foggy__5.00.00.opaque.00,oewn-00435525-s,i2445,cow-00433811-a,"[""有雾"", ""有雾的""]",candidate_only
+vocab-candidate-28561c6b68fca875e23c,german,German,a,oewn-german__3.01.00..,oewn-02969015-a,i16867,cow-02957469-a,"[""德国"", ""德国人"", ""德国人的"", ""德国的"", ""德意志"", ""德意志的"", ""德语"", ""德语的"", ""日耳曼"", ""日耳曼的""]",candidate_only
+vocab-candidate-28561c6b68fca875e23c,german,German,n,oewn-german__1.10.00..,oewn-06963290-n,i73125,cow-06950528-n,"[""德文""]",candidate_only
+vocab-candidate-2c598436e5575a5769b6,france,France,n,oewn-france__1.15.00..,oewn-08949695-n,i83644,cow-08929922-n,"[""法"", ""法国""]",candidate_only
+vocab-candidate-2ed280d84ad145eddf61,ninth,ninth,a,oewn-ninth__5.00.00.ordinal.00,oewn-02210918-s,i12148,cow-02203249-a,"[""第九"", ""第九的""]",candidate_only
+vocab-candidate-2ed280d84ad145eddf61,ninth,ninth,n,oewn-ninth__1.23.00..,oewn-13760375-n,i109065,cow-13738235-n,"[""九分之一""]",candidate_only
+vocab-candidate-2ed280d84ad145eddf61,ninth,ninth,n,oewn-ninth__1.24.00..,oewn-13869912-n,i109688,cow-13847715-n,"[""第九""]",candidate_only
+vocab-candidate-408c7c5887a0f3905767,canada,Canada,n,oewn-canada__1.15.00..,oewn-08837973-n,i83192,cow-08820121-n,"[""加拿大""]",candidate_only
+vocab-candidate-42e1eb95ac3ebc9076c8,japanese,Japanese,a,oewn-japanese__3.01.00..,oewn-02976588-a,i16912,cow-02965043-a,"[""日式"", ""日方"", ""日本"", ""日本人"", ""日本人的"", ""日本式"", ""日本的""]",candidate_only
+vocab-candidate-42e1eb95ac3ebc9076c8,japanese,Japanese,n,oewn-japanese__1.10.00..,oewn-06942056-n,i72985,cow-06929279-n,"[""日文""]",candidate_only
+vocab-candidate-42e1eb95ac3ebc9076c8,japanese,Japanese,n,oewn-japanese__1.18.00..,oewn-09737613-n,i87752,cow-09718217-n,"[""日裔""]",candidate_only
+vocab-candidate-59ae856cd788d0f57e39,japan,Japan,n,oewn-japan__1.15.00..,oewn-08941623-n,i83607,cow-08921850-n,"[""日"", ""日本""]",candidate_only
+vocab-candidate-59ae856cd788d0f57e39,japan,Japan,n,oewn-japan__1.15.01..,oewn-08940154-n,i83602,cow-08920381-n,"[""日本""]",candidate_only
+vocab-candidate-59ae856cd788d0f57e39,japan,japan,n,oewn-japan__1.06.00..,oewn-03598409-n,i55234,cow-03593222-n,"[""天然漆"", ""日本漆"", ""漆""]",candidate_only
+vocab-candidate-59ae856cd788d0f57e39,japan,japan,n,oewn-japan__1.06.01..,oewn-03598549-n,i55235,cow-03593362-n,"[""漆器""]",candidate_only
+vocab-candidate-6f0831d7a692ac8d9660,african,African,a,oewn-african__3.01.00..,oewn-02953127-a,i16770,cow-02941790-a,"[""非洲"", ""非洲的""]",candidate_only
+vocab-candidate-6f0831d7a692ac8d9660,african,African,n,oewn-african__1.18.00..,oewn-09657682-n,i87256,cow-09634494-n,"[""非洲人""]",candidate_only
+vocab-candidate-76c34b21c4a91889d749,britain,Britain,n,oewn-britain__1.15.00..,oewn-08879115-n,i83373,cow-08860123-n,"[""大英"", ""英"", ""英国""]",candidate_only
+vocab-candidate-7aab06cd90b6efabfbc5,swimming,swimming,a,oewn-swimming__5.00.00.tearful.00,oewn-02482846-s,i13704,cow-02473371-a,"[""充满水"", ""充满水的""]",candidate_only
+vocab-candidate-7aab06cd90b6efabfbc5,swimming,swimming,n,oewn-swimming__1.04.00..,oewn-00443055-n,i37722,cow-00442115-n,"[""游水"", ""游泳"", ""游泳运动""]",candidate_only
+vocab-candidate-83116acf18e4dc441476,uk,UK,n,oewn-uk__1.15.00..,oewn-08879115-n,i83373,cow-08860123-n,"[""大英"", ""英"", ""英国""]",candidate_only
+vocab-candidate-89b69941335e71467cdd,canadian,Canadian,a,oewn-canadian__3.01.00..,oewn-02993905-a,i17023,cow-02982473-a,"[""加拿大"", ""加拿大人"", ""加拿大人的"", ""加拿大的""]",candidate_only
+vocab-candidate-90a6d53df47e4097ad65,russia,Russia,n,oewn-russia__1.15.00..,oewn-09025654-n,i83989,cow-09003284-n,"[""俄罗斯""]",candidate_only
+vocab-candidate-90a6d53df47e4097ad65,russia,Russia,n,oewn-russia__1.15.01..,oewn-09030093-n,i84005,cow-09007723-n,"[""俄"", ""俄罗斯""]",candidate_only
+vocab-candidate-90a6d53df47e4097ad65,russia,Russia,n,oewn-russia__1.15.02..,oewn-09025184-n,i83988,cow-09002814-n,"[""俄罗斯""]",candidate_only
+vocab-candidate-90a6d53df47e4097ad65,russia,Russia,n,oewn-russia__1.15.04..,oewn-09028783-n,i84002,cow-09006413-n,"[""俄"", ""俄罗斯""]",candidate_only
+vocab-candidate-a1355c284d1c2cc17ac7,twelfth,twelfth,a,oewn-twelfth__5.00.00.ordinal.00,oewn-02211298-s,i12151,cow-02203629-a,"[""第十二"", ""第十二的""]",candidate_only
+vocab-candidate-a1355c284d1c2cc17ac7,twelfth,twelfth,n,oewn-twelfth__1.24.00..,oewn-13870249-n,i109691,cow-13848052-n,"[""第十二""]",candidate_only
+vocab-candidate-aa304b5d1d724b004084,russian,Russian,a,oewn-russian__3.01.00..,oewn-02968822-a,i16866,cow-02957276-a,"[""俄罗斯"", ""俄罗斯的""]",candidate_only
+vocab-candidate-aa304b5d1d724b004084,russian,Russian,n,oewn-russian__1.10.00..,oewn-06957110-n,i73087,cow-06944348-n,"[""俄文""]",candidate_only
+vocab-candidate-ad8085924cb7719367c1,eighth,eighth,a,oewn-eighth__5.00.00.ordinal.00,oewn-02210792-s,i12147,cow-02203123-a,"[""第八"", ""第八的""]",candidate_only
+vocab-candidate-ad8085924cb7719367c1,eighth,eighth,n,oewn-eighth__1.23.00..,oewn-13760280-n,i109064,cow-13738140-n,"[""八分之一""]",candidate_only
+vocab-candidate-ad8085924cb7719367c1,eighth,eighth,n,oewn-eighth__1.24.00..,oewn-13869813-n,i109687,cow-13847616-n,"[""第八""]",candidate_only
+vocab-candidate-b1e99324505bd32da0e1,third,third,a,oewn-third__5.00.00.ordinal.00,oewn-02209976-s,i12142,cow-02202307-a,"[""第3"", ""第三"", ""第三的""]",candidate_only
+vocab-candidate-b1e99324505bd32da0e1,third,third,n,oewn-third__1.23.00..,oewn-13759330-n,i109057,cow-13737190-n,"[""三分之一""]",candidate_only
+vocab-candidate-b1e99324505bd32da0e1,third,third,n,oewn-third__1.24.00..,oewn-13869097-n,i109682,cow-13846900-n,"[""第三档""]",candidate_only
+vocab-candidate-b2c01c8a8a0d9a99f145,germany,Germany,n,oewn-germany__1.15.00..,oewn-08784821-n,i82954,cow-08766988-n,"[""德"", ""德国""]",candidate_only
+vocab-candidate-c585f1decb986f7ff19b,australia,Australia,n,oewn-australia__1.15.00..,oewn-08849996-n,i83244,cow-08831004-n,"[""澳大利亚"", ""澳大利亚联邦"", ""澳洲""]",candidate_only
+vocab-candidate-c585f1decb986f7ff19b,australia,Australia,n,oewn-australia__1.17.00..,oewn-09234173-n,i85030,cow-09211266-n,"[""澳大利亚"", ""澳洲""]",candidate_only
+vocab-candidate-c8da2b3c5978ef11da3f,twentieth,twentieth,a,oewn-twentieth__5.00.00.ordinal.00,oewn-02212385-s,i12160,cow-02204716-a,"[""第二十"", ""第二十的""]",candidate_only
+vocab-candidate-c8da2b3c5978ef11da3f,twentieth,twentieth,n,oewn-twentieth__1.24.00..,oewn-13871081-n,i109699,cow-13848884-n,"[""第二十""]",candidate_only
+vocab-candidate-d56d0ff69b62792a00a3,england,England,n,oewn-england__1.15.00..,oewn-08891234-n,i83374,cow-08871007-n,"[""英"", ""英伦"", ""英国"", ""英格兰""]",candidate_only
+vocab-candidate-d8b1858e24ae617677d5,crayon,crayon,n,oewn-crayon__1.06.00..,oewn-03132899-n,i52481,cow-03128248-n,"[""蜡笔""]",candidate_only
+vocab-candidate-dc81b1d371a4072be7fc,fourth,fourth,a,oewn-fourth__5.00.00.ordinal.00,oewn-02210112-s,i12143,cow-02202443-a,"[""第四"", ""第四的""]",candidate_only
+vocab-candidate-dc81b1d371a4072be7fc,fourth,fourth,n,oewn-fourth__1.23.00..,oewn-13759620-n,i109059,cow-13737480-n,"[""四分之一""]",candidate_only
+vocab-candidate-dc81b1d371a4072be7fc,fourth,fourth,n,oewn-fourth__1.24.00..,oewn-13869321-n,i109683,cow-13847124-n,"[""第四""]",candidate_only
+vocab-candidate-dc81b1d371a4072be7fc,fourth,fourth,r,oewn-fourth__4.02.00..,oewn-00346567-r,i20515,cow-00344771-r,"[""第四"", ""第四地""]",candidate_only
+vocab-candidate-e39cf4518fca1824beb1,european,European,a,oewn-european__3.01.00..,oewn-02979870-a,i16932,cow-02968325-a,"[""欧式"", ""欧洲"", ""欧洲人"", ""欧洲人的"", ""欧洲的""]",candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,American,a,oewn-american__3.01.00..,oewn-02938616-a,i16671,cow-02927303-a,"[""美洲"", ""美洲的""]",candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,American,a,oewn-american__3.01.01..,oewn-02938825-a,i16672,cow-02927512-a,"[""美"", ""美国"", ""美国式"", ""美国的"", ""美式""]",candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,American,n,oewn-american__1.10.00..,oewn-06960241-n,i73105,cow-06947479-n,"[""美国英语"", ""美式英语""]",candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,American,n,oewn-american__1.18.00..,oewn-09758057-n,i87891,cow-09738708-n,"[""美国人""]",candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,American,n,oewn-american__1.18.01..,oewn-09757749-n,i87890,cow-09738400-n,"[""美洲人""]",candidate_only
+vocab-candidate-eb119ea6c963faece628,asian,Asian,a,oewn-asian__3.01.00..,oewn-02980070-a,i16933,cow-02968525-a,"[""亚洲"", ""亚洲人"", ""亚洲人的"", ""亚洲的""]",candidate_only
+vocab-candidate-eb119ea6c963faece628,asian,Asian,n,oewn-asian__1.18.00..,oewn-09662736-n,i87294,cow-09641757-n,"[""亚洲人""]",candidate_only
+vocab-candidate-effaa68d28df27c55812,sixth,sixth,a,oewn-sixth__5.00.00.ordinal.00,oewn-02210523-s,i12145,cow-02202854-a,"[""第六"", ""第六的""]",candidate_only
+vocab-candidate-effaa68d28df27c55812,sixth,sixth,n,oewn-sixth__1.23.00..,oewn-13760092-n,i109062,cow-13737952-n,"[""六分之一""]",candidate_only
+vocab-candidate-effaa68d28df27c55812,sixth,sixth,n,oewn-sixth__1.24.00..,oewn-13869599-n,i109685,cow-13847402-n,"[""第六""]",candidate_only
+vocab-candidate-f0412d6deb4211f732c5,seventh,seventh,a,oewn-seventh__5.00.00.ordinal.00,oewn-02210648-s,i12146,cow-02202979-a,"[""第七"", ""第七的""]",candidate_only
+vocab-candidate-f0412d6deb4211f732c5,seventh,seventh,n,oewn-seventh__1.23.00..,oewn-13760183-n,i109063,cow-13738043-n,"[""七分之一""]",candidate_only
+vocab-candidate-f0412d6deb4211f732c5,seventh,seventh,n,oewn-seventh__1.24.00..,oewn-13869695-n,i109686,cow-13847498-n,"[""第七""]",candidate_only
+vocab-candidate-f2d77eba1bf4519aa8cf,tenth,tenth,a,oewn-tenth__5.00.00.ordinal.00,oewn-02211042-s,i12149,cow-02203373-a,"[""第十"", ""第十的""]",candidate_only
+vocab-candidate-f2d77eba1bf4519aa8cf,tenth,tenth,n,oewn-tenth__1.23.00..,oewn-13760467-n,i109066,cow-13738327-n,"[""十分之一""]",candidate_only
+vocab-candidate-f2d77eba1bf4519aa8cf,tenth,tenth,n,oewn-tenth__1.24.00..,oewn-13870055-n,i109689,cow-13847858-n,"[""第十""]",candidate_only
+vocab-candidate-fb54e9062429a9378555,india,India,n,oewn-india__1.15.00..,oewn-08920762-n,i83517,cow-08900535-n,"[""印"", ""印度""]",candidate_only
+vocab-candidate-fb9ebf18103e119e819b,indian,Indian,a,oewn-indian__3.01.00..,oewn-02939660-a,i16676,cow-02928347-a,"[""印裔""]",candidate_only
+vocab-candidate-fb9ebf18103e119e819b,indian,Indian,a,oewn-indian__3.01.01..,oewn-02939379-a,i16675,cow-02928066-a,"[""印第安人"", ""印第安人的""]",candidate_only
+vocab-candidate-fb9ebf18103e119e819b,indian,Indian,n,oewn-indian__1.10.00..,oewn-06919215-n,i72806,cow-06906439-n,"[""印第安语""]",candidate_only
+vocab-candidate-fb9ebf18103e119e819b,indian,Indian,n,oewn-indian__1.18.01..,oewn-09693046-n,i87473,cow-09673495-n,"[""印裔""]",candidate_only
