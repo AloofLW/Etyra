@@ -1,0 +1,5 @@
+form_candidate_id,form,lemma_candidate_id,lemma,part_of_speech,form_features,source_url,source_access_date,source_use,status,notes
+vocab-candidate-ab6db599234d2636659c,am,vocab-candidate-46599c5bb5c33101f80c,be,verb,first person singular present,https://dictionary.cambridge.org/grammar/british-grammar/basic,2026-11-07,reference_only,candidate_only,语法关系线索；不自动合并候选或学习记录。
+vocab-candidate-ba78973ddcf98d4e5369,are,vocab-candidate-46599c5bb5c33101f80c,be,verb,second person singular and plural persons present,https://dictionary.cambridge.org/grammar/british-grammar/basic,2026-11-07,reference_only,candidate_only,语法关系线索；须区分同拼写的其他词性。
+vocab-candidate-fa51fd49abf67705d6a3,is,vocab-candidate-46599c5bb5c33101f80c,be,verb,third person singular present,https://dictionary.cambridge.org/grammar/british-grammar/basic,2026-11-07,reference_only,candidate_only,语法关系线索；词典页面另有其他词性。
+vocab-candidate-9150c74c5f92d51a9285,has,vocab-candidate-193c45b5281908d2d9c8,have,verb,third person singular present,https://dictionary.cambridge.org/grammar/british-grammar/have%3A,2026-11-07,reference_only,candidate_only,语法关系线索；须按语境区分实义动词与助动词。

@@ -149,6 +149,8 @@
 
 对这 85 行再按既有 `build_complex_gap_candidates.py` 的规则提取括号、斜线或逗号分隔的字面片段，与主表和补充表的候选拼写键比较：84 行的所有片段有同拼写候选；1 行仍含未匹配片段，即 `BCE` 的括号展开说明 `Before the Common Era`，已在本页后文记录其独立词条查询及缩写关系线索。对全部 85 行检查过两套分片函数的输出一致。分片匹配不代表括号两侧同义，也不证明大小写、专名、缩写、动词变形、词义或课程等级正确；例如 `father (dad)`、`be (am, are, is)` 都不能仅凭分隔符认定为同一词条。全部复杂行继续待审核，未经许可不将镜像整表提交或作为正式覆盖报告。
 
+对 `am`、`are`、`is`、`has` 四项，参照 Cambridge Dictionary 的 [be 形式表](https://dictionary.cambridge.org/grammar/british-grammar/basic)和 [have 形式说明](https://dictionary.cambridge.org/grammar/british-grammar/have%3A)，在 [`docs/INFLECTION_REVIEW_PILOT.csv`](../../INFLECTION_REVIEW_PILOT.csv) 记录与 `be`、`have` 的动词屈折关系线索及各自候选 ID；语法事实用于审核定位，来源作为参考而非授权复制词典文本。拼写可有其他词性，原型、不同词义及是否作为独立学习对象均待审；这些关系不自动合并候选、产品 ID 或学习记录，也不证明课标适用性。镜像行及分级仍须核对权威版本。
+
 ## 课标镜像缺口补充候选
 
 上述 293 个未匹配的简单词项行按忽略大小写去重后为 292 个拼写；通过 OEWN 2024 的 `Lemma.writtenForm` 比对，有 274 个拼写找到词典入口。已将这些 OEWN 词头、词条 ID、词性和镜像 PDF 页码写入 [`docs/CURRICULUM_GAP_CANDIDATES.csv`](../../CURRICULUM_GAP_CANDIDATES.csv)，每条仍为 `candidate_only`。其余 18 个拼写尚未匹配到 OEWN，包括代词和部分词形，需要其他来源或词形审核；85 行复杂形式也尚未处理。
