@@ -27,7 +27,7 @@ vocab-candidate-0f09538d0ea075eeabc6,microscope,curriculum_gap,107,,1,1,0,0,0,0,
 vocab-candidate-0f540d3e12e3abb7c31d,nationality,curriculum_gap,109,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-0f78fcc486f5315418fb,grape,curriculum_gap,99,,3,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-0fd924362117d03662f0,meeting,curriculum_gap,107,,6,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
-vocab-candidate-103404f85e8aabd2ee9a,australian,historical_2020,,133,3,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-103404f85e8aabd2ee9a,australian,historical_2020,,133,3,3,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-112895d7af6c125315cd,rating,curriculum_gap,117,,4,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-114049bf85580c9d5a69,boxing,curriculum_gap,82,,2,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
 vocab-candidate-142d31ead54fc3388ee6,fibre,curriculum_gap,96,,5,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
@@ -41,7 +41,7 @@ vocab-candidate-16a7b8d12931f9a10a86,defence,curriculum_gap,90,,11,3,0,0,0,0,,cu
 vocab-candidate-16be882827ec3f5a5611,recite,curriculum_gap,117,,5,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-16db10b2848943982d5d,kilogram,complex_oewn,104,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|complex_form_review_needed,candidate_only
 vocab-candidate-1761b93ae46f92f36264,physical education,complex_oewn,112,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|complex_form_review_needed,candidate_only
-vocab-candidate-17684a3307c6d0527b44,british,historical_2020,,136,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-17684a3307c6d0527b44,british,historical_2020,,136,2,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-1774b8eebdec58c5f119,fifth,historical_2020,,148,5,4,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-17e1c8a5385facb1ae3d,humourous,curriculum_gap,101,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed,candidate_only
 vocab-candidate-17eb3c0168d0d7b21ede,disabled,curriculum_gap,91,,2,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
@@ -54,22 +54,22 @@ vocab-candidate-1d0dbd158cf29a7254e1,frightened,curriculum_gap,97,,2,0,0,0,0,0,,
 vocab-candidate-1d898a074cb4fca35a54,saleswoman,complex_oewn,119,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|complex_form_review_needed,candidate_only
 vocab-candidate-1d9283d848ea941ace1f,later,curriculum_gap,104,,5,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-1dfbd562946f2e7a29bf,pagoda,curriculum_gap,112,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed,candidate_only
-vocab-candidate-1e0bbd6c686ba050b8eb,bc,historical_2020,,134,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-1e0bbd6c686ba050b8eb,bc,historical_2020,,134,1,1,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-1e8abffb973c275e041e,feeling,curriculum_gap,96,,6,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-1eb4d6a000efefe9aadb,grandpa,complex_oewn,99,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|complex_form_review_needed,candidate_only
 vocab-candidate-20cd4732ae60507a2e2e,kettle,curriculum_gap,104,,4,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-20fc9133f8c1daf9a29e,millimetre,complex_oewn,108,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|complex_form_review_needed,candidate_only
-vocab-candidate-21bb36ad06385b1ccc1f,french,historical_2020,,150,5,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-21bb36ad06385b1ccc1f,french,historical_2020,,150,5,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-21dec632070d52690364,tact,root_relation,,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|root_relation_review_needed,candidate_only
 vocab-candidate-22ba2d6f2848f4c040f5,pyramid,curriculum_gap,116,,7,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
-vocab-candidate-22f44dee8d6e393f6a46,foggy,historical_2020,,149,4,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-22f44dee8d6e393f6a46,foggy,historical_2020,,149,4,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-2406f46e506c14b5a936,skateboard,curriculum_gap,122,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-257c4a121ae568ba528f,nutrition,curriculum_gap,110,,3,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-2689367b205c16ce32ed,ok,curriculum_gap,111,,4,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-2744ccd10c7533bd736a,me,curriculum_gap,107,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-2753cb15f1d6d34c2d6e,cuisine,curriculum_gap,89,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-283deba1f3a5b4a86fb0,humorous,historical_2020,,153,1,0,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
-vocab-candidate-28561c6b68fca875e23c,german,historical_2020,,151,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-28561c6b68fca875e23c,german,historical_2020,,151,3,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-285a615116ddc6314540,granddaughter,curriculum_gap,99,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-29e1be7654a414195711,forehead,curriculum_gap,97,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-2c0826a6f9096b2f2408,chemist,curriculum_gap,85,,2,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
@@ -115,7 +115,7 @@ vocab-candidate-41024084d2e27b7db742,garlic,curriculum_gap,98,,2,1,0,0,0,0,,curr
 vocab-candidate-41762bcf88c5e7148181,elevator,curriculum_gap,93,,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-41a1c14a0a3f4da2663e,worst,curriculum_gap,132,,6,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
 vocab-candidate-41d6f409e16df1200721,cafeteria,curriculum_gap,83,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-42e1eb95ac3ebc9076c8,japanese,historical_2020,,156,3,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-42e1eb95ac3ebc9076c8,japanese,historical_2020,,156,3,3,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-437d89a4d5264ed82cd8,numeral,root_relation,,,3,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|root_relation_review_needed,candidate_only
 vocab-candidate-439872a2ee86c812ae38,applaud,curriculum_gap,79,,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-472de632654658760cad,bowling,curriculum_gap,82,,3,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
@@ -227,7 +227,7 @@ vocab-candidate-875f01c5306fbc2304c8,kilometre,complex_oewn,104,,1,1,0,0,0,0,,cu
 vocab-candidate-87806434b1b0497155db,chore,curriculum_gap,85,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-881df12b68cd344e83f6,capsule,curriculum_gap,84,,9,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-8933f29abeeda6f6ffbd,gymnastics,curriculum_gap,99,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-89b69941335e71467cdd,canadian,historical_2020,,137,3,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-89b69941335e71467cdd,canadian,historical_2020,,137,3,1,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-8bf18252cb6dadd5f42f,finding,curriculum_gap,96,,3,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
 vocab-candidate-8c6fb1e9e37a1aea1d30,lower,curriculum_gap,106,,7,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-8cceaf5c89e63591aea2,clap,curriculum_gap,86,,10,7,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
@@ -268,7 +268,7 @@ vocab-candidate-a8e0fe140ed8c623c205,honour,complex_oewn,101,,7,6,0,0,0,0,,curri
 vocab-candidate-a93fcdf7dbae1c2f165a,living,curriculum_gap,106,,10,6,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-a9c1034fb623883b5786,pancake,curriculum_gap,112,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed,candidate_only
 vocab-candidate-a9c43be948c5cabd56ef,dragon,curriculum_gap,92,,4,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
-vocab-candidate-aa304b5d1d724b004084,russian,historical_2020,,171,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-aa304b5d1d724b004084,russian,historical_2020,,171,3,2,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-aa65d1b65ab4ffc95501,botanical,curriculum_gap,82,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-aafe609f4f899a2470d9,behaviour,curriculum_gap,81,,4,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-ab5c95d2cc5bf9000e8d,barbecue,curriculum_gap,80,,4,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
@@ -366,7 +366,7 @@ vocab-candidate-df0c29d39619e8cf2d4b,astronaut,curriculum_gap,80,,1,1,0,0,0,0,,c
 vocab-candidate-df2f18f63c66b2151e04,erupt,curriculum_gap,94,,8,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-e262dc864e788d60b1e1,calligraphy,curriculum_gap,83,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed,candidate_only
 vocab-candidate-e2d3b41db9567ddf0334,chinese,curriculum_gap,85,,4,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
-vocab-candidate-e39cf4518fca1824beb1,european,historical_2020,,147,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-e39cf4518fca1824beb1,european,historical_2020,,147,2,1,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-e3b93359365856652e75,crowded,curriculum_gap,89,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e409bfc6fe798c2efaaf,meaning,curriculum_gap,107,,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-e40c0d5d47ecb4f9ed96,o’clock,complex_wiktionary,110,,0,0,3,0,0,2,94594683,curriculum_review_needed|license_review_needed|sense_selection_needed|complex_form_review_needed,candidate_only
@@ -375,7 +375,7 @@ vocab-candidate-e4db4217a27336b45ca7,surrounding,curriculum_gap,125,,1,1,0,0,0,0
 vocab-candidate-e60061df78be5e38d0bf,centimeter,complex_oewn,84,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|complex_form_review_needed,candidate_only
 vocab-candidate-e615f1ebb9066ba1b776,washroom,curriculum_gap,130,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e64c826b6b33f307cecf,ce,complex_oewn,84,,2,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|complex_form_review_needed,candidate_only
-vocab-candidate-e6deb10a6558650aebf4,american,historical_2020,,131,5,5,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-e6deb10a6558650aebf4,american,historical_2020,,131,5,5,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-e718b2dd3e0ac1f9208e,christmas,curriculum_gap,85,,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-e73b48f750be953532c1,eagle,curriculum_gap,92,,6,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-e74ca13b4c0a61dcf774,sleepy,curriculum_gap,122,,1,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed,candidate_only

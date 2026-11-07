@@ -22,3 +22,14 @@ vocab-candidate-d56d0ff69b62792a00a3,england,n,oewn-england__1.15.00..,oewn-0889
 vocab-candidate-fb54e9062429a9378555,india,n,oewn-india__1.15.00..,oewn-08920762-n,i83517,cow-08900535-n,印度,国家义；来源有关人口排名的描述可能过时，不沿用。,editorial_draft_pending_final_review
 vocab-candidate-6f0831d7a692ac8d9660,african,n,oewn-african__1.18.00..,oewn-09657682-n,i87256,cow-09634494-n,非洲人,非洲居民或出生者名词义；形容词义另列。,editorial_draft_pending_final_review
 vocab-candidate-eb119ea6c963faece628,asian,n,oewn-asian__1.18.00..,oewn-09662736-n,i87294,cow-09641757-n,亚洲人,亚洲居民或出生者名词义；形容词义另列。,editorial_draft_pending_final_review
+vocab-candidate-e6deb10a6558650aebf4,american,n,oewn-american__1.18.00..,oewn-09758057-n,i87891,cow-09738708-n,美国人,美国居民或出生者；与“美洲人”义区分。,editorial_draft_pending_final_review
+vocab-candidate-103404f85e8aabd2ee9a,australian,n,oewn-australian__1.18.00..,oewn-09710675-n,i87573,cow-09691279-n,澳大利亚人,澳大利亚居民或出生者；语言和形容词义另列。,editorial_draft_pending_final_review
+vocab-candidate-1e0bbd6c686ba050b8eb,bc,r,oewn-bc__4.02.00..,oewn-00002190-r,i18160,cow-00002142-r,公元前,日期标记；需保留大写并区分 BCE 等写法。,editorial_draft_pending_final_review
+vocab-candidate-17684a3307c6d0527b44,british,a,oewn-british__3.01.00..,oewn-03033691-a,i17293,cow-03022177-a,英国的,形容词义；地理范围及其他词性需复核。,editorial_draft_pending_final_review
+vocab-candidate-89b69941335e71467cdd,canadian,a,oewn-canadian__3.01.00..,oewn-02993905-a,i17023,cow-02982473-a,加拿大的,形容词义；居民及同名河流义另列。,editorial_draft_pending_final_review
+vocab-candidate-e39cf4518fca1824beb1,european,a,oewn-european__3.01.00..,oewn-02979870-a,i16932,cow-02968325-a,欧洲的,形容词义；居民名词义另列。,editorial_draft_pending_final_review
+vocab-candidate-21bb36ad06385b1ccc1f,french,a,oewn-french__3.01.00..,oewn-02969938-a,i16872,cow-02958392-a,法国的,形容词义；法语和法国人等义项另列。,editorial_draft_pending_final_review
+vocab-candidate-28561c6b68fca875e23c,german,a,oewn-german__3.01.00..,oewn-02969015-a,i16867,cow-02957469-a,德国的,形容词义；德语和德国人等义项另列。,editorial_draft_pending_final_review
+vocab-candidate-42e1eb95ac3ebc9076c8,japanese,a,oewn-japanese__3.01.00..,oewn-02976588-a,i16912,cow-02965043-a,日本的,形容词义；日语和日本人等义项另列。,editorial_draft_pending_final_review
+vocab-candidate-aa304b5d1d724b004084,russian,a,oewn-russian__3.01.00..,oewn-02968822-a,i16866,cow-02957276-a,俄罗斯的,形容词义；俄语和俄罗斯人等义项另列。,editorial_draft_pending_final_review
+vocab-candidate-22f44dee8d6e393f6a46,foggy,a,oewn-foggy__5.00.00.opaque.00,oewn-00435525-s,i2445,cow-00433811-a,有雾的,选被雾遮蔽的义项；其他模糊或意识不清义另列。,editorial_draft_pending_final_review
