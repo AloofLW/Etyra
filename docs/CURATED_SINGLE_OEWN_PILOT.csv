@@ -219,3 +219,13 @@ vocab-candidate-ff7772053abf7d817d6e,both,a,oewn-both__5.00.00.some.00,oewn-0227
 vocab-candidate-cfacfd3ec33b9608b59a,detect,v,oewn-detect__2.39.00..,oewn-02158938-v,i32526,cow-02154508-v,察觉,所引义项特指通过视觉发现；一般探测义另查。,editorial_draft_pending_final_review
 vocab-candidate-1b5f82125c8e908adde3,trousers,n,oewn-trousers__1.06.00..,oewn-04496264-n,i60589,cow-04489008-n,裤,从腰部延伸并分别包住双腿的衣物，通常用复数。,editorial_draft_pending_final_review
 vocab-candidate-45ecebb38d4c1fd79a19,nevertheless,r,oewn-nevertheless__4.02.00..,oewn-00027761-r,i18298,cow-00027384-r,但是,表示尽管有相反情况仍然如此；语气和连接位置依语境。,editorial_draft_pending_final_review
+vocab-candidate-254bb97b57f12e1608fe,not,r,oewn-not__4.02.00..,oewn-00024432-r,i18280,cow-00024073-r,不,表示否定；具体否定形式取决于句子。,editorial_draft_pending_final_review
+vocab-candidate-4e73ff840ac8644a3883,illegal,a,oewn-illegal__3.00.00..,oewn-01404858-a,i7646,cow-01401854-a,非法的,法律禁止或违反法律的；来源也包括违背正式规则的情况。,editorial_draft_pending_final_review
+vocab-candidate-6d785acc7d4ce49fe4e4,excellent,a,oewn-excellent__5.00.00.superior.02,oewn-02351216-s,i12976,cow-02343110-a,优秀的,质量非常高或很好的。,editorial_draft_pending_final_review
+vocab-candidate-799524ffd2ba5417a367,annoy,v,oewn-annoy__2.37.00..,oewn-01791774-v,i30675,cow-01787955-v,惹恼,使人烦恼或受到打扰；情绪程度依语境。,editorial_draft_pending_final_review
+vocab-candidate-a441b15fe9a3cf566611,random,a,oewn-random__3.00.00..,oewn-01930715-a,i10552,cow-01924316-a,随机的,由偶然决定或缺乏确定计划、顺序的；数学义另审。,editorial_draft_pending_final_review
+vocab-candidate-ade5f219811f90312eea,worthwhile,a,oewn-worthwhile__5.00.00.worthy.00,oewn-02598251-s,i14360,cow-02587936-a,值得做的,价值足以使投入时间或兴趣合理的。,editorial_draft_pending_final_review
+vocab-candidate-b4ca32d7b0dbfc0fe269,cruel,a,oewn-cruel__5.00.01.inhumane.00,oewn-01266123-s,i6906,cow-01263013-a,残忍的,指人或行为倾向于造成痛苦或伤害。,editorial_draft_pending_final_review
+vocab-candidate-b656c4513f109480f96b,merely,r,oewn-merely__4.02.00..,oewn-00005103-r,i18177,cow-00004722-r,仅仅,表示只有所述内容，没有更多。,editorial_draft_pending_final_review
+vocab-candidate-ee275d64dafcd283c25b,restaurant,n,oewn-restaurant__1.06.00..,oewn-04088393-n,i58115,cow-04081281-n,餐馆,人们前往用餐的场所。,editorial_draft_pending_final_review
+vocab-candidate-85738f8f9a7f1b04b532,whatever,a,oewn-whatever__5.00.00.some.00,oewn-02275443-s,i12554,cow-02267686-a,任何,所选限定用法表示未具体限定的一个或多个；连词等用法另审。,editorial_draft_pending_final_review
