@@ -245,3 +245,5 @@
 新增 `CURATED_ADDITIONAL_ROOT_OEWN_PILOT.csv` 十条草稿：`audible`、`legible`、`mortal`、`description`、`scribe`、`tact`、`terrain`、`justify`、`educator`、`exceptional`。按已记录的 OEWN 2024 英文义项自行编辑中文，不引用 COW 中文；每条只覆盖选定的一个义项，并对照固定 Wiktionary 修订定位词源。`educator` 所选 OEWN 义项特指教育年轻人的人；`exceptional` 选不同寻常义；两者不覆盖全部常见用法。固定修订元数据与本地索引已核对，但页面存在不能证明完整词根路径，尤其间接关联和现代形态分析须另行核实。十条均未验收，课标适用性、中文、来源许可与分发义务仍待审核。
 
 对单条 OEWN 索引复核批次新增 15 条选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 245 条。英文义项和中文词项沿用已记录的 OEWN/COW 对齐，具体中文由编辑逐项选用；例如 `spokesman` 的所选英文义项限定男性，`hepatitis` 的所选定义仅列病毒或毒素病因。单条索引不等于唯一词义，翻译、语境、课标范围及许可仍待独立复核，不作为已批准产品数据。
+
+单条 OEWN 索引批次再新增 22 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 267 条；所选中文均来自已有 COW 词项，语境说明为编辑判断。比如 `statistics` 选学科义，`enzyme` 的所选词网定义边界需专业复核。义项与中文不代表词条完整覆盖；课标适用性、对齐准确性及许可仍待审核。

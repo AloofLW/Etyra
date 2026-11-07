@@ -244,3 +244,25 @@ vocab-candidate-18d63be10ad544a04a22,robot,n,oewn-robot__1.06.00..,oewn-02764397
 vocab-candidate-2577e6845506aff8e5a8,behavioral,a,oewn-behavioral__3.01.00..,oewn-02952989-a,i16769,cow-02941652-a,行为方面的,指与行为有关的；美式拼写对应关系另行复核。,editorial_draft_pending_final_review
 vocab-candidate-25f3d45ee3ae026d2134,restructure,v,oewn-restructure__2.30.02..,oewn-00405308-v,i23751,cow-00404401-v,重组,指重新构造、形成或调整结构；具体对象随语境变化。,editorial_draft_pending_final_review
 vocab-candidate-26594677f70e9d271db1,tonne,n,oewn-tonne__1.23.00..,oewn-13747698-n,i108988,cow-13725588-n,公吨,指相当于1000千克的质量单位；注意与其他 ton 的区别。,editorial_draft_pending_final_review
+vocab-candidate-349b7b80691002472a10,terminology,n,oewn-terminology__1.10.00..,oewn-06315049-n,i69609,cow-06304059-n,术语,指某一学科命名事物所用的术语体系。,editorial_draft_pending_final_review
+vocab-candidate-350e58d2a6895a033fd9,evidently,r,oewn-evidently__4.02.00..,oewn-00039730-r,i18370,cow-00039318-r,显然,指明显可见或无疑地；语气需结合上下文。,editorial_draft_pending_final_review
+vocab-candidate-366993077ce453b4b9b0,cholesterol,n,oewn-cholesterol__1.27.00..,oewn-15083111-n,i116310,cow-15058544-n,胆固醇,所选词网义项描述动物体内一种固醇。,editorial_draft_pending_final_review
+vocab-candidate-371756e504cd1328d1ce,supposedly,r,oewn-supposedly__4.02.00..,oewn-00155582-r,i19182,cow-00154449-r,据称,指据说或被认为如此；不保证说法为真。,editorial_draft_pending_final_review
+vocab-candidate-3784070fe3e7e3de5f0e,semantic,a,oewn-semantic__3.01.00..,oewn-02852927-a,i16133,cow-02842042-a,语义的,指与意义或语义研究有关。,editorial_draft_pending_final_review
+vocab-candidate-3a55a1b23f2710974cdc,comply,v,oewn-comply__2.41.00..,oewn-02547977-v,i34411,cow-02542280-v,遵守,指按照他人的规定、命令或要求行事。,editorial_draft_pending_final_review
+vocab-candidate-3c8acf667613543c77f2,irrelevant,a,oewn-irrelevant__3.00.00..,oewn-01983148-a,i10829,cow-01976084-a,不相关的,指与正在讨论的话题没有关联。,editorial_draft_pending_final_review
+vocab-candidate-3d5478b51790b364dfb4,unpleasant,a,oewn-unpleasant__3.00.00..,oewn-01806732-a,i9898,cow-01801600-a,不愉快的,指令人不适或不快的。,editorial_draft_pending_final_review
+vocab-candidate-3dd9b4a278ab962d0ea9,fundamentally,r,oewn-fundamentally__4.02.00..,oewn-00003864-r,i18168,cow-00003483-r,从根本上,指从本质或根本方面来看。,editorial_draft_pending_final_review
+vocab-candidate-41c95f34ba8f0a674442,prisoner,n,oewn-prisoner__1.18.00..,oewn-10495671-n,i92258,cow-10476086-n,被监禁的人,指被关押的人；战俘等具体情形另按语境处理。,editorial_draft_pending_final_review
+vocab-candidate-41d6d5322a9b546a16bd,reporter,n,oewn-reporter__1.18.00..,oewn-10541255-n,i92531,cow-10521662-n,记者,指调查、报道或编辑新闻的人。,editorial_draft_pending_final_review
+vocab-candidate-421d58db3332a5a8cccc,developmental,a,oewn-developmental__3.01.00..,oewn-02957157-a,i16796,cow-02945820-a,发展的,指与发展有关或构成发展。,editorial_draft_pending_final_review
+vocab-candidate-47a54ed4b81f3cc7b909,explicitly,r,oewn-explicitly__4.02.00..,oewn-00369214-r,i20670,cow-00367418-r,明确地,指以明确清楚的方式。,editorial_draft_pending_final_review
+vocab-candidate-49d4843163a72a458423,statistics,n,oewn-statistics__1.09.00..,oewn-06027814-n,i68419,cow-06018465-n,统计学,指研究定量数据收集和解释等的应用数学分支，数据义另行处理。,editorial_draft_pending_final_review
+vocab-candidate-4af009dcd561b8060a9e,therapy,n,oewn-therapy__1.04.00..,oewn-00662334-n,i38900,cow-00661091-n,疗法,所选义项指医疗照护或治疗活动；具体方法依语境而定。,editorial_draft_pending_final_review
+vocab-candidate-4b56ea8eae2d74b90e34,partially,r,oewn-partially__4.02.00..,oewn-00008102-r,i18195,cow-00007703-r,部分地,指在一定程度上而非完全地。,editorial_draft_pending_final_review
+vocab-candidate-5194abe267daf11be1cf,evolutionary,a,oewn-evolutionary__3.01.00..,oewn-03012233-a,i17146,cow-03000725-a,进化的,指与进化有关或由进化产生。,editorial_draft_pending_final_review
+vocab-candidate-51f6f029928f3d0d10b5,administrative,a,oewn-administrative__3.01.00..,oewn-02915381-a,i16529,cow-02904075-a,行政的,指与管理或行政事务有关。,editorial_draft_pending_final_review
+vocab-candidate-5561ba03cac2c86f883d,attorney,n,oewn-attorney__1.18.00..,oewn-10269647-n,i90948,cow-10249950-n,律师,指获准从事法律工作并提供相关服务的专业人士。,editorial_draft_pending_final_review
+vocab-candidate-5c509152b44d4cf07880,suburban,a,oewn-suburban__3.01.00..,oewn-02815413-a,i15890,cow-02804590-a,郊区的,指与郊区有关、具有郊区特征或位于郊区的。,editorial_draft_pending_final_review
+vocab-candidate-5f79c870f2acef18067b,approximately,r,oewn-approximately__4.02.00..,oewn-00007414-r,i18193,cow-00007015-r,大约,指数值不精确但接近准确值。,editorial_draft_pending_final_review
+vocab-candidate-59eee94f953c11d14f3f,enzyme,n,oewn-enzyme__1.27.00..,oewn-14757125-n,i114419,cow-14732946-n,酶,所选词网义项描述细胞产生并催化生化反应的蛋白质；定义边界需专业复核。,editorial_draft_pending_final_review
