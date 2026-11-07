@@ -89,7 +89,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 为 11 个此前不在候选词表内的词根关联词补充 OEWN 词头和英文义项；其中 5 个词找到 COW 中文义项线索，所有词条仍待审。
 - [x] 以 CILI 将 OEWN 义项与 Chinese Open Wordnet 1.1 对照，形成 `docs/COW_SENSE_CANDIDATES.csv` 中文词项候选；人工选义、翻译准确性和最终词库导入仍待完成。
 - [x] 为 348 个 OEWN 补充候选提取英文义项，并为其中 272 个候选建立中文词项线索；大小写、词性、课标适用性和中文表达均待审。
-- [ ] 获得适用的 2025 版高中课标权威原文及完整附录，核实版本、实施范围与可使用权限；第三方 PDF 镜像已定位但未获认证，第三方整理词表存在可见差异；2020 版作为历史对照。详见 `docs/reference/wordlists/README.md`。
+- [ ] 获得适用的 2025 版高中课标权威原文及完整附录，核实版本、实施范围与可使用权限；安康学院公开 PDF 与既有第三方镜像摘要一致，但转载链与官方原件一致性仍待验证，第三方整理词表存在可见差异；2020 版作为历史对照。详见 `docs/reference/wordlists/README.md`。
 - [ ] 依据课标逐项比对候选词表，保存精确匹配、待复核、缺失和歧义结果；解决所有必学项的覆盖及词形映射。
 - [ ] 审查 `docs/CURRICULUM_GAP_CANDIDATES.csv` 中 274 个 OEWN 缺口候选、`docs/WIKTIONARY_GAP_CANDIDATES.csv` 中 18 个 Wiktionary 候选、`docs/COMPLEX_FORM_CANDIDATES.csv` 中 74 个 OEWN 复杂片段候选及 `docs/COMPLEX_WIKTIONARY_CANDIDATES.csv` 中 9 个 Wiktionary 复杂片段候选；核查 BCE 展开形式，逐行核对全部 85 个复杂形式、权威原件和各版本等级。
 - [ ] 筛选并审核至少 5000 个正式词条的词形、词性、释义、来源和许可；词源关系单独验证，不强制为每词虚构词根。
