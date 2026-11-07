@@ -188,6 +188,8 @@
 
 为 `struct`/`stru` 历史家族新增 `construction`、`destruction`、`infrastructure`、`instructor`、`instrument`、`reconstruct`、`reconstruction`、`structural` 八个候选（`WC-107`～`WC-114`），累计 114 条关联。英文页面固定修订见 `docs/WORD_ETYM_SOURCE_REVISIONS.csv`；多步路径可核对拉丁语 [destructio](https://en.wiktionary.org/w/index.php?title=destructio&oldid=90543005)、[destruo](https://en.wiktionary.org/w/index.php?title=destruo&oldid=90533999)、[instruo](https://en.wiktionary.org/w/index.php?title=instruo&oldid=92010241) 和 [instructor](https://en.wiktionary.org/w/index.php?title=instructor&oldid=94559443) 的固定修订。`instrument` 的历史 `stru` 形式与 `struct` 不同；`reconstruction` 应区分普通“重建”和大写专名义。现代用法、历史演变及许可均待审核，不将来源链机械解释为现代拆词。
 
+为 `cap` 历史家族增加 `acceptable`（`WC-115`）候选：英语[固定修订](https://en.wiktionary.org/w/index.php?title=acceptable&oldid=94545268)追溯至晚期拉丁语 acceptābilis，并单独给出英语表层分析；[拉丁语 acceptābilis](https://en.wiktionary.org/w/index.php?title=acceptabilis&oldid=90488078)关联 acceptō，已有 `accept` 的[固定修订](https://en.wiktionary.org/w/index.php?title=accept&oldid=93631251)继续关联 accipiō 和 capiō。该多步历史路径与现代 `accept + -able` 分析不可混为一谈；所选释义和关系仍为待审草稿，并须复核课程适用性与来源许可。
+
 2026-11-07 从该家族补充 `destruction`、`infrastructure`、`instructor`、`instrument`、`structural` 五条 OEWN/COW 义项草稿，`CURATED_WORD_PILOT.csv` 累计 85 条；其中 `instrument` 选择乐器义，`destruction` 选择摧毁事件义。选义和中文仍为待复核编辑判断，不代表每词只有此义；历史关系、课程适用性及许可同样待审。`construction`、`reconstruct` 和 `reconstruction` 此次未选义，避免将不匹配的中文义项直接归并。
 
 随后针对上述三个尚缺合适 COW 中文线索的词，按 OEWN 2024 已记录的英文常用义建立 [`CURATED_STRUCT_OEWN_PILOT.csv`](CURATED_STRUCT_OEWN_PILOT.csv)，中文为编辑自行编写，并非 COW 对译；保留义项、synset 与固定词源页面链接。三项均待独立复核词义、中文语境、历史关系、课标适用性和 OEWN/Princeton、Wiktionary 等适用许可；不得视为正式产品条目。该独立草稿表及 `CURATED_PORTABLE_PILOT.csv` 的记录已汇入主审核队列的 `word_drafts` 计数，来源类型仍以原表为准。
