@@ -11,3 +11,14 @@ vocab-candidate-a1355c284d1c2cc17ac7,twelfth,a,oewn-twelfth__5.00.00.ordinal.00,
 vocab-candidate-c8da2b3c5978ef11da3f,twentieth,a,oewn-twentieth__5.00.00.ordinal.00,oewn-02212385-s,i12160,cow-02204716-a,第二十,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
 vocab-candidate-d8b1858e24ae617677d5,crayon,n,oewn-crayon__1.06.00..,oewn-03132899-n,i52481,cow-03128248-n,蜡笔,名词义；动词义另行处理。,editorial_draft_pending_final_review
 vocab-candidate-7aab06cd90b6efabfbc5,swimming,n,oewn-swimming__1.04.00..,oewn-00443055-n,i37722,cow-00442115-n,游泳,游泳活动的名词义；形容词义另行处理。,editorial_draft_pending_final_review
+vocab-candidate-2c598436e5575a5769b6,france,n,oewn-france__1.15.00..,oewn-08949695-n,i83644,cow-08929922-n,法国,国家义；不混同同名作家。,editorial_draft_pending_final_review
+vocab-candidate-408c7c5887a0f3905767,canada,n,oewn-canada__1.15.00..,oewn-08837973-n,i83192,cow-08820121-n,加拿大,国家义；历史叙述和时效性信息不作为释义。,editorial_draft_pending_final_review
+vocab-candidate-59ae856cd788d0f57e39,japan,n,oewn-japan__1.15.00..,oewn-08941623-n,i83607,cow-08921850-n,日本,国家义；不混同日本群岛、漆器等义。,editorial_draft_pending_final_review
+vocab-candidate-83116acf18e4dc441476,uk,n,oewn-uk__1.15.00..,oewn-08879115-n,i83373,cow-08860123-n,英国,国家义；需区分英国、英格兰及大不列颠。,editorial_draft_pending_final_review
+vocab-candidate-90a6d53df47e4097ad65,russia,n,oewn-russia__1.15.04..,oewn-09028783-n,i84002,cow-09006413-n,俄罗斯,现代国家义；不与苏联及历史政体义混同。,editorial_draft_pending_final_review
+vocab-candidate-b2c01c8a8a0d9a99f145,germany,n,oewn-germany__1.15.00..,oewn-08784821-n,i82954,cow-08766988-n,德国,国家义；历史事件并非本词的中文释义。,editorial_draft_pending_final_review
+vocab-candidate-c585f1decb986f7ff19b,australia,n,oewn-australia__1.15.00..,oewn-08849996-n,i83244,cow-08831004-n,澳大利亚,国家义；不自动等同大陆等其他义项。,editorial_draft_pending_final_review
+vocab-candidate-d56d0ff69b62792a00a3,england,n,oewn-england__1.15.00..,oewn-08891234-n,i83374,cow-08871007-n,英格兰,英国组成部分；不直接等同英国。,editorial_draft_pending_final_review
+vocab-candidate-fb54e9062429a9378555,india,n,oewn-india__1.15.00..,oewn-08920762-n,i83517,cow-08900535-n,印度,国家义；来源有关人口排名的描述可能过时，不沿用。,editorial_draft_pending_final_review
+vocab-candidate-6f0831d7a692ac8d9660,african,n,oewn-african__1.18.00..,oewn-09657682-n,i87256,cow-09634494-n,非洲人,非洲居民或出生者名词义；形容词义另列。,editorial_draft_pending_final_review
+vocab-candidate-eb119ea6c963faece628,asian,n,oewn-asian__1.18.00..,oewn-09662736-n,i87294,cow-09641757-n,亚洲人,亚洲居民或出生者名词义；形容词义另列。,editorial_draft_pending_final_review
