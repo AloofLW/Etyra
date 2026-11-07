@@ -83,6 +83,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/CURATED_PORT_KAIKKI_PILOT.csv` 的 `supporter`、`portfolio` 两条替代来源草稿，核对义项、翻译及对应词源；不覆盖原 COW 线索。
 - [ ] 审查 `docs/CURATED_PORTABLE_PILOT.csv` 的一般携带义草稿及其词源关联、课标适用性和许可；另保留 COW 船外发动机义项对照疑点，不自动认定原因。
 - [ ] 复核 `docs/CURATED_STRUCT_OEWN_PILOT.csv` 三条编辑中文草稿，区分普通重建活动与历史专名；核查 OEWN 义项、词源及许可。
+- [ ] 复核 `docs/CURATED_ACT_OEWN_PILOT.csv` 的 `actively` 编辑中文草稿、词源关联及许可；“积极地”等译法须结合上下文。
 - [ ] 审查 `docs/CURATED_TRACT_KAIKKI_PILOT.csv` 的 `distract`“使分心”草稿，核对使动语境、词源和许可；不覆盖原 COW 义项。
 - [ ] 审查 `docs/CURATED_SPECT_KAIKKI_PILOT.csv` 的 `respective`、`spectacular` 两条替代来源草稿，核对语义、历史关联与许可。
 - [x] 为 11 个此前不在候选词表内的词根关联词补充 OEWN 词头和英文义项；其中 5 个词找到 COW 中文义项线索，所有词条仍待审。

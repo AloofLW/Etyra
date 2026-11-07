@@ -1,0 +1,2 @@
+candidate_id,word_relation_candidate_id,root_candidate_id,word,pos,oewn_sense_id,oewn_synset_id,english_definition,editorial_chinese,usage_note,etymology_revision_url,status
+vocab-candidate-b19779a13eef90e4e9e4,WC-117,RC-001,actively,r,oewn-actively__4.02.00..,oewn-00079883-r,in an active manner,积极地；活跃地,中文为编辑草稿；具体译法与“主动地”等表达须结合语境复核。,https://en.wiktionary.org/w/index.php?title=actively&oldid=93675107,editorial_draft_pending_final_review

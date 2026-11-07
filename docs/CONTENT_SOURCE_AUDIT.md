@@ -192,6 +192,8 @@
 
 为 `act` 历史家族新增 `active`、`actively`、`activity`、`actual`、`actually` 五条候选（`WC-116`～`WC-120`），各英文页面固定修订、时间和 SHA1 已与 MediaWiki API 响应核对。`active` 的页面追溯至拉丁语 āctīvus 与 agere；`activity` 经中古法语指向拉丁语 āctīvitās，可再查[拉丁词条](https://en.wiktionary.org/wiki/activitas)；`actual` 的历史路径涉及 āctus 与 agere。`actively` 和 `actually` 的英语派生分析应与借词历史分开；`actually` 的另一词源章节不自动属于此关联。四条词义草稿选择具体义项，`actively` 尚无相应中文草稿；`actually` 的“其实”语用范围仍需独立核验。五条关系、释义、课标适用性和许可均待审核。
 
+随后依据 OEWN 副词义项为 `actively` 编写 [`CURATED_ACT_OEWN_PILOT.csv`](CURATED_ACT_OEWN_PILOT.csv) 独立中文草稿，非 COW 对译；该词典义项仅说明以活跃的方式，所选中文及具体语境仍需独立复核。它与前述四条 COW 对照草稿均未批准入库，主审核队列已计入此草稿。
+
 2026-11-07 从该家族补充 `destruction`、`infrastructure`、`instructor`、`instrument`、`structural` 五条 OEWN/COW 义项草稿，`CURATED_WORD_PILOT.csv` 累计 85 条；其中 `instrument` 选择乐器义，`destruction` 选择摧毁事件义。选义和中文仍为待复核编辑判断，不代表每词只有此义；历史关系、课程适用性及许可同样待审。`construction`、`reconstruct` 和 `reconstruction` 此次未选义，避免将不匹配的中文义项直接归并。
 
 随后针对上述三个尚缺合适 COW 中文线索的词，按 OEWN 2024 已记录的英文常用义建立 [`CURATED_STRUCT_OEWN_PILOT.csv`](CURATED_STRUCT_OEWN_PILOT.csv)，中文为编辑自行编写，并非 COW 对译；保留义项、synset 与固定词源页面链接。三项均待独立复核词义、中文语境、历史关系、课标适用性和 OEWN/Princeton、Wiktionary 等适用许可；不得视为正式产品条目。该独立草稿表及 `CURATED_PORTABLE_PILOT.csv` 的记录已汇入主审核队列的 `word_drafts` 计数，来源类型仍以原表为准。
