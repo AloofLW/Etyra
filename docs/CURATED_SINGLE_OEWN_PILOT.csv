@@ -344,3 +344,23 @@ vocab-candidate-b68823eded0bc9c7f331,November,n,oewn-november__1.28.00..,oewn-15
 vocab-candidate-b9e998b692bd644267de,spatial,a,oewn-spatial__3.01.00..,oewn-02851951-a,i16127,cow-02841066-a,空间的,指与空间有关或具有空间性质的。,editorial_draft_pending_final_review
 vocab-candidate-ba8850dcf4bd973fa65e,questionnaire,n,oewn-questionnaire__1.10.00..,oewn-06485793-n,i70479,cow-06474122-n,问卷,指包含一组问题、用于收集统计信息的表格。,editorial_draft_pending_final_review
 vocab-candidate-bc9c8f83c36b4179d2a9,mainstream,n,oewn-mainstream__1.09.00..,oewn-05964053-n,i68120,cow-05955186-n,主流,所选名词义指占主导的思想潮流。,editorial_draft_pending_final_review
+vocab-candidate-993bc4b62c36fe3c1c16,simultaneously,r,oewn-simultaneously__4.02.00..,oewn-00120979-r,i18905,cow-00120095-r,与此同时,指在同一时刻；是否表示两个动作同时发生依语境确定。,editorial_draft_pending_final_review
+vocab-candidate-aac0a0f664a6a15e2670,commonly,r,oewn-commonly__4.02.00..,oewn-00107608-r,i18813,cow-00106921-r,一般来说,所选义项指通常情况下，常见或频繁义另行核验。,editorial_draft_pending_final_review
+vocab-candidate-b42135b9cb5b4fb287cf,previously,r,oewn-previously__4.02.00..,oewn-00061170-r,i18503,cow-00060632-r,以往,指在较早的时候或从前。,editorial_draft_pending_final_review
+vocab-candidate-b6b5932edf4556a28cd8,solely,r,oewn-solely__4.02.00..,oewn-00009062-r,i18198,cow-00008600-r,仅,表示不包括或涉及其他人或事物。,editorial_draft_pending_final_review
+vocab-candidate-b85b91c53558d46dfdbd,lawsuit,n,oewn-lawsuit__1.04.00..,oewn-01185144-n,i41595,cow-01182654-n,诉讼,指在法庭中寻求法律救济的程序。,editorial_draft_pending_final_review
+vocab-candidate-bca3685fea8acd4e4b5c,entity,n,oewn-entity__1.03.00..,oewn-00001740-n,i35545,cow-00001740-n,实体,指被认为具有独立存在的事物，可为有生命或无生命。,editorial_draft_pending_final_review
+vocab-candidate-bcb9dae6ea88dbf28c26,mom,n,oewn-mom__1.18.00..,oewn-10297825-n,i91123,cow-10278128-n,妈妈,对母亲的非正式称呼。,editorial_draft_pending_final_review
+vocab-candidate-bcf7690127d5b0c019c2,unexpected,a,oewn-unexpected__3.00.00..,oewn-00933531-a,i5098,cow-00930290-a,意外的,指事先没有预期或预料到的。,editorial_draft_pending_final_review
+vocab-candidate-bd445c462b7eebbc242e,overview,n,oewn-overview__1.10.00..,oewn-06480894-n,i70455,cow-06469223-n,综述,指对某个主题的总体概述。,editorial_draft_pending_final_review
+vocab-candidate-bec2d07a1b569699a18e,beneficial,a,oewn-beneficial__5.00.00.advantageous.00,oewn-00065107-s,i340,cow-00064787-a,有益的,指促进或增进福祉的。,editorial_draft_pending_final_review
+vocab-candidate-c08c6acfff81cafe379f,connector,n,oewn-connector__1.06.00..,oewn-03095830-n,i52280,cow-03091374-n,连接物,所选词网义项指用于连接的器具或事物。,editorial_draft_pending_final_review
+vocab-candidate-c0fa1ef864788c455b22,June,n,oewn-june__1.28.00..,oewn-15236602-n,i117162,cow-15211806-n,六月,指五月之后、七月之前的月份。,editorial_draft_pending_final_review
+vocab-candidate-c2bf4fdc2bc8fe77d394,undergo,v,oewn-undergo__2.39.04..,oewn-02112831-v,i32303,cow-02108377-v,经历,指经受或经历某种过程；具体褒贬取决于语境。,editorial_draft_pending_final_review
+vocab-candidate-c44738333d95c9f25cdb,anthropology,n,oewn-anthropology__1.09.00..,oewn-06152997-n,i68861,cow-06143546-n,人类学,所选来源义项指研究人类起源和社会关系的社会科学。,editorial_draft_pending_final_review
+vocab-candidate-c49fea7425fa7f869989,legacy,n,oewn-legacy__1.21.00..,oewn-13284678-n,i106355,cow-13263779-n,遗赠物,所选法律义项指通过遗嘱赠与的个人财产，广义遗产义另行处理。,editorial_draft_pending_final_review
+vocab-candidate-c4a11b3a02a7908b51ba,landlord,n,oewn-landlord__1.18.00..,oewn-10264933-n,i90917,cow-10245236-n,房东,指将房产出租给他人的所有者。,editorial_draft_pending_final_review
+vocab-candidate-c75a266d47deb2424c31,businessman,n,oewn-businessman__1.18.00..,oewn-09901459-n,i88744,cow-09882007-n,商人,所选来源义项指从事商业或工业经营的男性；性别中性用语另行处理。,editorial_draft_pending_final_review
+vocab-candidate-c983c585ac3c40d92083,consensus,n,oewn-consensus__1.26.00..,oewn-13995348-n,i110360,cow-13971901-n,共识,指一个群体整体形成的一致看法或判断。,editorial_draft_pending_final_review
+vocab-candidate-c9d9454da28129a7c683,kilometer,n,oewn-kilometer__1.23.00..,oewn-13681796-n,i108497,cow-13659760-n,千米,等于 1000 米的长度单位。,editorial_draft_pending_final_review
+vocab-candidate-ce72530a85470c5ba76e,subsequently,r,oewn-subsequently__4.02.00..,oewn-00061741-r,i18505,cow-00061203-r,之后,指在某个参照时间之后。,editorial_draft_pending_final_review
