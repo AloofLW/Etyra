@@ -94,6 +94,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 以 CILI 将 OEWN 义项与 Chinese Open Wordnet 1.1 对照，形成 `docs/COW_SENSE_CANDIDATES.csv` 中文词项候选；人工选义、翻译准确性和最终词库导入仍待完成。
 - [x] 为 348 个 OEWN 补充候选提取英文义项，并为其中 272 个候选建立中文词项线索；大小写、词性、课标适用性和中文表达均待审。
 - [ ] 获得适用的 2025 版高中课标权威原文及完整附录，核实版本、实施范围与可使用权限；安康学院公开 PDF 与既有第三方镜像摘要一致，但转载链与官方原件一致性仍待验证，第三方整理词表存在可见差异；2020 版作为历史对照。详见 `docs/reference/wordlists/README.md`。
+- [ ] 利用上海外国语大学列出的修订组作者、解读文章期刊与页码信息追查权威原文或出版渠道；文章摘要不能替代课标原文和词汇附录。
 - [ ] 依据课标逐项比对候选词表，保存精确匹配、待复核、缺失和歧义结果；解决所有必学项的覆盖及词形映射。
 - [ ] 审查 `docs/CURRICULUM_GAP_CANDIDATES.csv` 中 274 个 OEWN 缺口候选、`docs/WIKTIONARY_GAP_CANDIDATES.csv` 中 18 个 Wiktionary 候选、`docs/COMPLEX_FORM_CANDIDATES.csv` 中 74 个 OEWN 复杂片段候选及 `docs/COMPLEX_WIKTIONARY_CANDIDATES.csv` 中 9 个 Wiktionary 复杂片段候选；核查 BCE 展开形式，逐行核对全部 85 个复杂形式、权威原件和各版本等级。
 - [ ] 使用 `docs/COMPLEX_CURRICULUM_REVIEW_INDEX.csv` 逐行审查 85 条镜像复杂形式的页码、提取、候选匹配、大小写、词义及课程等级；该索引只提供定位，不是覆盖或许可证明。
