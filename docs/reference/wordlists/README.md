@@ -27,7 +27,7 @@
 
 复现：`python3 tools/content/build_vocabulary_review_queue.py /tmp/etyra-review-queue.csv`，从当前仓库对应候选表生成，拒绝覆盖输出并检查主要外键及重复 ID。该表只涵盖主清单；补充候选另见下节，不能据此声称全部候选已经审核。
 
-[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 386 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、90 项无中文线索、255 项有多个已提取英文义项行；任何线索均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。
+[`docs/SUPPLEMENT_REVIEW_QUEUE.csv`](../../SUPPLEMENT_REVIEW_QUEUE.csv) 对另外 425 个候选 ID 汇总同类审核线索：课标镜像缺口 OEWN 候选 274、Wiktionary 候选 18、复杂形式 OEWN 候选 74、复杂形式 Wiktionary 候选 9、词根关系遗漏候选 11、2020 历史对照候选 39。生成时检查这些 ID 与主清单及彼此不重复；这只是候选 ID 无重复，不代表同义项、屈折词形、大小写及缩写均已正确归并。当前每项均有已提取英文义项线索、129 项无中文线索、285 项有多个已提取英文义项行；任何线索均不保证匹配课标、适合教学或已验证。复杂形式队列的 83 个候选是拆分后的词形线索，不对应课标镜像的 85 个原始复杂行。历史来源页码单列，不能误当 2025 镜像页码。
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
@@ -135,7 +135,9 @@
 
 2026-11-07 从上列课程教材研究所地址取得 2020 版 PDF，SHA-256 `8ebd6bb12e9eb1c58e422ee01b540a4a71d2e681a4c4a764a36ee3a34b21c1be`。试验按 PDF 页 129–184 的两栏坐标提取，去除说明与国家名称附表后得到 3000 行：2925 行为简单字母词形（2920 个忽略大小写的不同拼写），75 行含其他形式。简单行中 2635 行与主表、251 行与补充表精确匹配，39 行未匹配。抽看过 PDF 第 130 页，但其余页、列边界、星号、同形异义和复杂行尚未逐页审核；即使总行数恰好为 3000，也不能据此认定提取完整或用作正式覆盖率。2020 年历史版本不能替代 2025 年版或地方实施要求。
 
-以现有主表与补充表排除已出现拼写后，按忽略大小写匹配 OEWN 2024 的 `Lemma.writtenForm`，39 个历史缺口均有词典词头候选，且每项均包含与原提取大小写一致的 OEWN 拼写。结果见 [`docs/HISTORICAL_2020_GAP_CANDIDATES.csv`](../../HISTORICAL_2020_GAP_CANDIDATES.csv)：只保存 OEWN 词头、词典 ID、词性及历史页码，不保存课标整表；全部为 `candidate_only`。其中包含国家、国籍、序数词和变形等，不能由相同拼写推定词义或自动并入正式词库。该表尚未进入 386 项补充审核队列，且不代表 2025 版增删情况。OEWN/Princeton 的许可与署名义务见本页上文；课标附录再分发权限仍须核实。
+以既有主表与原 386 项补充候选排除已出现拼写后，按忽略大小写匹配 OEWN 2024 的 `Lemma.writtenForm`，39 个历史缺口均有词典词头候选，且每项均包含与原提取大小写一致的 OEWN 拼写。结果见 [`docs/HISTORICAL_2020_GAP_CANDIDATES.csv`](../../HISTORICAL_2020_GAP_CANDIDATES.csv)：只保存 OEWN 词头、词典 ID、词性及历史页码，不保存课标整表；全部为 `candidate_only`。其中包含国家、国籍、序数词和变形等，不能由相同拼写推定词义或自动并入正式词库。39 项现已纳入补充审核队列，且不代表 2025 版增删情况。OEWN/Princeton 的许可与署名义务见本页上文；课标附录再分发权限仍须核实。
+
+从同一 OEWN 固定版本提取这 39 个候选的 110 条英文定义线索，见 [`docs/OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv`](../../OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv)；各行保留词头、词性、义项及 synset，全部待审核，不能把多义项数量当单词数量。复现：`python3 tools/content/extract_oewn_sense_candidates.py /path/to/english-wordnet-2024.xml.gz /tmp/etyra-2020-senses.csv --candidate-file docs/HISTORICAL_2020_GAP_CANDIDATES.csv`。
 
 复现：使用支持 `pdfplumber` 的 Python，先运行 `python3 tools/content/compare_2020_curriculum.py /path/to/2020.pdf`；如需本地逐页检查，可加 `--review-csv /tmp/etyra-2020-review.csv`，不要公开未经许可的课标整表。再运行 `python3 tools/content/build_2020_gap_candidates.py /path/to/2020.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-2020-gaps.csv`。两个脚本核对输入摘要并拒绝覆盖已有输出；精确拼写统计是发现待审项的辅助，不是审核结论。
 

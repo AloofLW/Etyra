@@ -55,7 +55,9 @@ def main():
     if hashlib.sha256(args.pdf.read_bytes()).hexdigest() != PDF_SHA256:
         parser.error("PDF SHA-256 differs from the recorded 2020 source")
     main_words = {r["headword"].strip().casefold() for r in read(DOCS / "VOCABULARY_CANDIDATES.csv")}
-    supplement = {r["headword_key"].strip().casefold() for r in read(DOCS / "SUPPLEMENT_REVIEW_QUEUE.csv")}
+    # Measure the 2020-derived gaps against the pre-existing candidate inventory.
+    supplement = {r["headword_key"].strip().casefold() for r in read(DOCS / "SUPPLEMENT_REVIEW_QUEUE.csv")
+                  if r["source_group"] != "historical_2020"}
     if main_words & supplement:
         raise ValueError("Candidate spelling keys overlap")
     entries = extract(args.pdf)

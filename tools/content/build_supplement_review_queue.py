@@ -14,6 +14,7 @@ GROUPS = (
     ("COMPLEX_FORM_CANDIDATES.csv", "normalized_key", "complex_oewn"),
     ("COMPLEX_WIKTIONARY_CANDIDATES.csv", "normalized_key", "complex_wiktionary"),
     ("RELATION_WORD_CANDIDATES.csv", "normalized_key", "root_relation"),
+    ("HISTORICAL_2020_GAP_CANDIDATES.csv", "normalized_key", "historical_2020"),
 )
 
 
@@ -23,7 +24,9 @@ def main():
     args = parser.parse_args()
     main_ids = {row["candidate_id"] for row in read("VOCABULARY_CANDIDATES.csv")}
     sources = {
-        "oewn_senses": count("OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("OEWN_RELATION_SENSE_CANDIDATES.csv"),
+        "oewn_senses": (count("OEWN_SUPPLEMENT_SENSE_CANDIDATES.csv")
+                        + count("OEWN_RELATION_SENSE_CANDIDATES.csv")
+                        + count("OEWN_HISTORICAL_2020_SENSE_CANDIDATES.csv")),
         "cow_sense_links": count("COW_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("COW_RELATION_SENSE_CANDIDATES.csv"),
         "kaikki_senses": count("KAIKKI_SUPPLEMENT_SENSE_CANDIDATES.csv") + count("KAIKKI_COMPLEX_SENSE_CANDIDATES.csv"),
         "word_drafts": count("CURATED_WORD_PILOT.csv", "vocabulary_candidate_id"),
@@ -44,7 +47,7 @@ def main():
             raise ValueError(f"Unknown supplemental ID in {name}")
     with args.output.open("x", encoding="utf-8", newline="") as output:
         writer = csv.writer(output, lineterminator="\n")
-        writer.writerow(("candidate_id", "headword_key", "source_group", "mirror_pdf_pages", "oewn_senses",
+        writer.writerow(("candidate_id", "headword_key", "source_group", "mirror_pdf_pages", "historical_pdf_pages", "oewn_senses",
                          "cow_sense_links", "kaikki_senses", "word_drafts", "function_drafts", "kaikki_translation_clues", "wiktionary_revision", "review_flags", "status"))
         for candidate_id, word, group, row in sorted(candidates):
             english = sources["oewn_senses"][candidate_id]
@@ -64,7 +67,9 @@ def main():
                 flags.append("complex_form_review_needed")
             if group == "root_relation":
                 flags.append("root_relation_review_needed")
-            writer.writerow((candidate_id, word, group, row.get("mirror_pdf_pages", ""), english, chinese,
+            if group == "historical_2020":
+                flags.append("historical_source_not_current_curriculum")
+            writer.writerow((candidate_id, word, group, row.get("mirror_pdf_pages", ""), row.get("historical_pdf_pages", ""), english, chinese,
                              kaikki, drafts, function_drafts, translations, row.get("source_revision", ""), "|".join(flags), "candidate_only"))
     print(f"Built a review queue for {len(candidates)} supplementary candidate IDs; none approved.")
 

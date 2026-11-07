@@ -29,7 +29,9 @@ def main():
     verify(args.pdf, PDF_SHA256, parser)
     verify(args.oewn, OEWN_SHA256, parser)
     known = {r["headword"].strip().casefold() for r in read(DOCS / "VOCABULARY_CANDIDATES.csv")}
-    known |= {r["headword_key"].strip().casefold() for r in read(DOCS / "SUPPLEMENT_REVIEW_QUEUE.csv")}
+    # Exclude this generator's own output once it is added to the review queue.
+    known |= {r["headword_key"].strip().casefold() for r in read(DOCS / "SUPPLEMENT_REVIEW_QUEUE.csv")
+              if r["source_group"] != "historical_2020"}
     missing = defaultdict(lambda: {"forms": set(), "pages": set()})
     for page, text in extract(args.pdf):
         if SIMPLE.fullmatch(text):

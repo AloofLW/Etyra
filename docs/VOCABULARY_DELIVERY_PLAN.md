@@ -4,7 +4,7 @@
 
 ## 当前可证实的进度
 
-- `VOCABULARY_CANDIDATES.csv` 和 `VOCABULARY_REVIEW_QUEUE.csv` 各有 5342 个主候选；`SUPPLEMENT_REVIEW_QUEUE.csv` 有 386 个补充候选。它们均为 `candidate_only`，不是可发布词条；数字不能直接证明课标覆盖，也不能简单相加当作正式词数。
+- `VOCABULARY_CANDIDATES.csv` 和 `VOCABULARY_REVIEW_QUEUE.csv` 各有 5342 个主候选；`SUPPLEMENT_REVIEW_QUEUE.csv` 有 425 个补充候选，其中 39 个来自 2020 版历史对照。它们均为 `candidate_only`，不是可发布词条；数字不能直接证明课标覆盖，也不能简单相加当作正式词数。
 - `ROOT_CANDIDATES_V0_1.csv` 有 71 条记录，包含重分类和合并记录，不能将其全计为有效词根；`WORD_CANDIDATES_V0_1.csv` 有 114 条词根关联候选，覆盖 46 个候选词根 ID，全部高中适用性待审。`WORD_ETYM_SOURCE_REVISIONS.csv` 为这些关联提供固定页面定位，不证明关系已经核验。
 - 课标对照目前基于未认证的第三方镜像试算。85 行复杂形式尚待逐行核查；来源真实性、适用版本和使用权限均未确认。正式 SQLite 词库仍未接入经审核的产品内容。
 - 来源版本、许可边界和试算方法以 `reference/wordlists/README.md` 与 `CONTENT_SOURCE_AUDIT.md` 为准；各文件的数量会随审核变化，更新时应重新统计而非沿用此快照。
