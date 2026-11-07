@@ -91,6 +91,8 @@
 
 从该批次人工选取 164 个词形成 [`CURATED_SINGLE_OEWN_PILOT.csv`](../../CURATED_SINGLE_OEWN_PILOT.csv) 初步草稿，分别记录 OEWN 义项、CILI、COW 中文词项及编辑语境说明；主审核队列计入相应 `word_drafts`。选择只覆盖所记义项，不证明其他词性或常用义不存在；例如 `download` 的 OEWN 定义可能不涵盖全部现代使用场景，化学元素与其单质或化合物也须区分。`wildlife` 的已选英文义项涉及未驯养的生物，中文草稿选“野生生物”而非只限动物；`salary` 所引英文定义较宽，其中文选义须进一步复核。部分新选词以未认证 2025 镜像试算作排序线索，不能据此确认课标归属。草稿、中文及语境仍须复核课程范围、来源许可与词源，不能直接导入正式词库。
 
+针对 `salary` 的宽泛 OEWN 义项，另以 [Kaikki 单词数据](https://kaikki.org/dictionary/English/meaning/s/sa/salary.html)的名词义及 [Cambridge Dictionary 条目](https://dictionary.cambridge.org/dictionary/english/salary)交叉核对常见用法，建立 [`CURATED_SALARY_KAIKKI_PILOT.csv`](../../CURATED_SALARY_KAIKKI_PILOT.csv) 的独立编辑草稿；不覆盖原 OEWN/COW 线索。2026-11-07 获取的 Kaikki 单词 JSONL SHA-256 为 `f332e27d4481c85cb61556fb880573a2aad9aadb9a96010769fdf41636d8ddaa`，记录的名词义未提供 sense ID，须以该快照及词性、释义联合定位；原始快照未纳入仓库，来源可能更新。Kaikki/Wiktionary 来源和许可义务同本页相应章节；Cambridge 页面仅作参考，不复制其受版权保护的定义。两份草稿仍需语义、许可与课标适用性审查。
+
 ## 中文词义候选：Chinese Open Wordnet
 
 [`docs/COW_SENSE_CANDIDATES.csv`](../../COW_SENSE_CANDIDATES.csv) 以已保存的 OEWN 英文义项为基础，通过英文与中文词网各自明确给出的 CILI 标识连接 [Chinese Open Wordnet 1.1](https://bond-lab.github.io/cow/) 词义集合，提取该集合的中文词项。得到 15135 行候选义项，涉及 4819 个英文候选键。每行保留 OEWN 词条原始大小写、词性、sense/synset ID、CILI、COW synset ID 和中文词项数组；没有提取拼音或例句。一个义项可能对应多个中文表达，排列不代表优先级。

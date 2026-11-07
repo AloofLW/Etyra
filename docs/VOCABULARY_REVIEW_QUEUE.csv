@@ -4123,7 +4123,7 @@ vocab-candidate-80974e50413f641d256a,sailor,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-8b49bda2606fd82b0206,saint,NGSL-GR-1.0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-cef2e28b43f00b6c4201,sake,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-c6c3fa689e291bba6f74,salad,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-6384e43c02b1fbdfb9b4,salary,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-6384e43c02b1fbdfb9b4,salary,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1f7101fe71011ba0872a,sale,NGSL-GR-1.0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-aeaa2cec33e27d65690e,salmon,NGSL-GR-1.0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-63479ad69a090b258277,salt,NGSL-GR-1.0,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only

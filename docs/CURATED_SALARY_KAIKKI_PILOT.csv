@@ -1,0 +1,2 @@
+candidate_id,word,pos,source_page,source_snapshot_sha256,source_sense_locator,chinese_editorial_draft,usage_note,independent_reference,status
+vocab-candidate-6384e43c02b1fbdfb9b4,salary,noun,https://kaikki.org/dictionary/English/meaning/s/sa/salary.html,f332e27d4481c85cb61556fb880573a2aad9aadb9a96010769fdf41636d8ddaa,noun first gloss (snapshot has no sense ID),薪水；薪金,按工作约定定期支付的固定报酬；具体支付周期和地区用法可不同。,https://dictionary.cambridge.org/dictionary/english/salary,editorial_draft_pending_final_review

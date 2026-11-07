@@ -28,7 +28,8 @@ def main():
         raise ValueError("Duplicate main candidate ID")
     independent_drafts = (count("CURATED_PORTABLE_PILOT.csv")
                           + count("CURATED_STRUCT_OEWN_PILOT.csv")
-                          + count("CURATED_SINGLE_OEWN_PILOT.csv"))
+                          + count("CURATED_SINGLE_OEWN_PILOT.csv")
+                          + count("CURATED_SALARY_KAIKKI_PILOT.csv"))
     if set(independent_drafts) - ids:
         raise ValueError("Unknown main candidate ID in independent word drafts")
     sources = {
