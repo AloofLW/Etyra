@@ -156,6 +156,8 @@
 
 2026-11-01 由 Codex 根据固定 Wiktionary 词源修订、OEWN 英文义项和 COW 中文词项整理了 8 条编辑草稿，见 `docs/CURATED_WORD_PILOT.csv`。涉及 `action`、`precede`、`final`、`formation`、`submit`、`inspect`、`visible`、`generate`；每行关联候选关系、OEWN 义项、CILI、COW synset、所选中文词项和词源修订 URL。草稿由 Codex 初步审阅，状态为 `editorial_draft_pending_final_review`，尚需核对课标适用性、中文上下文、词根/词缀在模型中的表示方式、来源授权义务和最终入库格式；不能直接视为已验收产品数据。
 
+2026-11-07 对目前 80 条草稿运行 `python3 tools/content/check_curated_word_links.py`：核对 OEWN 和 COW 义项、CILI、中文词项以及关联词根和固定词源修订的引用一致性，80 条均通过；故意篡改中文词项的临时副本被正确检出。脚本只检查本地表之间的引用，不验证外部来源的真实性、中文语义、课标适用性或许可，也不覆盖独立草稿表；全部条目仍须人工复核。
+
 第二批新增 19 条，总计 27 条编辑草稿：`interrupt`、`respect`、`structure`、`contract`、`solution`、`attention`、`position`、`generation`、`location`、`memory`、`operation`、`sign`、`significant`、`civil`、`sensation`、`marine`、`nominate`、`nomination`、`construct`。每条选定一个特定义项，例如 `contract` 选合同名词义、`operation` 选操作义，其他常见或专业义项仍需单独选取；词干形态变化与历史借词路径保留在备注中。所有条目仍为 Codex 编辑草稿，课标适用性和入库许可尚未最终验收。
 
 第三批新增 19 条，累计 46 条编辑草稿：`credit`、`conduct`、`transfer`、`reject`、`motion`、`movement`、`vocal`、`migrate`、`depend`、`pressure`、`attend`、`number`、`regular`、`rule`、`current`、`transport`、`import`、`spectator`、`prospect`。每行只选择一个与来源中英文义项对应的中文词项，不代表收齐该词全部义项。例如 `pressure` 选物理学压强义，`current` 选当前时间的形容词义；`conduct`、`transfer`、`depend` 和 `regular` 的词干边界仍需进一步核查。词条与词根关系仍为待最终审核的草稿。
