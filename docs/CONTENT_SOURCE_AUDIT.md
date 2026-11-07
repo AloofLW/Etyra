@@ -259,3 +259,5 @@
 单条 OEWN 索引批次新增 20 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 385 条，均按已有 OEWN/COW 对齐选择词项并保留义项边界。`repeatedly` 的来源定义为循环释义，应补充独立参考；`infant` 所选来源义项的年龄与发展条件应专业复核。所有选义、课程适用性与许可均待审。
 
 单条 OEWN 索引批次新增 22 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 407 条。中文取自已有 COW 词项，均按特定 OEWN 英文义项记录语境；涉及 `antibody` 的免疫学机制、星期排序和 `jewelry` 的材料范围须复核，不能将受限来源定义视为完整释义。课标适用性和许可仍待审核。
+
+单条 OEWN 索引批次新增 16 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 423 条。中文选自已有 COW 词项，均记录所选英文义项范围；`refugee` 的国际法条件、`pregnancy` 和 `fungus` 的专业定义、`luggage` 的中英文范围差异须复核。课标适用性及许可仍待审核。
