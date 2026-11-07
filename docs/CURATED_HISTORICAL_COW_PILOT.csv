@@ -1,0 +1,13 @@
+candidate_id,word,pos,oewn_sense_id,oewn_synset_id,ili,cow_synset_ids,chinese_selected,usage_note,status
+vocab-candidate-b1e99324505bd32da0e1,third,a,oewn-third__5.00.00.ordinal.00,oewn-02209976-s,i12142,cow-02202307-a,第三,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-dc81b1d371a4072be7fc,fourth,a,oewn-fourth__5.00.00.ordinal.00,oewn-02210112-s,i12143,cow-02202443-a,第四,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-1774b8eebdec58c5f119,fifth,a,oewn-fifth__5.00.00.ordinal.00,oewn-02210381-s,i12144,cow-02202712-a,第五,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-effaa68d28df27c55812,sixth,a,oewn-sixth__5.00.00.ordinal.00,oewn-02210523-s,i12145,cow-02202854-a,第六,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-f0412d6deb4211f732c5,seventh,a,oewn-seventh__5.00.00.ordinal.00,oewn-02210648-s,i12146,cow-02202979-a,第七,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-ad8085924cb7719367c1,eighth,a,oewn-eighth__5.00.00.ordinal.00,oewn-02210792-s,i12147,cow-02203123-a,第八,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-2ed280d84ad145eddf61,ninth,a,oewn-ninth__5.00.00.ordinal.00,oewn-02210918-s,i12148,cow-02203249-a,第九,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-f2d77eba1bf4519aa8cf,tenth,a,oewn-tenth__5.00.00.ordinal.00,oewn-02211042-s,i12149,cow-02203373-a,第十,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-a1355c284d1c2cc17ac7,twelfth,a,oewn-twelfth__5.00.00.ordinal.00,oewn-02211298-s,i12151,cow-02203629-a,第十二,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-c8da2b3c5978ef11da3f,twentieth,a,oewn-twentieth__5.00.00.ordinal.00,oewn-02212385-s,i12160,cow-02204716-a,第二十,序数顺序义；分数、名词等其他义项另行处理。,editorial_draft_pending_final_review
+vocab-candidate-d8b1858e24ae617677d5,crayon,n,oewn-crayon__1.06.00..,oewn-03132899-n,i52481,cow-03128248-n,蜡笔,名词义；动词义另行处理。,editorial_draft_pending_final_review
+vocab-candidate-7aab06cd90b6efabfbc5,swimming,n,oewn-swimming__1.04.00..,oewn-00443055-n,i37722,cow-00442115-n,游泳,游泳活动的名词义；形容词义另行处理。,editorial_draft_pending_final_review

@@ -143,6 +143,8 @@
 
 对 COW 未匹配的上述三个候选，已依据 OEWN 英文义项建立 [`CURATED_HISTORICAL_2020_PILOT.csv`](../../CURATED_HISTORICAL_2020_PILOT.csv) 编辑中文草稿；它们不是 COW 译文，词义、课标适用性及许可仍待复核。`London` 选城市义，不将同名作家义混入；`Olympics` 参考[国际奥委会说明](https://www.olympics.com/ioc/celebrate-olympic-games)，区分夏奥会与冬奥会的四年周期及交错举办，不将所有奥运会误述为每四年只举办一次。补充队列的 `word_drafts` 已计入三项，但草稿不等同审核通过的中文释义。
 
+对已有 COW 线索的历史候选，建立 [`CURATED_HISTORICAL_COW_PILOT.csv`](../../CURATED_HISTORICAL_COW_PILOT.csv) 的 12 条草稿：十个序数词选择表示顺序的形容词义，`crayon` 和 `swimming` 选择常用名词义。所选词义、CILI 与中文词项均可追溯至固定 OEWN/COW 数据，但跨词网关联、中文语境、课标版本和来源许可仍需复核；分数、其他词性和其他含义未覆盖，草稿不是正式词条。补充审核队列计入这 12 条草稿。
+
 复现：使用支持 `pdfplumber` 的 Python，先运行 `python3 tools/content/compare_2020_curriculum.py /path/to/2020.pdf`；如需本地逐页检查，可加 `--review-csv /tmp/etyra-2020-review.csv`，不要公开未经许可的课标整表。再运行 `python3 tools/content/build_2020_gap_candidates.py /path/to/2020.pdf /path/to/english-wordnet-2024.xml.gz /tmp/etyra-2020-gaps.csv`。两个脚本核对输入摘要并拒绝覆盖已有输出；精确拼写统计是发现待审项的辅助，不是审核结论。
 
 ## 小样本覆盖试算
