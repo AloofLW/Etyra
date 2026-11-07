@@ -144,7 +144,7 @@ vocab-candidate-a27f98238d2c1c02f2a1,aim,NGSL-GR-1.0,11,7,0,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-9fe430e5274621be5189,air,NGSL-GR-1.0,15,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-d10149eecff30f56d947,aircraft,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1b288c5c6dc91655abda,airline,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-0f48868342614a8b80d7,airplane,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-0f48868342614a8b80d7,airplane,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ccc9ff052aee8da1c7d6,airport,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-5e94ec139442cfe98f5c,alarm,NGSL-GR-1.0,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-add339ab9bc935cf9d2b,albeit,NGSL-GR-1.0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
@@ -223,7 +223,7 @@ vocab-candidate-f136bd43b4c2543840dc,annually,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,
 vocab-candidate-2f183a4e64493af3f377,anonymous,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ae448ac86c4e8e4dec64,another,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-0db52f4076c082518412,answer,NGSL-GR-1.0,15,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-67a333356cdc566e6e34,ant,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-67a333356cdc566e6e34,ant,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-c44738333d95c9f25cdb,anthropology,NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-0650235331babae2f466,anti,NAWL-1.2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-856fa50792e3c8450607,antibiotic,NGSL-GR-1.0|NAWL-1.2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -498,7 +498,7 @@ vocab-candidate-51a1f05af85e342e3c84,bin,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-9a3a45d01531a20e89ac,binary,NAWL-1.2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-f08dd851c430f52f3fbe,bind,NGSL-GR-1.0,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-39c65f132b0aec8e178a,biodiversity,NAWL-1.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-4a2f99869acda1bc80ef,biography,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-4a2f99869acda1bc80ef,biography,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-f6ec582c1001e4d33947,biological,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-6ee1f7b01eef51a2e410,biologist,NAWL-1.2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-af8f827a0c20db87fdd3,biology,NGSL-GR-1.0|NAWL-1.2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -937,7 +937,7 @@ vocab-candidate-5c4fbffdee7b06191ac5,compliment,NGSL-GR-1.0,3,0,0,0,0,0,0,0,0,0,
 vocab-candidate-3a55a1b23f2710974cdc,comply,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-6985ca1f4daa5a584a28,component,NGSL-GR-1.0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-db669af634b75c7f2984,compose,NGSL-GR-1.0,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-42cc848a9f5ec37abc5b,composer,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-42cc848a9f5ec37abc5b,composer,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ad1e26066637d18f5003,composite,NGSL-GR-1.0|NAWL-1.2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-730d725c8a59d3a7303d,composition,NGSL-GR-1.0,9,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ee0df97cece494b174c6,compound,NGSL-GR-1.0,12,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1031,7 +1031,7 @@ vocab-candidate-89fc0f6aa4921aac940a,consult,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-4087b6426d9adf2bd519,consultant,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-725949a1f8218e8d1997,consultation,NGSL-GR-1.0|NAWL-1.2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-96f39e3569ec878ecb0b,consume,NGSL-GR-1.0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-6bfbd709d5fdc0618ab5,consumer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-6bfbd709d5fdc0618ab5,consumer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ad8c6f6e417a6d2db992,consumption,NGSL-GR-1.0|NAWL-1.2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-093e7d5fdbaacfa92448,contact,NGSL-GR-1.0,11,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-dd9245cc1ddc69c88a8a,contain,NGSL-GR-1.0,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1226,7 +1226,7 @@ vocab-candidate-af9d2c92ddc38ca77b3c,dash,NGSL-GR-1.0,12,6,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-3a6eb0790f39ac87c94f,data,NGSL-GR-1.0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-3549b0028b75d981cdda,database,NGSL-GR-1.0,1,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-0e87632cd46bd4907c51,date,NGSL-GR-1.0,12,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-4ed28f82ca96c3342a5c,daughter,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-4ed28f82ca96c3342a5c,daughter,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-8326e09ce4e90a419a51,dawn,NGSL-GR-1.0,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-944c27e5b97ab7793e4b,day,NGSL-GR-1.0,10,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-28a3a5e81d1e89f0efc7,dead,NGSL-GR-1.0,21,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1416,7 +1416,7 @@ vocab-candidate-28c03d30bb4ff66961b9,disadvantage,NGSL-GR-1.0|NAWL-1.2,2,2,0,0,0
 vocab-candidate-67656def000fb9af9c1b,disagree,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-5df57ea85e027cfddec9,disagreement,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ed142ddaa38e131ca699,disappear,NGSL-GR-1.0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-06ac7c1a6fe383081065,disappoint,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-06ac7c1a6fe383081065,disappoint,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-4171913bb2ef8d136c81,disappointment,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-6af308d5ad701d4b9fe0,disaster,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-109fa9f54c849bb7c2e9,discard,NGSL-GR-1.0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1506,7 +1506,7 @@ vocab-candidate-e392dad8b08599f74d48,dot,NGSL-GR-1.0,8,4,0,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-2ce06a9e7f8c3e6bf85a,double,NGSL-GR-1.0,21,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-c6760e80e3327f820f2e,doubt,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-908aec4512d80ff4fefb,down,NGSL-GR-1.0,26,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-68ff63fb82e0e5dfec2a,download,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-68ff63fb82e0e5dfec2a,download,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-8eeafca9de6477b81d0f,downstairs,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-308301fb06e9ac280c30,downtown,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-21161a7aaac1e6e45130,downward,NGSL-GR-1.0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1567,7 +1567,7 @@ vocab-candidate-294a1d5ec8f7b60ad2c2,ecological,NAWL-1.2,2,2,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-8d45d1ea845efb8a8a7c,ecology,NAWL-1.2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-11c45871e9f8b9dfd5a7,economic,NGSL-GR-1.0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-6662a9fea29c613c1793,economically,NGSL-GR-1.0|NAWL-1.2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-829af112ee3cdf7f8306,economist,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-829af112ee3cdf7f8306,economist,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-6fda2b8252b6d5ea9d19,economy,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-a1cb100f57e971cacf26,edge,NGSL-GR-1.0,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-262121c5372be8af3ae6,edit,NGSL-GR-1.0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -1603,7 +1603,7 @@ vocab-candidate-d2708d7d0c20d78ba36c,electoral,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0
 vocab-candidate-44b3c5003d93c5f1623b,electric,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ed157486b875d92c25c9,electrical,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ae80c184961f8640e6de,electricity,NGSL-GR-1.0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-88b1deea6a18cfd0d1df,electron,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-88b1deea6a18cfd0d1df,electron,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-73e4c51456c25bab5458,electronic,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-b4c3858f5f1e123198e8,elegant,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-445929267209c034d1e3,element,NGSL-GR-1.0,7,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2071,7 +2071,7 @@ vocab-candidate-b22d1d8fe57525339540,funny,NGSL-GR-1.0,5,3,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-be1130b77b9d58d66a21,fur,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ab8e1efe40afa48721fe,furious,NGSL-GR-1.0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-2355401ce9b52d24dea4,furnish,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-0a5a9bb73d93fca87ae1,furniture,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-0a5a9bb73d93fca87ae1,furniture,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-a20d00f82196c319bac9,further,NGSL-GR-1.0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-533ce8ef5fb43253e512,furthermore,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-125c521a95b22c848b64,fuse,NGSL-GR-1.0,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2336,7 +2336,7 @@ vocab-candidate-fd62862b6dc213bee77c,horse,NGSL-GR-1.0,6,3,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-8afe3c83decffdf6dc48,hospital,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-d61d74587224c86ab5c1,hospitality,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-4740ae6347b0172c0125,host,NGSL-GR-1.0,11,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-2ae3cf7d4c49da7e4ff2,hostage,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-2ae3cf7d4c49da7e4ff2,hostage,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-8f383ccddc6f17eb57a9,hostile,NGSL-GR-1.0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-a3e55073268ce2f157a5,hostility,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-7f5d1618e7d28cc7bf32,hot,NGSL-GR-1.0,21,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2427,7 +2427,7 @@ vocab-candidate-d4191834714542dcf3e5,incident,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,
 vocab-candidate-622128caf9c860eda024,incline,NGSL-GR-1.0|NAWL-1.2,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-c0cbff04cc90f5b4cd53,include,NGSL-GR-1.0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e18ba6a8049379ef22de,inclusion,NGSL-GR-1.0|NAWL-1.2,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-00cf141f881d4b5572d4,income,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-00cf141f881d4b5572d4,income,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-bd4b5d65b6a2c33af6d5,incorporate,NGSL-GR-1.0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-203d3536bd62ad33ac70,incorrect,NGSL-GR-1.0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-e20a548f23fa36bc8d5b,increase,NGSL-GR-1.0,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2662,7 +2662,7 @@ vocab-candidate-e81dfe69841ad2f7b579,king,NGSL-GR-1.0,11,5,0,0,0,0,0,0,0,0,0,0,0
 vocab-candidate-6038ac4d789347a54e09,kingdom,NGSL-GR-1.0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-89d19d63941a517f4921,kiss,NGSL-GR-1.0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-cbc8a597a67c46549755,kit,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-3171d89ad00530ffa19a,kitchen,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-3171d89ad00530ffa19a,kitchen,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-69ef5a88b0273f586588,knee,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-3d4d101cd7ea9e5effe9,knife,NGSL-GR-1.0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1b56e72e957c16786a0c,knit,NGSL-GR-1.0,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2704,7 +2704,7 @@ vocab-candidate-abfc412ce6e530df63b0,launch,NGSL-GR-1.0,8,4,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-8f1f74adf65864c86d3d,law,NGSL-GR-1.0,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-8b3e27a4d43770aaa291,lawn,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-b85b91c53558d46dfdbd,lawsuit,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-83a70052504733134861,lawyer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-83a70052504733134861,lawyer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-360cdbba702f58890c26,lay,NGSL-GR-1.0,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-dac1d7cfa95021764849,layer,NGSL-GR-1.0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1dc5ae5b68174891b6aa,layout,NGSL-GR-1.0|NAWL-1.2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -2787,7 +2787,7 @@ vocab-candidate-a330395cc0a53ad12077,list,NGSL-GR-1.0,7,6,0,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-6f8860eb5103a16b9171,listen,NGSL-GR-1.0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-c4c05d40a8c3ebc0eb0c,listener,NGSL-GR-1.0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-03d92a6e2b45e2cff821,liter,NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-578756ca4aa16d887261,literacy,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-578756ca4aa16d887261,literacy,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-0616fd22bc9c34e5c0ad,literally,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-458defad73e0f299b5f2,literary,NGSL-GR-1.0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-ac9fa2503ffea8a35ed6,literature,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -3074,7 +3074,7 @@ vocab-candidate-908e2636911e8764e34b,municipal,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0
 vocab-candidate-fc3086f6d1e06809f75e,murder,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-2c1d8af3b671c780ba70,murderer,NGSL-GR-1.0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-db875b25b06f03288326,muscle,NGSL-GR-1.0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-4919063719e8c3888b72,museum,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-4919063719e8c3888b72,museum,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-5ef2c394d5b63e4175cd,mushroom,NGSL-GR-1.0,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-80f189984e5ca70287d1,music,NGSL-GR-1.0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-70de0f95a234f5685f54,musical,NGSL-GR-1.0,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -3577,7 +3577,7 @@ vocab-candidate-b5a0aa306476543fef18,possibility,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0
 vocab-candidate-c4773daf2e6a2e27ea8e,possible,NGSL-GR-1.0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-2eaa6c981568da7719a9,possibly,NGSL-GR-1.0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-72231043bc1807e6f740,post,NGSL-GR-1.0,25,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-22f0b24b528b0902de75,postcard,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-22f0b24b528b0902de75,postcard,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-293b9207228b7854bc3c,poster,NGSL-GR-1.0|NAWL-1.2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-84c4a92e0a87c4b19a84,postgraduate,NAWL-1.2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,chinese_sense_clue_needed|sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-b301304355429e5380d9,postpone,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
@@ -4677,7 +4677,7 @@ vocab-candidate-5ecd3684d51b7e52eeb6,surely,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-0199311728be829918c1,surf,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-763cdc62a869262b6ff4,surface,NGSL-GR-1.0,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-41ef29df4a53ab2d8b1d,surge,NGSL-GR-1.0,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-48271388865ea6816866,surgeon,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-48271388865ea6816866,surgeon,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-fc00eb484b582cfb374e,surgery,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-cd8e8b81f9b51c859b11,surgical,NAWL-1.2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1bd305c929ba350e05b4,surplus,NGSL-GR-1.0|NAWL-1.2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
@@ -4745,7 +4745,7 @@ vocab-candidate-0ebb429fa86d481c2630,task,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,
 vocab-candidate-814e6bcc41679ddd4302,taste,NGSL-GR-1.0,13,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1ffc0406b9891fcd265a,tax,NGSL-GR-1.0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-12796d3d5f4e132385f8,taxi,NGSL-GR-1.0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-0ca60590b2324492b14f,taxpayer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-0ca60590b2324492b14f,taxpayer,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,not_indexed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-a9f74d1ec36ebdeb2da3,tea,NGSL-GR-1.0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-eb0b4270edb36c1ea88c,teach,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1057a9604e04b274da5a,teacher,NGSL-GR-1.0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,not_indexed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only

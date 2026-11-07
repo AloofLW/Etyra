@@ -1,0 +1,21 @@
+candidate_id,word,pos,oewn_sense_id,oewn_synset_id,ili,cow_synset_ids,chinese_selected,usage_note,status
+vocab-candidate-00cf141f881d4b5572d4,income,n,oewn-income__1.21.00..,oewn-13276044-n,i106308,cow-13255145-n,收入,一定时期获得的经济收入；不限定为工资。,editorial_draft_pending_final_review
+vocab-candidate-06ac7c1a6fe383081065,disappoint,v,oewn-disappoint__2.37.00..,oewn-01802947-v,i30727,cow-01798936-v,使失望,未能达到某人的希望或期待。,editorial_draft_pending_final_review
+vocab-candidate-0a5a9bb73d93fca87ae1,furniture,n,oewn-furniture__1.06.00..,oewn-03410635-n,i54111,cow-03405725-n,家具,供房间使用的家具的集合；通常为不可数名词。,editorial_draft_pending_final_review
+vocab-candidate-0ca60590b2324492b14f,taxpayer,n,oewn-taxpayer__1.18.00..,oewn-10713659-n,i93556,cow-10694163-n,纳税人,缴纳税款的人，具体用法须复核。,editorial_draft_pending_final_review
+vocab-candidate-0f48868342614a8b80d7,airplane,n,oewn-airplane__1.06.00..,oewn-02694015-n,i49901,cow-02691156-n,飞机,固定翼、由动力驱动的飞机；英式常用 aeroplane。,editorial_draft_pending_final_review
+vocab-candidate-22f0b24b528b0902de75,postcard,n,oewn-postcard__1.10.00..,oewn-06640445-n,i71313,cow-06627938-n,明信片,无需信封即可邮寄留言的卡片。,editorial_draft_pending_final_review
+vocab-candidate-3171d89ad00530ffa19a,kitchen,n,oewn-kitchen__1.06.00..,oewn-03625099-n,i55397,cow-03619890-n,厨房,用于准备饭菜的房间。,editorial_draft_pending_final_review
+vocab-candidate-42cc848a9f5ec37abc5b,composer,n,oewn-composer__1.18.00..,oewn-09966711-n,i89134,cow-09947232-n,作曲家,创作音乐的人。,editorial_draft_pending_final_review
+vocab-candidate-48271388865ea6816866,surgeon,n,oewn-surgeon__1.18.00..,oewn-10698621-n,i93458,cow-10679174-n,外科医生,从事外科手术的医生。,editorial_draft_pending_final_review
+vocab-candidate-4919063719e8c3888b72,museum,n,oewn-museum__1.06.00..,oewn-03806085-n,i56456,cow-03800563-n,博物馆,收集、保存及展示科学、历史或艺术物品的机构。,editorial_draft_pending_final_review
+vocab-candidate-4a2f99869acda1bc80ef,biography,n,oewn-biography__1.10.00..,oewn-06527818-n,i70703,cow-06515827-n,传记,记述一个人生活经历的作品。,editorial_draft_pending_final_review
+vocab-candidate-4ed28f82ca96c3342a5c,daughter,n,oewn-daughter__1.18.00..,oewn-10012375-n,i89398,cow-09992837-n,女儿,女性子女。,editorial_draft_pending_final_review
+vocab-candidate-6bfbd709d5fdc0618ab5,consumer,n,oewn-consumer__1.18.00..,oewn-09635878-n,i87185,cow-09612848-n,消费者,使用商品或服务的人。,editorial_draft_pending_final_review
+vocab-candidate-83a70052504733134861,lawyer,n,oewn-lawyer__1.18.00..,oewn-10269647-n,i90948,cow-10249950-n,律师,从事法律实务或提供法律建议的专业人士。,editorial_draft_pending_final_review
+vocab-candidate-829af112ee3cdf7f8306,economist,n,oewn-economist__1.18.00..,oewn-10063451-n,i89685,cow-10043643-n,经济学家,经济学方面的专家。,editorial_draft_pending_final_review
+vocab-candidate-88b1deea6a18cfd0d1df,electron,n,oewn-electron__1.17.00..,oewn-09294810-n,i85355,cow-09271904-n,电子,带负电荷的基本粒子。,editorial_draft_pending_final_review
+vocab-candidate-67a333356cdc566e6e34,ant,n,oewn-ant__1.05.00..,oewn-02222138-n,i47162,cow-02219486-n,蚂蚁,群居昆虫；具体物种及生态特征不作为唯一释义。,editorial_draft_pending_final_review
+vocab-candidate-2ae3cf7d4c49da7e4ff2,hostage,n,oewn-hostage__1.18.00..,oewn-10207176-n,i90583,cow-10187557-n,人质,为迫使另一方满足条件而被扣押的人。,editorial_draft_pending_final_review
+vocab-candidate-578756ca4aa16d887261,literacy,n,oewn-literacy__1.09.00..,oewn-05646331-n,i66543,cow-05638486-n,读写能力,读写能力；广义用法另行处理。,editorial_draft_pending_final_review
+vocab-candidate-68ff63fb82e0e5dfec2a,download,v,oewn-download__2.40.00..,oewn-02238486-v,i32911,cow-02233704-v,下载,从远程或中央计算机传输文件或程序；现代用法还需核对。,editorial_draft_pending_final_review
