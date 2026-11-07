@@ -422,3 +422,13 @@ vocab-candidate-fc99c152d84713fe276d,eligible,a,oewn-eligible__3.00.00..,oewn-00
 vocab-candidate-fd09da605e5804b35ee4,corridor,n,oewn-corridor__1.06.00..,oewn-03116750-n,i52386,cow-03112099-n,走廊,指封闭的通道，房间通常与之相通。,editorial_draft_pending_final_review
 vocab-candidate-fd86717aca41c558c78c,percent,n,oewn-percent__1.24.00..,oewn-13839738-n,i109515,cow-13817526-n,百分比,所选义项指相对于整体的比例，通常按每百计算；词性和用法须复核。,editorial_draft_pending_final_review
 vocab-candidate-ffb29103283b6b9997b8,warrior,n,oewn-warrior__1.18.00..,oewn-10788253-n,i94040,cow-10768585-n,战士,指参与战争或有作战经验的人。,editorial_draft_pending_final_review
+vocab-candidate-b262d5731483a56963e2,offender,n,oewn-offender__1.18.00..,oewn-09657157-n,i87255,cow-09633969-n,做坏事的人,所选来源义项包括违反道德或民法的人，不能简单等同已定罪者。,editorial_draft_pending_final_review
+vocab-candidate-c06a4f8f0647f5ab2252,temporarily,r,oewn-temporarily__4.02.00..,oewn-00088791-r,i18683,cow-00088303-r,暂,指只持续有限时间而非永久；汉语搭配随语境变化。,editorial_draft_pending_final_review
+vocab-candidate-d759e5ec6eb705dd3484,increasingly,r,oewn-increasingly__4.02.00..,oewn-00060392-r,i18498,cow-00059854-r,益发,指数量或强度不断增长的趋势。,editorial_draft_pending_final_review
+vocab-candidate-d79987051a2552ac1895,infinity,n,oewn-infinity__1.28.00..,oewn-15268787-n,i117351,cow-15243976-n,永恒,所选来源义项指没有终点的时间；数学无限义另行核验。,editorial_draft_pending_final_review
+vocab-candidate-dbc9a3eeab8fb9d620c4,youngster,n,oewn-youngster__1.18.00..,oewn-09937051-n,i88964,cow-09917593-n,小朋友,指年轻的人，不限定性别；该中文词项的年龄范围须按语境复核。,editorial_draft_pending_final_review
+vocab-candidate-ed82e79b1df27dee2cf1,archaeology,n,oewn-archaeology__1.09.00..,oewn-06153532-n,i68862,cow-06144081-n,考古学,所选来源义项侧重史前人群与文化，现代考古学范围更广，须专业复核。,editorial_draft_pending_final_review
+vocab-candidate-ee03fb050595ab93cf3b,tumor,n,oewn-tumor__1.26.00..,oewn-14258682-n,i111724,cow-14235200-n,肿瘤,所选词网义项指异常新生组织；医学表述和良恶性不得由此推断。,editorial_draft_pending_final_review
+vocab-candidate-ee04228c5c6d8b083f6c,wonderful,a,oewn-wonderful__5.00.00.extraordinary.00,oewn-01681111-s,i9186,cow-01676517-a,绝妙,指非常好或出色的，具体译法依语境。,editorial_draft_pending_final_review
+vocab-candidate-f9d37c23fcc0f03c15a8,urgent,a,oewn-urgent__5.00.00.imperative.00,oewn-00717023-s,i3958,cow-00713558-a,刻不容缓,指迫使人立即行动或需要迅速处理的；词性及搭配须复核。,editorial_draft_pending_final_review
+vocab-candidate-fc7fdf972e1b13b90b7f,nominee,n,oewn-nominee__1.18.00..,oewn-09909143-n,i88791,cow-09889691-n,候选人,所选来源义项特指竞选公职的政治人物；一般被提名者义另行核验。,editorial_draft_pending_final_review

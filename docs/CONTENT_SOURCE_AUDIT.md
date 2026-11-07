@@ -261,3 +261,5 @@
 单条 OEWN 索引批次新增 22 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 407 条。中文取自已有 COW 词项，均按特定 OEWN 英文义项记录语境；涉及 `antibody` 的免疫学机制、星期排序和 `jewelry` 的材料范围须复核，不能将受限来源定义视为完整释义。课标适用性和许可仍待审核。
 
 单条 OEWN 索引批次新增 16 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 423 条。中文选自已有 COW 词项，均记录所选英文义项范围；`refugee` 的国际法条件、`pregnancy` 和 `fungus` 的专业定义、`luggage` 的中英文范围差异须复核。课标适用性及许可仍待审核。
+
+单条 OEWN 索引批次新增 10 条中文选义草稿，`CURATED_SINGLE_OEWN_PILOT.csv` 累计 433 条；均对照已有 COW 词项，保留所选来源义项的范围。`archaeology` 的来源定义偏窄、`tumor` 的医学定义及 `offender` 的法律语境必须独立复核；`nominee` 所选义项仅涉及竞选公职。所有词义、课标适用性与许可仍待审核。
