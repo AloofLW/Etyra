@@ -1,0 +1,5 @@
+variant_candidate_id,variant,base_candidate_id,base,relationship,source_url,source_access_date,source_use,status,notes
+vocab-candidate-d6838c357444c5ad1699,colour,vocab-candidate-74284d9dcbcc09928ca5,color,regional_spelling_candidate,https://dictionary.cambridge.org/dictionary/english/color,2026-11-07,reference_only,candidate_only,英式拼写线索；不同词性与语境仍须核对。
+vocab-candidate-fa25baee7bacec5c8ca2,centre,vocab-candidate-f179a509d32bd92c923f,center,regional_spelling_candidate,https://dictionary.cambridge.org/dictionary/english/center,2026-11-07,reference_only,candidate_only,英式拼写线索；专名和具体义项仍须核对。
+vocab-candidate-775cf3abc9be67866542,favourite,vocab-candidate-1ff3a3c1830a1531cde6,favorite,regional_spelling_candidate,https://dictionary.cambridge.org/dictionary/english/favorite,2026-11-07,reference_only,candidate_only,英式拼写线索；名词与形容词须分别核对。
+vocab-candidate-d05c34e72352778bfa90,theatre,vocab-candidate-3121771b9c5973e0f089,theater,regional_spelling_candidate,https://dictionary.cambridge.org/dictionary/english/theater,2026-11-07,reference_only,candidate_only,英式拼写线索；美式语境也可能使用 theatre。

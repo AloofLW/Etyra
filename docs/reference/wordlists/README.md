@@ -151,6 +151,8 @@
 
 对 `am`、`are`、`is`、`has` 四项，参照 Cambridge Dictionary 的 [be 形式表](https://dictionary.cambridge.org/grammar/british-grammar/basic)和 [have 形式说明](https://dictionary.cambridge.org/grammar/british-grammar/have%3A)，在 [`docs/INFLECTION_REVIEW_PILOT.csv`](../../INFLECTION_REVIEW_PILOT.csv) 记录与 `be`、`have` 的动词屈折关系线索及各自候选 ID；语法事实用于审核定位，来源作为参考而非授权复制词典文本。拼写可有其他词性，原型、不同词义及是否作为独立学习对象均待审；这些关系不自动合并候选、产品 ID 或学习记录，也不证明课标适用性。镜像行及分级仍须核对权威版本。
 
+对 `colour/color`、`centre/center`、`favourite/favorite` 和 `theatre/theater` 四组，依据 [`SPELLING_REVIEW_PILOT.csv`](../../SPELLING_REVIEW_PILOT.csv) 所列 Cambridge Dictionary 词条记录英美拼写线索，分别保留主候选和补充候选 ID；不复制其词典释义。词性、专名、地区实际用法和课标原文仍须逐项核验，例如 `theatre` 也可见于美国语境。拼写关联不自动证明所有义项等同，也不自动合并产品 ID、学习记录或词条数量。
+
 ## 课标镜像缺口补充候选
 
 上述 293 个未匹配的简单词项行按忽略大小写去重后为 292 个拼写；通过 OEWN 2024 的 `Lemma.writtenForm` 比对，有 274 个拼写找到词典入口。已将这些 OEWN 词头、词条 ID、词性和镜像 PDF 页码写入 [`docs/CURRICULUM_GAP_CANDIDATES.csv`](../../CURRICULUM_GAP_CANDIDATES.csv)，每条仍为 `candidate_only`。其余 18 个拼写尚未匹配到 OEWN，包括代词和部分词形，需要其他来源或词形审核；85 行复杂形式也尚未处理。
