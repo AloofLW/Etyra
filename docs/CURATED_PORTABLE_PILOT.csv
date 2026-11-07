@@ -1,0 +1,2 @@
+candidate_id,word_relation_candidate_id,root_candidate_id,word,pos,oewn_sense_id,oewn_synset_id,english_definition,editorial_chinese,usage_note,etymology_revision_url,status
+vocab-candidate-01e782826ae5182220bd,WC-018,RC-027,portable,adjective,oewn-portable__3.00.00..,oewn-01529895-a,easily or conveniently transported,便携的；易于携带的,一般携带或运输义；不把船外发动机专门义当作此义的来源。,https://en.wiktionary.org/w/index.php?title=portable&oldid=94567380,editorial_draft_pending_final_review

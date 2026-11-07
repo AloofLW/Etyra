@@ -200,6 +200,8 @@
 
 审阅还发现 `portable` 的自动中文候选目前只关联 `oewn-portable__5.00.00.outboard.00`（CILI `i7039`，COW `cow-01291589-a`）：OEWN 英文定义是涉及船外发动机的特殊义，而中文候选含“便携式的”。该跨词网关联可能存在语义范围错位，不能据此给一般 `portable` 用法选译；在核验跨词网标识和该词正常义项来源前保留待审。此问题不应自动推广为其他义项均有问题，也不应被数量统计掩盖。
 
+一般携带义另见 OEWN 2024 `oewn-portable__3.00.00..`、`oewn-01529895-a`，已在 [`CURATED_PORTABLE_PILOT.csv`](CURATED_PORTABLE_PILOT.csv) 建立独立中文编辑草稿，并关联 `WC-018` 的 Wiktionary 固定修订；该草稿没有使用前述 COW 中文线索。词义、中文、历史关系、高中适用性和 OEWN/Princeton、Wiktionary 等适用许可仍须复核，状态不是正式词条。OEWN 原始版本及许可见 `reference/wordlists/README.md`，不得由此推断原 CILI 对照的错误成因。
+
 ## 待决事项
 
 - 词源条目的编辑复核流程、审核人和来源快照/修订标识如何归档？
