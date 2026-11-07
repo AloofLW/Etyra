@@ -1,8 +1,13 @@
 candidate_id,headword,source_title,revision_id,etymology_heading,template,components_json,revision_url,status
 vocab-candidate-00fd2615de994cb3841b,certainly,certainly,93683914,Etymology,af,"[""certain"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=certainly&oldid=93683914,morphology_clue_unreviewed
 vocab-candidate-01c3ce440c9b28f5becb,endless,endless,92435408,Etymology,suffix,"[""end"", ""less""]",https://en.wiktionary.org/w/index.php?title=endless&oldid=92435408,morphology_clue_unreviewed
+vocab-candidate-02540942346fdfbf21a9,interview,interview,93745169,Etymology,af,"[""inter-"", ""view""]",https://en.wiktionary.org/w/index.php?title=interview&oldid=93745169,morphology_clue_unreviewed
+vocab-candidate-0275fca08c216c77b2a1,independent,independent,94559154,Etymology,af,"[""in-"", ""dependent""]",https://en.wiktionary.org/w/index.php?title=independent&oldid=94559154,morphology_clue_unreviewed
 vocab-candidate-03b6b3e9163de296faeb,flight,flight,94555684,Etymology 1,suffix,"[""fly"", ""t""]",https://en.wiktionary.org/w/index.php?title=flight&oldid=94555684,morphology_clue_unreviewed
 vocab-candidate-03b6b3e9163de296faeb,flight,flight,94555684,Etymology 2,suffix,"[""flee"", ""t""]",https://en.wiktionary.org/w/index.php?title=flight&oldid=94555684,morphology_clue_unreviewed
+vocab-candidate-03ce8b95eb32632192ca,guideline,guideline,94557360,Etymology,compound,"[""guide"", ""line""]",https://en.wiktionary.org/w/index.php?title=guideline&oldid=94557360,morphology_clue_unreviewed
+vocab-candidate-04b02876906fe2625580,industrialization,industrialization,94559196,Etymology,af,"[""industrial"", ""-ization""]",https://en.wiktionary.org/w/index.php?title=industrialization&oldid=94559196,morphology_clue_unreviewed
+vocab-candidate-04b02876906fe2625580,industrialization,industrialization,94559196,Etymology,af,"[""industrialize"", ""-ation""]",https://en.wiktionary.org/w/index.php?title=industrialization&oldid=94559196,morphology_clue_unreviewed
 vocab-candidate-056dc4cc3470ead924d1,addiction,addiction,92140213,Etymology,suffix,"[""addict"", ""ion""]",https://en.wiktionary.org/w/index.php?title=addiction&oldid=92140213,morphology_clue_unreviewed
 vocab-candidate-06a61df042ad775e8bdd,framework,framework,91713438,Etymology,compound,"[""frame"", ""work""]",https://en.wiktionary.org/w/index.php?title=framework&oldid=91713438,morphology_clue_unreviewed
 vocab-candidate-06c8aaa93d80a768829b,factory,factory,93693389,Etymology,af,"[""factor"", ""-y""]",https://en.wiktionary.org/w/index.php?title=factory&oldid=93693389,morphology_clue_unreviewed
@@ -11,6 +16,7 @@ vocab-candidate-074cdde4132a64f0abe7,follower,follower,94555823,Etymology,affix,
 vocab-candidate-08bf2418cca97fefbdf7,behavior,behavior,94547638,Etymology,af,"[""behave"", ""-ior""]",https://en.wiktionary.org/w/index.php?title=behavior&oldid=94547638,morphology_clue_unreviewed
 vocab-candidate-09cbad3beca70ddbcc89,analyze,analyze,94545912,Etymology,af,"[""analysis"", ""-ize""]",https://en.wiktionary.org/w/index.php?title=analyze&oldid=94545912,morphology_clue_unreviewed
 vocab-candidate-0a96f1960786d85f9e12,angry,angry,94545967,Etymology,af,"[""anger"", ""-y""]",https://en.wiktionary.org/w/index.php?title=angry&oldid=94545967,morphology_clue_unreviewed
+vocab-candidate-0ad2e0351be5fbd48cac,hopeful,hopeful,94558292,Etymology,af,"[""hope"", ""-ful""]",https://en.wiktionary.org/w/index.php?title=hopeful&oldid=94558292,morphology_clue_unreviewed
 vocab-candidate-0b514913789f890c4af8,association,association,93678040,Etymology,suffix,"[""associate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=association&oldid=93678040,morphology_clue_unreviewed
 vocab-candidate-0b7a461fefbb68e518e5,drift,drift,93690754,Etymology,suffix,"[""drive"", ""t""]",https://en.wiktionary.org/w/index.php?title=drift&oldid=93690754,morphology_clue_unreviewed
 vocab-candidate-0cfcdc2f0991b0be4482,alongside,alongside,93738064,Etymology,compound,"[""along"", ""side""]",https://en.wiktionary.org/w/index.php?title=alongside&oldid=93738064,morphology_clue_unreviewed
@@ -21,15 +27,22 @@ vocab-candidate-0d7925903f3e8bfc0300,apologize,apologize,91792782,Etymology,suff
 vocab-candidate-0e89820860c342f2c7ec,benchmark,benchmark,94547697,Etymology,af,"[""bench"", ""mark""]",https://en.wiktionary.org/w/index.php?title=benchmark&oldid=94547697,morphology_clue_unreviewed
 vocab-candidate-0e9b99efef2f80fb90cb,deeply,deeply,94552252,Etymology,af,"[""deep"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=deeply&oldid=94552252,morphology_clue_unreviewed
 vocab-candidate-0f48868342614a8b80d7,airplane,airplane,92589639,Etymology,compound,"[""air"", ""plane""]",https://en.wiktionary.org/w/index.php?title=airplane&oldid=92589639,morphology_clue_unreviewed
+vocab-candidate-0fabe40e86f8364ba20d,indoor,indoor,93083539,Etymology,af,"[""within"", ""door""]",https://en.wiktionary.org/w/index.php?title=indoor&oldid=93083539,morphology_clue_unreviewed
+vocab-candidate-106b086224a4d945eae2,inside,inside,93701992,Etymology,prefix,"[""in"", ""side""]",https://en.wiktionary.org/w/index.php?title=inside&oldid=93701992,morphology_clue_unreviewed
 vocab-candidate-109fa9f54c849bb7c2e9,discard,discard,93689677,Etymology,prefix,"[""dis"", ""card""]",https://en.wiktionary.org/w/index.php?title=discard&oldid=93689677,morphology_clue_unreviewed
 vocab-candidate-11336bc0d91358ca2d11,cleaner,cleaner,92011517,Etymology 1,af,"[""clean"", ""-er""]",https://en.wiktionary.org/w/index.php?title=cleaner&oldid=92011517,morphology_clue_unreviewed
+vocab-candidate-115584860cd5620e40fd,helmet,helmet,94579139,Etymology,suffix,"[""helm"", ""et""]",https://en.wiktionary.org/w/index.php?title=helmet&oldid=94579139,morphology_clue_unreviewed
 vocab-candidate-11d40417959631d3d242,business,business,94549003,Etymology,suffix,"[""busy"", ""ness""]",https://en.wiktionary.org/w/index.php?title=business&oldid=94549003,morphology_clue_unreviewed
+vocab-candidate-1298a63b90dc1097df9c,impossible,impossible,93296292,Etymology,af,"[""im-"", ""possible""]",https://en.wiktionary.org/w/index.php?title=impossible&oldid=93296292,morphology_clue_unreviewed
 vocab-candidate-129b70f8672ecacafe6a,acceptable,acceptable,94545268,Etymology,af,"[""accept"", ""-able""]",https://en.wiktionary.org/w/index.php?title=acceptable&oldid=94545268,morphology_clue_unreviewed
 vocab-candidate-135fc7a09da25f03e44f,alive,alive,94545698,Etymology,af,"[""a-"", ""life""]",https://en.wiktionary.org/w/index.php?title=alive&oldid=94545698,morphology_clue_unreviewed
 vocab-candidate-13b1f7ec5beaefc781e4,freedom,freedom,94556080,Etymology,suffix,"[""free"", ""dom""]",https://en.wiktionary.org/w/index.php?title=freedom&oldid=94556080,morphology_clue_unreviewed
+vocab-candidate-13f6df6b8127927427d5,inequality,inequality,93509429,Etymology,af,"[""in-"", ""equality""]",https://en.wiktionary.org/w/index.php?title=inequality&oldid=93509429,morphology_clue_unreviewed
+vocab-candidate-13f6df6b8127927427d5,inequality,inequality,93509429,Etymology,af,"[""inequal"", ""-ity""]",https://en.wiktionary.org/w/index.php?title=inequality&oldid=93509429,morphology_clue_unreviewed
 vocab-candidate-14272bd361c9990628ca,darkness,darkness,93688197,Etymology,suffix,"[""dark"", ""ness""]",https://en.wiktionary.org/w/index.php?title=darkness&oldid=93688197,morphology_clue_unreviewed
 vocab-candidate-14c67414e0dfb1fff879,affection,affection,93675403,Etymology,suffix,"[""affect"", ""ion""]",https://en.wiktionary.org/w/index.php?title=affection&oldid=93675403,morphology_clue_unreviewed
 vocab-candidate-151014a3ae7fe440df23,diffusion,diffusion,95427385,Etymology,suffix,"[""diffuse"", ""ion""]",https://en.wiktionary.org/w/index.php?title=diffusion&oldid=95427385,morphology_clue_unreviewed
+vocab-candidate-15b45021ccf8ed60039e,hatred,hatred,93699004,Etymology,suffix,"[""hate"", ""red""]",https://en.wiktionary.org/w/index.php?title=hatred&oldid=93699004,morphology_clue_unreviewed
 vocab-candidate-16d34b5e7bcb341ee6cb,failure,failure,94579087,Etymology,af,"[""fail"", ""-ure""]",https://en.wiktionary.org/w/index.php?title=failure&oldid=94579087,morphology_clue_unreviewed
 vocab-candidate-171cd9969103f91b3289,decisive,decisive,93812895,Etymology,suffix,"[""decide"", ""ive""]",https://en.wiktionary.org/w/index.php?title=decisive&oldid=93812895,morphology_clue_unreviewed
 vocab-candidate-1757d2fb9628c1340a1b,citizenship,citizenship,94550073,Etymology,af,"[""citizen"", ""-ship""]",https://en.wiktionary.org/w/index.php?title=citizenship&oldid=94550073,morphology_clue_unreviewed
@@ -45,6 +58,9 @@ vocab-candidate-1c09f5a7f47df2ee11da,equipment,equipment,94554399,Etymology,af,"
 vocab-candidate-1c6f6840875e87c7ce76,exploration,exploration,93131468,Etymology,suffix,"[""explore"", ""ation""]",https://en.wiktionary.org/w/index.php?title=exploration&oldid=93131468,morphology_clue_unreviewed
 vocab-candidate-1d8b4cf854cd42f48688,beer,beer,94588094,Etymology 2,suffix,"[""be"", ""er""]",https://en.wiktionary.org/w/index.php?title=beer&oldid=94588094,morphology_clue_unreviewed
 vocab-candidate-1de83442dea1fe1bfbdc,bloody,bloody,94548228,Etymology 1,af,"[""blood"", ""-y""]",https://en.wiktionary.org/w/index.php?title=bloody&oldid=94548228,morphology_clue_unreviewed
+vocab-candidate-1e3bb894756f8d62b575,international,international,94559592,Etymology,af,"[""inter-"", ""national""]",https://en.wiktionary.org/w/index.php?title=international&oldid=94559592,morphology_clue_unreviewed
+vocab-candidate-1fa9eacf39230c621e99,indirectly,indirectly,93701588,Etymology,af,"[""in-"", ""directly""]",https://en.wiktionary.org/w/index.php?title=indirectly&oldid=93701588,morphology_clue_unreviewed
+vocab-candidate-1fa9eacf39230c621e99,indirectly,indirectly,93701588,Etymology,af,"[""indirect"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=indirectly&oldid=93701588,morphology_clue_unreviewed
 vocab-candidate-205c3e16c66ff0b84570,finally,finally,94586125,Etymology,af,"[""final"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=finally&oldid=94586125,morphology_clue_unreviewed
 vocab-candidate-2142487324cdb6d8c504,breakthrough,breakthrough,92053031,Etymology,compound,"[""break"", ""through""]",https://en.wiktionary.org/w/index.php?title=breakthrough&oldid=92053031,morphology_clue_unreviewed
 vocab-candidate-2167d5a2193dbcc701fd,confrontation,confrontation,93131205,Etymology,suffix,"[""confront"", ""ation""]",https://en.wiktionary.org/w/index.php?title=confrontation&oldid=93131205,morphology_clue_unreviewed
@@ -59,10 +75,13 @@ vocab-candidate-23b701e12adce4bef230,endanger,endanger,93692045,Etymology,prefix
 vocab-candidate-2402136c3cb55cb68990,aspiration,aspiration,93131051,Etymology 2,suffix,"[""aspirate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=aspiration&oldid=93131051,morphology_clue_unreviewed
 vocab-candidate-24065231df1b28929df8,exactly,exactly,93692915,Etymology,af,"[""exact"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=exactly&oldid=93692915,morphology_clue_unreviewed
 vocab-candidate-24cacf5004bf68ae9daa,generate,generate,94579113,Etymology 1,af,"[""generō"", ""-ate""]",https://en.wiktionary.org/w/index.php?title=generate&oldid=94579113,morphology_clue_unreviewed
+vocab-candidate-25b1ed9615a0b6b815b4,headline,headline,94557764,Etymology,compound,"[""head"", ""line""]",https://en.wiktionary.org/w/index.php?title=headline&oldid=94557764,morphology_clue_unreviewed
 vocab-candidate-25cf621809d2abf7eae5,fluctuation,fluctuation,93131516,Etymology,suffix,"[""fluctuate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=fluctuation&oldid=93131516,morphology_clue_unreviewed
 vocab-candidate-25d9548a80c751e28218,classical,classical,94550138,Etymology,suffix,"[""class"", ""-ic"", ""-al""]",https://en.wiktionary.org/w/index.php?title=classical&oldid=94550138,morphology_clue_unreviewed
 vocab-candidate-25d9548a80c751e28218,classical,classical,94550138,Etymology,suffix,"[""classic"", ""al""]",https://en.wiktionary.org/w/index.php?title=classical&oldid=94550138,morphology_clue_unreviewed
+vocab-candidate-26787dd2f72cc993706e,hardware,hardware,93872049,Etymology,af,"[""hard"", ""-ware""]",https://en.wiktionary.org/w/index.php?title=hardware&oldid=93872049,morphology_clue_unreviewed
 vocab-candidate-28d8747931a8ff5ddf76,carefully,carefully,94549381,Etymology,af,"[""careful"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=carefully&oldid=94549381,morphology_clue_unreviewed
+vocab-candidate-29ba6947875fa4dbc743,investigate,investigate,93760865,Etymology,af,"[""in-"", ""vestigate""]",https://en.wiktionary.org/w/index.php?title=investigate&oldid=93760865,morphology_clue_unreviewed
 vocab-candidate-29d8c99ec25b271007f0,accountant,accountant,93661030,Etymology,suffix,"[""account"", ""ant""]",https://en.wiktionary.org/w/index.php?title=accountant&oldid=93661030,morphology_clue_unreviewed
 vocab-candidate-2a683592454edd4fc001,ethical,ethical,94554570,Etymology,af,"[""ethic"", ""-al""]",https://en.wiktionary.org/w/index.php?title=ethical&oldid=94554570,morphology_clue_unreviewed
 vocab-candidate-2e1025a6f0aa4c8ef105,contour,contour,94550967,Etymology,prefix,"[""con"", ""tour""]",https://en.wiktionary.org/w/index.php?title=contour&oldid=94550967,morphology_clue_unreviewed
@@ -71,8 +90,10 @@ vocab-candidate-2f47e627c6b9894b2c6b,excessive,excessive,92414302,Etymology,af,"
 vocab-candidate-2fc6bbd7dead02737f95,alteration,alteration,93676399,Etymology,suffix,"[""alter"", ""ation""]",https://en.wiktionary.org/w/index.php?title=alteration&oldid=93676399,morphology_clue_unreviewed
 vocab-candidate-2fe1d615f7fb24b99fb8,adaptation,adaptation,93675876,Etymology,suffix,"[""adapt"", ""ation""]",https://en.wiktionary.org/w/index.php?title=adaptation&oldid=93675876,morphology_clue_unreviewed
 vocab-candidate-308301fb06e9ac280c30,downtown,downtown,94553473,Etymology,compound,"[""down"", ""town""]",https://en.wiktionary.org/w/index.php?title=downtown&oldid=94553473,morphology_clue_unreviewed
+vocab-candidate-308738b8195da46d65c9,hockey,hockey,94558135,Etymology 1,af,"[""hock"", ""-ey""]",https://en.wiktionary.org/w/index.php?title=hockey&oldid=94558135,morphology_clue_unreviewed
 vocab-candidate-30a9caa9170d230fa6b5,cooperate,cooperate,94551058,Etymology,af,"[""co-"", ""operate""]",https://en.wiktionary.org/w/index.php?title=cooperate&oldid=94551058,morphology_clue_unreviewed
 vocab-candidate-31de312977fc2ebdfead,acquisition,acquisition,91680990,Etymology,suffix,"[""acquire"", ""ition""]",https://en.wiktionary.org/w/index.php?title=acquisition&oldid=91680990,morphology_clue_unreviewed
+vocab-candidate-32528ed2244f2862f451,instrumental,instrumental,93702036,Etymology,af,"[""instrument"", ""-al""]",https://en.wiktionary.org/w/index.php?title=instrumental&oldid=93702036,morphology_clue_unreviewed
 vocab-candidate-32c870923fced53850ca,confusion,confusion,94550804,Etymology,af,"[""confuse"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=confusion&oldid=94550804,morphology_clue_unreviewed
 vocab-candidate-32ec07823e8949ba3309,forthcoming,forthcoming,94580194,Etymology 2,suffix,"[""forthcome"", ""ing""]",https://en.wiktionary.org/w/index.php?title=forthcoming&oldid=94580194,morphology_clue_unreviewed
 vocab-candidate-32f09fa1e0d7bc303890,allowance,allowance,93676198,Etymology,suffix,"[""allow"", ""ance""]",https://en.wiktionary.org/w/index.php?title=allowance&oldid=93676198,morphology_clue_unreviewed
@@ -91,6 +112,7 @@ vocab-candidate-3962ce683c81e928fff5,embrace,embrace,93621445,Etymology,prefix,"
 vocab-candidate-397e53a194b68b89e0a4,banker,banker,93627575,Etymology 1,suffix,"[""bank"", ""er""]",https://en.wiktionary.org/w/index.php?title=banker&oldid=93627575,morphology_clue_unreviewed
 vocab-candidate-397e53a194b68b89e0a4,banker,banker,93627575,Etymology 4,suffix,"[""bank"", ""er""]",https://en.wiktionary.org/w/index.php?title=banker&oldid=93627575,morphology_clue_unreviewed
 vocab-candidate-39d02b42938b2b75d027,cell,cell,95429822,Etymology 2,compound,"[""cellular"", ""phone""]",https://en.wiktionary.org/w/index.php?title=cell&oldid=95429822,morphology_clue_unreviewed
+vocab-candidate-39e0f5efdc39ec109928,height,height,94557854,Etymology,af,"[""high"", ""-t""]",https://en.wiktionary.org/w/index.php?title=height&oldid=94557854,morphology_clue_unreviewed
 vocab-candidate-3a77a549887bce0f18a8,degradation,degradation,93688690,Etymology,suffix,"[""degrade"", ""ation""]",https://en.wiktionary.org/w/index.php?title=degradation&oldid=93688690,morphology_clue_unreviewed
 vocab-candidate-3bd933a3238b7a98bfbd,criticize,criticize,93563050,Etymology,af,"[""critic"", ""-ize""]",https://en.wiktionary.org/w/index.php?title=criticize&oldid=93563050,morphology_clue_unreviewed
 vocab-candidate-3e6f3ef30c9311c70865,affiliate,affiliate,93675368,Etymology,af,"[""affīliō"", ""-ate""]",https://en.wiktionary.org/w/index.php?title=affiliate&oldid=93675368,morphology_clue_unreviewed
@@ -101,11 +123,14 @@ vocab-candidate-3fff1513949cbf175c91,betray,betray,93680191,Etymology,af,"[""be-
 vocab-candidate-4221a8f26bb25551c649,eastern,eastern,94553784,Etymology,af,"[""east"", ""-ern""]",https://en.wiktionary.org/w/index.php?title=eastern&oldid=94553784,morphology_clue_unreviewed
 vocab-candidate-42eddc67a7444c08abac,aggressive,aggressive,92532499,Etymology,suffix,"[""aggress"", ""ive""]",https://en.wiktionary.org/w/index.php?title=aggressive&oldid=92532499,morphology_clue_unreviewed
 vocab-candidate-438b5e575a59cd42e234,arrangement,arrangement,92983889,Etymology,suffix,"[""arrange"", ""ment""]",https://en.wiktionary.org/w/index.php?title=arrangement&oldid=92983889,morphology_clue_unreviewed
+vocab-candidate-442c621dafad2a69126d,himself,himself,94558028,Etymology,af,"[""him"", ""-self""]",https://en.wiktionary.org/w/index.php?title=himself&oldid=94558028,morphology_clue_unreviewed
 vocab-candidate-44d425af1945e76862d5,bodily,bodily,93681229,Etymology,suffix,"[""body"", ""ly""]",https://en.wiktionary.org/w/index.php?title=bodily&oldid=93681229,morphology_clue_unreviewed
 vocab-candidate-4544a9d1bce17522b99e,acidic,acidic,94545314,Etymology,af,"[""acid"", ""-ic""]",https://en.wiktionary.org/w/index.php?title=acidic&oldid=94545314,morphology_clue_unreviewed
 vocab-candidate-45dc6ee67230e3b4fdf5,briefly,briefly,94548714,Etymology,af,"[""brief"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=briefly&oldid=94548714,morphology_clue_unreviewed
 vocab-candidate-46e0876178516073c5ae,effective,effective,93744693,Etymology,af,"[""effect"", ""-ive""]",https://en.wiktionary.org/w/index.php?title=effective&oldid=93744693,morphology_clue_unreviewed
+vocab-candidate-4736bc313525a831796b,intake,intake,94559480,Etymology,prefix,"[""in"", ""take""]",https://en.wiktionary.org/w/index.php?title=intake&oldid=94559480,morphology_clue_unreviewed
 vocab-candidate-47823b565d4a696e1db5,backward,backward,93678781,Etymology,af,"[""back"", ""-ward""]",https://en.wiktionary.org/w/index.php?title=backward&oldid=93678781,morphology_clue_unreviewed
+vocab-candidate-47951833ecf6211793c0,however,however,94558410,Etymology,suffix,"[""how"", ""-ever""]",https://en.wiktionary.org/w/index.php?title=however&oldid=94558410,morphology_clue_unreviewed
 vocab-candidate-4b529ac375b4217be17f,friendship,friendship,94556129,Etymology,af,"[""friend"", ""-ship""]",https://en.wiktionary.org/w/index.php?title=friendship&oldid=94556129,morphology_clue_unreviewed
 vocab-candidate-4b63a9017b09f194f6c0,faithful,faithful,94555022,Etymology,suffix,"[""faith"", ""ful""]",https://en.wiktionary.org/w/index.php?title=faithful&oldid=94555022,morphology_clue_unreviewed
 vocab-candidate-4b9e99d2bd5e48d9a569,election,election,94553986,Etymology,suffix,"[""elect"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=election&oldid=94553986,morphology_clue_unreviewed
@@ -121,22 +146,35 @@ vocab-candidate-52d8a8577f39e45e78fc,frighten,frighten,95432455,Etymology,af,"["
 vocab-candidate-52ebe25eea377281b2ba,freely,freely,92047258,Etymology 1,suffix,"[""free"", ""ly""]",https://en.wiktionary.org/w/index.php?title=freely&oldid=92047258,morphology_clue_unreviewed
 vocab-candidate-52ebe25eea377281b2ba,freely,freely,92047258,Etymology 2,suffix,"[""free"", ""ly""]",https://en.wiktionary.org/w/index.php?title=freely&oldid=92047258,morphology_clue_unreviewed
 vocab-candidate-533ce8ef5fb43253e512,furthermore,furthermore,93682254,Etymology,af,"[""further"", ""-more""]",https://en.wiktionary.org/w/index.php?title=furthermore&oldid=93682254,morphology_clue_unreviewed
+vocab-candidate-5522308e986459cf0f1d,heavily,heavily,94557813,Etymology,af,"[""heavy"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=heavily&oldid=94557813,morphology_clue_unreviewed
+vocab-candidate-570f18805b0eaedc8535,inhibition,inhibition,92411259,Etymology,suffix,"[""inhibit"", ""ion""]",https://en.wiktionary.org/w/index.php?title=inhibition&oldid=92411259,morphology_clue_unreviewed
+vocab-candidate-57794bdeddd908748d80,investigation,investigation,95437865,Etymology,suffix,"[""investigate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=investigation&oldid=95437865,morphology_clue_unreviewed
 vocab-candidate-577bf0c4f4ee4f887ec9,correlation,correlation,94551163,Etymology,af,"[""correlate"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=correlation&oldid=94551163,morphology_clue_unreviewed
 vocab-candidate-585c9d6237b9b7fbc662,exclusively,exclusively,92960418,Etymology,af,"[""exclusive"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=exclusively&oldid=92960418,morphology_clue_unreviewed
 vocab-candidate-5879092f86c5e019a15c,accuracy,accuracy,92130809,Etymology,suffix,"[""accurate"", ""cy""]",https://en.wiktionary.org/w/index.php?title=accuracy&oldid=92130809,morphology_clue_unreviewed
+vocab-candidate-58904effcb30c04e5daf,harmful,harmful,90366684,Etymology,suffix,"[""harm"", ""ful""]",https://en.wiktionary.org/w/index.php?title=harmful&oldid=90366684,morphology_clue_unreviewed
+vocab-candidate-58a8b6aefea5d589c7bd,induction,induction,93701660,Etymology,af,"[""induce"", ""-tion""]",https://en.wiktionary.org/w/index.php?title=induction&oldid=93701660,morphology_clue_unreviewed
 vocab-candidate-592976972d713e77cf7c,firstly,firstly,93572056,Etymology,suffix,"[""first"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=firstly&oldid=93572056,morphology_clue_unreviewed
 vocab-candidate-59458508a0827cff5f80,founder,founder,93695540,Etymology 1,af,"[""found"", ""-er""]",https://en.wiktionary.org/w/index.php?title=founder&oldid=93695540,morphology_clue_unreviewed
 vocab-candidate-59f0db478528b4c446cf,forecast,forecast,94555889,Etymology,prefix,"[""fore-"", ""cast""]",https://en.wiktionary.org/w/index.php?title=forecast&oldid=94555889,morphology_clue_unreviewed
+vocab-candidate-5a92f6f089f63f0d476b,instruction,instruction,92059775,Etymology,suffix,"[""instruct"", ""ion""]",https://en.wiktionary.org/w/index.php?title=instruction&oldid=92059775,morphology_clue_unreviewed
+vocab-candidate-5c8dc148912ef0688116,implication,implication,94558871,Etymology,af,"[""implicate"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=implication&oldid=94558871,morphology_clue_unreviewed
 vocab-candidate-5d6d9986d16de724ac00,accordingly,accordingly,93738027,Etymology,af,"[""according"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=accordingly&oldid=93738027,morphology_clue_unreviewed
 vocab-candidate-5df57ea85e027cfddec9,disagreement,disagreement,94553021,Etymology,af,"[""dis-"", ""agreement""]",https://en.wiktionary.org/w/index.php?title=disagreement&oldid=94553021,morphology_clue_unreviewed
 vocab-candidate-5df57ea85e027cfddec9,disagreement,disagreement,94553021,Etymology,af,"[""disagree"", ""-ment""]",https://en.wiktionary.org/w/index.php?title=disagreement&oldid=94553021,morphology_clue_unreviewed
 vocab-candidate-5f3258eaa1979a8be032,combination,combination,94588955,Etymology,suffix,"[""combine"", ""ation""]",https://en.wiktionary.org/w/index.php?title=combination&oldid=94588955,morphology_clue_unreviewed
+vocab-candidate-5fa896b2fbacdfc6676d,highway,highway,92338217,Etymology,af,"[""high"", ""way""]",https://en.wiktionary.org/w/index.php?title=highway&oldid=92338217,morphology_clue_unreviewed
+vocab-candidate-604c00db87b22994f944,historian,historian,93699755,Etymology,af,"[""history"", ""-ian""]",https://en.wiktionary.org/w/index.php?title=historian&oldid=93699755,morphology_clue_unreviewed
 vocab-candidate-617c062d7b882381c7b4,gentleman,gentleman,94592149,Etymology,compound,"[""gentle"", ""man""]",https://en.wiktionary.org/w/index.php?title=gentleman&oldid=94592149,morphology_clue_unreviewed
 vocab-candidate-61de55ba3388aec4fdf6,caller,caller,94590904,Etymology,suffix,"[""call"", ""er""]",https://en.wiktionary.org/w/index.php?title=caller&oldid=94590904,morphology_clue_unreviewed
 vocab-candidate-61e81a50ea9de3c9a48c,democrat,democrat,93455955,Etymology,affix,"[""demo-"", ""-crat""]",https://en.wiktionary.org/w/index.php?title=democrat&oldid=93455955,morphology_clue_unreviewed
+vocab-candidate-62484e22a6a5ade1ba25,health,health,92468238,Etymology 1,suffix,"[""heal"", ""th""]",https://en.wiktionary.org/w/index.php?title=health&oldid=92468238,morphology_clue_unreviewed
+vocab-candidate-626c0884ac7ef99a8d86,hardly,hardly,94557650,Etymology,suffix,"[""hard"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=hardly&oldid=94557650,morphology_clue_unreviewed
 vocab-candidate-659c6e8d11873dbc6794,fantastic,fantastic,93076634,Etymology,suffix,"[""fantasy"", ""tic""]",https://en.wiktionary.org/w/index.php?title=fantastic&oldid=93076634,morphology_clue_unreviewed
+vocab-candidate-6611032577e5a7b3a146,innovation,innovation,92415678,Etymology,suffix,"[""innovate"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=innovation&oldid=92415678,morphology_clue_unreviewed
 vocab-candidate-665045c431175ed3c31e,closely,closely,93430150,Etymology,af,"[""close"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=closely&oldid=93430150,morphology_clue_unreviewed
 vocab-candidate-66f9b98dde76ccbaceba,classmate,classmate,92739745,Etymology,suffix,"[""class"", ""mate""]",https://en.wiktionary.org/w/index.php?title=classmate&oldid=92739745,morphology_clue_unreviewed
+vocab-candidate-6745418a4852c85652dc,intensive,intensive,92164793,Etymology,affix,"[""intense"", ""-ive""]",https://en.wiktionary.org/w/index.php?title=intensive&oldid=92164793,morphology_clue_unreviewed
 vocab-candidate-67656def000fb9af9c1b,disagree,disagree,94553020,Etymology,af,"[""dis-"", ""agree""]",https://en.wiktionary.org/w/index.php?title=disagree&oldid=94553020,morphology_clue_unreviewed
 vocab-candidate-6850ca355247469531b9,chemical,chemical,93572436,Etymology,af,"[""NL.:chēmicus"", ""-al""]",https://en.wiktionary.org/w/index.php?title=chemical&oldid=93572436,morphology_clue_unreviewed
 vocab-candidate-68bf0109c6f8a87bfa96,education,education,92708063,Etymology,suffix,"[""educate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=education&oldid=92708063,morphology_clue_unreviewed
@@ -148,17 +186,21 @@ vocab-candidate-69ea741e98fdc758a781,difference,difference,94552897,Etymology,su
 vocab-candidate-6a19f0fb4be54511524b,commitment,commitment,93571731,Etymology,suffix,"[""commit"", ""ment""]",https://en.wiktionary.org/w/index.php?title=commitment&oldid=93571731,morphology_clue_unreviewed
 vocab-candidate-6b15713240e87af20429,civilization,civilization,95440363,Etymology,af,"[""civil"", ""-ization""]",https://en.wiktionary.org/w/index.php?title=civilization&oldid=95440363,morphology_clue_unreviewed
 vocab-candidate-6b15713240e87af20429,civilization,civilization,95440363,Etymology,af,"[""civilize"", ""-ation""]",https://en.wiktionary.org/w/index.php?title=civilization&oldid=95440363,morphology_clue_unreviewed
+vocab-candidate-6b847a0ed0b2c484c73f,into,into,95368764,Etymology,compound,"[""in"", ""to""]",https://en.wiktionary.org/w/index.php?title=into&oldid=95368764,morphology_clue_unreviewed
 vocab-candidate-6b8640c750ada6980250,absorption,absorption,93442513,Etymology,suffix,"[""absorb"", ""tion""]",https://en.wiktionary.org/w/index.php?title=absorption&oldid=93442513,morphology_clue_unreviewed
+vocab-candidate-6bf67200c28902770671,incredible,incredible,93780596,Etymology,af,"[""in-"", ""credible""]",https://en.wiktionary.org/w/index.php?title=incredible&oldid=93780596,morphology_clue_unreviewed
 vocab-candidate-6cf2c255b068bb691498,defensive,defensive,94639758,Etymology,suffix,"[""defense"", ""ive""]",https://en.wiktionary.org/w/index.php?title=defensive&oldid=94639758,morphology_clue_unreviewed
 vocab-candidate-6d1622d0f2bc1a5dba81,appearance,appearance,94546436,Etymology,suffix,"[""appear"", ""ance""]",https://en.wiktionary.org/w/index.php?title=appearance&oldid=94546436,morphology_clue_unreviewed
 vocab-candidate-6d38f6d6072843eeb841,belong,belong,93679946,Etymology 1,af,"[""be-"", ""long""]",https://en.wiktionary.org/w/index.php?title=belong&oldid=93679946,morphology_clue_unreviewed
 vocab-candidate-6da6a14b76fa130ead12,amongst,amongst,92411381,Etymology,suffix,"[""among"", ""s""]",https://en.wiktionary.org/w/index.php?title=amongst&oldid=92411381,morphology_clue_unreviewed
+vocab-candidate-6e0534af16e1fe990db0,interpretation,interpretation,92694338,Etymology,suffix,"[""interpret"", ""ation""]",https://en.wiktionary.org/w/index.php?title=interpretation&oldid=92694338,morphology_clue_unreviewed
 vocab-candidate-6e85ebe7458309e1e39f,elbow,elbow,93747124,Etymology,compound,"[""ell"", ""bow""]",https://en.wiktionary.org/w/index.php?title=elbow&oldid=93747124,morphology_clue_unreviewed
 vocab-candidate-6ea607f9a01e62d1531a,dilemma,dilemma,95032110,Etymology,af,"[""di-"", ""lemma""]",https://en.wiktionary.org/w/index.php?title=dilemma&oldid=95032110,morphology_clue_unreviewed
 vocab-candidate-6ef3b00039e62bc072ce,attractive,attractive,92546140,Etymology,af,"[""attract"", ""-ive""]",https://en.wiktionary.org/w/index.php?title=attractive&oldid=92546140,morphology_clue_unreviewed
 vocab-candidate-6f31304cdfd0a3a6362b,daily,daily,93688059,Etymology 1,suffix,"[""day"", ""ly""]",https://en.wiktionary.org/w/index.php?title=daily&oldid=93688059,morphology_clue_unreviewed
 vocab-candidate-6f31304cdfd0a3a6362b,daily,daily,93688059,Etymology 2,suffix,"[""day"", ""ly""]",https://en.wiktionary.org/w/index.php?title=daily&oldid=93688059,morphology_clue_unreviewed
 vocab-candidate-6f347b04efac92cf6edc,apartment,apartment,94593271,Etymology,af,"[""apart"", ""-ment""]",https://en.wiktionary.org/w/index.php?title=apartment&oldid=94593271,morphology_clue_unreviewed
+vocab-candidate-70d2357016fbd49ab6b4,homeless,homeless,95401507,Etymology,suffix,"[""home"", ""less""]",https://en.wiktionary.org/w/index.php?title=homeless&oldid=95401507,morphology_clue_unreviewed
 vocab-candidate-70f1947047c98353bf96,circulation,circulation,93589905,Etymology,suffix,"[""circulate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=circulation&oldid=93589905,morphology_clue_unreviewed
 vocab-candidate-7139ff2290a7899ccfd6,capitalism,capitalism,93683235,Etymology,af,"[""capital"", ""-ism""]",https://en.wiktionary.org/w/index.php?title=capitalism&oldid=93683235,morphology_clue_unreviewed
 vocab-candidate-7246d2b2b9ceb9cbbf5b,defender,defender,93018685,Etymology,af,"[""defend"", ""-er""]",https://en.wiktionary.org/w/index.php?title=defender&oldid=93018685,morphology_clue_unreviewed
@@ -166,15 +208,19 @@ vocab-candidate-725949a1f8218e8d1997,consultation,consultation,93533046,Etymolog
 vocab-candidate-745c9326c6e9f07755f0,besides,besides,93680102,Etymology,af,"[""beside"", ""-s""]",https://en.wiktionary.org/w/index.php?title=besides&oldid=93680102,morphology_clue_unreviewed
 vocab-candidate-748be63c87c9fad252fb,experimental,experimental,93693093,Etymology,suffix,"[""experiment"", ""al""]",https://en.wiktionary.org/w/index.php?title=experimental&oldid=93693093,morphology_clue_unreviewed
 vocab-candidate-748f556ff0b046ce31fa,civilian,civilian,93742387,Etymology,af,"[""civil"", ""-ian""]",https://en.wiktionary.org/w/index.php?title=civilian&oldid=93742387,morphology_clue_unreviewed
+vocab-candidate-74f3b498ed4560e0bd8c,handwrite,handwrite,94557572,Etymology,compound,"[""hand"", ""write""]",https://en.wiktionary.org/w/index.php?title=handwrite&oldid=94557572,morphology_clue_unreviewed
 vocab-candidate-75fba329cb6ee8907a1f,enjoy,enjoy,93692199,Etymology,prefix,"[""en"", ""joy""]",https://en.wiktionary.org/w/index.php?title=enjoy&oldid=93692199,morphology_clue_unreviewed
 vocab-candidate-76626ec9e79c1c457cae,forbid,forbid,93695061,Etymology,prefix,"[""for"", ""bid""]",https://en.wiktionary.org/w/index.php?title=forbid&oldid=93695061,morphology_clue_unreviewed
 vocab-candidate-76678e40cf8bdb8a8350,during,during,93691133,Etymology,suffix,"[""dure"", ""ing""]",https://en.wiktionary.org/w/index.php?title=during&oldid=93691133,morphology_clue_unreviewed
+vocab-candidate-77f4c0b60ee93a5cb1e5,intervention,intervention,94559613,Etymology,af,"[""intervene"", ""-tion""]",https://en.wiktionary.org/w/index.php?title=intervention&oldid=94559613,morphology_clue_unreviewed
 vocab-candidate-7826b958b79c70626801,engineer,engineer,93811730,Etymology,suffix,"[""engine"", ""eer""]",https://en.wiktionary.org/w/index.php?title=engineer&oldid=93811730,morphology_clue_unreviewed
 vocab-candidate-7826b958b79c70626801,engineer,engineer,93811730,Etymology,suffix,"[""engine"", ""er""]",https://en.wiktionary.org/w/index.php?title=engineer&oldid=93811730,morphology_clue_unreviewed
 vocab-candidate-794abe4382b236102732,fighter,fighter,93694146,Etymology,suffix,"[""fight"", ""er""]",https://en.wiktionary.org/w/index.php?title=fighter&oldid=93694146,morphology_clue_unreviewed
 vocab-candidate-79b1bc81314de30fec0e,famous,famous,91623414,Etymology,af,"[""fame"", ""-ous""]",https://en.wiktionary.org/w/index.php?title=famous&oldid=91623414,morphology_clue_unreviewed
 vocab-candidate-7a01adea4b8a1084a7ae,construction,construction,93131230,Etymology,suffix,"[""construct"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=construction&oldid=93131230,morphology_clue_unreviewed
 vocab-candidate-7ab7049973595a7f3568,grandfather,grandfather,94557122,Etymology 1,prefix,"[""grand-"", ""father""]",https://en.wiktionary.org/w/index.php?title=grandfather&oldid=94557122,morphology_clue_unreviewed
+vocab-candidate-7b164d4d7d347d0da010,handful,handful,94557554,Etymology,af,"[""hand"", ""-ful""]",https://en.wiktionary.org/w/index.php?title=handful&oldid=94557554,morphology_clue_unreviewed
+vocab-candidate-7b164d4d7d347d0da010,handful,handful,94557554,Etymology,compound,"[""hand"", ""full""]",https://en.wiktionary.org/w/index.php?title=handful&oldid=94557554,morphology_clue_unreviewed
 vocab-candidate-7c58ea253628feed6583,breakfast,breakfast,93681922,Etymology,compound,"[""break"", ""fast""]",https://en.wiktionary.org/w/index.php?title=breakfast&oldid=93681922,morphology_clue_unreviewed
 vocab-candidate-7eaa968417c5dbde7932,dangerous,dangerous,95422556,Etymology,af,"[""danger"", ""-ous""]",https://en.wiktionary.org/w/index.php?title=dangerous&oldid=95422556,morphology_clue_unreviewed
 vocab-candidate-7f1c0fd436e9f13c99b0,arrest,arrest,93677793,Etymology,af,"[""ad-"", ""rest""]",https://en.wiktionary.org/w/index.php?title=arrest&oldid=93677793,morphology_clue_unreviewed
@@ -188,6 +234,8 @@ vocab-candidate-82e35a63ceba37e96464,goodbye,goodbye,94595568,Etymology,af,"[""g
 vocab-candidate-83a04ee9f7b58c28eac3,foremost,foremost,93695238,Etymology,suffix,"[""fore"", ""most""]",https://en.wiktionary.org/w/index.php?title=foremost&oldid=93695238,morphology_clue_unreviewed
 vocab-candidate-83d82a74a67aebdecd38,classroom,classroom,92311979,Etymology,compound,"[""class"", ""room""]",https://en.wiktionary.org/w/index.php?title=classroom&oldid=92311979,morphology_clue_unreviewed
 vocab-candidate-8444af114b9fe2813af8,faithfully,faithfully,89281307,Etymology,suffix,"[""faithful"", ""ly""]",https://en.wiktionary.org/w/index.php?title=faithfully&oldid=89281307,morphology_clue_unreviewed
+vocab-candidate-851d3fcf9fe60976956b,humble,humble,94558453,Etymology 3,af,"[""hum"", ""-le""]",https://en.wiktionary.org/w/index.php?title=humble&oldid=94558453,morphology_clue_unreviewed
+vocab-candidate-8678e47531eae3d20215,helpful,helpful,93700427,Etymology,suffix,"[""help"", ""ful""]",https://en.wiktionary.org/w/index.php?title=helpful&oldid=93700427,morphology_clue_unreviewed
 vocab-candidate-877d41bc540c57e06ac1,arise,arise,93677668,Etymology,prefix,"[""a"", ""rise""]",https://en.wiktionary.org/w/index.php?title=arise&oldid=93677668,morphology_clue_unreviewed
 vocab-candidate-87ce5638c90315a1738b,demographic,demographic,94552398,Etymology,suffix,"[""demography"", ""-ic""]",https://en.wiktionary.org/w/index.php?title=demographic&oldid=94552398,morphology_clue_unreviewed
 vocab-candidate-87e1315329cf22c9ce14,awful,awful,93678577,Etymology,suffix,"[""awe"", ""ful""]",https://en.wiktionary.org/w/index.php?title=awful&oldid=93678577,morphology_clue_unreviewed
@@ -195,18 +243,25 @@ vocab-candidate-87e56ce6429768c90138,altogether,altogether,94545799,Etymology,af
 vocab-candidate-89b91df19d9d75d4cf36,background,background,93678734,Etymology 1,compound,"[""back"", ""ground""]",https://en.wiktionary.org/w/index.php?title=background&oldid=93678734,morphology_clue_unreviewed
 vocab-candidate-8ada24bf6bf313927389,below,below,92685771,Etymology,af,"[""be-"", ""low""]",https://en.wiktionary.org/w/index.php?title=below&oldid=92685771,morphology_clue_unreviewed
 vocab-candidate-8b34dbc2c05eb4d7e25d,conversation,conversation,94592486,Etymology,suffix,"[""converse"", ""ation""]",https://en.wiktionary.org/w/index.php?title=conversation&oldid=94592486,morphology_clue_unreviewed
+vocab-candidate-8cd0afb35166df2ffa12,insufficient,insufficient,91478010,Etymology,prefix,"[""in"", ""sufficient""]",https://en.wiktionary.org/w/index.php?title=insufficient&oldid=91478010,morphology_clue_unreviewed
 vocab-candidate-8da078cc2a03f56a9fe4,acceleration,acceleration,92713652,Etymology,suffix,"[""accelerate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=acceleration&oldid=92713652,morphology_clue_unreviewed
 vocab-candidate-8ed42f97cfcba562d725,generally,generally,94556550,Etymology,af,"[""general"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=generally&oldid=94556550,morphology_clue_unreviewed
 vocab-candidate-8ee41686ee634498f333,awkward,awkward,94547093,Etymology,suffix,"[""awk"", ""ward""]",https://en.wiktionary.org/w/index.php?title=awkward&oldid=94547093,morphology_clue_unreviewed
 vocab-candidate-9025b50887457ff41d5f,costly,costly,94551202,Etymology,af,"[""cost"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=costly&oldid=94551202,morphology_clue_unreviewed
 vocab-candidate-91ab4d276f2433107b47,flexibility,flexibility,94555641,Etymology,af,"[""flex"", ""-ibility""]",https://en.wiktionary.org/w/index.php?title=flexibility&oldid=94555641,morphology_clue_unreviewed
 vocab-candidate-91ab4d276f2433107b47,flexibility,flexibility,94555641,Etymology,af,"[""flexible"", ""-ity""]",https://en.wiktionary.org/w/index.php?title=flexibility&oldid=94555641,morphology_clue_unreviewed
+vocab-candidate-925733dafd743699fa17,inference,inference,95401090,Etymology,suffix,"[""infer"", ""ence""]",https://en.wiktionary.org/w/index.php?title=inference&oldid=95401090,morphology_clue_unreviewed
 vocab-candidate-93c4abe27cf169610253,direction,direction,93689635,Etymology,suffix,"[""direct"", ""ion""]",https://en.wiktionary.org/w/index.php?title=direction&oldid=93689635,morphology_clue_unreviewed
 vocab-candidate-93cdccc66f8c7f8e670f,confirmation,confirmation,92412915,Etymology,suffix,"[""confirm"", ""ation""]",https://en.wiktionary.org/w/index.php?title=confirmation&oldid=92412915,morphology_clue_unreviewed
 vocab-candidate-95f1a23373195c7816d7,determination,determination,93595188,Etymology,suffix,"[""determine"", ""ation""]",https://en.wiktionary.org/w/index.php?title=determination&oldid=93595188,morphology_clue_unreviewed
 vocab-candidate-9602eec8ca1a03bb0860,almost,almost,93513956,Etymology,prefix,"[""al-#Etymology_1"", ""most""]",https://en.wiktionary.org/w/index.php?title=almost&oldid=93513956,morphology_clue_unreviewed
+vocab-candidate-9666d9e8899447735cb9,interpreter,interpreter,93837097,Etymology,suffix,"[""interpret"", ""er""]",https://en.wiktionary.org/w/index.php?title=interpreter&oldid=93837097,morphology_clue_unreviewed
+vocab-candidate-96c57e5dfeebfefd24fa,initiation,initiation,90931699,Etymology,suffix,"[""initiate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=initiation&oldid=90931699,morphology_clue_unreviewed
 vocab-candidate-97519f7c288b3602aae0,anyway,anyway,93758964,Etymology,compound,"[""any"", ""way""]",https://en.wiktionary.org/w/index.php?title=anyway&oldid=93758964,morphology_clue_unreviewed
+vocab-candidate-97858c3f5e63db2c1eef,handy,handy,92671824,Etymology 1,suffix,"[""hand"", ""y""]",https://en.wiktionary.org/w/index.php?title=handy&oldid=92671824,morphology_clue_unreviewed
 vocab-candidate-97c10efe01d5c9c88704,easy,easy,94553800,Etymology,suffix,"[""ease"", ""y""]",https://en.wiktionary.org/w/index.php?title=easy&oldid=94553800,morphology_clue_unreviewed
+vocab-candidate-98fe442255035a1459bb,inspector,inspector,94559431,Etymology,af,"[""inspect"", ""-or""]",https://en.wiktionary.org/w/index.php?title=inspector&oldid=94559431,morphology_clue_unreviewed
+vocab-candidate-99262a0284ae7670f20f,instead,instead,92550050,Etymology,compound,"[""in"", ""stead""]",https://en.wiktionary.org/w/index.php?title=instead&oldid=92550050,morphology_clue_unreviewed
 vocab-candidate-996bb102f2da674bfc7d,constantly,constantly,93947075,Etymology,suffix,"[""constant"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=constantly&oldid=93947075,morphology_clue_unreviewed
 vocab-candidate-9b2d53abee432c914a12,assurance,assurance,93746672,Etymology,suffix,"[""assure"", ""ance""]",https://en.wiktionary.org/w/index.php?title=assurance&oldid=93746672,morphology_clue_unreviewed
 vocab-candidate-9cdc6c47aa193ae7fdab,always,always,94569422,Etymology,suffix,"[""alway"", ""s""]",https://en.wiktionary.org/w/index.php?title=always&oldid=94569422,morphology_clue_unreviewed
@@ -216,7 +271,9 @@ vocab-candidate-9dc08e4033827c93f48c,forward,forward,94585859,Etymology 2,prefix
 vocab-candidate-9ebb1e6f5b2adf424b66,become,become,93752376,Etymology,af,"[""be-"", ""come""]",https://en.wiktionary.org/w/index.php?title=become&oldid=93752376,morphology_clue_unreviewed
 vocab-candidate-9ebb1e6f5b2adf424b66,become,become,93752376,Etymology,prefix,"[""be"", ""come""]",https://en.wiktionary.org/w/index.php?title=become&oldid=93752376,morphology_clue_unreviewed
 vocab-candidate-9ebf9b5978e6d486b0a6,fitness,fitness,93837760,Etymology,af,"[""fit"", ""-ness""]",https://en.wiktionary.org/w/index.php?title=fitness&oldid=93837760,morphology_clue_unreviewed
+vocab-candidate-9ecfb3a042a271f4389e,happen,happen,93698895,Etymology,af,"[""hap"", ""-en""]",https://en.wiktionary.org/w/index.php?title=happen&oldid=93698895,morphology_clue_unreviewed
 vocab-candidate-9fe5e0a43712f0578500,chill,chill,94549869,Etymology 3,af,"[""ch-"", ""will""]",https://en.wiktionary.org/w/index.php?title=chill&oldid=94549869,morphology_clue_unreviewed
+vocab-candidate-9fec08e4574bcb96d535,infrastructure,infrastructure,94559306,Etymology,af,"[""infra-"", ""structure""]",https://en.wiktionary.org/w/index.php?title=infrastructure&oldid=94559306,morphology_clue_unreviewed
 vocab-candidate-9fff2d310ad659f6e05c,complexity,complexity,93361998,Etymology,suffix,"[""complex"", ""ity""]",https://en.wiktionary.org/w/index.php?title=complexity&oldid=93361998,morphology_clue_unreviewed
 vocab-candidate-a05744e1bf9b659d8b0c,accommodation,accommodation,94545286,Etymology,suffix,"[""accommodate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=accommodation&oldid=94545286,morphology_clue_unreviewed
 vocab-candidate-a1954b15a7459a2f7f6c,gift,gift,94590002,Etymology,affix,"[""give"", ""-t""]",https://en.wiktionary.org/w/index.php?title=gift&oldid=94590002,morphology_clue_unreviewed
@@ -284,13 +341,19 @@ vocab-candidate-c463967e5708cab7f980,fifteen,fifteen,94555375,Etymology,af,"[""f
 vocab-candidate-c5879b8d250ca6e74ca6,bucket,bucket,94584723,Etymology,suffix,"[""bouk"", ""et""]",https://en.wiktionary.org/w/index.php?title=bucket&oldid=94584723,morphology_clue_unreviewed
 vocab-candidate-c75a266d47deb2424c31,businessman,businessman,94548997,Etymology,af,"[""business"", ""-man""]",https://en.wiktionary.org/w/index.php?title=businessman&oldid=94548997,morphology_clue_unreviewed
 vocab-candidate-c8e07c1ac268eae0661e,afternoon,afternoon,93807196,Etymology,af,"[""after-"", ""noon""]",https://en.wiktionary.org/w/index.php?title=afternoon&oldid=93807196,morphology_clue_unreviewed
+vocab-candidate-c96c6d5be8d08a12e7b5,input,input,94559383,Etymology,prefix,"[""in"", ""put""]",https://en.wiktionary.org/w/index.php?title=input&oldid=94559383,morphology_clue_unreviewed
+vocab-candidate-cbae973f3f0bc8203746,highly,highly,94558002,Etymology,af,"[""high"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=highly&oldid=94558002,morphology_clue_unreviewed
 vocab-candidate-cbbeb3cc2d482a2ffd90,coordination,coordination,93686457,Etymology,suffix,"[""coordinate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=coordination&oldid=93686457,morphology_clue_unreviewed
 vocab-candidate-ccc9ff052aee8da1c7d6,airport,airport,94579816,Etymology,compound,"[""air"", ""port""]",https://en.wiktionary.org/w/index.php?title=airport&oldid=94579816,morphology_clue_unreviewed
 vocab-candidate-cda3c373f19f1c5114f0,digital,digital,93689475,Etymology,af,"[""digit"", ""-al""]",https://en.wiktionary.org/w/index.php?title=digital&oldid=93689475,morphology_clue_unreviewed
+vocab-candidate-cdb011f8fbe14ff0717e,honestly,honestly,94558240,Etymology,af,"[""honest"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=honestly&oldid=94558240,morphology_clue_unreviewed
 vocab-candidate-cdbb10488cec6e732113,fairly,fairly,95419433,Etymology,af,"[""fair"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=fairly&oldid=95419433,morphology_clue_unreviewed
 vocab-candidate-cdc29937887188ad3702,but,but,94549040,Etymology,af,"[""be-"", ""out""]",https://en.wiktionary.org/w/index.php?title=but&oldid=94549040,morphology_clue_unreviewed
+vocab-candidate-ced636336aacc18b987f,herself,herself,94557926,Etymology,suffix,"[""her#Pronoun"", ""-self""]",https://en.wiktionary.org/w/index.php?title=herself&oldid=94557926,morphology_clue_unreviewed
 vocab-candidate-cf1bb8219ec112d20543,gently,gently,93813494,Etymology,af,"[""gentle"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=gently&oldid=93813494,morphology_clue_unreviewed
+vocab-candidate-cf2eb894cc40f5c6e781,instructor,instructor,94559443,Etymology,af,"[""instruct"", ""-or""]",https://en.wiktionary.org/w/index.php?title=instructor&oldid=94559443,morphology_clue_unreviewed
 vocab-candidate-d053f74eb1b74874efb1,fertility,fertility,93575951,Etymology,af,"[""fertile"", ""-ity""]",https://en.wiktionary.org/w/index.php?title=fertility&oldid=93575951,morphology_clue_unreviewed
+vocab-candidate-d0854ad1c7e25944fb52,intensity,intensity,94559496,Etymology,af,"[""intense"", ""-ity""]",https://en.wiktionary.org/w/index.php?title=intensity&oldid=94559496,morphology_clue_unreviewed
 vocab-candidate-d08d5db815e59c5e55d7,enforcement,enforcement,94554257,Etymology,suffix,"[""enforce"", ""ment""]",https://en.wiktionary.org/w/index.php?title=enforcement&oldid=94554257,morphology_clue_unreviewed
 vocab-candidate-d0b4034c6ca7ee87f65c,ahead,ahead,93675893,Etymology,prefix,"[""a"", ""head""]",https://en.wiktionary.org/w/index.php?title=ahead&oldid=93675893,morphology_clue_unreviewed
 vocab-candidate-d1e9283f4b919a723742,afterward,afterward,85361461,Etymology,suffix,"[""after"", ""ward""]",https://en.wiktionary.org/w/index.php?title=afterward&oldid=85361461,morphology_clue_unreviewed
@@ -301,6 +364,7 @@ vocab-candidate-d329f11d9a60de9b6f26,drawer,drawer,94553524,Etymology 2,affix,"[
 vocab-candidate-d6035ba78420e4b7d25e,abdominal,abdominal,93139061,Etymology,af,"[""abdomin-"", ""-al""]",https://en.wiktionary.org/w/index.php?title=abdominal&oldid=93139061,morphology_clue_unreviewed
 vocab-candidate-d627a4f833e9a2e03c8d,fully,fully,92327949,Etymology 1,af,"[""full"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=fully&oldid=92327949,morphology_clue_unreviewed
 vocab-candidate-d6a7cd2a7371b1a15d54,any,any,94546347,Etymology,af,"[""one"", ""-y""]",https://en.wiktionary.org/w/index.php?title=any&oldid=94546347,morphology_clue_unreviewed
+vocab-candidate-d759e5ec6eb705dd3484,increasingly,increasingly,94559104,Etymology,af,"[""increasing"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=increasingly&oldid=94559104,morphology_clue_unreviewed
 vocab-candidate-db5d7a5252dd6e796da8,deficiency,deficiency,94552277,Etymology,af,"[""deficient"", ""-cy""]",https://en.wiktionary.org/w/index.php?title=deficiency&oldid=94552277,morphology_clue_unreviewed
 vocab-candidate-dc0fff9075b9bd9450c1,anywhere,anywhere,89535240,Etymology,compound,"[""any"", ""where""]",https://en.wiktionary.org/w/index.php?title=anywhere&oldid=89535240,morphology_clue_unreviewed
 vocab-candidate-dcd2d24e4ae90e27099f,displacement,displacement,92829517,Etymology,suffix,"[""displace"", ""ment""]",https://en.wiktionary.org/w/index.php?title=displacement&oldid=92829517,morphology_clue_unreviewed
@@ -308,7 +372,11 @@ vocab-candidate-dd56de4137951d9c9268,golden,golden,94101278,Etymology 1,suffix,"
 vocab-candidate-dd56de4137951d9c9268,golden,golden,94101278,Etymology 2,suffix,"[""gold"", ""en""]",https://en.wiktionary.org/w/index.php?title=golden&oldid=94101278,morphology_clue_unreviewed
 vocab-candidate-de6f812f1961d7eb14ff,enjoyment,enjoyment,93778019,Etymology,suffix,"[""enjoy"", ""ment""]",https://en.wiktionary.org/w/index.php?title=enjoyment&oldid=93778019,morphology_clue_unreviewed
 vocab-candidate-df75f3ea1d63370ba642,deed,deed,93382088,Etymology,suffix,"[""do"", ""th""]",https://en.wiktionary.org/w/index.php?title=deed&oldid=93382088,morphology_clue_unreviewed
+vocab-candidate-e10bb5d3b091d32bb91a,irony,irony,94579154,Etymology 2,af,"[""iron"", ""-y""]",https://en.wiktionary.org/w/index.php?title=irony&oldid=94579154,morphology_clue_unreviewed
 vocab-candidate-e13af74b412c1402a4ca,epidemiology,epidemiology,94554371,Etymology,affix,"[""epidemia"", ""-logy""]",https://en.wiktionary.org/w/index.php?title=epidemiology&oldid=94554371,morphology_clue_unreviewed
+vocab-candidate-e3b1f58e9bd1e8b95067,interference,interference,93338538,Etymology,af,"[""interfere"", ""-ence""]",https://en.wiktionary.org/w/index.php?title=interference&oldid=93338538,morphology_clue_unreviewed
+vocab-candidate-e435b8219f449ac4a7c9,ideology,ideology,94558750,Etymology,af,"[""ideo-"", ""-logy""]",https://en.wiktionary.org/w/index.php?title=ideology&oldid=94558750,morphology_clue_unreviewed
+vocab-candidate-e43ba08557cbb4f19ed7,insight,insight,93551640,Etymology,af,"[""in-"", ""sight""]",https://en.wiktionary.org/w/index.php?title=insight&oldid=93551640,morphology_clue_unreviewed
 vocab-candidate-e4c05c565b8cac5ea254,actually,actually,93601578,Etymology 1,suffix,"[""actual"", ""ly""]",https://en.wiktionary.org/w/index.php?title=actually&oldid=93601578,morphology_clue_unreviewed
 vocab-candidate-e4d14bef7aa0668546bc,dislike,dislike,93882689,Etymology,prefix,"[""dis"", ""like""]",https://en.wiktionary.org/w/index.php?title=dislike&oldid=93882689,morphology_clue_unreviewed
 vocab-candidate-e5bd0801d10e59653546,evening,evening,95438229,Etymology 1,suffix,"[""even"", ""ing""]",https://en.wiktionary.org/w/index.php?title=evening&oldid=95438229,morphology_clue_unreviewed
@@ -322,6 +390,9 @@ vocab-candidate-e8dce61dc1fac63eb6b7,bilingual,bilingual,94547896,Etymology,af,"
 vocab-candidate-e91354ec09771c141a3f,geographical,geographical,93696768,Etymology,af,"[""geōgraphicus"", ""-al""]",https://en.wiktionary.org/w/index.php?title=geographical&oldid=93696768,morphology_clue_unreviewed
 vocab-candidate-e93ced725763a701ffea,discrimination,discrimination,93131335,Etymology,suffix,"[""discriminate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=discrimination&oldid=93131335,morphology_clue_unreviewed
 vocab-candidate-e97166b54500da3a32ea,enable,enable,94554160,Etymology,prefix,"[""en"", ""able""]",https://en.wiktionary.org/w/index.php?title=enable&oldid=94554160,morphology_clue_unreviewed
+vocab-candidate-e9a63a4eb15738ae85cd,hunter,hunter,93700491,Etymology,suffix,"[""hunt"", ""er""]",https://en.wiktionary.org/w/index.php?title=hunter&oldid=93700491,morphology_clue_unreviewed
+vocab-candidate-ea077ff913f0f89b0fb8,investigator,investigator,94559682,Etymology,af,"[""investigate"", ""-or""]",https://en.wiktionary.org/w/index.php?title=investigator&oldid=94559682,morphology_clue_unreviewed
+vocab-candidate-ea07dcc807ffe0d65325,inform,inform,93777083,Etymology 1,prefix,"[""in"", ""form""]",https://en.wiktionary.org/w/index.php?title=inform&oldid=93777083,morphology_clue_unreviewed
 vocab-candidate-ea51ae6e548ffbb851d2,asleep,asleep,93677938,Etymology,prefix,"[""a"", ""sleep""]",https://en.wiktionary.org/w/index.php?title=asleep&oldid=93677938,morphology_clue_unreviewed
 vocab-candidate-ea53396caebc40d702a9,already,already,94545764,Etymology,af,"[""al-#Etymology_1"", ""ready""]",https://en.wiktionary.org/w/index.php?title=already&oldid=94545764,morphology_clue_unreviewed
 vocab-candidate-eb9a7650cd532b61ca9f,constitution,constitution,94550903,Etymology,suffix,"[""constitute"", ""-ion""]",https://en.wiktionary.org/w/index.php?title=constitution&oldid=94550903,morphology_clue_unreviewed
@@ -336,6 +407,7 @@ vocab-candidate-f4c7ec93811087e5c3da,automobile,automobile,93955152,Etymology,af
 vocab-candidate-f65eb6e52fc30d9b4ee5,complication,complication,92531632,Etymology,suffix,"[""complicate"", ""ion""]",https://en.wiktionary.org/w/index.php?title=complication&oldid=92531632,morphology_clue_unreviewed
 vocab-candidate-f78fcae67d4aa99819ff,explanation,explanation,92778358,Etymology,suffix,"[""explain"", ""ation""]",https://en.wiktionary.org/w/index.php?title=explanation&oldid=92778358,morphology_clue_unreviewed
 vocab-candidate-f7a18611f42eff8d5fba,birth,birth,94548032,Etymology 1,affix,"[""bear"", ""-th""]",https://en.wiktionary.org/w/index.php?title=birth&oldid=94548032,morphology_clue_unreviewed
+vocab-candidate-f7c3868eaa6d9dd76005,halfway,halfway,94557508,Etymology,af,"[""half-"", ""way""]",https://en.wiktionary.org/w/index.php?title=halfway&oldid=94557508,morphology_clue_unreviewed
 vocab-candidate-f7e45b6c390a26b23a7b,enclose,enclose,94554182,Etymology,af,"[""en-"", ""close""]",https://en.wiktionary.org/w/index.php?title=enclose&oldid=94554182,morphology_clue_unreviewed
 vocab-candidate-f8b73d9a3cfbd0ef331c,bureaucracy,bureaucracy,95117812,Etymology,af,"[""bureau"", ""-cracy""]",https://en.wiktionary.org/w/index.php?title=bureaucracy&oldid=95117812,morphology_clue_unreviewed
 vocab-candidate-f9070e8db0018ad670e8,democratic,democratic,94552405,Etymology,af,"[""democrat"", ""-ic""]",https://en.wiktionary.org/w/index.php?title=democratic&oldid=94552405,morphology_clue_unreviewed
@@ -345,6 +417,9 @@ vocab-candidate-faa2a9bdcc837728fffd,broker,broker,95434828,Etymology 2,suffix,"
 vocab-candidate-fac6a3243ed4705f97a0,engage,engage,91405413,Etymology,af,"[""en-"", ""gage""]",https://en.wiktionary.org/w/index.php?title=engage&oldid=91405413,morphology_clue_unreviewed
 vocab-candidate-fb209e75cfb94344539a,computation,computation,92679780,Etymology,suffix,"[""compute"", ""ation""]",https://en.wiktionary.org/w/index.php?title=computation&oldid=92679780,morphology_clue_unreviewed
 vocab-candidate-fbb27fbdc4f4dd04e216,between,between,94547786,Etymology,prefix,"[""be"", ""twain""]",https://en.wiktionary.org/w/index.php?title=between&oldid=94547786,morphology_clue_unreviewed
+vocab-candidate-fbb6337a2ba75d089e1e,independence,independence,92424410,Etymology,af,"[""in-"", ""de-"", ""pend"", ""-ence""]",https://en.wiktionary.org/w/index.php?title=independence&oldid=92424410,morphology_clue_unreviewed
+vocab-candidate-fbb6337a2ba75d089e1e,independence,independence,92424410,Etymology,af,"[""in-"", ""dependence""]",https://en.wiktionary.org/w/index.php?title=independence&oldid=92424410,morphology_clue_unreviewed
 vocab-candidate-fcfd075cbe367c158d5c,butterfly,butterfly,95422460,Etymology,compound,"[""butter"", ""fly""]",https://en.wiktionary.org/w/index.php?title=butterfly&oldid=95422460,morphology_clue_unreviewed
 vocab-candidate-fdf9c202a7a1381b69f1,easily,easily,94553788,Etymology,af,"[""easy"", ""-ly""]",https://en.wiktionary.org/w/index.php?title=easily&oldid=94553788,morphology_clue_unreviewed
 vocab-candidate-fef8f41cdcd2038663b0,fourteen,fourteen,93695588,Etymology,af,"[""four"", ""-teen""]",https://en.wiktionary.org/w/index.php?title=fourteen&oldid=93695588,morphology_clue_unreviewed
+vocab-candidate-ff88bf24065193426262,hierarchy,hierarchy,94557970,Etymology,af,"[""hiero-"", ""-archy""]",https://en.wiktionary.org/w/index.php?title=hierarchy&oldid=94557970,morphology_clue_unreviewed

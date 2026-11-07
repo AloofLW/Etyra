@@ -231,11 +231,11 @@
 
 ## 主候选词表的词源来源定位（进行中）
 
-2026-11-01 和 2026-11-07 分批查询 English Wiktionary 页面固定修订，主候选清单前 2200 项的定位元数据见 [`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv`](../../WIKTIONARY_BULK_SOURCE_INDEX.csv)；其中 2191 项检测到英语词源章节标题，9 项未检测到标题。其余 3142 项尚未查询，不能把未查询解释为没有来源；此前遇到 HTTP 429 后已暂停，2026-11-07 以串行、分批方式恢复。此表仅定位页面版本，并不包含或确认词源、词义、词根关系及高中适用性；缺少标题也不等于没有词源。许可与后续文字复用条件见 `docs/CONTENT_SOURCE_AUDIT.md`。
+2026-11-01 和 2026-11-07 分批查询 English Wiktionary 页面固定修订，主候选清单前 2600 项的定位元数据见 [`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv`](../../WIKTIONARY_BULK_SOURCE_INDEX.csv)；其中 2588 项检测到英语词源章节标题，12 项未检测到标题。其余 2742 项尚未查询，不能把未查询解释为没有来源；此前遇到 HTTP 429 后已暂停，2026-11-07 以串行、分批方式恢复。此表仅定位页面版本，并不包含或确认词源、词义、词根关系及高中适用性；缺少标题也不等于没有词源。许可与后续文字复用条件见 `docs/CONTENT_SOURCE_AUDIT.md`。
 
-工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。原始 400 条临时缓存已不存在，不能仅凭缓存完整复现；可依照固定修订链接逐条追溯。后续单独续采示例：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-resume /tmp/etyra-next.csv --start-offset 2200 --max-batches 5`；校验并与已有索引按 ID 合并，不覆盖旧修订。页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
+工具 `tools/content/index_vocabulary_etymology.py` 将原始 API 响应分批暂存于仓库外的指定目录，并校验输入清单摘要和批次以支持中断续采；输出只含定位元数据，且拒绝覆盖已有文件。限流时应停止并等待服务允许，遵循其访问政策；续采时使用保留的缓存目录和新输出路径，复核完整性后再更新索引。缓存位于临时目录时可能被系统清理，不作为永久归档。原始 400 条临时缓存已不存在，不能仅凭缓存完整复现；可依照固定修订链接逐条追溯。后续单独续采示例：`python3 tools/content/index_vocabulary_etymology.py /tmp/etyra-wiki-resume /tmp/etyra-next.csv --start-offset 2600 --max-batches 5`；校验并与已有索引按 ID 合并，不覆盖旧修订。页面修订 URL 是持久追溯依据，远端内容可用性无法保证。
 
-对上述 2200 个固定修订中的英语词源章节，提取显式的简单 `af`、`affix`、`prefix`、`suffix`、`compound` 模板参数，得到 [`docs/WIKTIONARY_MORPHOLOGY_CLUES.csv`](../../WIKTIONARY_MORPHOLOGY_CLUES.csv) 中 327 个词的 349 条构词线索；每条保留章节、模板、原始组件、页面修订及 `morphology_clue_unreviewed`。仅记录模板参数，并非词根—单词关系：前缀、后缀和复合词组件不能自动归为词根；现代构词分析也不能等同历史词源。模板所在句可能带有不确定、对比或否定语境，命名参数未纳入组件，嵌套模板被排除，必须打开固定修订逐项核验完整上下文、词义、许可及词根边界。该批不覆盖其余 3142 个候选，也不作为正式产品数据。
+对上述 2600 个固定修订中的英语词源章节，提取显式的简单 `af`、`affix`、`prefix`、`suffix`、`compound` 模板参数，得到 [`docs/WIKTIONARY_MORPHOLOGY_CLUES.csv`](../../WIKTIONARY_MORPHOLOGY_CLUES.csv) 中 397 个词的 424 条构词线索；每条保留章节、模板、原始组件、页面修订及 `morphology_clue_unreviewed`。仅记录模板参数，并非词根—单词关系：前缀、后缀和复合词组件不能自动归为词根；现代构词分析也不能等同历史词源。模板所在句可能带有不确定、对比或否定语境，命名参数未纳入组件，嵌套模板被排除，必须打开固定修订逐项核验完整上下文、词义、许可及词根边界。该批不覆盖其余 2742 个候选，也不作为正式产品数据。
 
 本次新增批次在缓存仍可用时可单独复现：`python3 tools/content/extract_wiktionary_morphology_clues.py /tmp/etyra-wiki-resume /tmp/etyra-new-clues.csv --index /tmp/etyra-index-resume-400.csv`；临时文件被清理后需按固定修订重新取得内容。脚本对照缓存中的页面标题、修订和 API 返回的 SHA-1 元数据，未重新计算正文摘要，并拒绝覆盖输出。原始缓存可能被系统清理；重新取得修订时须保持固定版本并遵守站点访问限制。来源是 English Wiktionary contributors，适用前述逐页来源、署名、许可及修改记录要求。
 
