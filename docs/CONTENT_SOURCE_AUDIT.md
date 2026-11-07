@@ -239,3 +239,5 @@
 对 `capture`、`export`、`instruct`、`instruction` 和 `maternal`，人工比较已有 OEWN 英文义项与 COW 中文词项，并对照英语 Wiktionary 固定修订，新增五条草稿至 `CURATED_WORD_PILOT.csv`，累计 95 条。每条仅选择一个具体义项；`export` 选商品跨国销售义，`instruction` 选教学活动义，不包含其数据导出、指令等其他义项。`capture`、`export` 和 `instruct` 的拉丁语中间词固定修订链接保存在各自备注中；`instruction` 与 `struō` 的间接关联仍需复核。条目仍须独立审核义项、中文、关联、课标适用性和再分发许可，不能作为已验收产品数据。
 
 另发现 `submission` 的 OEWN `1.26.00` 义项描述受控制的状态，对应 COW 的“提交”词项不能据此确定为文件递交含义，故未将其选为文件提交义。词网对齐问题原因未判定；需另找与目标语境一致的来源并复核。
+
+现已从 [Kaikki 的 submission 单词快照](https://kaikki.org/dictionary/English/meaning/s/su/submission.html)找到递交已完成作品的行为义，与其词源页面固定修订的对应英文义项对照，写入 `CURATED_SUBMISSION_KAIKKI_PILOT.csv`。JSONL 快照 SHA-256 为 `796c4792ddd0bed267140e83400b48ec829004c105ef3b55142fb391eec6d51e`；中文“提交；递交”为编辑草稿，不使用上述 COW 对齐结果。词源、具体语境、课标适用性和 Wiktionary/Kaikki 许可仍需复核，原 COW 疑点仍保留，草稿不代表已通过验收。
