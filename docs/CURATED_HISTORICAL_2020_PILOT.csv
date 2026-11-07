@@ -2,3 +2,5 @@ candidate_id,word,source_written_form,pos,oewn_sense_id,oewn_synset_id,editorial
 vocab-candidate-283deba1f3a5b4a86fb0,humorous,humorous,a,oewn-humorous__3.00.00..,oewn-01267446-a,幽默的,表示具有幽默感或以幽默为特点；中文由编辑编写。,参考 OEWN 2024,editorial_draft_pending_final_review
 vocab-candidate-6089854c94ca5454b76b,london,London,n,oewn-london__1.15.00..,oewn-08893849-n,伦敦,地名义；不混同同名作家等其他义项。,参考 OEWN 2024,editorial_draft_pending_final_review
 vocab-candidate-5caddc4c49deec8eeb19,olympics,Olympics,n,oewn-olympics__1.11.00..,oewn-07471917-n,奥林匹克运动会,指现代奥运会；夏奥会和冬奥会分别每四年举办且自1994年起错开两年。,https://www.olympics.com/ioc/celebrate-olympic-games,editorial_draft_pending_final_review
+vocab-candidate-76c34b21c4a91889d749,britain,Britain,n,oewn-britain__1.15.00..,oewn-08879115-n,英国（常见用法）,词典该义指联合王国；Britain 也可指大不列颠岛，须依语境区分。,https://service-manual.ons.gov.uk/content/language/countries-and-regions,editorial_draft_pending_final_review
+vocab-candidate-fb9ebf18103e119e819b,indian,Indian,a,oewn-indian__3.01.00..,oewn-02939660-a,印度的,仅选所引广义词典定义中与印度有关的用法；美洲原住民相关义另行处理。,参考 OEWN 2024,editorial_draft_pending_final_review

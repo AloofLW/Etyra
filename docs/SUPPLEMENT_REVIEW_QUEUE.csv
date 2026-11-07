@@ -196,7 +196,7 @@ vocab-candidate-750cfe5c94c6b2f63d3b,pedestrian,root_relation,,,2,1,0,1,0,0,,cur
 vocab-candidate-756e1aca491f16516fc8,sow,curriculum_gap,123,,4,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-763268b8dbdcf3275705,voyage,curriculum_gap,130,,3,1,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-765cc52b3dbc1bb8ec27,madam,curriculum_gap,106,,2,0,0,0,0,0,,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|sense_selection_needed,candidate_only
-vocab-candidate-76c34b21c4a91889d749,britain,historical_2020,,136,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-76c34b21c4a91889d749,britain,historical_2020,,136,1,1,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-76f75e6129fe30135bd4,lost,curriculum_gap,106,,10,6,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-775cf3abc9be67866542,favourite,complex_oewn,96,,6,3,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|complex_form_review_needed,candidate_only
 vocab-candidate-77646f5a4f3166637627,frank,curriculum_gap,97,,7,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
@@ -416,7 +416,7 @@ vocab-candidate-fa3531b78ac7cfc4a0cc,energetic,curriculum_gap,93,,2,1,0,0,0,0,,c
 vocab-candidate-fa51fd49abf67705d6a3,is,complex_wiktionary,81,,0,0,1,0,0,0,94583004,curriculum_review_needed|license_review_needed|chinese_sense_clue_needed|complex_form_review_needed,candidate_only
 vocab-candidate-faebbd710849d7b292e3,apologise,complex_oewn,79,,2,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|complex_form_review_needed,candidate_only
 vocab-candidate-fb54e9062429a9378555,india,historical_2020,,154,1,1,0,1,0,0,,curriculum_review_needed|license_review_needed|historical_source_not_current_curriculum,candidate_only
-vocab-candidate-fb9ebf18103e119e819b,indian,historical_2020,,154,4,4,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
+vocab-candidate-fb9ebf18103e119e819b,indian,historical_2020,,154,4,4,0,1,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed|historical_source_not_current_curriculum,candidate_only
 vocab-candidate-fc261a5e3e3c85a41982,merry,curriculum_gap,107,,3,2,0,0,0,0,,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
 vocab-candidate-fc6021af2d4e31f8b731,livestock,curriculum_gap,106,,1,1,0,0,0,0,,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-fd963e4fd45949aa80c5,their,wiktionary_gap,127,,0,0,2,0,1,0,94574594,curriculum_review_needed|license_review_needed|sense_selection_needed,candidate_only
