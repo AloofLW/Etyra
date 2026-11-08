@@ -31,6 +31,8 @@
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
+[`docs/CURATED_COMMON_POLYSEMY_PILOT.csv`](../../CURATED_COMMON_POLYSEMY_PILOT.csv) 为 9 个常用多义词选取 18 条 OEWN 2024 英文义项并编写中文及用法草稿；保留候选 ID、来源 sense/synset ID 和英文定义，中文为编辑草稿而非词典原文。每词仅覆盖选定义项，助动词、其他词性与常见用法可能缺失；全部须复核中文、上下文、课程范围及许可，不得直接入库。主审核队列的 `word_drafts` 已纳入该批草稿，数量按义项而非单词计。来源及适用许可同本页 OEWN 说明。
+
 ## OEWN 词义候选索引
 
 [`docs/OEWN_CANDIDATE_INDEX.csv`](../../OEWN_CANDIDATE_INDEX.csv) 将 5342 个合并候选的规范化拼写与 [Open English WordNet 2024 发行版](https://github.com/globalwordnet/english-wordnet/releases/tag/2024-edition)的 `Lemma.writtenForm` 以去首尾空格、Unicode casefold 方式比对。5265 个候选至少匹配一个 OEWN 词条，77 个未匹配；每行记录候选 ID、OEWN 词条 ID、词性代码和不同义项 ID 数量，状态仍为 `candidate_only`。小写归并会合并不同大小写含义，例如 `a` 可能匹配 `A`；相同拼写也可能有大量不同词义。匹配结果不能自动选择义项、释义、课标等级或词根，未匹配也不代表不是单词。

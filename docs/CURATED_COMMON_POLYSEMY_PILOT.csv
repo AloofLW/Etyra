@@ -1,0 +1,19 @@
+candidate_id,word,pos,oewn_sense_id,oewn_synset_id,source_definition,chinese_selected,usage_note,status
+vocab-candidate-46599c5bb5c33101f80c,be,v,oewn-be__2.42.03..,oewn-02610777-v,"have the quality of being; (copula, used with an adjective or a predicate noun)",是；处于某种状态,用作系动词，连接形容词或表语名词；具体中文随语境调整。,editorial_draft_pending_final_review
+vocab-candidate-46599c5bb5c33101f80c,be,v,oewn-be__2.42.05..,oewn-02661230-v,occupy a certain position or area; be somewhere,在；位于,表示处于某处或某位置，不代表所有 be 的用法。,editorial_draft_pending_final_review
+vocab-candidate-193c45b5281908d2d9c8,have,v,oewn-have__2.40.04..,oewn-02209474-v,have ownership or possession of,拥有,表示拥有或持有；与助动词用法分开。,editorial_draft_pending_final_review
+vocab-candidate-193c45b5281908d2d9c8,have,v,oewn-have__2.42.00..,oewn-02636270-v,have as a feature,具有,表示具有某种特征；译法随上下文调整。,editorial_draft_pending_final_review
+vocab-candidate-4cd0e21a9a0795a14ec9,go,v,oewn-go__2.38.00..,oewn-01839438-v,"change location; move, travel, or proceed, also metaphorically",去；移动,表示从一处移动或前往，亦可有引申用法。,editorial_draft_pending_final_review
+vocab-candidate-4cd0e21a9a0795a14ec9,go,v,oewn-go__2.38.01..,oewn-01852660-v,move away from a place into another direction,离开,表示离开某处向其他方向移动。,editorial_draft_pending_final_review
+vocab-candidate-2998b3232d29e8dc5a78,get,v,oewn-get__2.40.00..,oewn-02215637-v,come into the possession of something concrete or abstract,获得,表示获得具体或抽象的事物。,editorial_draft_pending_final_review
+vocab-candidate-2998b3232d29e8dc5a78,get,v,oewn-get__2.38.00..,oewn-02009962-v,reach a destination; arrive by movement or progress,到达,表示经过移动或进程到达目的地。,editorial_draft_pending_final_review
+vocab-candidate-2998b3232d29e8dc5a78,get,v,oewn-get__2.30.00..,oewn-00149403-v,enter or assume a certain state or condition,变得；进入某种状态,表示进入某种状态；具体形容词含义依语境确定。,editorial_draft_pending_final_review
+vocab-candidate-a0b967fc60136d2ef96f,say,v,oewn-say__2.32.00..,oewn-01011267-v,express in words,说；表达,指用语言表达；不涵盖全部引申用法。,editorial_draft_pending_final_review
+vocab-candidate-cd1bb3012bcfaa0c50e9,know,v,oewn-know__2.31.00..,oewn-00595732-v,be familiar or acquainted with a person or an object,认识；熟悉,指熟悉某人或某事物；与知道事实的义项区分。,editorial_draft_pending_final_review
+vocab-candidate-cd1bb3012bcfaa0c50e9,know,v,oewn-know__2.31.01..,oewn-00596016-v,be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about,知道；了解,指知晓事实或具体信息。,editorial_draft_pending_final_review
+vocab-candidate-d05aa2a15fb3c40efeeb,make,v,oewn-make__2.36.01..,oewn-01624592-v,create or manufacture a man-made product,制作；制造,指创造或制造人造产品。,editorial_draft_pending_final_review
+vocab-candidate-d05aa2a15fb3c40efeeb,make,v,oewn-make__2.32.00..,oewn-00772482-v,cause to do; cause to act in a specified manner,使；让,指促使某人做某事或以某种方式行动。,editorial_draft_pending_final_review
+vocab-candidate-dc2fc19d8fce376c4764,think,v,oewn-think__2.31.00..,oewn-00630153-v,"use or exercise the mind or one's power of reason in order to make inferences, decisions, or arrive at a solution or judgments",思考,指运用思维或推理作出判断、决定或寻找解决办法。,editorial_draft_pending_final_review
+vocab-candidate-dc2fc19d8fce376c4764,think,v,oewn-think__2.31.03..,oewn-00633399-v,"expect, believe, or suppose",认为；以为,表示相信、假定或预期；需根据具体语境选择译法。,editorial_draft_pending_final_review
+vocab-candidate-336074805fc853987abe,time,n,oewn-time__1.11.00..,oewn-07324217-n,an instance or single occasion for some event,次；一次,表示事件发生的一次或一个场合。,editorial_draft_pending_final_review
+vocab-candidate-336074805fc853987abe,time,n,oewn-time__1.28.03..,oewn-15154879-n,a reading of a point in time as given by a clock,时刻；钟点,指钟表显示的某个时间点。,editorial_draft_pending_final_review
