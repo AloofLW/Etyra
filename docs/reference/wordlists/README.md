@@ -253,7 +253,7 @@
 
 [`docs/MORPHOLOGY_COMPONENT_REVIEW_INDEX.csv`](../../MORPHOLOGY_COMPONENT_REVIEW_INDEX.csv) 将上述 850 条线索展开为 1708 个组件位置，并对组件原样去除首尾空格、按 Unicode casefold 与主候选及补充候选的完整拼写键精确匹配：885 个组件位置找到候选 ID，823 个未匹配。行数是组件位置，不是不同词数，也不是已建立的词根关系；部分模板以不带连字符的文本表示词缀，因此匹配到同拼写单词也不能确认组件词性或关联。索引保留原模板行号、组件顺序、固定修订和未审状态，大小写、词源语境、词义、关系和许可仍须复核。可用 `python3 tools/content/index_morphology_components.py /tmp/morphology-components.csv` 复现；脚本不覆盖已有文件，不自动批准关联。来源、署名和许可适用上文 Wiktionary/Kaikki 说明。
 
-[`docs/MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv`](../../MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv) 对其中 5 个词的 6 条模板线索回读固定修订的英文词源上下文并记录编辑摘要，原始 API 响应 SHA-256 为 `f0f7684922987fad543427780b35b9c69a3ad2e81136d6bf3001f54e776a0b31`（快照位于仓库外）。摘要区分历史路径和现代可分析形式，并将 `flight` 的两个词源章节分别处理；`less` 在 `endless` 中是后缀线索而不是同拼写独立词。记录仍待专家复核词义、来源及许可，不构成已批准的产品关系。复查可通过 Wiktionary MediaWiki API 以表中 revision ID 获取原文；来源和署名许可同本节。
+[`docs/MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv`](../../MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv) 对其中 18 个词的 20 条模板线索回读固定修订的英文词源上下文并记录编辑摘要，两批原始 API 响应 SHA-256 分别为 `f0f7684922987fad543427780b35b9c69a3ad2e81136d6bf3001f54e776a0b31`、`02d11f1f1788ee7688e8622760a832b3f9178debc3d1dbd7c9f35599f525a3ac`（快照位于仓库外）。摘要区分历史路径和现代可分析形式，并将 `flight` 的两个词源章节分别处理；`less` 在 `endless` 中是后缀线索而不是同拼写独立词。记录仍待专家复核词义、来源及许可，不构成已批准的产品关系。复查可通过 Wiktionary MediaWiki API 以表中 revision ID 获取原文；来源和署名许可同本节。
 
 本次新增批次在缓存仍可用时可单独复现：`python3 tools/content/extract_wiktionary_morphology_clues.py /tmp/etyra-wiki-resume /tmp/etyra-new-clues.csv --index /tmp/etyra-index-resume-400.csv`；临时文件被清理后需按固定修订重新取得内容。脚本对照缓存中的页面标题、修订和 API 返回的 SHA-1 元数据，未重新计算正文摘要，并拒绝覆盖输出。原始缓存可能被系统清理；重新取得修订时须保持固定版本并遵守站点访问限制。来源是 English Wiktionary contributors，适用前述逐页来源、署名、许可及修改记录要求。
 
