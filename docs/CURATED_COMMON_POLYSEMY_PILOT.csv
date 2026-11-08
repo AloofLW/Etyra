@@ -36,3 +36,23 @@ vocab-candidate-d1905cf90af29a5ac3f9,take,v,oewn-take__2.35.00..,oewn-01216829-v
 vocab-candidate-d1905cf90af29a5ac3f9,take,v,oewn-take__2.38.02..,oewn-01846632-v,"travel or go by means of a certain kind of transportation, or a certain route",乘坐；走,乘坐某种交通工具或沿某条路线行进。,editorial_draft_pending_final_review
 vocab-candidate-d1905cf90af29a5ac3f9,take,v,oewn-take__2.40.06..,oewn-02272834-v,require (time or space),花费；占用,指需要一定的时间或空间，译法依上下文。,editorial_draft_pending_final_review
 vocab-candidate-d1905cf90af29a5ac3f9,take,v,oewn-take__2.40.05..,oewn-02240906-v,receive willingly something given or offered,接受,愿意接收别人给予或提供的东西。,editorial_draft_pending_final_review
+vocab-candidate-3c01eba119e00d79c82b,look,v,oewn-look__2.39.00..,oewn-02134989-v,perceive with attention; direct one's gaze towards; look,看；注视,把目光转向某物并注意观察。,editorial_draft_pending_final_review
+vocab-candidate-3c01eba119e00d79c82b,look,v,oewn-look__2.39.01..,oewn-02137900-v,give a certain impression of being something or having a certain aspect,看起来；显得,给人某种外观或印象。,editorial_draft_pending_final_review
+vocab-candidate-8656aa55d393b032b7f0,want,v,oewn-want__2.37.00..,oewn-01829179-v,feel or have a desire for; want strongly,想要；渴望,表示对某事物有愿望或强烈愿望。,editorial_draft_pending_final_review
+vocab-candidate-0895a532e404a5c9ea96,give,v,oewn-give__2.40.00..,oewn-02204104-v,transfer possession of something concrete or abstract to somebody,给；给予,把具体或抽象事物转交给某人。,editorial_draft_pending_final_review
+vocab-candidate-0895a532e404a5c9ea96,give,v,oewn-give__2.40.01..,oewn-02205200-v,give as a present; make a gift of,赠送,将某物作为礼物给予。,editorial_draft_pending_final_review
+vocab-candidate-11507a0e2f5e69d5dfa4,new,a,oewn-new__3.00.00..,oewn-01645077-a,not of long duration; having just (or relatively recently) come into being or been made or acquired or discovered,新的；新近出现的,指刚出现、制成、获得或发现不久。,editorial_draft_pending_final_review
+vocab-candidate-11507a0e2f5e69d5dfa4,new,a,oewn-new__3.00.09..,oewn-02595137-a,unaffected by use or exposure,未使用过的,指没有受到使用或暴露影响的。,editorial_draft_pending_final_review
+vocab-candidate-44c5e7071f3a75a22457,way,n,oewn-way__1.07.01..,oewn-04936080-n,how something is done or how it happens,方法；方式,指事情如何完成或发生。,editorial_draft_pending_final_review
+vocab-candidate-44c5e7071f3a75a22457,way,n,oewn-way__1.15.00..,oewn-08697710-n,a line leading to a place or point,路；通往某处的方向,指通向某地或某点的路线。,editorial_draft_pending_final_review
+vocab-candidate-e6640de835ad09fb0a73,find,v,oewn-find__2.40.00..,oewn-02290474-v,come upon after searching; find the location of something that was missed or lost,找到,搜寻后找到丢失或错过的事物所在。,editorial_draft_pending_final_review
+vocab-candidate-e6640de835ad09fb0a73,find,v,oewn-find__2.36.00..,oewn-01641524-v,"make a discovery, make a new finding",发现,发现某事物或作出新的发现。,editorial_draft_pending_final_review
+vocab-candidate-944c27e5b97ab7793e4b,day,n,oewn-day__1.28.02..,oewn-15190004-n,the time after sunrise and before sunset while it is light outside,白天,日出后、日落前户外明亮的时间。,editorial_draft_pending_final_review
+vocab-candidate-944c27e5b97ab7793e4b,day,n,oewn-day__1.28.01..,oewn-15182185-n,a day assigned to a particular purpose or observance,日；特定的日子,为某个目的或纪念活动指定的一天。,editorial_draft_pending_final_review
+vocab-candidate-5de94d691ae3039a3f5d,thing,n,oewn-thing__1.03.00..,oewn-00002452-n,a separate and self-contained entity,事物；东西,独立存在的实体，具体所指依语境。,editorial_draft_pending_final_review
+vocab-candidate-be8dff00b0d468b29d80,need,v,oewn-need__2.34.01..,oewn-01191646-v,have or feel a need for,需要,表示有或感到有某种需要。,editorial_draft_pending_final_review
+vocab-candidate-be8dff00b0d468b29d80,need,n,oewn-need__1.17.00..,oewn-09390888-n,anything that is necessary but lacking,所需之物,指必需但缺少的事物。,editorial_draft_pending_final_review
+vocab-candidate-ddc9e669194254cef019,child,n,oewn-child__1.18.00..,oewn-09937051-n,a young person of either sex,儿童；孩子,指年幼的人。,editorial_draft_pending_final_review
+vocab-candidate-ddc9e669194254cef019,child,n,oewn-child__1.18.01..,oewn-09937706-n,a human offspring (son or daughter) of any age,子女,指人的儿子或女儿，不限年龄。,editorial_draft_pending_final_review
+vocab-candidate-879915cfdc2cb4852ed0,tell,v,oewn-tell__2.32.00..,oewn-00954556-v,let something be known,告诉；告知,使某事为他人所知。,editorial_draft_pending_final_review
+vocab-candidate-879915cfdc2cb4852ed0,tell,v,oewn-tell__2.32.01..,oewn-00955248-v,narrate or give a detailed account of,讲述,叙述或详细说明某事。,editorial_draft_pending_final_review
