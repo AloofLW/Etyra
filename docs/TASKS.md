@@ -74,7 +74,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 审查 `docs/COW_CASE_REVIEW.csv` 中 62 个包含大小写不同 COW 关联的候选（其中 6 个全部不同）；化学元素和字母义不能直接用于虚词，已补充 7 个高频词的词性线索。
 - [ ] 复核 `docs/CURATED_COMMON_FUNCTION_PILOT.csv` 的 7 条高频虚词草稿，包括词性、语境、中文表达和许可。
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
-- [ ] 复核 `docs/CURATED_COMMON_POLYSEMY_PILOT.csv` 中 9 个常用词的 18 条多义词中文草稿，核验词性、选义、语境和许可，并补充未覆盖的常见义项；不得直接入库。
+- [ ] 复核 `docs/CURATED_COMMON_POLYSEMY_PILOT.csv` 中 17 个常用词的 37 条多义词中文草稿，核验词性、选义、语境和许可，并补充未覆盖的常见义项；不得直接入库。
 - [ ] 审查 `docs/SINGLE_OEWN_REVIEW_BATCH.csv` 的 521 个单条 OEWN 索引候选；逐项核对词性、遗漏用法、英文定义、中文线索、课程范围与许可，不能把单一索引误作唯一词义。
 - [ ] 复核 `docs/CURATED_SINGLE_OEWN_PILOT.csv` 的 433 条选义草稿，检查词性、中文语境、时效性、其他常用义和许可；`salary` 已增加独立草稿，`classmate` 已找到同班用法参考，两者原 OEWN 对齐仍需复核，草稿不代表审核通过。
 - [ ] 审查 `docs/CURATED_SALARY_KAIKKI_PILOT.csv` 的独立薪金义草稿及 Kaikki 快照、词性和许可；不要把替代来源当成原 OEWN 义项已获确认。

@@ -31,7 +31,7 @@
 
 补充队列基于以下来源候选及 OEWN/COW、Wiktionary 元数据整理，许可与对应原表相同；词表镜像未认证，课标适用性和许可均未确认。复现：`python3 tools/content/build_supplement_review_queue.py /tmp/etyra-supplement-queue.csv`，脚本检查来源外键和重复 ID、拒绝覆盖输出。所有记录仍为 `candidate_only`，不应导入产品。
 
-[`docs/CURATED_COMMON_POLYSEMY_PILOT.csv`](../../CURATED_COMMON_POLYSEMY_PILOT.csv) 为 9 个常用多义词选取 18 条 OEWN 2024 英文义项并编写中文及用法草稿；保留候选 ID、来源 sense/synset ID 和英文定义，中文为编辑草稿而非词典原文。每词仅覆盖选定义项，助动词、其他词性与常见用法可能缺失；全部须复核中文、上下文、课程范围及许可，不得直接入库。主审核队列的 `word_drafts` 已纳入该批草稿，数量按义项而非单词计。来源及适用许可同本页 OEWN 说明。
+[`docs/CURATED_COMMON_POLYSEMY_PILOT.csv`](../../CURATED_COMMON_POLYSEMY_PILOT.csv) 为 17 个常用多义词选取 37 条 OEWN 2024 英文义项并编写中文及用法草稿；保留候选 ID、来源 sense/synset ID 和英文定义，中文为编辑草稿而非词典原文。每词仅覆盖选定义项，助动词、其他词性与常见用法可能缺失；全部须复核中文、上下文、课程范围及许可，不得直接入库。主审核队列的 `word_drafts` 已纳入该批草稿，数量按义项而非单词计。来源及适用许可同本页 OEWN 说明。
 
 ## OEWN 词义候选索引
 
