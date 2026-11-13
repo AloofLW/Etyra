@@ -449,3 +449,15 @@ vocab-candidate-a2bca9949a5516969043,undergraduate,n,oewn-undergraduate__1.18.00
 vocab-candidate-b1f7124c563597b0c429,rely,v,oewn-rely__2.31.11..,oewn-00714537-v,i25269,cow-00712708-v,靠,所选义项表示对某人或事物具有信任或信心；搭配和中文表达依语境。,editorial_draft_pending_final_review
 vocab-candidate-db04549cbbec61a30c1a,additionally,r,oewn-additionally__4.02.00..,oewn-00046607-r,i18409,cow-00046167-r,加上,所选义项用于补充信息；中文搭配与句法需按语境核验。,editorial_draft_pending_final_review
 vocab-candidate-dd70320ee5cdfd5bdec2,ultimately,r,oewn-ultimately__4.02.01..,oewn-00048441-r,i18420,cow-00047903-r,终,表示一个连续过程或事件的最终结果；中文通常需结合上下文扩展。,editorial_draft_pending_final_review
+vocab-candidate-11e221bd1b7fc99544f3,verdict,n,oewn-verdict__1.04.00..,oewn-01194640-n,i41636,cow-01192150-n,裁定,所选义项指陪审团对事实问题的裁断；判决等不同法律用法须区分。,editorial_draft_pending_final_review
+vocab-candidate-1322ce8bd7553ad00d78,artwork,n,oewn-artwork__1.10.00..,oewn-07011408-n,i73438,cow-06998748-n,插图,所选义项指印刷出版物中的视觉图像；艺术品等常用义另行核验。,editorial_draft_pending_final_review
+vocab-candidate-1aefe47e20eb91fa38a5,await,v,oewn-await__2.31.00..,oewn-00721987-v,i25301,cow-00720063-v,盼,所选义项侧重期待某事发生；一般等待义另行核验。,editorial_draft_pending_final_review
+vocab-candidate-331c05874052c979e8d7,constituency,n,oewn-constituency__1.14.00..,oewn-08255077-n,i80411,cow-08238156-n,选区选民,所选义项指选出某地区代表的选民群体；选区地理范围义另核验。,editorial_draft_pending_final_review
+vocab-candidate-2f225e930a9e03aa4265,theorist,n,oewn-theorist__1.18.00..,oewn-10726461-n,i93625,cow-10706812-n,理论家,所选义项指从事理论研究或提出理论的人，尤其在科学或艺术领域。,editorial_draft_pending_final_review
+vocab-candidate-1fd4d41c1dc1cc64910c,tactic,n,oewn-tactic__1.09.00..,oewn-05913746-n,i67873,cow-05905152-n,策略,所选义项指为实现特定目标而制定的计划；战术与战略的区别依语境。,editorial_draft_pending_final_review
+vocab-candidate-5643f1a80ea9af2d5f84,slab,n,oewn-slab__1.06.00..,oewn-04240514-n,i59034,cow-04233405-n,厚板,所选义项指由厚实的一片材料构成的块状物；材质随语境变化。,editorial_draft_pending_final_review
+vocab-candidate-5ac52c67c10a6cea6daa,gene,n,oewn-gene__1.08.00..,oewn-05444328-n,i65519,cow-05436752-n,基因,所选词网定义描述遗传单位和 DNA 片段；具体生物学定义须专业来源复核。,editorial_draft_pending_final_review
+vocab-candidate-9a290a8827896b1d9065,newly,r,oewn-newly__4.02.00..,oewn-00113522-r,i18853,cow-00112601-r,最近,所选副词义指不久以前；中文搭配依句子语境调整。,editorial_draft_pending_final_review
+vocab-candidate-9e786cce0d95f0f60895,merchant,n,oewn-merchant__1.18.00..,oewn-10329563-n,i91316,cow-10309896-n,商人,所选词网义项指从事零售的商人；其他贸易范围另核验。,editorial_draft_pending_final_review
+vocab-candidate-fb224067545c37dea4b5,prospective,a,oewn-prospective__3.00.00..,oewn-01889997-a,i10335,cow-01883898-a,前瞻性的,所选义项涉及未来；中文在不同搭配中可能需要其他译法。,editorial_draft_pending_final_review
+vocab-candidate-7d2857159e3091222d89,velocity,n,oewn-velocity__1.28.00..,oewn-15307914-n,i117563,cow-15282696-n,速率,所选词网定义按单位时间内路程描述；物理学中速度与速率应区分，专业含义另核验。,editorial_draft_pending_final_review
