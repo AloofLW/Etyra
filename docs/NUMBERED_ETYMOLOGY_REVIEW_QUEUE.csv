@@ -1,7 +1,7 @@
 source_row,candidate_id,headword,etymology_heading,revision_id,revision_url,components_json,existing_context_review,existing_cross_sense_warning,status
 7,vocab-candidate-03b6b3e9163de296faeb,flight,Etymology 2,94555684,https://en.wiktionary.org/w/index.php?title=flight&oldid=94555684,"[""flee"", ""t""]",true,false,sense_and_revision_review_needed
 55,vocab-candidate-117621ca9b86ec98e0cf,passionate,Etymology 2,92719049,https://en.wiktionary.org/w/index.php?title=passionate&oldid=92719049,"[""passion"", ""-ate""]",true,false,sense_and_revision_review_needed
-58,vocab-candidate-12886f9d00055adf24c4,number,Etymology 3,94564935,https://en.wiktionary.org/w/index.php?title=number&oldid=94564935,"[""numb"", ""-er""]",true,false,sense_and_revision_review_needed
+58,vocab-candidate-12886f9d00055adf24c4,number,Etymology 3,94564935,https://en.wiktionary.org/w/index.php?title=number&oldid=94564935,"[""numb"", ""-er""]",true,true,sense_and_revision_review_needed
 101,vocab-candidate-1d8b4cf854cd42f48688,beer,Etymology 2,94588094,https://en.wiktionary.org/w/index.php?title=beer&oldid=94588094,"[""be"", ""er""]",true,false,sense_and_revision_review_needed
 121,vocab-candidate-21f2dcaa6f47cfacb542,lever,Etymology 2,94560790,https://en.wiktionary.org/w/index.php?title=lever&oldid=94560790,"[""lief"", ""-er""]",true,false,sense_and_revision_review_needed
 130,vocab-candidate-2402136c3cb55cb68990,aspiration,Etymology 2,93131051,https://en.wiktionary.org/w/index.php?title=aspiration&oldid=93131051,"[""aspirate"", ""ion""]",true,false,sense_and_revision_review_needed
@@ -20,9 +20,9 @@ source_row,candidate_id,headword,etymology_heading,revision_id,revision_url,comp
 295,vocab-candidate-560e3e12b1e0dafa161e,outer,Etymology 2,95429843,https://en.wiktionary.org/w/index.php?title=outer&oldid=95429843,"[""out"", ""-er""]",false,false,sense_and_revision_review_needed
 387,vocab-candidate-6f31304cdfd0a3a6362b,daily,Etymology 2,93688059,https://en.wiktionary.org/w/index.php?title=daily&oldid=93688059,"[""day"", ""ly""]",false,false,sense_and_revision_review_needed
 419,vocab-candidate-78fbb678c5a0cd7e5a93,purely,Etymology 2,93811948,https://en.wiktionary.org/w/index.php?title=purely&oldid=93811948,"[""pure"", ""-ly""]",false,false,sense_and_revision_review_needed
-456,vocab-candidate-851d3fcf9fe60976956b,humble,Etymology 3,94558453,https://en.wiktionary.org/w/index.php?title=humble&oldid=94558453,"[""hum"", ""-le""]",false,false,sense_and_revision_review_needed
+456,vocab-candidate-851d3fcf9fe60976956b,humble,Etymology 3,94558453,https://en.wiktionary.org/w/index.php?title=humble&oldid=94558453,"[""hum"", ""-le""]",false,true,sense_and_revision_review_needed
 493,vocab-candidate-9169e3ca73eeb47d29e9,monthly,Etymology 2,94563082,https://en.wiktionary.org/w/index.php?title=monthly&oldid=94563082,"[""month"", ""-ly""]",false,false,sense_and_revision_review_needed
-503,vocab-candidate-92d74bb8bddbbb9c8b50,singer,Etymology 2,94638294,https://en.wiktionary.org/w/index.php?title=singer&oldid=94638294,"[""singe"", ""er""]",false,false,sense_and_revision_review_needed
+503,vocab-candidate-92d74bb8bddbbb9c8b50,singer,Etymology 2,94638294,https://en.wiktionary.org/w/index.php?title=singer&oldid=94638294,"[""singe"", ""er""]",false,true,sense_and_revision_review_needed
 518,vocab-candidate-979a3a5fbffb6dfb5821,sole,Etymology 5,95445109,https://en.wiktionary.org/w/index.php?title=sole&oldid=95445109,"[""sow"", ""-le""]",false,false,sense_and_revision_review_needed
 535,vocab-candidate-9dc08e4033827c93f48c,forward,Etymology 2,94585859,https://en.wiktionary.org/w/index.php?title=forward&oldid=94585859,"[""fore"", ""ward""]",false,false,sense_and_revision_review_needed
 542,vocab-candidate-9fe5e0a43712f0578500,chill,Etymology 3,94549869,https://en.wiktionary.org/w/index.php?title=chill&oldid=94549869,"[""ch-"", ""will""]",false,false,sense_and_revision_review_needed
