@@ -461,3 +461,15 @@ vocab-candidate-9a290a8827896b1d9065,newly,r,oewn-newly__4.02.00..,oewn-00113522
 vocab-candidate-9e786cce0d95f0f60895,merchant,n,oewn-merchant__1.18.00..,oewn-10329563-n,i91316,cow-10309896-n,商人,所选词网义项指从事零售的商人；其他贸易范围另核验。,editorial_draft_pending_final_review
 vocab-candidate-fb224067545c37dea4b5,prospective,a,oewn-prospective__3.00.00..,oewn-01889997-a,i10335,cow-01883898-a,前瞻性的,所选义项涉及未来；中文在不同搭配中可能需要其他译法。,editorial_draft_pending_final_review
 vocab-candidate-7d2857159e3091222d89,velocity,n,oewn-velocity__1.28.00..,oewn-15307914-n,i117563,cow-15282696-n,速率,所选词网定义按单位时间内路程描述；物理学中速度与速率应区分，专业含义另核验。,editorial_draft_pending_final_review
+vocab-candidate-2a59d59e3809f827ce70,someone,n,oewn-someone__1.03.00..,oewn-00007846-n,i35562,cow-00007846-n,某人,指某个人；具体所指由语境决定。,editorial_draft_pending_final_review
+vocab-candidate-2f6caccb363435739c40,indigenous,a,oewn-indigenous__5.00.00.native.01,oewn-01040065-s,i5677,cow-01036383-a,本土的,所选义项指起源于所在地区；涉及原住民族时须遵循具体语境和恰当称谓。,editorial_draft_pending_final_review
+vocab-candidate-42e20cbe942249d85888,cousin,n,oewn-cousin__1.18.00..,oewn-09991540-n,i89276,cow-09972010-n,表兄弟姊妹,所选义项指父母兄弟姐妹的子女；中文还可能是堂兄弟姊妹，须依亲属关系确定。,editorial_draft_pending_final_review
+vocab-candidate-45066dd976d8bf0c05dc,paradox,n,oewn-paradox__1.10.00..,oewn-06737308-n,i71840,cow-06724559-n,悖论,所选逻辑义项指自相矛盾的陈述；其他哲学或日常义另核验。,editorial_draft_pending_final_review
+vocab-candidate-477544e72e63c93d3083,fetal,a,oewn-fetal__3.01.00..,oewn-02904071-a,i16458,cow-02892819-a,胎儿的,指与胎儿有关；医学及生物学适用范围须专业复核。,editorial_draft_pending_final_review
+vocab-candidate-47dcafe0828cdcd37032,basically,r,oewn-basically__4.02.00..,oewn-00003864-r,i18168,cow-00003483-r,本质上,所选义项强调事物本质；“基本上”等其他语境须单独核验。,editorial_draft_pending_final_review
+vocab-candidate-566e3a030b0f7c78286a,voter,n,oewn-voter__1.18.00..,oewn-10780008-n,i93982,cow-10760340-n,选民,所选词网义项指依法享有投票权的公民；具体制度与“实际投票者”语义须区分。,editorial_draft_pending_final_review
+vocab-candidate-585c9d6237b9b7fbc662,exclusively,r,oewn-exclusively__4.02.00..,oewn-00009062-r,i18198,cow-00008600-r,仅,所选义项表示排除其他人或事物；具体句法搭配依语境。,editorial_draft_pending_final_review
+vocab-candidate-7ab7049973595a7f3568,grandfather,n,oewn-grandfather__1.18.00..,oewn-10161911-n,i90287,cow-10142391-n,祖父,指父母的父亲；中文也可能是外祖父，须按亲属关系确定。,editorial_draft_pending_final_review
+vocab-candidate-c04d87aa70a7d16530de,grandmother,n,oewn-grandmother__1.18.00..,oewn-10162267-n,i90289,cow-10142747-n,祖母,指父母的母亲；中文也可能是外祖母，须按亲属关系确定。,editorial_draft_pending_final_review
+vocab-candidate-711415eb4348502ead97,sustainable,a,oewn-sustainable__3.01.00..,oewn-02817084-a,i15901,cow-02806261-a,能维持的,所选英文定义接近同根反复释义；生态领域等具体义须另查独立来源。,editorial_draft_pending_final_review
+vocab-candidate-81466ee3cd6cf44d7a1c,rid,v,oewn-rid__2.40.00..,oewn-02355171-v,i33490,cow-02350175-v,除掉,所选义项表示使摆脱；具体结构及宾语依语境核验。,editorial_draft_pending_final_review
