@@ -46,7 +46,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 
 交付关卡、当前候选基线及对话 01/02/03 的具体分工见 `docs/VOCABULARY_DELIVERY_PLAN.md`。候选数量不等于已审核正式词条数。
 
-2026-11-13 主候选审核队列盘点：5342 项均为 `candidate_only`；其中 835 项在队列任意 `*_drafts` 列有至少一条草稿，4507 项没有草稿。5265 项有 OEWN 义项线索，4819 项有 COW 中文词项关联线索；这些计数允许重叠，均不代表选义准确、获得发布许可或完成审核。优先按来源和语境为无草稿候选准备可审查内容，再逐条核对课标适用性和许可；不得将 COW 同义词线索批量当作已审核释义。
+2026-11-13 主候选审核队列盘点：5342 项均为 `candidate_only`；其中 862 项在队列任意 `*_drafts` 列有至少一条草稿，4480 项没有草稿。5265 项有 OEWN 义项线索，4819 项有 COW 中文词项关联线索；这些计数允许重叠，均不代表选义准确、获得发布许可或完成审核。优先按来源和语境为无草稿候选准备可审查内容，再逐条核对课标适用性和许可；不得将 COW 同义词线索批量当作已审核释义。
 
 - [x] 联网获取并本地保存有公开再分发许可的通用英语候选及学术英语补充清单；两者精确文本并集 5342 项，来源、版本、校验值和已知限制见 `docs/reference/wordlists/README.md`。
 - [x] 合并两份开放许可词表，生成有来源和可重复生成候选 ID 的 `docs/VOCABULARY_CANDIDATES.csv`；词义、词性、课标适用性和词源均待审核。
@@ -77,7 +77,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 复核 `docs/CURATED_COMMON_FUNCTION_PILOT.csv` 的 7 条高频虚词草稿，包括词性、语境、中文表达和许可。
 - [x] 提取 OEWN 英文义项至 `docs/OEWN_SENSE_CANDIDATES.csv`，保留原始词形和义项出处；按高中语境选义、中文释义与内容入库仍待完成。
 - [ ] 复核 `docs/CURATED_COMMON_SENSE_GAPS_PILOT.csv` 中 asset、infinity、curriculum、nominee 的 4 条独立常用义项草稿，核对语境、词典固定修订与许可，并保留原 COW 草稿及其义项边界。
-- [ ] 复核 `docs/CURATED_COMMON_POLYSEMY_PILOT.csv` 中 134 个常用词的 163 条多义词中文草稿，核验词性、选义、语境和许可，并补充未覆盖的常见义项；不得直接入库。
+- [ ] 复核 `docs/CURATED_COMMON_POLYSEMY_PILOT.csv` 中 161 个常用词的 190 条多义词中文草稿，核验词性、选义、语境和许可，并补充未覆盖的常见义项；不得直接入库。
 - [ ] 审查 `docs/SINGLE_OEWN_REVIEW_BATCH.csv` 的 521 个单条 OEWN 索引候选；逐项核对词性、遗漏用法、英文定义、中文线索、课程范围与许可，不能把单一索引误作唯一词义。
 - [ ] 复核 `docs/CURATED_SINGLE_OEWN_PILOT.csv` 的 474 条选义草稿，检查词性、中文语境、时效性、其他常用义和许可；`salary` 已增加独立草稿，`classmate` 已找到同班用法参考，两者原 OEWN 对齐仍需复核，草稿不代表审核通过。
 - [ ] 复核 `financial` 的释义范围：OEWN 所选定义使用同词根词汇；[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/financial) 可作独立参考，提示涉及金钱与管理，不应只按金融行业理解。仅作外部核验线索，不复制词典内容或认定 OEWN 对齐已完成。
