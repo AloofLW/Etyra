@@ -78,6 +78,7 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [ ] 复核 `docs/CURATED_COMMON_POLYSEMY_PILOT.csv` 中 28 个常用词的 57 条多义词中文草稿，核验词性、选义、语境和许可，并补充未覆盖的常见义项；不得直接入库。
 - [ ] 审查 `docs/SINGLE_OEWN_REVIEW_BATCH.csv` 的 521 个单条 OEWN 索引候选；逐项核对词性、遗漏用法、英文定义、中文线索、课程范围与许可，不能把单一索引误作唯一词义。
 - [ ] 复核 `docs/CURATED_SINGLE_OEWN_PILOT.csv` 的 433 条选义草稿，检查词性、中文语境、时效性、其他常用义和许可；`salary` 已增加独立草稿，`classmate` 已找到同班用法参考，两者原 OEWN 对齐仍需复核，草稿不代表审核通过。
+- [ ] 复核 `financial` 的释义范围：OEWN 所选定义使用同词根词汇；[Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/financial) 可作独立参考，提示涉及金钱与管理，不应只按金融行业理解。仅作外部核验线索，不复制词典内容或认定 OEWN 对齐已完成。
 - [ ] 审查 `docs/CURATED_SALARY_KAIKKI_PILOT.csv` 的独立薪金义草稿及 Kaikki 快照、词性和许可；不要把替代来源当成原 OEWN 义项已获确认。
 - [x] 为现有 120 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
 - [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录全部 5342 个候选的页面固定修订及词源标题检测状态（5321 个有标题、21 个未检测到）；21 个仍须人工核对来源或寻找替代来源。标题只提供定位线索，不证明词源关系。
