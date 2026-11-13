@@ -31,6 +31,7 @@ def main():
                           + count("CURATED_ACT_OEWN_PILOT.csv")
                           + count("CURATED_SINGLE_OEWN_PILOT.csv")
                           + count("CURATED_COMMON_POLYSEMY_PILOT.csv")
+                          + count("CURATED_COMMON_SENSE_GAPS_PILOT.csv")
                           + count("CURATED_SALARY_KAIKKI_PILOT.csv"))
     if set(independent_drafts) - ids:
         raise ValueError("Unknown main candidate ID in independent word drafts")
