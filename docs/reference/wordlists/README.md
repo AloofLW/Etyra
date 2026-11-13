@@ -202,6 +202,8 @@
 
 对 `colour/color`、`centre/center`、`favourite/favorite` 和 `theatre/theater` 四组，依据 [`SPELLING_REVIEW_PILOT.csv`](../../SPELLING_REVIEW_PILOT.csv) 所列 Cambridge Dictionary 词条记录英美拼写线索，分别保留主候选和补充候选 ID；不复制其词典释义。词性、专名、地区实际用法和课标原文仍须逐项核验，例如 `theatre` 也可见于美国语境。拼写关联不自动证明所有义项等同，也不自动合并产品 ID、学习记录或词条数量。
 
+同表另记录 `towards/toward` 的介词形式线索：[Cambridge Grammar](https://dictionary.cambridge.org/grammar/british-grammar/towards-or-toward)列出两种形式；该线索仅限所核查的介词用法，其他词性、各义项和课标来源仍需复核，两个候选及学习记录保持独立。
+
 ## 课标镜像缺口补充候选
 
 上述 293 个未匹配的简单词项行按忽略大小写去重后为 292 个拼写；通过 OEWN 2024 的 `Lemma.writtenForm` 比对，有 274 个拼写找到词典入口。已将这些 OEWN 词头、词条 ID、词性和镜像 PDF 页码写入 [`docs/CURRICULUM_GAP_CANDIDATES.csv`](../../CURRICULUM_GAP_CANDIDATES.csv)，每条仍为 `candidate_only`。其余 18 个拼写尚未匹配到 OEWN，包括代词和部分词形，需要其他来源或词形审核；85 行复杂形式也尚未处理。
