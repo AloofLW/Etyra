@@ -3160,7 +3160,7 @@ vocab-candidate-acd6beff7c3430bfed5d,noisy,NGSL-GR-1.0|NAWL-1.2,2,1,0,0,0,0,0,0,
 vocab-candidate-d58999507a10460c75f9,nominal,NAWL-1.2,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-1139859357aeb528b3f9,nominate,NGSL-GR-1.0,4,4,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-fc5d6641e893d4bb6d43,nomination,NGSL-GR-1.0,3,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
-vocab-candidate-fc7fdf972e1b13b90b7f,nominee,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
+vocab-candidate-fc7fdf972e1b13b90b7f,nominee,NGSL-GR-1.0,1,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-bcee72e6df5d56319125,non,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-140bedbf9c3f6d56a984,none,NGSL-GR-1.0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,sense_selection_needed|curriculum_review_needed|license_review_needed,candidate_only
 vocab-candidate-52ba4fd8c77f9da95a1d,nonetheless,NGSL-GR-1.0|NAWL-1.2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,source_located_relation_unreviewed,curriculum_review_needed|license_review_needed,candidate_only

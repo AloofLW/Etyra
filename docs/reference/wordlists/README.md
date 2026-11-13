@@ -33,7 +33,7 @@
 
 [`docs/CURATED_COMMON_POLYSEMY_PILOT.csv`](../../CURATED_COMMON_POLYSEMY_PILOT.csv) 为 28 个常用多义词选取 57 条 OEWN 2024 英文义项并编写中文及用法草稿；保留候选 ID、来源 sense/synset ID 和英文定义，中文为编辑草稿而非词典原文。每词仅覆盖选定义项，助动词、其他词性与常见用法可能缺失；全部须复核中文、上下文、课程范围及许可，不得直接入库。主审核队列的 `word_drafts` 已纳入该批草稿，数量按义项而非单词计。来源及适用许可同本页 OEWN 说明。
 
-[`docs/CURATED_COMMON_SENSE_GAPS_PILOT.csv`](../../CURATED_COMMON_SENSE_GAPS_PILOT.csv) 对 asset、infinity、curriculum 增补三条常用义项中文编辑草稿，分别对照 Wiktionary 英文名词固定修订；原先的 OEWN/COW 草稿和对应义项保持独立，不自动将不同词典义项合并或视为审核通过。新增中文、词性、语境、课程范围和 CC BY-SA 4.0 署名及再分发义务仍须复核；主队列的 `word_drafts` 已计入。来源固定修订见表，Wiktionary 许可、署名及修改说明适用本页相关章节。
+[`docs/CURATED_COMMON_SENSE_GAPS_PILOT.csv`](../../CURATED_COMMON_SENSE_GAPS_PILOT.csv) 对 asset、infinity、curriculum、nominee 增补四条常用义项中文编辑草稿，分别对照 Wiktionary 英文名词固定修订；原先的 OEWN/COW 草稿和对应义项保持独立，不自动将不同词典义项合并或视为审核通过。新增中文、词性、语境、课程范围和 CC BY-SA 4.0 署名及再分发义务仍须复核；主队列的 `word_drafts` 已计入。来源固定修订见表，Wiktionary 许可、署名及修改说明适用本页相关章节。
 
 ## OEWN 词义候选索引
 
