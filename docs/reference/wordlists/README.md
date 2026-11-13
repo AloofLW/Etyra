@@ -263,6 +263,8 @@
 
 [`docs/MORPHOLOGY_CROSS_SENSE_WARNINGS.csv`](../../MORPHOLOGY_CROSS_SENSE_WARNINGS.csv) 另列 `peer`、`remember` 的跨词源误配风险：当前 Wiktionary 页面中模板对应少见义项，不能用于解释同形词的常见义项。此处仅查看实时页面，不能替代对索引所列固定修订的复查；不得将候选关系自动导入产品。
 
+[`docs/NUMBERED_ETYMOLOGY_REVIEW_QUEUE.csv`](../../NUMBERED_ETYMOLOGY_REVIEW_QUEUE.csv) 从 850 条词源模板线索筛出章节编号大于 1 的 38 条（37 个候选词），关联既有上下文草稿与跨义项警示，以便优先人工检查。编号不证明该章节罕见、错误或适合特定义项，也不代表其余章节没有错配；所有关系继续待审。复现：`python3 tools/content/build_numbered_etymology_review.py /tmp/numbered-review.csv`，脚本拒绝覆盖已有输出。
+
 [`docs/MORPHOLOGY_COMPONENT_CONTEXT_QUEUE.csv`](../../MORPHOLOGY_COMPONENT_CONTEXT_QUEUE.csv) 将 1708 个组件位置与上下文初读结果按来源行、候选 ID、固定修订、章节和链接校验后连接；其中 343 个组件位置对应已初读的 170 条模板，另有 1365 个组件位置尚未初读。每一组件继承整条模板的上下文提示，不代表该提示逐项验证了组件角色。`sense_specific_analysis`、`historical_mismatch_warning`、`intermediate_derivation` 等提示旨在避免误用；所有行仍为 `candidate_only`，不得自动用于产品或建立词根关系。复现：`python3 tools/content/build_morphology_context_queue.py /tmp/morphology-context-queue.csv`；输出不覆盖既有文件，增补初读记录后需重新生成。
 
 本次新增批次在缓存仍可用时可单独复现：`python3 tools/content/extract_wiktionary_morphology_clues.py /tmp/etyra-wiki-resume /tmp/etyra-new-clues.csv --index /tmp/etyra-index-resume-400.csv`；临时文件被清理后需按固定修订重新取得内容。脚本对照缓存中的页面标题、修订和 API 返回的 SHA-1 元数据，未重新计算正文摘要，并拒绝覆盖输出。原始缓存可能被系统清理；重新取得修订时须保持固定版本并遵守站点访问限制。来源是 English Wiktionary contributors，适用前述逐页来源、署名、许可及修改记录要求。
