@@ -315,7 +315,7 @@ vocab-candidate-a14c162cb4f9bb5d4c13,architectural,a,oewn-architectural__3.01.00
 vocab-candidate-a1c758610c008685e0f8,monetary,a,oewn-monetary__3.01.00..,oewn-02786741-a,i15686,cow-02775934-a,货币的,指与货币或金钱有关的。,editorial_draft_pending_final_review
 vocab-candidate-a22f4d79b88c12cc874b,nursery,n,oewn-nursery__1.06.01..,oewn-03841582-n,i56664,cow-03836062-n,婴儿室,所选义项指婴儿的房间；托儿所等义另行处理。,editorial_draft_pending_final_review
 vocab-candidate-a36d67aa3a6898bdc7c3,adequately,r,oewn-adequately__4.02.00..,oewn-00371514-r,i20683,cow-00369718-r,适当地,指以足够或适当的方式或程度。,editorial_draft_pending_final_review
-vocab-candidate-a4279eae47aaa7417da6,seller,n,oewn-seller__1.18.00..,oewn-10596736-n,i92862,cow-10577284-n,卖方,指以钱换取商品或服务的销售者。,editorial_draft_pending_final_review
+vocab-candidate-a4279eae47aaa7417da6,seller,n,oewn-seller__1.18.00..,oewn-10596736-n,i92862,cow-10577284-n,卖方,指向他人出售商品或服务以换取金钱的销售者；来源也提及推广，义项边界待复核。,editorial_draft_pending_final_review
 vocab-candidate-a44c47b1ee24665db1a3,sword,n,oewn-sword__1.06.00..,oewn-04380981-n,i59896,cow-04373894-n,剑,所选义项指有长金属刃及护手柄的劈刺武器。,editorial_draft_pending_final_review
 vocab-candidate-a51146d38077ff992eba,lab,n,oewn-lab__1.06.00..,oewn-03635277-n,i55461,cow-03629986-n,实验室,指开展科学研究的工作场所。,editorial_draft_pending_final_review
 vocab-candidate-8353bea1729f1e9ccd36,urine,n,oewn-urine__1.27.00..,oewn-14879875-n,i115125,cow-14855724-n,尿,指液态排泄产物。,editorial_draft_pending_final_review
@@ -431,4 +431,4 @@ vocab-candidate-ed82e79b1df27dee2cf1,archaeology,n,oewn-archaeology__1.09.00..,o
 vocab-candidate-ee03fb050595ab93cf3b,tumor,n,oewn-tumor__1.26.00..,oewn-14258682-n,i111724,cow-14235200-n,肿瘤,所选词网义项指异常新生组织；医学表述和良恶性不得由此推断。,editorial_draft_pending_final_review
 vocab-candidate-ee04228c5c6d8b083f6c,wonderful,a,oewn-wonderful__5.00.00.extraordinary.00,oewn-01681111-s,i9186,cow-01676517-a,绝妙,指非常好或出色的，具体译法依语境。,editorial_draft_pending_final_review
 vocab-candidate-f9d37c23fcc0f03c15a8,urgent,a,oewn-urgent__5.00.00.imperative.00,oewn-00717023-s,i3958,cow-00713558-a,刻不容缓,指迫使人立即行动或需要迅速处理的；词性及搭配须复核。,editorial_draft_pending_final_review
-vocab-candidate-fc7fdf972e1b13b90b7f,nominee,n,oewn-nominee__1.18.00..,oewn-09909143-n,i88791,cow-09889691-n,候选人,所选来源义项特指竞选公职的政治人物；一般被提名者义另行核验。,editorial_draft_pending_final_review
+vocab-candidate-fc7fdf972e1b13b90b7f,nominee,n,oewn-nominee__1.18.00..,oewn-09909143-n,i88791,cow-09889691-n,候选人,所选来源义项特指竞选公职的政治人物；一般被提名者义另有独立待审草稿。,editorial_draft_pending_final_review
