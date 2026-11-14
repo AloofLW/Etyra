@@ -1,0 +1,4 @@
+pdf_page,printed_page,visual_word_rows,simple_rows,complex_rows_excluded,main_exact_matches,supplement_exact_matches,unmatched_simple,review_scope,status
+106,99,56,51,5,49,2,0,visual_simple_spelling_only,candidate_only_not_approved
+107,100,54,52,2,49,3,0,visual_simple_spelling_only,candidate_only_not_approved
+108,101,56,54,2,48,6,0,visual_simple_spelling_only,candidate_only_not_approved
