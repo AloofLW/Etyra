@@ -86,11 +86,23 @@ def audit(directory):
                 errors.append(f'{name}:{index}: missing {state_field}')
             elif state.casefold() == 'approved':
                 required = ['reviewer', 'reviewed_at']
-                if name != 'words':
-                    required += ['source_id', 'source_locator']
+                required += {
+                    'words': ['headword', 'display_form'],
+                    'senses': ['part_of_speech', 'meaning_zh', 'source_id', 'source_locator'],
+                    'components': ['form', 'component_type', 'meaning_zh', 'source_id', 'source_locator'],
+                    'word_components': ['component_role', 'relation_type', 'evidence', 'source_id', 'source_locator'],
+                }[name]
                 missing = [key for key in required if not (row.get(key) or '').strip()]
                 if missing:
                     errors.append(f'{name}:{index}: approved row missing {missing}')
+                source_id = (row.get('source_id') or '').strip()
+                if source_id:
+                    source = next((item for item in data['sources'] if (item.get('source_id') or '').strip() == source_id), None)
+                    if source:
+                        source_fields = ['title', 'publisher', 'version', 'url', 'license_name', 'license_url', 'accessed_at', 'redistribution_decision', 'decision_basis']
+                        missing_source = [key for key in source_fields if not (source.get(key) or '').strip()]
+                        if missing_source:
+                            errors.append(f'{name}:{index}: approved row source {source_id} missing {missing_source}')
             else:
                 pending += 1
         if pending:
