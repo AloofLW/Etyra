@@ -85,9 +85,9 @@ GOAL-01 确认后，前端可在契约冻结后做静态页面、状态空壳和
 - [x] 为现有 120 条词根—单词关系候选记录 Wiktionary 页面固定修订；词源章节存在性仅为定位检查，关系与许可仍须逐项审校。
 - [ ] 为主清单 5342 个候选定位词源来源：`docs/WIKTIONARY_BULK_SOURCE_INDEX.csv` 已记录全部 5342 个候选的页面固定修订及词源标题检测状态（5321 个有标题、21 个未检测到）；21 个仍须人工核对来源或寻找替代来源。标题只提供定位线索，不证明词源关系。
 - [ ] 按 `docs/MORPHOLOGY_CROSS_SENSE_WARNINGS.csv` 检查 `peer`、`remember`、`number`、`humble`、`singer`、`beer`、`banker`、`poster`、`sole`、`lever`、`cell`、`outer`、`left`、`purely`、`forward`、`chill`、`flower`、`drawer`、`mandate`、`irony`、`bullet`、`letter` 的同形词跨词源误配；22 个对应固定修订章节已核对，证据见 `docs/MORPHOLOGY_WARNING_REVISION_CHECKS.csv`，完整义项及许可证仍须复核，不得将警示当成已批准的构词关系。
-- [ ] 逐条审查 `docs/NUMBERED_ETYMOLOGY_REVIEW_QUEUE.csv`：现有模板线索中 38 条位于第二或更靠后的编号词源章节（37 个候选词），其中 8 条有既有上下文草稿、22 条有跨义项警示；逐条核对固定修订、对应义项和许可证。章节编号只是排序线索，第一词源或未编号章节也可能出现义项错配。
+- [ ] 逐条审查 `docs/NUMBERED_ETYMOLOGY_REVIEW_QUEUE.csv`：现有模板线索中 38 条位于第二或更靠后的编号词源章节（37 个候选词），其中 20 条有既有上下文草稿、22 条有跨义项警示；逐条核对固定修订、对应义项和许可证。章节编号只是排序线索，第一词源或未编号章节也可能出现义项错配。
 - [ ] 复核 `docs/WIKTIONARY_HEADING_ABSENT_REVIEW.csv` 中 21 个无标题页面的拼写、缩略、屈折、定义链接、大小写对照及外部词源线索与目标固定修订；尤其区分 `descendent`、`gym`、`founded`、`goods`、`graphics` 和 `TRUE/FALSE` 的词性或义项。`memorize` 的外部词源线索与许可仍须独立复核。线索不授权合并词条或学习进度。
-- [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 850 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。 已对 160 个词的 170 条模板完成固定修订上下文初读，见 `docs/MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv`；仍须专家与许可复核。 组件级提示与初读状态汇总见 `docs/MORPHOLOGY_COMPONENT_CONTEXT_QUEUE.csv`；初读不代表组件关系已批准。 已建立 `docs/MORPHOLOGY_COMPONENT_REVIEW_INDEX.csv`：1708 个组件位置中 885 个可精确定位同拼写候选，匹配不证明组件角色或词源关联。
+- [ ] 对 `docs/WIKTIONARY_MORPHOLOGY_CLUES.csv` 的 850 条显式构词模板线索逐条复核原页面语境、词根/词缀边界、语义与许可；模板及现代分析不自动形成词根关系。 已对 171 个词的 182 条模板完成固定修订上下文初读，见 `docs/MORPHOLOGY_CONTEXT_REVIEW_PILOT.csv`；仍须专家与许可复核。 组件级提示与初读状态汇总见 `docs/MORPHOLOGY_COMPONENT_CONTEXT_QUEUE.csv`；初读不代表组件关系已批准。 已建立 `docs/MORPHOLOGY_COMPONENT_REVIEW_INDEX.csv`：1708 个组件位置中 885 个可精确定位同拼写候选，匹配不证明组件角色或词源关联。
 - [ ] 审查 `docs/CURATED_WORD_PILOT.csv` 的 95 条编辑草稿，核对课标适用性、释义语境、词根边界和再分发义务；复核 `portable`、`supporter` 跨词网义项疑似错位，以及新增五条的词义范围和间接词源。
 - [ ] 复核 `submission` 的 COW 线索：OEWN `1.26.00` 表示屈从控制的状态，不能直接按中文词项“提交”当成文件递交义；按目标义项另找来源。
 - [ ] 复核 `docs/CURATED_SUBMISSION_KAIKKI_PILOT.csv` 的独立递交行为义草稿、词源关系、课标适用性和来源许可；该替代草稿不更改原有 COW 对齐。
