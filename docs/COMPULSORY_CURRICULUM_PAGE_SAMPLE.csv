@@ -8,3 +8,6 @@ pdf_page,printed_page,visual_word_rows,simple_rows,complex_rows_excluded,main_ex
 112,105,54,53,1,50,3,0,visual_simple_spelling_only,candidate_only_not_approved
 113,106,55,54,1,50,4,0,visual_simple_spelling_only,candidate_only_not_approved
 114,107,54,52,2,48,4,0,visual_simple_spelling_only,candidate_only_not_approved
+115,108,56,51,5,47,4,0,visual_simple_spelling_only,candidate_only_not_approved
+116,109,52,46,6,44,2,0,visual_simple_spelling_only,candidate_only_not_approved
+117,110,55,53,2,46,7,0,visual_simple_spelling_only,candidate_only_not_approved
