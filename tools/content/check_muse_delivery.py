@@ -107,6 +107,19 @@ def audit(directory):
                 pending += 1
         if pending:
             warnings.append(f'{name}: {pending} rows not marked approved; still require review')
+    approved_words = {(row.get('candidate_id') or '').strip() for row in data['words'] if (row.get('review_status') or '').strip().casefold() == 'approved'}
+    approved_components = {(row.get('component_id') or '').strip() for row in data['components'] if (row.get('verification_status') or '').strip().casefold() == 'approved'}
+    approved_sense_words = {(row.get('candidate_id') or '').strip() for row in data['senses'] if (row.get('review_status') or '').strip().casefold() == 'approved'}
+    for word_id in sorted(approved_words - approved_sense_words):
+        errors.append(f'words: approved candidate_id has no approved sense in this delivery: {word_id}')
+    for index, row in enumerate(data['word_components'], 2):
+        if (row.get('verification_status') or '').strip().casefold() == 'approved':
+            candidate = (row.get('candidate_id') or '').strip()
+            component = (row.get('component_id') or '').strip()
+            if candidate not in approved_words:
+                errors.append(f'word_components:{index}: approved relation has non-approved word: {candidate}')
+            if component not in approved_components:
+                errors.append(f'word_components:{index}: approved relation has non-approved component: {component}')
     warnings.append('Structural checks cannot verify reviewer identity, semantic correctness, source authority, license, coverage, or approval.')
     return {'errors': errors, 'warnings': warnings, 'counts': {k: len(v) for k, v in data.items()}}
 
