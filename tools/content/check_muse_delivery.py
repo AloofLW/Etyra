@@ -9,6 +9,8 @@ Empty files and unresolved review statuses are warnings, not completion.
 import csv
 import json
 import sys
+import unicodedata
+from collections import defaultdict
 from pathlib import Path
 
 HEADERS = {
@@ -120,8 +122,20 @@ def audit(directory):
                 errors.append(f'word_components:{index}: approved relation has non-approved word: {candidate}')
             if component not in approved_components:
                 errors.append(f'word_components:{index}: approved relation has non-approved component: {component}')
+    # Case-folded matches are review candidates, not automatic merges: e.g. May/may.
+    spelling_groups = defaultdict(list)
+    for row in data['words']:
+        if (row.get('review_status') or '').strip().casefold() == 'approved':
+            word = unicodedata.normalize('NFKC', (row.get('headword') or '').strip()).casefold()
+            if word:
+                spelling_groups[word].append((row.get('candidate_id') or '').strip())
+    collisions = {key: ids for key, ids in spelling_groups.items() if len(ids) > 1}
+    if collisions:
+        warnings.append(f'{len(collisions)} approved spelling groups have multiple IDs; review case, homographs and variants manually')
     warnings.append('Structural checks cannot verify reviewer identity, semantic correctness, source authority, license, coverage, or approval.')
-    return {'errors': errors, 'warnings': warnings, 'counts': {k: len(v) for k, v in data.items()}}
+    return {'errors': errors, 'warnings': warnings, 'counts': {k: len(v) for k, v in data.items()},
+            'approved_spelling_candidates': {'casefold_groups': len(spelling_groups), 'duplicate_groups': collisions}}
+
 
 
 if __name__ == '__main__':
